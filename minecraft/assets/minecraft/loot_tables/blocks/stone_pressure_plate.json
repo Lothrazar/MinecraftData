@@ -1,0 +1,12 @@
+{
+    "powered=false": [
+        {
+            "item": "{id:\"minecraft:stone_pressure_plate\",Count:1b}"
+        }
+    ],
+    "powered=true": [
+        {
+            "item": "{id:\"minecraft:stone_pressure_plate\",Count:1b}"
+        }
+    ]
+}

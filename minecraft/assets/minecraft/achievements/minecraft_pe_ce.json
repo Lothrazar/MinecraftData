@@ -1,0 +1,1534 @@
+{
+    "minecraft:achievement.moar_tools": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:wooden_axe",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.moarTools",
+        "description": "achievement.moarTools.desc",
+        "x": 0,
+        "y": 0,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": {
+                "value_0": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"
+                ],
+                "value_1": [
+                    "{id:\"minecraft:wooden_shovel\"}",
+                    "{id:\"minecraft:stone_shovel\"}",
+                    "{id:\"minecraft:iron_shovel\"}",
+                    "{id:\"minecraft:golden_shovel\"}",
+                    "{id:\"minecraft:diamond_shovel\"}"
+                ],
+                "value_2": [
+                    "{id:\"minecraft:wooden_axe\"}",
+                    "{id:\"minecraft:stone_axe\"}",
+                    "{id:\"minecraft:iron_axe\"}",
+                    "{id:\"minecraft:golden_axe\"}",
+                    "{id:\"minecraft:diamond_axe\"}"
+                ],
+                "value_3": [
+                    "{id:\"minecraft:wooden_hoe\"}",
+                    "{id:\"minecraft:stone_hoe\"}",
+                    "{id:\"minecraft:iron_hoe\"}",
+                    "{id:\"minecraft:golden_hoe\"}",
+                    "{id:\"minecraft:diamond_hoe\"}"
+                ]
+            }
+        }
+    },
+    "minecraft:achievement.dispenser": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:dispenser",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.dispenser",
+        "description": "achievement.dispenser.desc",
+        "x": 0,
+        "y": 3,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": "{id:\"minecraft:dispenser\"}"
+        }
+    },
+    "minecraft:achievement.pack_leader": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:bone",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.packLeader",
+        "description": "achievement.packLeader.desc",
+        "x": 0,
+        "y": 6,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:tame",
+            "data": {
+                "entity": {
+                    "value_0": "{id:\"minecraft:wolf\"}",
+                    "value_1": "{id:\"minecraft:wolf\"}",
+                    "value_2": "{id:\"minecraft:wolf\"}",
+                    "value_3": "{id:\"minecraft:wolf\"}",
+                    "value_4": "{id:\"minecraft:wolf\"}"
+                }
+            }
+        }
+    },
+    "minecraft:achievement.porkchop": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:cooked_porkchop",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.porkchop",
+        "description": "achievement.porkchop.desc",
+        "x": 0,
+        "y": 9,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:cooked_porkchop\"}"
+        }
+    },
+    "minecraft:achievement.passing_time": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:clock",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.passingTime",
+        "description": "achievement.passingTime.desc",
+        "x": 0,
+        "y": 12,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:stat",
+            "stat": "minecraft:stat.playOneMinute",
+            "amount": "2400000"
+        }
+    },
+    "minecraft:achievement.emeralds": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:emerald",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.emeralds",
+        "description": "achievement.emeralds.desc",
+        "x": 0,
+        "y": 15,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:pickup_item",
+            "item": "{id:\"minecraft:emerald\",Count:30b}"
+        }
+    },
+    "minecraft:achievement.flower_pot": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:flower_pot",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.flowerPot",
+        "description": "achievement.flowerPot.desc",
+        "x": 0,
+        "y": 18,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:flower_pot\"}"
+        }
+    },
+    "minecraft:achievement.sign": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:sign",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.sign",
+        "description": "achievement.sign.desc",
+        "x": 0,
+        "y": 21,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:sign\"}"
+        }
+    },
+    "minecraft:achievement.rotten_flesh": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:rotten_flesh",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.rottenFlesh",
+        "description": "achievement.rottenFlesh.desc",
+        "x": 0,
+        "y": 24,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:rotten_flesh\"}"
+        }
+    },
+    "minecraft:achievement.shears": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:shears",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.shears",
+        "description": "achievement.shears.desc",
+        "x": 0,
+        "y": 27,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:shears\"}"
+        }
+    },
+    "minecraft:achievement.wool": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:wool",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.wool",
+        "description": "achievement.wool.desc",
+        "x": 0,
+        "y": 30,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:pickup_item",
+            "item": {
+                "value_0": "{id:\"minecraft:wool\",Damage:0s}",
+                "value_1": "{id:\"minecraft:wool\",Damage:1s}",
+                "value_2": "{id:\"minecraft:wool\",Damage:2s}",
+                "value_3": "{id:\"minecraft:wool\",Damage:3s}",
+                "value_4": "{id:\"minecraft:wool\",Damage:4s}",
+                "value_5": "{id:\"minecraft:wool\",Damage:5s}",
+                "value_6": "{id:\"minecraft:wool\",Damage:6s}",
+                "value_7": "{id:\"minecraft:wool\",Damage:7s}",
+                "value_8": "{id:\"minecraft:wool\",Damage:8s}",
+                "value_9": "{id:\"minecraft:wool\",Damage:9s}",
+                "value_10": "{id:\"minecraft:wool\",Damage:10s}",
+                "value_11": "{id:\"minecraft:wool\",Damage:11s}",
+                "value_12": "{id:\"minecraft:wool\",Damage:12s}",
+                "value_13": "{id:\"minecraft:wool\",Damage:13s}",
+                "value_14": "{id:\"minecraft:wool\",Damage:14s}",
+                "value_15": "{id:\"minecraft:wool\",Damage:15s}"
+            }
+        }
+    },
+    "minecraft:achievement.lava_resistant": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:lava_bucket",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.lavaResistant",
+        "description": "achievement.lavaResistant.desc",
+        "x": 3,
+        "y": 0,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:get_effect",
+            "item": "minecraft:fire_resistance",
+            "data": {
+                "blocks": [
+                    {
+                        "target": "player",
+                        "y": [
+                            "{id:\"minecraft:lava\"}",
+                            "{id:\"minecraft:flowing_lava\"}"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "minecraft:achievement.cobblestone": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:cobblestone",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.cobblestone",
+        "description": "achievement.cobblestone.desc",
+        "x": 3,
+        "y": 6,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_block_entity",
+            "block_entity": "{id:\"minecraft:chest\",Items:[{Slot:0b,id:\"minecraft:cobblestone\",Count:64b},{Slot:1b,id:\"minecraft:cobblestone\",Count:64b},{Slot:2b,id:\"minecraft:cobblestone\",Count:64b},{Slot:3b,id:\"minecraft:cobblestone\",Count:64b},{Slot:4b,id:\"minecraft:cobblestone\",Count:64b},{Slot:5b,id:\"minecraft:cobblestone\",Count:64b},{Slot:6b,id:\"minecraft:cobblestone\",Count:64b},{Slot:7b,id:\"minecraft:cobblestone\",Count:64b},{Slot:8b,id:\"minecraft:cobblestone\",Count:64b},{Slot:9b,id:\"minecraft:cobblestone\",Count:64b},{Slot:10b,id:\"minecraft:cobblestone\",Count:64b},{Slot:11b,id:\"minecraft:cobblestone\",Count:64b},{Slot:12b,id:\"minecraft:cobblestone\",Count:64b},{Slot:13b,id:\"minecraft:cobblestone\",Count:64b},{Slot:14b,id:\"minecraft:cobblestone\",Count:64b},{Slot:15b,id:\"minecraft:cobblestone\",Count:64b},{Slot:16b,id:\"minecraft:cobblestone\",Count:64b},{Slot:17b,id:\"minecraft:cobblestone\",Count:64b},{Slot:18b,id:\"minecraft:cobblestone\",Count:64b},{Slot:19b,id:\"minecraft:cobblestone\",Count:64b},{Slot:20b,id:\"minecraft:cobblestone\",Count:64b},{Slot:21b,id:\"minecraft:cobblestone\",Count:64b},{Slot:22b,id:\"minecraft:cobblestone\",Count:64b},{Slot:23b,id:\"minecraft:cobblestone\",Count:64b},{Slot:24b,id:\"minecraft:cobblestone\",Count:64b},{Slot:25b,id:\"minecraft:cobblestone\",Count:64b},{Slot:26b,id:\"minecraft:cobblestone\",Count:64b}]}"
+        }
+    },
+    "minecraft:achievement.renewable_energy": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:coal",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.renewableEnergy",
+        "description": "achievement.renewableEnergy.desc",
+        "x": 3,
+        "y": 9,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_block_entity",
+            "block_entity": [
+                "{id:\"minecraft:furnace\",Items:[{{Slot:0b,id:\"minecraft:log\"},{Slot:1b,id:\"minecraft:coal\",Damage:1s}}]}",
+                "{id:\"minecraft:furnace\",Items:[{{Slot:0b,id:\"minecraft:log2\"},{Slot:1b,id:\"minecraft:coal\",Damage:1s}}]}"
+            ]
+        }
+    },
+    "minecraft:achievement.jukebox": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:jukebox",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.jukebox",
+        "description": "achievement.jukebox.desc",
+        "x": 3,
+        "y": 12,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": [
+                "{id:\"minecraft:record_13\"}",
+                "{id:\"minecraft:record_cat\"}",
+                "{id:\"minecraft:record_blocks\"}",
+                "{id:\"minecraft:record_chirp\"}",
+                "{id:\"minecraft:record_far\"}",
+                "{id:\"minecraft:record_mall\"}",
+                "{id:\"minecraft:record_mellohi\"}",
+                "{id:\"minecraft:record_stal\"}",
+                "{id:\"minecraft:record_strad\"}",
+                "{id:\"minecraft:record_ward\"}",
+                "{id:\"minecraft:record_11\"}",
+                "{id:\"minecraft:record_wait\"}"
+            ]
+        }
+    },
+    "minecraft:achievement.golem": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:iron_block",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.golem",
+        "description": "achievement.golem.desc",
+        "x": 3,
+        "y": 15,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:spawn",
+            "data": {
+                "entity": "{id:\"minecraft:villager_golem\"}"
+            }
+        }
+    },
+    "minecraft:achievement.iron_man": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:iron_chestplate",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.ironMan",
+        "description": "achievement.ironMan.desc",
+        "x": 3,
+        "y": 18,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:open_gui",
+            "gui": "minecraft:inventory",
+            "data": {
+                "player": "{Inventory:[{Slot:100b,id:\"minecraft:iron_boots\"},{Slot:101b,id:\"minecraft:iron_leggings\"},{Slot:102b,id:\"minecraft:iron_chestplate\"},{Slot:103b,id:\"minecraft:iron_helmet\"}]}"
+            }
+        }
+    },
+    "minecraft:achievement.zombie_doctor": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:splash_potion",
+        "icon_data": "0",
+        "icon_nbt": "{Potion:\"minecraft:weakness\"}",
+        "name": "achievement.zombieDoctor",
+        "description": "achievement.zombieDoctor.desc",
+        "x": 3,
+        "y": 21,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:golden_apple\",Damage:0s}",
+            "data": {
+                "entity": "{id:\"minecraft:zombie_villager\",ActiveEffects:[{Id:18}]}"
+            }
+        }
+    },
+    "minecraft:achievement.lion_tamer": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:fish",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.lionTamer",
+        "description": "achievement.lionTamer.desc",
+        "x": 3,
+        "y": 24,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:tame",
+            "data": {
+                "entity": "{id:\"minecraft:ocelot\"}"
+            }
+        }
+    },
+    "minecraft:achievement.archer": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:arrow",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.archer",
+        "description": "achievement.archer.desc",
+        "x": 3,
+        "y": 27,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:kill",
+            "data": {
+                "entity": "{id:\"minecraft:creeper\"}",
+                "source": "attack",
+                "weapon_type": "item",
+                "weapon": "{id:\"minecraft:bow\"}"
+            }
+        }
+    },
+    "minecraft:achievement.dye_outfit": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:cauldron",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.dyeOutfit",
+        "description": "achievement.dyeOutfit.desc",
+        "x": 3,
+        "y": 30,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": {
+                "value_0": "{id:\"minecraft:leather_boots\",tag:{display:{color}}}",
+                "value_0": "{id:\"minecraft:leather_leggings\",tag:{display:{color}}}",
+                "value_0": "{id:\"minecraft:leather_chestplate\",tag:{display:{color}}}",
+                "value_0": "{id:\"minecraft:leather_helmet\",tag:{display:{color}}}"
+            }
+        }
+    },
+    "minecraft:achievement.bounce": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:slime",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.bounce",
+        "description": "achievement.bounce.desc",
+        "x": 6,
+        "y": 0,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:velocity",
+            "speed": "Y30"
+        }
+    },
+    "minecraft:achievement.camoflauge": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:skull",
+        "icon_data": "item",
+        "icon_nbt": "{Damage:2s}",
+        "name": "achievement.camoflauge",
+        "description": "achievement.camoflauge.desc",
+        "x": 6,
+        "y": 3,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "kill",
+            "data": {
+                "player": {
+                    "value_0": "{Inevntory:[{Slot:103b,id:\"minecraft:skull\",Damage:0s}]}",
+                    "value_1": "{Inevntory:[{Slot:103b,id:\"minecraft:skull\",Damage:1s}]}",
+                    "value_2": "{Inevntory:[{Slot:103b,id:\"minecraft:skull\",Damage:2s}]}",
+                    "value_3": "{Inevntory:[{Slot:103b,id:\"minecraft:skull\",Damage:3s}]}",
+                    "value_4": "{Inevntory:[{Slot:103b,id:\"minecraft:skull\",Damage:4s}]}",
+                    "value_5": "{Inevntory:[{Slot:103b,id:\"minecraft:skull\",Damage:5s}]}"
+                },
+                "entity": {
+                    "value_0": "{id:\"minecraft:skeleton\"}",
+                    "value_1": "{id:\"minecraft:wither_skeleton\"}",
+                    "value_2": "{id:\"minecraft:zombie\"}",
+                    "value_3": "{id:\"minecraft:player\"}",
+                    "value_4": "{id:\"minecraft:creeper\"}",
+                    "value_5": "{id:\"minecraft:ender_dragon\"}"
+                }
+            }
+        }
+    },
+    "minecraft:achievement.map": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:filled_map",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.map",
+        "description": "achievement.map.desc",
+        "x": 6,
+        "y": 6,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:filled_map\"}",
+            "data": {
+                "entity": "{id:\"minecraft:item_frame\"}",
+                "entities": [
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+2,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x+1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+					{
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "x-2,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+2,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z+1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+					{
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2,y-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2,y-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    },
+                    {
+                        "target": "entity",
+                        "y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-1,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2,y+1": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}",
+                        "z-2,y+2": "{id:\"minecraft:item_frame\",Item:{id:\"minecraft:filled_map\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "minecraft:achievement.station": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:chest_minecart",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.station",
+        "description": "achievement.station.desc",
+        "x": 6,
+        "y": 9,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:none",
+            "data": {
+                "entity": "{id:\"minecraft:chest_minecart\"}",
+                "blocks": [
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}}",
+                        "y-2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}}",
+                        "y-1,z-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}}",
+                        "y-1,x+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}}",
+                        "y-1,z+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "entity",
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}}",
+                        "y-1,x-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "minecraft:achievement.smelt_everything": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:hopper",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.smeltEverything",
+        "description": "achievement.smeltEverything.desc",
+        "x": 6,
+        "y": 12,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:open_gui",
+            "gui": "furnace",
+            "data": {
+                "blocks": [
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y-2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "x+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y-2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "x-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y-2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "z+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y-2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "z-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "y-1,x-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "x+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "y-1,x-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "x-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "y-1,x-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "z+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "y-1,x-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "z-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "y-1,x+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "x+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "y-1,x+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "x-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "y-1,x+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "z+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "y-1,x+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "z-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "y-1,z-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "x+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "y-1,z-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "x-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "y-1,z-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "z+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "y-1,z-1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "z-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "y-1,z+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"west\"}",
+                        "x+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "y-1,z+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "x-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"east\"}",
+                        "x-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "y-1,z+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"north\"}",
+                        "z+1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    },
+                    {
+                        "target": "block",
+                        "y+1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"down\"}",
+                        "y+2": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "y-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "y-1,z+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ],
+                        "z-1": "{id:\"minecraft:hopper\",Blockstates:{facing:\"south\"}",
+                        "z-1,y+1": [
+                            "{id:\"minecraft:chest\"}",
+                            "{id:\"minecraft:trapped_chest\"}"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "minecraft:achievement.poison_witch": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:splash_potion",
+        "icon_data": "0",
+        "icon_nbt": "{Potion:\"minecraft:poison\"}",
+        "name": "achievement.poisonWitch",
+        "description": "achievement.poisonWitch.desc",
+        "x": 6,
+        "y": 12,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": [
+                "{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:poison\"}}",
+                "{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_poison\"}}",
+                "{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_poison\"}}",
+                "{id:\"minecraft:splash_potion\",tag:{CustomPotionEffects:[{Id:19b}]}}",
+                "{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:poison\"}}",
+                "{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:strong_poison\"}}",
+                "{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:long_poison\"}}",
+                "{id:\"minecraft:lingering_potion\",tag:{CustomPotionEffects:[{Id:19b}]}}"
+            ]
+        }
+    },
+    "minecraft:achievement.piston": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:piston",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.piston",
+        "description": "achievement.piston.desc",
+        "x": 6,
+        "y": 15,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:none",
+            "data": {
+                "blocks": {
+                    "value_0": [
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"up\",extended:\"false\"}}",
+                            "y+1": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"down\",extended:\"false\"}}"
+                        },
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"down\",extended:\"false\"}}",
+                            "y-1": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"up\",extended:\"false\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"east\",extended:\"false\"}}",
+                            "x+1": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"west\",extended:\"false\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"west\",extended:\"false\"}}",
+                            "x-1": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"east\",extended:\"false\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"south\",extended:\"false\"}}",
+                            "z+1": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"north\",extended:\"false\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"north\",extended:\"false\"}}",
+                            "z-1": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"south\",extended:\"false\"}}"
+                        }
+                    ],
+                    "value_1": [
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"up\",extended:\"true\"}}",
+                            "y+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"down\",extended:\"false\"}}"
+                        },
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"down\",extended:\"true\"}}",
+                            "y-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"up\",extended:\"false\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"east\",extended:\"true\"}}",
+                            "x+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"west\",extended:\"false\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"west\",extended:\"true\"}}",
+                            "x-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"east\",extended:\"false\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"south\",extended:\"true\"}}",
+                            "z+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"north\",extended:\"false\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"north\",extended:\"true\"}}",
+                            "z-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"south\",extended:\"false\"}}"
+                        }
+                    ],
+                    "value_2": [
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"up\",extended:\"false\"}}",
+                            "y+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"down\",extended:\"false\"}}"
+                        },
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"down\",extended:\"false\"}}",
+                            "y-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"up\",extended:\"false\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"east\",extended:\"false\"}}",
+                            "x+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"west\",extended:\"false\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"west\",extended:\"false\"}}",
+                            "x-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"east\",extended:\"false\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"south\",extended:\"false\"}}",
+                            "z+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"north\",extended:\"false\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"north\",extended:\"false\"}}",
+                            "z-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"south\",extended:\"false\"}}"
+                        }
+                    ],
+                    "value_2": [
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"up\",extended:\"false\"}}",
+                            "y+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"down\",extended:\"true\"}}"
+                        },
+                        {
+                            "y": "{id:\"minecraft:piston\",Blockstates:{facing:\"down\",extended:\"false\"}}",
+                            "y-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"up\",extended:\"true\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"east\",extended:\"false\"}}",
+                            "x+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"west\",extended:\"true\"}}"
+                        },
+                        {
+                            "x": "{id:\"minecraft:piston\",Blockstates:{facing:\"west\",extended:\"false\"}}",
+                            "x-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"east\",extended:\"true\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"south\",extended:\"false\"}}",
+                            "z+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"north\",extended:\"true\"}}"
+                        },
+                        {
+                            "z": "{id:\"minecraft:piston\",Blockstates:{facing:\"north\",extended:\"false\"}}",
+                            "z-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"south\",extended:\"true\"}}"
+                        }
+                    ],
+                    "value_3": [
+                        {
+                            "y+1": "{id:\"minecraft:piston\",Blockstates:{facing:\"up\",extended:\"false\"}}",
+                            "y+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"down\",extended:\"false\"}}"
+                        },
+                        {
+                            "y-1": "{id:\"minecraft:piston\",Blockstates:{facing:\"down\",extended:\"false\"}}",
+                            "y-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"up\",extended:\"false\"}}"
+                        },
+                        {
+                            "x+1": "{id:\"minecraft:piston\",Blockstates:{facing:\"east\",extended:\"false\"}}",
+                            "x+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"west\",extended:\"false\"}}"
+                        },
+                        {
+                            "x-1": "{id:\"minecraft:piston\",Blockstates:{facing:\"west\",extended:\"false\"}}",
+                            "x-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"east\",extended:\"false\"}}"
+                        },
+                        {
+                            "z+1": "{id:\"minecraft:piston\",Blockstates:{facing:\"south\",extended:\"false\"}}",
+                            "z+2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"north\",extended:\"false\"}}"
+                        },
+                        {
+                            "z-1": "{id:\"minecraft:piston\",Blockstates:{facing:\"north\",extended:\"false\"}}",
+                            "z-2": "{id:\"minecraft:sticky_piston\",Blockstates:{facing:\"south\",extended:\"false\"}}"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "minecraft:achievement.tame_horse": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:apple",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.tameHorse",
+        "description": "achievement.tameHorse.desc",
+        "x": 6,
+        "y": 18,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "tame",
+            "data": {
+                "entity": "{id:\"minecraft:horse\"}"
+            }
+        }
+    },
+    "minecraft:achievement.artificial_selection": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:book",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.artificialSelection",
+        "description": "achievement.artificialSelection.desc",
+        "x": 6,
+        "y": 21,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "breed",
+            "data": {
+                "entity": "{id:\"minecraft:mule\"}"
+            }
+        }
+    },
+    "minecraft:achievement.dive": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:book",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.dive",
+        "description": "achievement.dive.desc",
+        "x": 6,
+        "y": 24,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:stay",
+            "stay": 2400,
+            "data": {
+                "blocks": [
+                    {
+                        "target": "player",
+                        "y+1": [
+                            "{id:\"minecraft:water\"}",
+                            "{id:\"minecraft:flowing_water\"}"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "minecraft:achievement.rabbit": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:cooked_rabbit",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.rabbit",
+        "description": "achievement.rabbit.desc",
+        "x": 6,
+        "y": 27,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:cooked_rabbit\"}"
+        }
+    },
+    "minecraft:achievement.elder_guardian": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:sponge",
+        "icon_data": "item",
+        "icon_nbt": "{Damage:1s}",
+        "name": "achievement.elderGuardian",
+        "description": "achievement.elderGuardian.desc",
+        "x": 6,
+        "y": 30,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "kill",
+            "data": {
+                "entity": "{id:\"minecraft:elder_guardian\"}"
+            }
+        }
+    },
+    "minecraft:achievement.sponge": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:sponge",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.sponge",
+        "description": "achievement.sponge.desc",
+        "x": 9,
+        "y": 0,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:smelt_item",
+            "item": "{id:\"minecraft:sponge\"}"
+        }
+    },
+    "minecraft:achievement.lava_furnace": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:lava_bucket",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.lavaFurnace",
+        "description": "achievement.lavaFurnace.desc",
+        "x": 9,
+        "y": 0,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_block_entity",
+            "block_entity": {
+                "value_0": "{Items:[{Slot:1b,id:\"minecraft:lava_bucket\"}]}",
+                "value_1": "{Items:[{Slot:1b,id:\"minecraft:bucket\"}]}"
+            }
+        }
+    }
+}
+
+lang files:
+achievement.moarTools=MOAR Tools
+achievement.moarTools.desc=Construct one type of each tool (one pickaxe, one shovel, one axe and one hoe).
+achievement.dispenser=Dispense With This
+achievement.dispenser.desc=Construct a Dispenser.
+achievement.packLeader=Leader Of The Pack
+achievement.packLeader.desc=Befriend five Wolves.
+achievement.porkchop=Pork Chop
+achievement.porkchop.desc=Cook and eat a pork chop.
+achievement.passingTime=Passing The Time
+achievement.passingTime.desc=Play for 100 days.
+achievement.emeralds=The Haggler
+achievement.emeralds.desc=Mine or purchase 30 Emeralds.
+achievement.flowerPot=Pot Planter
+achievement.flowerPot.desc=Craft and place a Flower Pot.
+achievement.sign=It's a Sign!
+achievement.sign.desc=Craft and place a Sign.
+achievement.rottenFlesh=Iron Belly
+achievement.rottenFlesh.desc=Stop starvation using Rotten Flesh
+achievement.shears=Have a Shearful Day
+achievement.shears.desc=Use Shears to obtain wool from a sheep.
+achievement.wool=Rainbow Collection
+achievement.wool.desc=Gather all 16 colours of wool.
+achievement.lavaResistant=Stayin' Frosty
+achievement.lavaResistant.desc=Swim in lava while having the Fire Resistance effect.
+achievement.cobblestone=Chestful of Cobblestone
+achievement.cobblestone.desc=Mine 1,728 Cobblestone and place it in a chest
+achievement.renewableEnergy=Renewable Energy
+achievement.renewableEnergy.desc=Smelt wood trunks using charcoal to make more charcoal.
+achievement.jukebox=Music to my Ears
+achievement.jukebox.desc=Play a music disc in a Jukebox.
+achievement.golem=Body Guard
+achievement.golem.desc=Create an Iron Golem.
+achievement.ironMan=Iron Man
+achievement.ironMan.desc=Wear a full suit of Iron Armor.
+achievement.zombieDoctor=Zombie Doctor
+achievement.zombieDoctor.desc=Cure a zombie villager.
+achievement.lionTamer=Lion Tamer
+achievement.lionTamer.desc=Tame an Ocelot
+achievement.archer=Archer
+achievement.archer.desc=Kill a creeper with arrows.
+achievement.dyeOutfit=Tie Dye Outfit
+achievement.dyeOutfit.desc=Dye all 4 unique pieces of leather armor.
+achievement.bounce=Trampoline
+achievement.bounce.desc=Bounce 30 blocks upward off a slime block.
+achievement.camoflauge=Camoflauge
+achievement.camoflauge.desc=Kill a mob while wearing the same type of mob head.
+achievement.map=Map Room
+achievement.map.desc=Place 9 fully explored, adjacent maps into 9 item frames in a 3 by 3 square.
+achievement.station=Freight Station
+achievement.station.desc=Use a hopper to move an item from a chest minecart to a chest.
+achievement.smeltEverything=Smelt Everything!
+achievement.smeltEverything.desc=Connect three chests to a single furnace using three hoppers.
+achievement.poisonWitch=Taste of Your Own Medicine
+achievement.poisonWitch.desc=Poison a witch with a splash potion.
+achievement.piston=Inception
+achievement.piston.desc=Push a piston with a piston, then pull the original piston with that piston.
+achievement.tameHorse=Saddle Up
+achievement.tameHorse.desc=Tame a horse.
+achievement.artificialSelection=Artificial Selection
+achievement.artificialSelection.desc=Breed a mule from a horse and a donkey.
+achievement.dive=Free Diver
+achievement.dive.desc=Stay underwater for 2 minutes.
+achievement.rabbit=Rabbit Season
+achievement.rabbit.desc=Cook and eat rabbit meat.
+achievement.elderGuardian=The Deep End
+achievement.elderGuardian.desc=Defeat an Elder Guardian.
+achievement.sponge=Dry Spell
+achievement.sponge.desc=Dry a sponge in a furnace.
+achievement.lavaFurnace=Super Fuel
+achievement.lavaFurnace.desc=Power a furnace with lava

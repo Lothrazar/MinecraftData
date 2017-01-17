@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "power=0": { "model": "minecraft:daylight_detector" },
+        "power=1": { "model": "minecraft:daylight_detector" },
+        "power=2": { "model": "minecraft:daylight_detector" },
+        "power=3": { "model": "minecraft:daylight_detector" },
+        "power=4": { "model": "minecraft:daylight_detector" },
+        "power=5": { "model": "minecraft:daylight_detector" },
+        "power=6": { "model": "minecraft:daylight_detector" },
+        "power=7": { "model": "minecraft:daylight_detector" },
+        "power=8": { "model": "minecraft:daylight_detector" },
+        "power=9": { "model": "minecraft:daylight_detector" },
+        "power=10": { "model": "minecraft:daylight_detector" },
+        "power=11": { "model": "minecraft:daylight_detector" },
+        "power=12": { "model": "minecraft:daylight_detector" },
+        "power=13": { "model": "minecraft:daylight_detector" },
+        "power=14": { "model": "minecraft:daylight_detector" },
+        "power=15": { "model": "minecraft:daylight_detector" }
+    }
+}

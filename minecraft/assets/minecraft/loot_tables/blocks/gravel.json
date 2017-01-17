@@ -1,0 +1,14 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:gravel\",Count:1b}",
+            "chance": 0.9
+        },
+        {
+            "item": "{id:\"minecraft:flint\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ]
+}

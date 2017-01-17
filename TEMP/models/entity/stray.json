@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:entity/skeleton",
+	"textures": {
+        "texture": "minecraft:entity/skeleton/stray"
+    }
+}

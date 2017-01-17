@@ -1,0 +1,44 @@
+{
+    "variant=prismarine": [
+        {
+            "item": "{id:\"minecraft:prismarine\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}"        
+                ]
+            }
+        }
+    ],
+    "variant=prismarine_bricks": [
+        {
+            "item": "{id:\"minecraft:prismarine\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}"        
+                ]
+            }
+        }
+    ],
+    "variant=dark_prismarine": [
+        {
+            "item": "{id:\"minecraft:prismarine\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}"        
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+[
+    {
+        "item": "{id:\"minecraft:lava_bucket\",Count:1b}",
+        "functions": [
+            {
+                "function": "minecraft:return_items",
+                "return": "{id:\"minecraft:bucket\",Count:1b}",
+                "Slot": "fuel"
+            }
+        ],
+        "time": 20000
+    },
+    {
+        "item": "{id:\"minecraft:coal_block\",Count:1b}",
+        "time": 16000
+    },
+    {
+        "item": "{id:\"minecraft:blaze_rod\",Count:1b}",
+        "time": 2400
+    },
+    {
+        "item": "{id:\"minecraft:coal\",Count:1b}",
+        "time": 1600
+    },
+    {
+        "item": "{id:\"minecraft:acacia_boat\",Count:1b}",
+        "time": 400
+    },
+    {
+        "item": "{id:\"minecraft:birch_boat\",Count:1b}",
+        "time": 400
+    },
+    {
+        "item": "{id:\"minecraft:boat\",Count:1b}",
+        "time": 400
+    },
+    {
+        "item": "{id:\"minecraft:jungle_boat\",Count:1b}",
+        "time": 400
+    },
+    {
+        "item": "{id:\"minecraft:dark_oak_boat\",Count:1b}",
+        "time": 400
+    },
+    {
+        "item": "{id:\"minecraft:spruce_boat\",Count:1b}",
+        "time": 400
+    },
+    {
+        "item": "{id:\"minecraft:bow\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:fishing_rod\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:log\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:log2\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:planks\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:wooden_pressure_plate\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:fence\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:spruce_fence\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:birch_fence\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:jungle_fence\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:acacia_fence\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:dark_oak_fence\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:fence_gate\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:spruce_fence_gate\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:jungle_fence_gate\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:acacia_fence_gate\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:dark_oak_fence_gate\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:oak_stairs\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:birch_stairs\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:spruce_stairs\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:jungle_stairs\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:acacia_stairs\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:dark_oak_stairs\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:trapdoor\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:crafting_table\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:bookshelf\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:chest\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:trapped_chest\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:daylight_detector\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:jukebox\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:noteblock\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:huge_brown_mushroom\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:huge_red_mushroom\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:banner\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:ladder\",Count:1b}",
+        "time": 300
+    },
+    {
+        "item": "{id:\"minecraft:acacia_door\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:birch_door\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:dark_oak_door\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:jungle_door\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:sign\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:spruce_door\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:wooden_door\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:wooden_sword\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:wooden_axe\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:wooden_shovel\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:wooden_hoe\",Count:1b}",
+        "time": 200
+    },
+    {
+        "item": "{id:\"minecraft:wooden_slab\",Count:1b}",
+        "time": 150
+    },
+    {
+        "item": "{id:\"minecraft:bowl\",Count:1b}",
+        "time": 100
+    },
+    {
+        "item": "{id:\"minecraft:sapling\",Count:1b}",
+        "time": 100
+    },
+    {
+        "item": "{id:\"minecraft:stick\",Count:1b}",
+        "time": 100
+    },
+    {
+        "item": "{id:\"minecraft:wooden_button\",Count:1b}",
+        "time": 100
+    },
+    {
+        "item": "{id:\"minecraft:wool\",Count:1b}",
+        "time": 100
+    },
+    {
+        "item": "{id:\"minecraft:carpet\",Count:1b}",
+        "time": 67
+    }
+]

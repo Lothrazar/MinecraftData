@@ -1,0 +1,17 @@
+Notes:
+Mineshaft bridges, village paths and support blocks for Village, Nether Fortress, Desert Temple, Witch Hut and Ocean Monument are 1*1*1 structures so they can be edited (1*2*1 for gravel path).
+Fixes MC-45489, MC-107558, MC-12918 and MC-108199.
+There's ONLY data structure blocks in structures for loot tables seeds, not for mobs/loot tables themselves.
+(Block) Entities have almost no NBT, this is to reduce file size, only the required nbt is set. (persistence required, (zombie) villager: profession, shulkers:facing).
+Structures will be updated per big update, to reduce the upgrade paths running on them.
+All structures now face north (woodland mansions and end cities have been rotated for that reason, beware that the generation doesn't break)
+
+Small changes:
+Stone brick slabs and stairs are now used in strongholds, rather than stone slabs and cobblestone stairs for the staircases.
+Desert village temples and blacksmiths have sandstone again, instead of cobblestone (only the desert variant (if you want this undone, I can do that again, but the cobblestone ones just look ugly there)).
+Folder "endcity" renamed to "end_city".
+Igloo and Fossils no longer mentions igloo/fossil in the structure files (was igloo/igloo_bottom, now igloo/bottom).
+The Woodland Mansion entrance was missing the right wall, it's now added as the normal walls don't share the same style and makes it look off.
+Renamed the Woodland Mansion structure files to something understandable: 1x1_a1 -> room_small1, etc.
+Woodland Mansion outside walls and end cities now have structure voids.
+Added file mansion/coridor_high_floor, no difference with corridor_floor, other than that it's 3 blocks higher (fixes MC-107594).

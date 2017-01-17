@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "minecraft:sand" },
+            { "model": "minecraft:sand", "y": 90 },
+            { "model": "minecraft:sand", "y": 180 },
+            { "model": "minecraft:sand", "y": 270 }
+        ]
+    }
+}

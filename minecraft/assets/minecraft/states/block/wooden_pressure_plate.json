@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "minecraft:wooden_pressure_plate_up" },
+        "powered=true": { "model": "minecraft:wooden_pressure_plate_down" }
+    }
+}

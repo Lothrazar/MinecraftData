@@ -1,0 +1,90 @@
+{
+    "facing=north": [
+        {
+            "item": "{id:\"minecraft:banner\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Patterns}",
+                    "paste": "{BlockEntityTag:{Patterns}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Base}",
+                    "paste": "{BlockEntityTag:{Base}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{LayersLimit}",
+                    "paste": "{BlockEntityTag:{LayersLimit}}"
+                }
+            ]
+        }
+    ],
+    "facing=south": [
+        {
+            "item": "{id:\"minecraft:banner\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Patterns}",
+                    "paste": "{BlockEntityTag:{Patterns}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Base}",
+                    "paste": "{BlockEntityTag:{Base}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{LayersLimit}",
+                    "paste": "{BlockEntityTag:{LayersLimit}}"
+                }
+            ]
+        }
+    ],
+    "facing=east": [
+        {
+            "item": "{id:\"minecraft:banner\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Patterns}",
+                    "paste": "{BlockEntityTag:{Patterns}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Base}",
+                    "paste": "{BlockEntityTag:{Base}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{LayersLimit}",
+                    "paste": "{BlockEntityTag:{LayersLimit}}"
+                }
+            ]
+        }
+    ],
+    "facing=west": [
+        {
+            "item": "{id:\"minecraft:banner\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Patterns}",
+                    "paste": "{BlockEntityTag:{Patterns}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Base}",
+                    "paste": "{BlockEntityTag:{Base}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{LayersLimit}",
+                    "paste": "{BlockEntityTag:{LayersLimit}}"
+                }
+            ]
+        }
+    ]
+}

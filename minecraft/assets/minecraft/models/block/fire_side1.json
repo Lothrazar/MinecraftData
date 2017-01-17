@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/fire_side",
+    "textures": {
+        "particle": "minecraft:blocks/fire_layer_1",
+        "fire": "minecraft:blocks/fire_layer_1"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:entity/zombie_villager",
+	"textures": {
+        "texture": "minecraft:entity/zombie_villager/zombie_butcher"
+    }
+}

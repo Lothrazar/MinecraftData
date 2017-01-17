@@ -1,0 +1,42 @@
+{
+    "facing=north,eye=false": [
+        {
+                
+        }
+    ],
+    "facing=north,eye=true": [
+        {
+                
+        }
+    ],
+    "facing=south,eye=false": [
+        {
+                
+        }
+    ],
+    "facing=south,eye=true": [
+        {
+                
+        }
+    ],
+    "facing=east,eye=false": [
+        {
+                
+        }
+    ],
+    "facing=east,eye=true": [
+        {
+                
+        }
+    ],
+    "facing=west,eye=false": [
+        {
+                
+        }
+    ],
+    "facing=west,eye=true": [
+        {
+                
+        }
+    ]
+}

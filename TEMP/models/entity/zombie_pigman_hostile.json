@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:entity/zombie_hostile",
+	"textures": {
+        "texture": "minecraft:entity/zombie_pigman"
+    }
+}

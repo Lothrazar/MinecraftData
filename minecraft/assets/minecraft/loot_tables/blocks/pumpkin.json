@@ -1,0 +1,22 @@
+{
+    "facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin\",Count:1b}"
+        }
+    ],
+    "facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin\",Count:1b}"
+        }
+    ],
+    "facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin\",Count:1b}"
+        }
+    ],
+    "facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin\",Count:1b}"
+        }
+    ]
+}

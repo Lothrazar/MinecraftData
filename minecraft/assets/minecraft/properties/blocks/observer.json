@@ -1,0 +1,170 @@
+{
+    "facing=up,powered=true": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=down,powered=true": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=east,powered=true": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=west,powered=true": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=north,powered=true": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=south,powered=true": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=up,powered=false": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=down,powered=false": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=east,powered=false": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=west,powered=false": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=north,powered=false": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    },
+    "facing=south,powered=false": {
+        "{}": {
+            "item": "{id:\"minecraft:observer\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\"}",
+                    "{id:\"minecraft:stone_pickaxe\"}",
+                    "{id:\"minecraft:iron_pickaxe\"}",
+                    "{id:\"minecraft:golden_pickaxe\"}",
+                    "{id:\"minecraft:diamond_pickaxe\"}"                    
+                ]
+            }
+        }
+    }
+}

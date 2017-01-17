@@ -1,0 +1,308 @@
+{
+    "age=0": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.65,
+                "minecraft:wooden_axe": 0.35,
+                "minecraft:stone_axe": 0.2,
+                "minecraft:iron_axe": 0.1,
+                "minecraft:diamond_axe": 0.1,
+                "minecraft:golden_axe": 0.05
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:golden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant[up=true]",
+                    "minecraft:end_stone"
+                ]
+            },
+            "resistence": 2,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "age=1": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.65,
+                "minecraft:wooden_axe": 0.35,
+                "minecraft:stone_axe": 0.2,
+                "minecraft:iron_axe": 0.1,
+                "minecraft:diamond_axe": 0.1,
+                "minecraft:golden_axe": 0.05
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:golden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant[up=true]",
+                    "minecraft:end_stone"
+                ]
+            },
+            "resistence": 2,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "age=2": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.65,
+                "minecraft:wooden_axe": 0.35,
+                "minecraft:stone_axe": 0.2,
+                "minecraft:iron_axe": 0.1,
+                "minecraft:diamond_axe": 0.1,
+                "minecraft:golden_axe": 0.05
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:golden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant[up=true]",
+                    "minecraft:end_stone"
+                ]
+            },
+            "resistence": 2,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "age=3": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.65,
+                "minecraft:wooden_axe": 0.35,
+                "minecraft:stone_axe": 0.2,
+                "minecraft:iron_axe": 0.1,
+                "minecraft:diamond_axe": 0.1,
+                "minecraft:golden_axe": 0.05
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:golden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant[up=true]",
+                    "minecraft:end_stone"
+                ]
+            },
+            "resistence": 2,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "age=4": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.65,
+                "minecraft:wooden_axe": 0.35,
+                "minecraft:stone_axe": 0.2,
+                "minecraft:iron_axe": 0.1,
+                "minecraft:diamond_axe": 0.1,
+                "minecraft:golden_axe": 0.05
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:golden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant[up=true]",
+                    "minecraft:end_stone"
+                ]
+            },
+            "resistence": 2,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "age=5": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.65,
+                "minecraft:wooden_axe": 0.35,
+                "minecraft:stone_axe": 0.2,
+                "minecraft:iron_axe": 0.1,
+                "minecraft:diamond_axe": 0.1,
+                "minecraft:golden_axe": 0.05
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:golden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant[up=true]",
+                    "minecraft:end_stone"
+                ]
+            },
+            "resistence": 2,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

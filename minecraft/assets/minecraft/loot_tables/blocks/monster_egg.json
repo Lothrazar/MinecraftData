@@ -1,0 +1,50 @@
+{
+    "variant=stone": [
+        {
+            "item": "{id:\"minecraft:stone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "variant=stone_brick": [
+        {
+            "item": "{id:\"minecraft:stonebrick\",Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "variant=mossy_brick": [
+        {
+            "item": "{id:\"minecraft:stonebrick\",Damage:1s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "variant=cracked_brick": [
+        {
+            "item": "{id:\"minecraft:stonebrick\",Damage:2s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "variant=chiseled_brick": [
+        {
+            "item": "{id:\"minecraft:stonebrick\",Damage:3s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ]
+}

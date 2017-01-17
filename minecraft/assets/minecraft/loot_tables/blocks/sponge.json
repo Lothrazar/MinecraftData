@@ -1,0 +1,12 @@
+{
+    "wet=false": [
+        {
+            "item": "{id:\"minecraft:sponge\",Count:1b,Damage:0s}"
+        }
+    ],
+    "wet=true": [
+        {
+            "item": "{id:\"minecraft:sponge\",Count:1b,Damage:1s}"
+        }
+    ]
+}

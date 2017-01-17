@@ -1,0 +1,82 @@
+{
+    "facing=north,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=south,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=east,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=west,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=up_x,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=down_x,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=up_z,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=down_z,powered=false": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=north,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=south,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=east,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=west,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=up_x,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=down_x,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=up_z,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ],
+    "facing=down_z,powered=true": [
+        {
+            "item": "{id:\"minecraft:lever\",Count:1b}"
+        }
+    ]
+}

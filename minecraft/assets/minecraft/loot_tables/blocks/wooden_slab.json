@@ -1,0 +1,62 @@
+{
+    "half=bottom,variant=oak": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}"
+        }
+    ],
+    "half=bottom,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:1s}"
+        }
+    ],
+    "half=bottom,variant=birch": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:2s}"
+        }
+    ],
+    "half=bottom,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:3s}"
+        }
+    ],
+    "half=bottom,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:4s}"
+        }
+    ],
+    "half=bottom,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:5s}"
+        }
+    ],
+    "half=top,variant=oak": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}"
+        }
+    ],
+    "half=top,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:1s}"
+        }
+    ],
+    "half=top,variant=birch": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:2s}"
+        }
+    ],
+    "half=top,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:3s}"
+        }
+    ],
+    "half=top,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:4s}"
+        }
+    ],
+    "half=top,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:5s}"
+        }
+    ]
+}

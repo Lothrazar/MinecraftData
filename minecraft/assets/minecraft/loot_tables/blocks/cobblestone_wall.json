@@ -1,0 +1,898 @@
+{
+    "north=false,south=false,east=false,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=false,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=true,variant=cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=false,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=true,variant=mossy_cobblestone": [
+        {
+            "item": "{id:\"minecraft:cobblestone_wall\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ]
+}

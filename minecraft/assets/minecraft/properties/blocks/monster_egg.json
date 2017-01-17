@@ -1,0 +1,236 @@
+{
+    "variant=stone": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 1.15
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 3.75,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "variant=cobblestone": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 1.15
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 3.75,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "variant=stone_brick": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 1.15
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 3.75,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "variant=mossy_brick": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 1.15
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 3.75,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "variant=cracked_brick": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 1.15
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 3.75,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "variant=chiseled_brick": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 1.15
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 3.75,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

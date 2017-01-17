@@ -1,0 +1,562 @@
+{
+    "age=0,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=1,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=2,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=3,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=4,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=5,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=6,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=7,facing=north": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=0,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=1,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=2,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=3,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=4,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=5,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=6,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=7,facing=south": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=0,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=1,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=2,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=3,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=4,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=5,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=6,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=7,facing=west": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=0,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=1,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=2,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=3,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=4,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=5,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=6,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=7,facing=east": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=0,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=1,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=2,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=3,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=4,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=5,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=6,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "age=7,facing=up": [
+        {
+            "item": "{id:\"minecraft:pumpkin_seeds\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "minecraft:hay" },
+        "axis=z": { "model": "minecraft:hay", "x": 90 },
+        "axis=x": { "model": "minecraft:hay", "x": 90, "y": 90 }
+    }
+}

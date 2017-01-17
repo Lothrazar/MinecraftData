@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "minecraft:double_grass_bottom" },
+        "half=upper":    { "model": "minecraft:double_grass_top" }
+    }
+}

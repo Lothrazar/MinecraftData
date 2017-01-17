@@ -1,0 +1,62 @@
+{
+    "facing=north,extended=false": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=south,extended=false": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=east,extended=false": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=west,extended=false": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=up,extended=false": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=down,extended=false": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=north,extended=true": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=south,extended=true": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=east,extended=true": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=west,extended=true": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=up,extended=true": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ],
+    "facing=down,extended=true": [
+        {
+            "item": "{id:\"minecraft:piston\",Count:1b}"
+        }
+    ]
+}

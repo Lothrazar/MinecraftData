@@ -1,0 +1,98 @@
+{
+    "has_redord=false": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 3,
+                "minecraft:wooden_axe": 1.5,
+                "minecraft:stone_axe": 0.75,
+                "minecraft:iron_axe": 0.5,
+                "minecraft:diamond_axe": 0.4,
+                "minecraft:wooden_axe": 0.25
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:wooden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 30,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 0,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "has_redord=true": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 3,
+                "minecraft:wooden_axe": 1.5,
+                "minecraft:stone_axe": 0.75,
+                "minecraft:iron_axe": 0.5,
+                "minecraft:diamond_axe": 0.4,
+                "minecraft:wooden_axe": 0.25
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_axe": 1,
+                "minecraft:stone_axe": 1,
+                "minecraft:iron_axe": 1,
+                "minecraft:diamond_axe": 1,
+                "minecraft:wooden_axe": 1
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 30,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 0,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

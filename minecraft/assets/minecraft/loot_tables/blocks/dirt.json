@@ -1,0 +1,50 @@
+{
+    "variant=dirt,snowy=false": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "variant=dirt,snowy=true": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "variant=coarse_dirt,snowy=false": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:1s}"
+        }
+    ],
+    "variant=coarse_dirt,snowy=true": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:1s}"
+        }
+    ],
+    "variant=podzol,snowy=false": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=podzol,snowy=true": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,898 @@
+{
+    "north=false,south=false,east=false,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=false,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=false,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=true,down=false": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=false,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=false,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=false,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=false,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=false,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=false,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=false,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=false,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=false,east=true,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=false,east=true,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=false,south=true,east=true,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "north=true,south=true,east=true,west=true,up=true,down=true": [
+        {
+            "item": "{id:\"minecraft:chorus_fruit\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

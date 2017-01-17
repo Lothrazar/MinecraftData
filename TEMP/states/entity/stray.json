@@ -1,0 +1,10 @@
+{
+	"hostile": {
+		"false": {
+			"model": "minecraft:stray"
+		},
+		"true": {
+			"model": "minecraft:stray_hostile"
+		}
+	}
+}

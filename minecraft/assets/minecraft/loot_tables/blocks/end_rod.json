@@ -1,0 +1,32 @@
+{
+    "facing=north": [
+        {
+            "item": "{id:\"minecraft:end_rod\",Count:1b}"
+        }
+    ],
+    "facing=south": [
+        {
+            "item": "{id:\"minecraft:end_rod\",Count:1b}"
+        }
+    ],
+    "facing=east": [
+        {
+            "item": "{id:\"minecraft:end_rod\",Count:1b}"
+        }
+    ],
+    "facing=west": [
+        {
+            "item": "{id:\"minecraft:end_rod\",Count:1b}"
+        }
+    ],
+    "facing=up": [
+        {
+            "item": "{id:\"minecraft:end_rod\",Count:1b}"
+        }
+    ],
+    "facing=down": [
+        {
+            "item": "{id:\"minecraft:end_rod\",Count:1b}"
+        }
+    ]
+}

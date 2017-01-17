@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "minecraft:quartz_normal" },
+        "all":    { "model": "minecraft:quartz_top" }
+    }
+}

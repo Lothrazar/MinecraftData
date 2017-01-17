@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:entity/zombie_hostile",
+	"textures": {
+        "texture": "minecraft:entity/giant"
+    },
+	"scale": 6
+}

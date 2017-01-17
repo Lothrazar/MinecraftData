@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "minecraft:double_stone" },
+        "all":    { "model": "minecraft:double_stone_top" }
+    }
+}

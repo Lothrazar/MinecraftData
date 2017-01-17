@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "minecraft:item_frame" },
+        "map":    { "model": "minecraft:item_frame_map" }
+    }
+}

@@ -1,0 +1,412 @@
+{
+    "0": [
+        {
+            "buy": "minecraft:coal",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 16,
+                        "max": 24
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 0
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:iron_ingot",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 7,
+                        "max": 9
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:diamond",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 4
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 3
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 6
+                    }
+                }
+            ],
+            "sell": "minecraft:iron_helmet",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 10,
+                        "max": 14
+                    }
+                }
+            ],
+            "sell": "minecraft:iron_chestplate",
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 16,
+                        "max": 19
+                    }
+                }
+            ],
+            "sell": "minecraft:diamond_chestplate",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 1,
+                        "max": 30
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 3
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                }
+            ],
+            "sell": "minecraft:chainmail_boots",
+            "tier": 4
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 9,
+                        "max": 11
+                    }
+                }
+            ],
+            "sell": "minecraft:chainmail_leggings",
+            "tier": 4
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                }
+            ],
+            "sell": "minecraft:chainmail_helmet",
+            "tier": 4
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                }
+            ],
+            "sell": "minecraft:chainmail_chestplate",
+            "tier": 4
+        }
+    ],
+    "1": [
+        {
+            "buy": "minecraft:coal",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 16,
+                        "max": 24
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 0
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:iron_ingot",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 7,
+                        "max": 9
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:diamond",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 4
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 3
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 6,
+                        "max": 8
+                    }
+                }
+            ],
+            "sell": "minecraft:iron_axe",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 6,
+                        "max": 8
+                    }
+                }
+            ],
+            "sell": "minecraft:iron_sword",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 5,
+                        "max": 19
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 12,
+                        "max": 15
+                    }
+                }
+            ],
+            "sell": "minecraft:diamond_sword",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 5,
+                        "max": 19
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 3
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 9,
+                        "max": 12
+                    }
+                }
+            ],
+            "sell": "minecraft:diamond_axe",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 5,
+                        "max": 19
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 3
+        }
+    ],
+    "2": [
+        {
+            "buy": "minecraft:coal",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 16,
+                        "max": 24
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 0
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:iron_ingot",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 7,
+                        "max": 9
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:diamond",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 4
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 3
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                }
+            ],
+            "sell": "minecraft:iron_shovel",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 5,
+                        "max": 19
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 9,
+                        "max": 11
+                    }
+                }
+            ],
+            "sell": "minecraft:iron_pickaxe",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 5,
+                        "max": 19
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 12,
+                        "max": 15
+                    }
+                }
+            ],
+            "sell": "minecraft:diamond_pickaxe",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 5,
+                        "max": 19
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 3
+        }
+    ]
+}

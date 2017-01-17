@@ -1,0 +1,20 @@
+{
+	"hostile": {
+		"false": {
+			"model": "minecraft:evocation_illager_hostile",
+			"nbt": {
+				"{SpellTicks:0}": { "model": "minecraft:evocation_illager_folded" },
+				"{HandItems:[{}],SpellTicks:0}": { "model": "minecraft:evocation_illager" },
+				"{ArmorItems:[2:{}],SpellTicks:0}": { "model": "minecraft:evocation_illager" }
+			}
+		},
+		"true": {
+			"model": "minecraft:evocation_illager_hostile",
+			"nbt": {
+				"{SpellTicks:0}": { "model": "minecraft:evocation_illager_folded" },
+				"{HandItems:[{}],SpellTicks:0}": { "model": "minecraft:evocation_illager" },
+				"{ArmorItems:[2:{}],SpellTicks:0}": { "model": "minecraft:evocation_illager" }
+			}
+		}
+	}
+}

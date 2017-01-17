@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":  { "model": "minecraft:jungle_log" },
+        "axis=z":   { "model": "minecraft:jungle_log", "x": 90 },
+        "axis=x":   { "model": "minecraft:jungle_log", "x": 90, "y": 90 },
+        "axis=none": { "model": "minecraft:jungle_bark" }
+    }
+}

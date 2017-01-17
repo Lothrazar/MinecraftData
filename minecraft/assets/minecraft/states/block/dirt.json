@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "minecraft:dirt" },
+            { "model": "minecraft:dirt", "y": 90 },
+            { "model": "minecraft:dirt", "y": 180 },
+            { "model": "minecraft:dirt", "y": 270 }
+        ]
+    }
+}

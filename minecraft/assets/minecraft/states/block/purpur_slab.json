@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "minecraft:half_slab_purpur" },
+        "half=top,variant=default": { "model": "minecraft:upper_slab_purpur" }
+    }
+}

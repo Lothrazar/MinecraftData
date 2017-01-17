@@ -1,0 +1,80 @@
+{
+    "explode=false": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 0,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "explode=true": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": true,
+                "up": true,
+                "north": true,
+                "south": true,
+                "east": true,
+                "west": true
+            },
+            "need_support": {
+                
+            },
+            "resistence": 0,
+            "transparent": false,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

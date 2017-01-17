@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube_directional",
+    "textures": {
+        "particle": "minecraft:blocks/repeating_command_block_back",
+        "down": "minecraft:blocks/repeating_command_block_conditional",
+        "up": "minecraft:blocks/repeating_command_block_conditional",
+        "north": "minecraft:blocks/repeating_command_block_front",
+        "east": "minecraft:blocks/repeating_command_block_conditional",
+        "south": "minecraft:blocks/repeating_command_block_back",
+        "west": "minecraft:blocks/repeating_command_block_conditional"
+    }
+}

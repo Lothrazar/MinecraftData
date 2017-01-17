@@ -1,0 +1,14 @@
+{
+    "Tool/armor part": [
+        { 'A enchantment'
+            "name": "The enchantment name",
+            "weight": 'The chance this enchantment gets selected',
+            "treasure": true|false 'If this enchantment is a treasure enchantment',
+			"not_with": [
+				"What enchantments this cannot combine with"
+			],
+			"max_lvl": 'Max level you can get',
+			"secondairy": true|false 'If this enchantment can get on this item, but not via enchantment table'
+        }
+    ]
+}

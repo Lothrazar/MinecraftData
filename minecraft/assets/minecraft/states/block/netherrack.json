@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "minecraft:netherrack" },
+            { "model": "minecraft:netherrack", "x": 90 },
+            { "model": "minecraft:netherrack", "x": 180 },
+            { "model": "minecraft:netherrack", "x": 270 },
+            { "model": "minecraft:netherrack", "y": 90 },
+            { "model": "minecraft:netherrack", "y": 90, "x": 90 },
+            { "model": "minecraft:netherrack", "y": 90, "x": 180 },
+            { "model": "minecraft:netherrack", "y": 90, "x": 270 },
+            { "model": "minecraft:netherrack", "y": 180 },
+            { "model": "minecraft:netherrack", "y": 180, "x": 90 },
+            { "model": "minecraft:netherrack", "y": 180, "x": 180 },
+            { "model": "minecraft:netherrack", "y": 180, "x": 270 },
+            { "model": "minecraft:netherrack", "y": 270 },
+            { "model": "minecraft:netherrack", "y": 270, "x": 90 },
+            { "model": "minecraft:netherrack", "y": 270, "x": 180 },
+            { "model": "minecraft:netherrack", "y": 270, "x": 270 }
+        ]
+    }
+}

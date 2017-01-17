@@ -1,0 +1,42 @@
+{
+    "axis=none,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=none,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:1s}"
+        }
+    ],
+    "axis=x,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=x,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:1s}"
+        }
+    ],
+    "axis=y,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=y,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:1s}"
+        }
+    ],
+    "axis=z,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=z,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:log2\",Count:1b,Damage:1s}"
+        }
+    ]
+}

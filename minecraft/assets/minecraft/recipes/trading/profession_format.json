@@ -1,0 +1,19 @@
+{
+    "The career of the villager (number)": [
+        { 'A individual trade'
+            "buy": "The item the villager buys",
+            "buy_functions": [ 'Optional, functions for the buy item'
+                'See http://minecraft.gamepedia.com/Loot_table#Functions for possible functions (all but furnace_smelt and looting_enchant)'
+            ],
+            "buy2": "Optional, a second item the villager buys",
+            "buy2_functions": ['Optional, functions for the buy2 item'
+                'See http://minecraft.gamepedia.com/Loot_table#Functions for possible functions (all but furnace_smelt and looting_enchant)'
+            ],
+            "sell": "The item the villager sells",
+            "sell_functions": ['Optional, functions for the sell item'
+                'See http://minecraft.gamepedia.com/Loot_table#Functions for possible functions (all but furnace_smelt and looting_enchant)'
+            ],
+            "tier": 'The tier of the trade'
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "minecraft:double_rose_bottom" },
+        "half=upper":    { "model": "minecraft:double_rose_top" }
+    }
+}

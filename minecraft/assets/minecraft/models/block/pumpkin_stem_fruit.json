@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/stem_fruit",
+    "textures": {
+        "stem": "minecraft:blocks/pumpkin_stem_disconnected",
+        "upperstem": "minecraft:blocks/pumpkin_stem_connected"
+    }
+}

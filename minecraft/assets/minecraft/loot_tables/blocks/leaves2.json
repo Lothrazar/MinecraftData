@@ -1,0 +1,66 @@
+{
+    "check_decay=false,decayable=false,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=false,decayable=false,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ],
+    "check_decay=true,decayable=false,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=true,decayable=false,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ],
+    "check_decay=false,decayable=true,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=false,decayable=true,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ],
+    "check_decay=true,decayable=true,variant=acacia": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=true,decayable=true,variant=dark_oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ]
+}

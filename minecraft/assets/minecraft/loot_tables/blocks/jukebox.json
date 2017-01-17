@@ -1,0 +1,24 @@
+{
+    "has_redord=false": [
+        {
+            "item": "{id:\"minecraft:jukebox\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": true
+                }
+            ]
+        }
+    ],
+    "has_redord=true": [
+        {
+            "item": "{id:\"minecraft:jukebox\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": true
+                }
+            ]
+        }
+    ]
+}

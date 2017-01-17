@@ -1,0 +1,184 @@
+{
+    "variant=east": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=north": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=north_east": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=north_west": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=south": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=south_east": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=south_west": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=west": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=center": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=stem": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=all_inside": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=all_outside": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "variant=all_stem": [
+        {
+            "item": "{id:\"minecraft:brown_mushroom_block\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ]
+}

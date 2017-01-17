@@ -1,0 +1,82 @@
+{
+    "color=white": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:0s}"
+        }
+    ],
+    "color=orange": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:1s}"
+        }
+    ],
+    "color=magenta": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:2s}"
+        }
+    ],
+    "color=light_blue": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:3s}"
+        }
+    ],
+    "color=yellow": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:4s}"
+        }
+    ],
+    "color=lime": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:5s}"
+        }
+    ],
+    "color=pink": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:6s}"
+        }
+    ],
+    "color=gray": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:7s}"
+        }
+    ],
+    "color=silver": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:8s}"
+        }
+    ],
+    "color=cyan": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:9s}"
+        }
+    ],
+    "color=purple": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:10s}"
+        }
+    ],
+    "color=blue": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:11s}"
+        }
+    ],
+    "color=brown": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:12s}"
+        }
+    ],
+    "color=green": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:13s}"
+        }
+    ],
+    "color=red": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:14s}"
+        }
+    ],
+    "color=black": [
+        {
+            "item": "{id:\"minecraft:carpet\",Count:1b,Damage:15s}"
+        }
+    ]
+}

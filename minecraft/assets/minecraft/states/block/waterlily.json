@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "minecraft:waterlily" },
+            { "model": "minecraft:waterlily", "y": 90 },
+            { "model": "minecraft:waterlily", "y": 180 },
+            { "model": "minecraft:waterlily", "y": 270 }
+        ]
+    }
+}

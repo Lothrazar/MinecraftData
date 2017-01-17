@@ -1,0 +1,61 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:glowstone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:1s}]}}"
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 4
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:2s}]}}"
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 4
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:glowstone_dust\",Count:4b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:4s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

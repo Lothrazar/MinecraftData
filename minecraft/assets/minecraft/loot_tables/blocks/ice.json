@@ -1,0 +1,17 @@
+{
+    "default": [
+        {
+            "block": "minecraft:flowing_water",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}",
+                "inverse": true
+            }
+        },
+        {
+            "item": "{id:\"minecraft:ice\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ]
+}

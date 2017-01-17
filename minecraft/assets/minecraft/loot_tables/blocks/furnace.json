@@ -1,0 +1,102 @@
+{
+    "facing=north": [
+        {
+            "item": "{id:\"minecraft:furnace\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": true
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                }
+            ]
+        }
+    ],
+    "facing=south": [
+        {
+            "item": "{id:\"minecraft:furnace\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": true
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                }
+            ]
+        }
+    ],
+    "facing=east": [
+        {
+            "item": "{id:\"minecraft:furnace\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": true
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                }
+            ]
+        }
+    ],
+    "facing=west": [
+        {
+            "item": "{id:\"minecraft:furnace\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": true
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                }
+            ]
+        }
+    ]
+}

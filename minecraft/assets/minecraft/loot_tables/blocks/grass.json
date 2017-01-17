@@ -1,0 +1,30 @@
+{
+    "snowy=false": [
+        {
+            "item": "{id:\"minecraft:grass\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ],
+    "snowy=true": [
+        {
+            "item": "{id:\"minecraft:grass\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ]
+}

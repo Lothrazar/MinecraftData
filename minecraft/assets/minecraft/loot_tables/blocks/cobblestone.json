@@ -1,0 +1,16 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:cobblestone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ]
+}

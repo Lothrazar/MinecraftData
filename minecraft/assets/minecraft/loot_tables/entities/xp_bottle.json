@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 3
+                        }
+                    ]
+                },
+				{
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 6
+                        }
+                    ]
+                },
+				{
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 7
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 9
+                        }
+                    ]
+                },
+				{
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_value",
+                            "value": 11
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

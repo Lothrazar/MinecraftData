@@ -1,0 +1,25 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:melon_block\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:melon\",Count:1b}",
+            "conditions": {
+                "minecraft:drops": 0
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 7
+                    }
+                }
+            ]
+        }
+    ]
+}

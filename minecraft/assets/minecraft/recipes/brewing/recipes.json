@@ -1,0 +1,285 @@
+[
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:nether_wart\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:ghast_tear\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:speckled_melon\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:blaze_powder\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:magma_cream\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:sugar\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id\":minecraft:spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{\"Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:rabbit_foot\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:thick\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:weakness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:speckled_melon\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:healing\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:magma_cream\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:fire_resistance\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:ghast_tear\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:blaze_powder\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strength\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:sugar\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:golden_carrot\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:night_vision\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fish\",Count:1b,Damage:4s}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water_breathing\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:rabbit_foot\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:weakness\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_weakness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:fire_resistance\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_fire_resistance\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:healing\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_healing\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_regeneration\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\",CustomPotionEffects:[]}}",
+        "item": "{id:minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_regeneration\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strength\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_strength\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strength\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_strength\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_swiftness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_swiftness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:night_vision\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_night_vision\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:night_vision\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:invisibility\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_nigh_vision\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_invisibility\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:invisibility\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_invisibility\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water_breathing\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_water_breathing\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_leaping\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_leaping\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:healing\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:harming\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:harming\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_poison\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:harming\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_healing\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_harming\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_poison\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_harming\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:harming\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_harming\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_poison\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_poison\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slowness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slowness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slowness\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:redstone\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_slowness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_swiftness\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_slowness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_leaping\",CustomPotionEffects:[]}}",
+        "item": "{id:\"minecraft:fermented_spider_eye\",Count:1b}",
+        "return": "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_slowness\",CustomPotionEffects:[]}}"
+    },
+    {
+        "potion": "{id:\"minecraft:potion\"}",
+        "item": "{id:\"minecraft:gunpowder\",Count:1b}",
+        "return": "{id:\"minecraft:splash_potion\"}",
+        "functions": [
+            {
+                "function": "minecraft:copy_nbt",
+                "copy": "{tag:{Potion}}",
+			    "paste": "{tag:{Potion}}"
+            },
+				{
+                "function": "minecraft:copy_nbt",
+                "copy": "{tag:{CustomPotionEffects}}",
+				"paste": "{tag:{CustomPotionEffects}}"
+            }
+        ]
+    },
+    {
+        "potion": "{id:\"minecraft:splash_potion\"}",
+        "item": "{id:\"minecraft:dragon_breath\",Count:1b}",
+        "return": "{id:\"minecraft:lingering_potion\"}",
+        "functions": [
+            {
+                "function": "minecraft:return_items",
+                "item": "{id:\"minecraft:glass_bottle\",Count:1b}"
+            },
+            {
+                "function": "minecraft:copy_nbt",
+                "copy": "{tag:{Potion}}",
+				"paste": "{tag:{Potion}}"
+            },
+				{
+                "function": "minecraft:copy_nbt",
+                "copy": "{tag:{CustomPotionEffects}}",
+				"paste": "{tag:{CustomPotionEffects}}"
+            }
+        ]
+    }
+]

@@ -1,0 +1,60 @@
+{
+	"hostile": {
+		"false": {
+			"model": "minecraft:zombie_farmer_folded",
+			"nbt": {
+				"{Profession:0,IsBaby:1b}": { "model": "minecraft:zombie_farmer_baby_folded" },
+				"{HandItems:[{}],Profession:0,IsBaby:0b}": { "model": "minecraft:zombie_farmer" },
+				"{HandItems:[{}],Profession:0,IsBaby:1b}": { "model": "minecraft:zombie_farmer_baby" },
+				"{ArmorItems:[2:{}],Profession:0,IsBaby:0b}": { "model": "minecraft:zombie_farmer" },
+				"{ArmorItems:[2:{}],Profession:0,IsBaby:1b}": { "model": "minecraft:zombie_farmer_baby" },
+				"{Profession:1,IsBaby:0b}": { "model": "minecraft:zombie_librarian_folded" },
+				"{Profession:1,IsBaby:1b}": { "model": "minecraft:zombie_librarian_baby_folded" },
+				"{HandItems:[{}],Profession:1,IsBaby:0b}": { "model": "minecraft:zombie_librarian" },
+				"{HandItems:[{}],Profession:1,IsBaby:1b}": { "model": "minecraft:zombie_librarian_baby" },
+				"{ArmorItems:[2:{}],Profession:1,IsBaby:0b}": { "model": "minecraft:zombie_librarian" },
+				"{ArmorItems:[2:{}],Profession:1,IsBaby:1b}": { "model": "minecraft:zombie_librarian_baby" },
+				"{Profession:2,IsBaby:0b}": { "model": "minecraft:zombie_priest_folded" },
+				"{Profession:2,IsBaby:1b}": { "model": "minecraft:zombie_priest_baby_folded" },
+				"{HandItems:[{}],Profession:2,IsBaby:0b}": { "model": "minecraft:zombie_priest" },
+				"{HandItems:[{}],Profession:2,IsBaby:1b}": { "model": "minecraft:zombie_priest_baby" },
+				"{ArmorItems:[2:{}],Profession:2,IsBaby:0b}": { "model": "minecraft:zombie_priest" },
+				"{ArmorItems:[2:{}],Profession:2,IsBaby:1b}": { "model": "minecraft:zombie_priest_baby" },
+				"{Profession:3,IsBaby:0b}": { "model": "minecraft:zombie_smith_folded" },
+				"{Profession:3,IsBaby:1b}": { "model": "minecraft:zombie_smith_baby_folded" },
+				"{HandItems:[{}],Profession:3,IsBaby:0b}": { "model": "minecraft:zombie_smith" },
+				"{HandItems:[{}],Profession:3,IsBaby:1b}": { "model": "minecraft:zombie_smith_baby" },
+				"{ArmorItems:[2:{}],Profession:3,IsBaby:0b}": { "model": "minecraft:zombie_smith" },
+				"{ArmorItems:[2:{}],Profession:3,IsBaby:1b}": { "model": "minecraft:zombie_smith_baby" },
+				"{Profession:4,IsBaby:0b}": { "model": "minecraft:zombie_butcher_folded" },
+				"{Profession:4,IsBaby:1b}": { "model": "minecraft:zombie_butcher_baby_folded" },
+				"{HandItems:[{}],Profession:4,IsBaby:0b}": { "model": "minecraft:zombie_butcher" },
+				"{HandItems:[{}],Profession:4,IsBaby:1b}": { "model": "minecraft:zombie_butcher_baby" },
+				"{ArmorItems:[2:{}],Profession:4,IsBaby:0b}": { "model": "minecraft:zombie_butcher" },
+				"{ArmorItems:[2:{}],Profession:4,IsBaby:1b}": { "model": "minecraft:zombie_butcher_baby" },
+				"{Profession:5,IsBaby:0b}": { "model": "minecraft:zombie_nitwit_folded" },
+				"{Profession:5,IsBaby:1b}": { "model": "minecraft:zombie_nitwit_baby_folded" },
+				"{HandItems:[{}],Profession:5,IsBaby:0b}": { "model": "minecraft:zombie_nitwit" },
+				"{HandItems:[{}],Profession:5,IsBaby:1b}": { "model": "minecraft:zombie_nitwit_baby" },
+				"{ArmorItems:[2:{}],Profession:5,IsBaby:0b}": { "model": "minecraft:zombie_nitwit" },
+				"{ArmorItems:[2:{}],Profession:5,IsBaby:1b}": { "model": "minecraft:zombie_nitwit_baby" }
+			}
+		},
+		"true": {
+			"model": "minecraft:zombie_farmer_hostile",
+			"nbt": {
+				"{Profession:0,IsBaby:1b}": { "model": "minecraft:zombie_farmer_baby_hostile" },
+				"{Profession:1,IsBaby:0b}": { "model": "minecraft:zombie_librarian_hostile" },
+				"{Profession:1,IsBaby:1b}": { "model": "minecraft:zombie_librarian_baby_hostile" },
+				"{Profession:2,IsBaby:0b}": { "model": "minecraft:zombie_priest_hostile" },
+				"{Profession:2,IsBaby:1b}": { "model": "minecraft:zombie_priest_baby_hostile" },
+				"{Profession:3,IsBaby:0b}": { "model": "minecraft:zombie_smith_hostile" },
+				"{Profession:3,IsBaby:1b}": { "model": "minecraft:zombie_smith_baby_hostile" },
+				"{Profession:4,IsBaby:0b}": { "model": "minecraft:zombie_butcher_hostile" },
+				"{Profession:4,IsBaby:1b}": { "model": "minecraft:zombie_butcher_baby_hostile" },
+				"{Profession:5,IsBaby:0b}": { "model": "minecraft:zombie_nitwit_hostile" },
+				"{Profession:5,IsBaby:1b}": { "model": "minecraft:zombie_nitwit_baby_hostile" }
+			}
+		}
+	}
+}

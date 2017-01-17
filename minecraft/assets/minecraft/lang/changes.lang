@@ -1,0 +1,152 @@
+Made all keys lowercased
+added namespaces
+replaced tile. with block.
+removed .name
+renamed the blocks, items, entities, effects and enchantments keys to use the actual name as used in commands
+ordered alphabetically
+
+
+//missing strings (tried to be found by the game like this)
+
+entity.ItemFrame.name=Item Frame
+entity.LeashKnot.name=Lead
+entity.ThrownExpBottle.name=Bottle o' Enchanting
+entity.ThrownEnderpearl.name=Ender Pearl
+entity.EyeOfEnderSignal.name=Eye of Ender
+entity.FireworksRocketEntity.name=Firework Rocket
+entity.WitherSkull.name=Wither Skull
+entity.EnderCrystal.name=End Crystal
+entity.MinecartRideable.name=Minecart (does exist, but as entity.Minecart.name)
+entity.MinecartFurnace.name=Minecart with Furnace
+entity.MinecartTNT.name=Minecart with TNT
+entity.MinecartCommandBlock.name=Minecart with Command Block
+entity.MinecartSpawner.name=Minecart with Spawner
+entity.SpectralArrow.name=Spectral Arrow
+entity.AreaEffectCloud.name=Area Effect Cloud
+entity.ShulkerBullet.name=Shulker Bullet
+entity.EvocationFangs.name=Evocation Fangs
+entity.LlamaSpit.name=Llama Spit
+
+
+
+//untranslated in-game, not even got a key assigned/wrong key assigned (block.xxxxx are for command feedback distinction)
+
+minecraft:block.flowing_water=Flowing Water
+minecraft:block.flowing_lava=Flowing Lava
+minecraft:block.melon_stem=Melon Stem
+minecraft:block.piston_extension=Moving Piston
+minecraft:block.piston_head=Piston Head
+minecraft:block.end_portal=End Portal
+minecraft:block.end_gateway=End Gateway
+minecraft:block.daylight_detector_inverted=Inverted Daylight Sensor
+minecraft:block.brown_mushroom=Brown Mushroom
+minecraft:block.brown_mushroom_block=Brown Mushroom Block
+minecraft:block.red_mushroom=Red Mushroom
+minecraft:block.red_mushroom_block=Red Mushroom Block
+minecraft:block.lit_furnace=Lit Furnace
+minecraft:block.lit_redstone_lamp=Lit Redstone Lamp
+minecraft:block.lit_redstone_ore=Lit Redstone Ore
+minecraft:block.unlit_redstone_torch=Unlit Redstone Torch
+minecraft:block.standing_sign=Standing Sign
+minecraft:block.wall_sign=Wall Sign
+minecraft:block.powered_repeater=Powered Repeater
+minecraft:block.powered_comparator=Powered Comparator
+minecraft:block.stone_button=Stone Button
+minecraft:block.wooden_button=Wooden Button
+minecraft:block.snow_layer=Snow Layer
+minecraft:block.standing_banner=Standing Banner
+minecraft:block.wall_banner=Wall Banner
+minecraft:block.double_purpur_slab=Double Purpur Slab
+minecraft:block.double_stone_slab=Double Stone Slab
+minecraft:block.double_sandstone_slab=Double Sandstone Slab
+minecraft:block.double_pertified_wood_slab=Double Wooden Slab
+minecraft:block.double_cobblestone_slab=Double Cobblestone Slab
+minecraft:block.double_brick_slab=Double Bricks Slab
+minecraft:block.double_stone_brick_slab=Double Stone Bricks Slab
+minecraft:block.double_nether_brick_slab=Double Nether Brick Slab
+minecraft:block.double_quartz_slab=Double Quartz Slab
+minecraft:block.double_red_sandstone_slab=Double Red Sandstone Slab
+minecraft:block.double_oak_wood_slab=Double Oak Wood Slab
+minecraft:block.double_spruce_wood_slab=Double Spruce Wood Slab
+minecraft:block.double_birch_wood_slab=Double Birch Wood Slab
+minecraft:block.double_jungle_wood_slab=Double Jungle Wood Slab
+minecraft:block.double_acacia_wood_slab=Double Acacia Wood Slab
+minecraft:block.double_big_oak_wood_slab=Double Dark Oak Wood Slab
+minecraft:block.unpowered_repeater=Unpowered Repeater
+minecraft:block.unpowered_comparator=Unpowered Comparator
+minecraft:block.oak_door=Oak Door
+minecraft:block.spruce_door=Spruce Door
+minecraft:block.birch_door=Birch Door
+minecraft:block.jungle_door=Jungle Door
+minecraft:block.acacia_door=Acacia Door
+minecraft:block.dark_oak_door=Dark Oak Door
+minecraft:block.iron_door=Iron Door
+minecraft:block.brewing_stand=Brewing Stand
+minecraft:block.cauldron=Cauldron
+minecraft:block.skeleton_skull=Skeleton Skull
+minecraft:block.wither_skeleton_skull=Wither Skeleton Skull
+minecraft:block.zombie_skull=Zombie Head
+minecraft:block.player_skull=Player Head
+minecraft:block.creeper_skull=Creeper Head
+minecraft:block.dragon_skull=Dragon Head
+minecraft:block.nether_wart=Nether Wart
+
+minecraft:entity.item_frame=Item Frame
+minecraft:entity.leash_knot=Lead
+minecraft:entity.xp_bottle=Bottle o' Enchanting
+minecraft:entity.ender_pearl=Ender Pearl
+minecraft:entity.eye_of_ender_signal=Eye of Ender
+minecraft:entity.fireworks_rocket=Firework Rocket
+minecraft:entity.wither_skull=Wither Skull
+minecraft:entity.ender_crystal=End Crystal
+minecraft:entity.furnace_minecart=Minecart with Furnace
+minecraft:entity.tnt_minecart=Minecart with TNT
+minecraft:entity.commandblock_minecart=Minecart with Command Block
+minecraft:entity.spawner_minecart=Minecart with Spawner
+minecraft:entity.spectral_arrow=Spectral Arrow
+minecraft:entity.area_effect_cloud=Area Effect Cloud
+minecraft:entity.shulker_bullet=Shulker Bullet
+minecraft:entity.evocation_fangs=Evocation Fangs
+minecraft:entity.llama_spit=Llama Spit
+
+minecraft:entity.lightning_bolt=Lightning Bolt
+minecraft:entity.fishing_line=Fishing Line
+minecraft:entity.player=Player
+
+minecraft:container.enchant.level_required=Level Requirement: %s
+
+minecraft:commands.generic.selector.more=%s and %s
+
+minecraft:connect.poll=Polling...
+minecraft:connect.ping=Pinging...
+minecraft:connect.communication=Communication error
+minecraft:connect.cant_reach=Can't reach server
+minecraft:connect.more=... and %s more ...
+minecraft:connect.no_connection=(no connection)
+minecraft:connect.outdated=Outdated server!
+
+minecraft:disconnect.closed=Server closed
+minecraft:disconnect.cant_connect=Can't connect to server
+minecraft:disconnect.cant_resolve_name=Can't resolve hostname
+minecraft:disconnect.illigal_position=Illegal position
+minecraft:disconnect.incompatible=Incompatible client
+
+minecraft:death_screen.title.hardcore.server=You have died. Game over, man, game over!
+
+
+
+//remove
+
+tile.mushroom.name=Mushroom
+tile.sign.name=Sign
+tile.button.name=Button
+tile.lockedchest.name=Locked Chest
+
+entity.Mob.name=Mob
+entity.Monster.name=Monster
+
+item.tipped_arrow.water.name=Arrow of Splashing
+
+
+
+//Others are mentioned in splashes.json, credits.json, poem.json and achievements_pe_ce.json

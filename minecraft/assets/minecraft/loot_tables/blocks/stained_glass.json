@@ -1,0 +1,130 @@
+{
+    "color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ],
+    "color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ]
+}

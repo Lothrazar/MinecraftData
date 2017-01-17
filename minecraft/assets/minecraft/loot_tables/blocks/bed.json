@@ -1,0 +1,82 @@
+{
+    "facing=north,occupied=false,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=south,occupied=false,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=east,occupied=false,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=west,occupied=false,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=north,occupied=true,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=south,occupied=true,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=east,occupied=true,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=west,occupied=true,part=head": [
+        {
+            "item": "{id:\"minecraft:bed\",Count:1b}"
+        }
+    ],
+    "facing=north,occupied=false,part=foot": [
+        {
+                
+        }
+    ],
+    "facing=south,occupied=false,part=foot": [
+        {
+                
+        }
+    ],
+    "facing=east,occupied=false,part=foot": [
+        {
+                
+        }
+    ],
+    "facing=west,occupied=false,part=foot": [
+        {
+                
+        }
+    ],
+    "facing=north,occupied=true,part=foot": [
+        {
+                
+        }
+    ],
+    "facing=south,occupied=true,part=foot": [
+        {
+                
+        }
+    ],
+    "facing=east,occupied=true,part=foot": [
+        {
+                
+        }
+    ],
+    "facing=west,occupied=true,part=foot": [
+        {
+                
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "explode=false": [
+        {
+            "item": "{id:\"minecraft:tnt\",Count:1b}"
+        }
+    ],
+    "explode=true": [
+        {
+                
+        }
+    ]
+}

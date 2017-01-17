@@ -1,0 +1,14 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:iron_block\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ]
+            }
+        }
+    ]
+}

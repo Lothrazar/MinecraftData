@@ -1,0 +1,44 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:web\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_sword\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:stone_sword\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:iron_sword\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:golden_sword\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:diamond_sword\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:shears\",Count:1b}"    
+                ]
+            }
+        },
+        {
+            "item": "{id:\"minecraft:string\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_sword\",Count:1b}",
+                    "{id:\"minecraft:stone_sword\",Count:1b}",
+                    "{id:\"minecraft:iron_sword\",Count:1b}",
+                    "{id:\"minecraft:golden_sword\",Count:1b}",
+                    "{id:\"minecraft:diamond_sword\",Count:1b}"
+                ],
+                "minecraft:drops": 0
+            }
+        },
+        {
+            "item": "{id:\"minecraft:string\",Count:1b}",
+            "conditions": {
+                "minecraft:block": [
+                    "minecraft:flowing_water",
+                    "minecraft:water",
+                    "minecraft:piston_extension",
+                    "minecraft:piston",
+                    "minecraft:sticky_piston",
+                    "minecraft:piston_head"
+                ],
+                "minecraft:drops": 0
+            }
+        }
+    ]
+}

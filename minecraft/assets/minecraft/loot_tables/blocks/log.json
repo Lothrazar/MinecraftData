@@ -1,0 +1,82 @@
+{
+    "axis=none,variant=oak": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=none,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
+        }
+    ],
+    "axis=none,variant=birch": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
+        }
+    ],
+    "axis=none,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
+        }
+    ],
+    "axis=x,variant=oak": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=x,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
+        }
+    ],
+    "axis=x,variant=birch": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
+        }
+    ],
+    "axis=x,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
+        }
+    ],
+    "axis=y,variant=oak": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=y,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
+        }
+    ],
+    "axis=y,variant=birch": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
+        }
+    ],
+    "axis=y,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
+        }
+    ],
+    "axis=z,variant=oak": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
+        }
+    ],
+    "axis=z,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
+        }
+    ],
+    "axis=z,variant=birch": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
+        }
+    ],
+    "axis=z,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
+        }
+    ]
+}

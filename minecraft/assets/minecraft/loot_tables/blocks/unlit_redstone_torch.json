@@ -1,0 +1,27 @@
+{
+    "facing=up": [
+        {
+            "item": "{id:\"minecraft:redstone_torch\",Count:1b}"
+        }
+    ],
+    "facing=north": [
+        {
+            "item": "{id:\"minecraft:redstone_torch\",Count:1b}"
+        }
+    ],
+    "facing=south": [
+        {
+            "item": "{id:\"minecraft:redstone_torch\",Count:1b}"
+        }
+    ],
+    "facing=east": [
+        {
+            "item": "{id:\"minecraft:redstone_torch\",Count:1b}"
+        }
+    ],
+    "facing=west": [
+        {
+            "item": "{id:\"minecraft:redstone_torch\",Count:1b}"
+        }
+    ]
+}

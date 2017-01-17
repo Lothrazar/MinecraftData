@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:entity/skeleton_hostile",
+	"textures": {
+        "texture": "minecraft:entity/skeleton/stray"
+    }
+}

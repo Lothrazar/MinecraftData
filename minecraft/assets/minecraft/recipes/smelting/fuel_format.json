@@ -1,0 +1,17 @@
+[
+    { 'A individual fuel recipe'
+        "item": "The fuel item in data tag format",
+        "time": 'The amount of ticks the fuel will last as an integer'
+        "functions": [
+            {
+                "function": "minecraft:return_items" 'optional, what the item should replace in the fuel slot with what',
+                "item": "The item you get in data tag format",
+                "return": "The item that needs to be replaced in data tag format",
+                "copy_nbt": true/false 'If it should keep any tags it had before'
+            }
+        ]
+    }
+]
+
+Notes: 
+When NBT is copied, and a list which already exists is being specified in return, it adds to the end of the list, unless the returned list is empty.

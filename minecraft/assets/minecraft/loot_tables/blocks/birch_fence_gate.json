@@ -1,0 +1,162 @@
+{
+    "facing=north,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:birch_fence_gate\",Count:1b}"
+        }
+    ]
+}

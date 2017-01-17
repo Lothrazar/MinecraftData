@@ -1,0 +1,38 @@
+{
+    "age=0": [
+        {
+            "block": "minecraft:flowing_water",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}",
+                "inverse": true
+            }
+        }
+    ],
+    "age=1": [
+        {
+            "block": "minecraft:flowing_water",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}",
+                "inverse": true
+            }
+        }
+    ],
+    "age=2": [
+        {
+            "block": "minecraft:flowing_water",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}",
+                "inverse": true
+            }
+        }
+    ],
+    "age=3": [
+        {
+            "block": "minecraft:flowing_water",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}",
+                "inverse": true
+            }
+        }
+    ]
+}

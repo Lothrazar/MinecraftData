@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/observer",
+    "textures": {
+        "bottom": "minecraft:blocks/observer_back_lit"
+    }
+}

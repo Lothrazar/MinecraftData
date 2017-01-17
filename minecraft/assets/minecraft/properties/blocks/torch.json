@@ -1,0 +1,197 @@
+{
+    "facing=up": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 14,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": ""
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=north": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 14,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "south": ""
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=south": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 14,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "north": ""
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=east": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 14,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "west": ""
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=west": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 0,
+            "light": 14,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "east": ""
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

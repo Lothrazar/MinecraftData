@@ -1,0 +1,101 @@
+{
+    "age=0": [
+        {
+            "item": "{id:\"minecraft:carrot\",Count:1b}"
+        }
+    ],
+    "age=1": [
+        {
+            "item": "{id:\"minecraft:carrot\",Count:1b}"
+        }
+    ],
+    "age=2": [
+        {
+            "item": "{id:\"minecraft:carrot\",Count:1b}"
+        }
+    ],
+    "age=3": [
+        {
+            "item": "{id:\"minecraft:carrot\",Count:1b}"
+        }
+    ],
+    "age=4": [
+        {
+            "item": "{id:\"minecraft:carrot\",Count:1b}"
+        }
+    ],
+    "age=5": [
+        {
+            "item": "{id:\"minecraft:carrot\",Count:1b}"
+        }
+    ],
+    "age=6": [
+        {
+            "item": "{id:\"minecraft:carrot\",Count:1b}"
+        }
+    ],
+    "age=7": [
+        {
+            "item": "{id:\"minecraft:carrot\"}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:1s}]}}"
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:carrot\"}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:2s}]}}"
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 6
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:carrot\"}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:3s}]}}"
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 7
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:carrot\"}",
+            "conditions": {
+                "minecraft:drops": 0,
+                "minecraft:entity": "{id:\"minecraft:rabbit\",Count:1b}",
+                "inverse": true
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 4
+                    }
+                }
+            ]
+        }
+    ]
+}

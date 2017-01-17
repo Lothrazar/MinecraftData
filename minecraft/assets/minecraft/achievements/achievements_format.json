@@ -1,0 +1,185 @@
+{
+    "the achievement name" '(As used in /achievement, Cannot contain spaces or capitals, Example: minecraft:achievement.snipe_skeleton)': {
+        "distance": 'The amount of achievements you can see from this one on',
+        "parent": "The required achievement before this one ('none' if it's a starting one)",
+        "icon": "Item/block icon to display",
+        "icon_data": "Block icon's blockstates/item icon's damage value to display as a string (a block's item form can be grabbed by stating 'item')",
+        "icon_nbt": "Optional nbt data for displaying the item, example: spawn eggs or player skulls",
+        "name": "The actual achievement name translation string shown when hovered over",
+        "description": "description translation string to show when hovered over",
+        "x": 'X coordinate from left to right as a integer (1 = 1 background block)',
+        "y": 'Y coordinate from top to bottom as a integer (1 = 1 background block)',
+        "hard": true/false 'If it's the star shaped icon',
+        "condition": {
+            "action": "Values are: use_entity, craft_item, buy_item, pickup_item, smelt_item, brew_item, use_item, enchant_item, anvil_item, explore_biome, open_gui, use_block_entity, distance_minecart, distance_boat, distance_horse, distance_pig, distance_elytra, get_exp, stat, get_effect, velocity, scoreboard, stay and none (player has no interaction)",
+            "item": "For craft_item, buy_item, pickup_item, smelt_item, brew_item, use_item, enchant_item and anvil_item, this is the item afterwards in data tag format",
+            "item": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "item": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "biome": "For explore_biome, this is the biome name",
+            "biome": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "biome": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "gui": "For open_gui, this is the GUI name",
+            "gui": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "gui": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "block_entity": "For use_block_entity, this is the title entity afterwards in data tag format",
+            "block_entity": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "block_entity": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "distance": "For distance_minecart, distance_boat, distance_elytra, distance_horse and distance_pig, this is the number of blocks, negative means relative from starting point", 
+            "distance": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "distance": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "entity_use": "For use_entity, what you do with it, values are: tame, pickup_item, kill, breed, damage, spawn, ride and rename", 
+            "stat": "the affected stat name",
+            "amount": 'For get_exp and stats, the value of XP/stats total, negative if in one orb'
+            "amount": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "amount": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "effect": 'For get_effect, the effect name you should have'
+            "effect": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "effect": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "speed": 'For velocity, the speed you have in blocks until motion = 0 (eg Y30 = going up 30 blocks without further input)'
+            "speed": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+            },
+            "speed": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                "Same as above"
+            ],
+            "time": 'the time in ticks, only used for stay',
+            "data": { 'Optional, any other data needed'
+                "player": "The state that the player's NBT has to have in order to get this achievement",
+                "player": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "player": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "entity": "Only used with use_entity and use_item (using it on the entity), the affected entity in data tag format, example: {id:\"minecraft:creeper\",CustomName:\"Hello there\"}",
+                "entity": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "entity": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "source": "Only used with use_entity; damage and use_entity; kill, the damage source given to the entity values are: any(default), fallDamage, burn, attack(use the weapon tag below), lightningStrike, drown, fallingBlock, thorns, suffocate, starve (player only), cactus, lava, fire, poison, wither, theVoid, explosion",
+                "source": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "source": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "weapon_type": "Only used with use_entity; damage and use_entity; kill, allowed values are: Item, Entity, Any",
+                "weapon_type": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "weapon_type": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "weapon": "Only used with use_entity; damage and use_entity; kill, the weapon/entity used in data tag format",
+                "weapon": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "weapon": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "item": "Only used with use_entity; pickup_item, the item in data tag format",
+                "item": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement (may ONLY be a compound if the entity tag is NOT a compound)'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "item": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "minimum_distance": 'Only used with use_entity, distance required from entity in blocks as an integer',
+                "minimum_distance": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "minimum_distance": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "amount": 'Only used with use_entity; damage and use_entity; kill, amount of damage dealt to the entity as an integer, negative if in a single hit',
+                "amount": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "amount": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "scores": { 'The scores the specified entity has'
+                    "objective_name": { 'objective_name is the scoreboard objective's name, at least one of min/max is required'
+                        "entity": "values are player or entity, in case of entity, it's the entity specified (cannot be used with the entity compound variant)"
+                        "min": 'Minimum value for scoreboard',
+                        "max": 'Maximum value for scoreboard'
+                    }
+                },
+                "biome": "Optional, the biome name (minecraft:the_end, minecraft:hell, minecraft:jungle) where you need to achieve this achievement in",
+                "biome": { 'Same as above, a compound of values that all must succeed at least once during play time in order to get the achievement'
+                    "value_X": "Same as above, with X a number starting with 0, can be a string or list of strings (so only 1 of the list needs to succeed for getting value X)"
+                },
+                "biome": [ 'Same as above, a list of values that only one must succeed in order to get the achievement'
+                    "Same as above"
+                ],
+                "blocks": [
+                    { 'A possible combination of blocks'
+                        "target": "either the value player, entity or block, if entity it's the entity from the entity tag, if block it's the last block interacted with"
+                        "a block position relative to the entity (eg x+3,y+1,z-7); y must be specified if x and z are omitted, x and z are optional", "the block in NBT, no id means any non-solid block (like air, flowers, tall grass and snow layers))",
+                        "a block position relative to the entity (eg x+3,y+1,z-7); y must be specified if x and z are omitted, x and z are optional", [
+                            "same as above, but any may exist"
+                        ]
+                    }
+                ],
+                "blocks": {
+                    "value_X": [ 'same as above, value X is NOT saved, but the values have to happen on the same location after each other, time in between doesn't matter, as long as there's no formation between it for 5 ticks, no target entry exists here'
+                        { 'A possible combination of blocks'
+                            "a block position relative to the entity (eg x+3,y+1,z-7); y must be specified if x and z are omitted, x and z are optional", "the block in NBT, no id means any non-solid block (like air, flowers, tall grass and snow layers))",
+                            "a block position relative to the entity (eg x+3,y+1,z-7); y must be specified if x and z are omitted, x and z are optional", [
+                                "same as above, but any may exist"
+                            ]
+                        }
+                    ]
+                },
+                "entities": [
+                    { 'A possible combination of entities'
+                        "target": "either the value player, entity or block, if entity it's the entity from the entity tag, if block it's the last block interacted with"
+                        "a block position relative to the entity (eg x+3,y+1,z-7); y must be specified, x and z are optional", "the entity nbt",
+                        "a block position relative to the entity (eg x+3,y+1,z-7); y must be specified, x and z are optional", [
+                            "same as above, but any may exist"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+
+Notes:
+Blocks in NBT have the blockstates in a Blockstates tag, eg: {id:"minecraft:hopper",Blockstates:{facing:"down"}}
+*minecraft:player* = the player who tries to get the achievement
+id:"PLAYERNAME" or id:"UUID" for a specific player/uuid, example: id:"Dinnerbone" or id:"61699b2e-d327-4a01-9f1e-0ea8c3f06bc6"
+If the data tag has no value (eg. {display:{color}}, it means the tag has to be present, but the value doesn't matter)
+Command suggestion: /achievement give|take <achievement> [progress value], so map makers can also add and remove the progress on certain achievements, "like kill these 2 entities in one battle"
+Other suggestion: all achievements of the same file are on the same page, new file = new page on the achievements screen.
+If value_X are specified for multiple parts of the achievement, all value_X have to succeed for it to achieve value X.

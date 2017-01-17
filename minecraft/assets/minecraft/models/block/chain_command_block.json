@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube_directional",
+    "textures": {
+        "particle": "minecraft:blocks/chain_command_block_back",
+        "down": "minecraft:blocks/chain_command_block_side",
+        "up": "minecraft:blocks/chain_command_block_side",
+        "north": "minecraft:blocks/chain_command_block_front",
+        "east": "minecraft:blocks/chain_command_block_side",
+        "south": "minecraft:blocks/chain_command_block_back",
+        "west": "minecraft:blocks/chain_command_block_side"
+    }
+}

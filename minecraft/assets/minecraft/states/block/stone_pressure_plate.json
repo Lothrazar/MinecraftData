@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "minecraft:stone_pressure_plate_up" },
+        "powered=true": { "model": "minecraft:stone_pressure_plate_down" }
+    }
+}

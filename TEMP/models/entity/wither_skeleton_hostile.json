@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:entity/skeleton_hostile",
+	"textures": {
+        "texture": "minecraft:entity/skeleton/wither_skeleton"
+    },
+	"scale": 1.3
+}

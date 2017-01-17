@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "minecraft:blocks/mushroom_block_inside",
+        "down": "minecraft:blocks/mushroom_block_inside",
+        "up": "minecraft:blocks/mushroom_block_skin_red",
+        "north": "minecraft:blocks/mushroom_block_skin_red",
+        "east": "minecraft:blocks/mushroom_block_inside",
+        "south": "minecraft:blocks/mushroom_block_inside",
+        "west": "minecraft:blocks/mushroom_block_inside"
+    }
+}

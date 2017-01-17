@@ -1,0 +1,158 @@
+{
+    "facing=north": [
+        {
+            "item": "{id:\"minecraft:orange_shulker_box\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": false
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Items}",
+                    "paste": "{BlockEntityTag:{Items}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Lock}",
+                    "paste": "{BlockEntityTag:{Lock}}"
+                }
+            ]
+        }
+    ],
+    "facing=south": [
+        {
+            "item": "{id:\"minecraft:orange_shulker_box\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": false
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Items}",
+                    "paste": "{BlockEntityTag:{Items}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Lock}",
+                    "paste": "{BlockEntityTag:{Lock}}"
+                }
+            ]
+        }
+    ],
+    "facing=east": [
+        {
+            "item": "{id:\"minecraft:orange_shulker_box\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": false
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Items}",
+                    "paste": "{BlockEntityTag:{Items}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Lock}",
+                    "paste": "{BlockEntityTag:{Lock}}"
+                }
+            ]
+        }
+    ],
+    "facing=west": [
+        {
+            "item": "{id:\"minecraft:orange_shulker_box\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": false
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Items}",
+                    "paste": "{BlockEntityTag:{Items}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Lock}",
+                    "paste": "{BlockEntityTag:{Lock}}"
+                }
+            ]
+        }
+    ],
+    "facing=up": [
+        {
+            "item": "{id:\"minecraft:orange_shulker_box\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": false
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Items}",
+                    "paste": "{BlockEntityTag:{Items}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Lock}",
+                    "paste": "{BlockEntityTag:{Lock}}"
+                }
+            ]
+        }
+    ],
+    "facing=down": [
+        {
+            "item": "{id:\"minecraft:orange_shulker_box\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:drop_inventory",
+                    "drop": false
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Items}",
+                    "paste": "{BlockEntityTag:{Items}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Lock}",
+                    "paste": "{BlockEntityTag:{Lock}}"
+                }
+            ]
+        }
+    ]
+}

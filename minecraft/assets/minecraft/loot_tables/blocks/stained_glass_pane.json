@@ -1,0 +1,2562 @@
+{
+    "north=false,south=false,east=false,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=white": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:0s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=orange": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:1s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=magenta": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:2s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=light_blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:3s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=yellow": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:4s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=lime": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:5s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=pink": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:6s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=gray": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:7s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=silver": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:8s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=cyan": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:9s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=purple": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:10s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=blue": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:11s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=brown": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:12s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=green": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:13s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=red": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:14s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=false,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=false,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=false,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=false,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=false,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=false,east=true,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=false,east=true,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=false,south=true,east=true,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ],
+    "north=true,south=true,east=true,west=true,color=black": [
+        {
+            "item": "{id:\"minecraft:stained_glass_pane\",Count:1b,Damage:15s}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:33s}]}}"
+                ]
+            }
+        }
+    ]
+}

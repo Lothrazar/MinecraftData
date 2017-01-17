@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "minecraft:stone" },
+            { "model": "minecraft:stone_mirrored" },
+            { "model": "minecraft:stone", "y": 180 },
+            { "model": "minecraft:stone_mirrored", "y": 180 }
+        ]
+    }
+}

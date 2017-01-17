@@ -1,0 +1,12 @@
+{
+    "variant=sand": [
+        {
+            "item": "{id:\"minecraft:sand\",Count:1b,Damage:0s}"
+        }
+    ],
+    "variant=red_sand": [
+        {
+            "item": "{id:\"minecraft:sand\",Count:1b,Damage:1s}"
+        }
+    ]
+}

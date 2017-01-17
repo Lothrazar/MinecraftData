@@ -1,0 +1,42 @@
+{
+    "moisture=0": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "moisture=1": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "moisture=2": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "moisture=3": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "moisture=4": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "moisture=5": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "moisture=6": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ],
+    "moisture=7": [
+        {
+            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+        }
+    ]
+}

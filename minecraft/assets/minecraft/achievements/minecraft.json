@@ -1,0 +1,714 @@
+{
+    "minecraft:achievement.open_inventory": {
+        "distance": 4,
+        "parent": "none",
+        "icon": "minecraft:book",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.openInventory",
+        "description": "achievement.openInventory.desc",
+        "x": 15,
+        "y": 15,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:open_gui",
+            "gui": "minecraft:inventory"
+        }
+    },
+    "minecraft:achievement.mine_wood": {
+        "distance": 4,
+        "parent": "minecraft:open_inventory",
+        "icon": "minecraft:log",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.mineWood",
+        "description": "achievement.mineWood.desc",
+        "x": 18,
+        "y": 17,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:pickup_item",
+            "item": [
+                "{id:\"minecraft:log\"}",
+                "{id:\"minecraft:log2\"}"
+            ]
+        }
+    },
+    "minecraft:achievement.build_workbench": {
+        "distance": 4,
+        "parent": "minecraft:mine_wood",
+        "icon": "minecraft:crafting_table",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.buildWorkBench",
+        "description": "achievement.buildWorkBench.desc",
+        "x": 21,
+        "y": 14,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": "{id:\"minecraft:crafting_table\"}"
+        }
+    },
+    "minecraft:achievement.build_pickaxe": {
+        "distance": 4,
+        "parent": "minecraft:build_workbench",
+        "icon": "minecraft:wooden_pickaxe",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.buildPickaxe",
+        "description": "achievement.buildPickaxe.desc",
+        "x": 21,
+        "y": 18,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": [
+                "{id:\"minecraft:wooden_pickaxe\"}",
+                "{id:\"minecraft:stone_pickaxe\"}",
+                "{id:\"minecraft:iron_pickaxe\"}",
+                "{id:\"minecraft:golden_pickaxe\"}",
+                "{id:\"minecraft:diamond_pickaxe\"}"
+            ]
+        }
+    },
+    "minecraft:achievement.build_furnace": {
+        "distance": 4,
+        "parent": "minecraft:build_pickaxe",
+        "icon": "minecraft:furnace",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.buildFurnace",
+        "description": "achievement.buildFurnace.desc",
+        "x": 20,
+        "y": 21,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": "{id:\"minecraft:furnace\"}"
+        }
+    },
+    "minecraft:achievement.aquire_iron": {
+        "distance": 4,
+        "parent": "minecraft:build_furnace",
+        "icon": "minecraft:iron_ingot",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.acquireIron",
+        "description": "achievement.acquireIron.desc",
+        "x": 16,
+        "y": 21,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:smelt_item",
+            "item": "{id:\"minecraft:iron_ingot\"}"
+        }
+    },
+    "minecraft:achievement.buid_hoe": {
+        "distance": 4,
+        "parent": "minecraft:build_workbench",
+        "icon": "minecraft:wooden_hoe",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.buildHoe",
+        "description": "achievement.buildHoe.desc",
+        "x": 18,
+        "y": 11,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": [
+                "{id:\"minecraft:wooden_hoe\"}",
+                "{id:\"minecraft:stone_hoe\"}",
+                "{id:\"minecraft:iron_hoe\"}",
+                "{id:\"minecraft:golden_hoe\"}",
+                "{id:\"minecraft:diamond_hoe\"}"
+            ]
+        }
+    },
+    "minecraft:achievement.make_bread": {
+        "distance": 4,
+        "parent": "minecraft:build_hoe",
+        "icon": "minecraft:bread",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.makeBread",
+        "description": "achievement.makeBread.desc",
+        "x": 13,
+        "y": 11,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": "{id:\"minecraft:bread\"}"
+        }
+    },
+    "minecraft:achievement.bake_cake": {
+        "distance": 4,
+        "parent": "minecraft:build_hoe",
+        "icon": "minecraft:cake",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.bakeCake",
+        "description": "achievement.bakeCake.desc",
+        "x": 15,
+        "y": 8,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": "{id:\"minecraft:cake\"}"
+        }
+    },
+    "minecraft:achievement.build_better_pickaxe": {
+        "distance": 4,
+        "parent": "minecraft:build_pickaxe",
+        "icon": "minecraft:stone_pickaxe",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.buildBetterPickaxe",
+        "description": "achievement.buildBetterPickaxe.desc",
+        "x": 24,
+        "y": 18,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": [
+                "{id:\"minecraft:stone_pickaxe\"}",
+                "{id:\"minecraft:iron_pickaxe\"}",
+                "{id:\"minecraft:golden_pickaxe\"}",
+                "{id:\"minecraft:diamond_pickaxe\"}"
+            ]
+        }
+    },
+    "minecraft:achievement.cook_fish": {
+        "distance": 4,
+        "parent": "minecraft:build_furnace",
+        "icon": "minecraft:cooked_fish",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "Delicious Fish",
+        "description": "Catch and cook fish!",
+        "x": 18,
+        "y": 24,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:smelt_item",
+            "item": "{id:\"minecraft:cooked_fish\"}"
+        }
+    },
+    "minecraft:achievement.on_a_rail": {
+        "distance": 4,
+        "parent": "minecraft:aquire_iron",
+        "icon": "minecraft:rail",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.onARail",
+        "description": "achievement.onARail.desc",
+        "x": 17,
+        "y": 20,
+        "hard": true,
+        "condition": {
+            "action": "minecraft:distance_minecart",
+            "distance": -1000
+        }
+    },
+    "minecraft:achievement.buid_sword": {
+        "distance": 4,
+        "parent": "minecraft:build_workbench",
+        "icon": "minecraft:wooden_sword",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.buidSword",
+        "description": "achievement.buidSword.desc",
+        "x": 21,
+        "y": 11,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": [
+                "{id:\"minecraft:wooden_sword\"}",
+                "{id:\"minecraft:stone_sword\"}",
+                "{id:\"minecraft:iron_sword\"}",
+                "{id:\"minecraft:golden_sword\"}",
+                "{id:\"minecraft:diamond_sword\"}"
+            ]
+        }
+    },
+    "minecraft:achievement.kill_enemy": {
+        "distance": 4,
+        "parent": "minecraft:build_sword",
+        "icon": "minecraft:bone",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.killEnemy",
+        "description": "achievement.killEnemy.desc",
+        "x": 24,
+        "y": 11,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:kill",
+            "Data": {
+                "entity": [
+                "{id:\"minecraft:zombie\"}",
+                "{id:\"minecraft:skeleton\"}",
+                "{id:\"minecraft:spider\"}",
+                "{id:\"minecraft:cave_spider\"}",
+                "{id:\"minecraft:silverfish\"}",
+                "{id:\"minecraft:creeper\"}",
+                "{id:\"minecraft:enderman\"}",
+                "{id:\"minecraft:endermite\"}",
+                "{id:\"minecraft:ender_dragon\"}",
+                "{id:\"minecraft:witch\"}",
+                "{id:\"minecraft:zombie_pigman\"}",
+                "{id:\"minecraft:blaze\"}",
+                "{id:\"minecraft:ghast\"}",
+                "{id:\"minecraft:slime\"}",
+                "{id:\"minecraft:magma_cube\"}",
+                "{id:\"minecraft:wither\"}",
+                "{id:\"minecraft:shulker\"}",
+                "{id:\"minecraft:giant\"}",
+                "{id:\"minecraft:guardian\"}",
+                "{id:\"minecraft:elder_guardian\"}",
+                "{id:\"minecraft:evocation_illager\"}",
+                "{id:\"minecraft:husk\"}",
+                "{id:\"minecraft:stray\"}",
+                "{id:\"minecraft:vindication_illager\"}",
+                "{id:\"minecraft:vex\"}",
+                "{id:\"minecraft:wither_skeleton\"}",
+                "{id:\"minecraft:zombie_villager\"}"
+                ]
+            }
+        }
+    },
+    "minecraft:achievement.kill_cow": {
+        "distance": 4,
+        "parent": "minecraft:build_sword",
+        "icon": "minecraft:leather",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.killCow",
+        "description": "achievement.killCow.desc",
+        "x": 23,
+        "y": 8,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:pickup_item",
+            "item": "{id:\"minecraft:leather\"}"
+        }
+    },
+    "minecraft:achievement.fly_pig": {
+        "distance": 4,
+        "parent": "minecraft:kill_cow",
+        "icon": "minecraft:saddle",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.flyPig",
+        "description": "achievement.flyPig.desc",
+        "x": 25,
+        "y": 8,
+        "hard": true,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:damage",
+            "Data": {
+                "entity": "{id:\"minecraft:pig\",Saddle:1b,Passengers:[{id:\"*minecraft:player*\"}]}",
+                "source": "fallDamage"
+            }
+        }
+    },
+    "minecraft:achievement.snipe_skeleton": {
+        "distance": 4,
+        "parent": "minecraft:kill_enemy",
+        "icon": "minecraft:bow",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.snipeSkeleton",
+        "description": "achievement.snipeSkeleton.desc",
+        "x": 23,
+        "y": 12,
+        "hard": true,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:kill",
+            "Data": {
+                "entity": "{id:\"minecraft:skeleton\"}",
+                "source": "attack",
+                "weapon_type": "item",
+                "weapon": "{id:\"minecraft:bow\"}",
+                "minimum_distance": 50
+            }
+        }
+    },
+    "minecraft:achievement.diamonds": {
+        "distance": 4,
+        "parent": "minecraft:aquire_iron",
+        "icon": "minecraft:diamond_ore",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.diamonds",
+        "description": "achievement.diamonds.desc",
+        "x": 13,
+        "y": 23,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:pickup_item",
+            "item": "{id:\"minecraft:diamond\"}"
+        }
+    },
+    "minecraft:achievement.diamonds_to_you": {
+        "distance": 4,
+        "parent": "minecraft:diamonds",
+        "icon": "minecraft:diamond",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.diamondsToYou",
+        "description": "achievement.diamondsToYou.desc",
+        "x": 13,
+        "y": 18,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:pickup_item",
+            "Data": {
+                "item": "{id:\"minecraft:item\",Item:{id:\"minecraft:diamond\"},Thrower:\"*Player*\"}"
+            }
+        }
+    },
+    "minecraft:achievement.portal": {
+        "distance": 4,
+        "parent": "minecraft:diamonds",
+        "icon": "minecraft:obsidian",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.portal",
+        "description": "achievement.portal.desc",
+        "x": 13,
+        "y": 26,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:explore_biome",
+            "biome": "minecraft:hell"
+        }
+    },
+    "minecraft:achievement.ghast": {
+        "distance": 4,
+        "parent": "minecraft:portal",
+        "icon": "minecraft:ghast_tear",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.ghast",
+        "description": "achievement.ghast.desc",
+        "x": 8,
+        "y": 27,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:kill",
+            "Data": {
+                "entity": "{id:\"minecraft:ghast\"}",
+                "source": "attack",
+                "weapon_type": "entity",
+                "weapon": "{id:\"minecraft:fireball\"}"
+            }
+        }
+    },
+    "minecraft:achievement.blaze_rod": {
+        "distance": 4,
+        "parent": "minecraft:portal",
+        "icon": "minecraft:blaze_rod",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.blazeRod",
+        "description": "achievement.blazeRod.desc",
+        "x": 14,
+        "y": 29,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:pickup_item",
+            "item": "{id:\"minecraft:blaze_rod\"}"
+        }
+    },
+    "minecraft:achievement.potion": {
+        "distance": 4,
+        "parent": "minecraft:blaze_rod",
+        "icon": "minecraft:potion",
+        "icon_data": "0",
+        "icon_nbt": "{Potion:\"minecraft:water\"}",
+        "name": "achievement.potion",
+        "description": "achievement.potion.desc",
+        "x": 17,
+        "y": 27,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:brew_item",
+            "item": [
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:awkward\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:mundane\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:thick\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:night_vision\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_night_vision\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:invisibility\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_invisibility\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_leaping\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_leaping\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:fire_resistance\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_fire_resistance\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_swiftness\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_swiftness\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:slowness\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_slowness\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:water_breathing\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_water_breathing\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:healing\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_healing\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:harming\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_harming\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:poison\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_poison\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_poison\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_regeneration\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_regeneration\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strength\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_strength\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_strength\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:weakness\"}}",
+                "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_weakness\"}}",
+                "{id:\"minecraft:splash_potion\"}",
+                "{id:\"minecraft:lingering_potion\"}"
+            ]
+        }
+    },
+    "minecraft:achievement.the_end": {
+        "distance": 4,
+        "parent": "minecraft:blaze_rod",
+        "icon": "minecraft:ender_eye",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.theEnd",
+        "description": "achievement.theEnd.desc",
+        "x": 19,
+        "y": 30,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:explore_biome",
+            "biome": "minecraft:the_end"
+        }
+    },
+    "minecraft:achievement.the_end2": {
+        "distance": 4,
+        "parent": "minecraft:the_end",
+        "icon": "minecraft:dragon_egg",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.theEnd2",
+        "description": "achievement.theEnd2.desc",
+        "x": 20,
+        "y": 35,
+        "hard": true,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:kill",
+            "Data": {
+                "entity": "{id:\"EnderDragon\"}"
+            }
+        }
+    },
+    "minecraft:achievement.enchantments": {
+        "distance": 4,
+        "parent": "minecraft:diamonds",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "icon": "minecraft:enchantment_table",
+        "name": "achievement.enchantments",
+        "description": "achievement.enchantments.desc",
+        "x": 8,
+        "y": 21,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": "{id:\"minecraft:enchantment_table\"}"
+        }
+    },
+    "minecraft:achievement.overkill": {
+        "distance": 4,
+        "parent": "minecraft:enchantments",
+        "icon": "minecraft:diamond_sword",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.overkill",
+        "description": "achievement.overkill.desc",
+        "x": 8,
+        "y": 17,
+        "hard": true,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:damage",
+            "Data": {
+                "amount": -18
+            }
+        }
+    },
+    "minecraft:achievement.bookcase": {
+        "distance": 4,
+        "parent": "minecraft:enchantments",
+        "icon": "minecraft:bookshelf",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.bookcase",
+        "description": "achievement.bookcase.desc",
+        "x": 10,
+        "y": 24,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:craft_item",
+            "item": "{id:\"minecraft:bookshelf\"}"
+        }
+    },
+    "minecraft:achievement.breed_cow": {
+        "distance": 4,
+        "parent": "minecraft:kill_cow",
+        "icon": "minecraft:wheat",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.breedCow",
+        "description": "achievement.breedCow.desc",
+        "x": 23,
+        "y": 5,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:breed",
+            "Data": {
+                "entity": "{id:\"minecraft:cow\"}"
+            }
+        }
+    },
+    "minecraft:achievement.spawn_wither": {
+        "distance": 4,
+        "parent": "minecraft:the_end2",
+        "icon": "minecraft:skull",
+        "icon_data": "item:1",
+        "icon_nbt": "",
+        "name": "achievement.spawnWither",
+        "description": "achievement.spawnWither.desc",
+        "x": 25,
+        "y": 33,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:spawn",
+            "Data": {
+                "entity": "{id:\"minecraft:wither\"}"
+            }
+        }
+    },
+    "minecraft:achievement.kill_wither": {
+        "distance": 4,
+        "parent": "minecraft:spawn_wither",
+        "icon": "minecraft:nether_star",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.killWither",
+        "description": "achievement.killWither.desc",
+        "x": 25,
+        "y": 30,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_entity",
+            "entity_use": "minecraft:kill",
+            "Data": {
+                "entity": "{id:\"minecraft:wither\"}"
+            }
+        }
+    },
+    "minecraft:achievement.full_beacon": {
+        "distance": 4,
+        "parent": "minecraft:kill_wither",
+        "icon": "minecraft:beacon",
+        "icon_data": "item",
+        "icon_nbt": "",
+        "name": "achievement.fullBeacon",
+        "description": "achievement.fullBeacon.desc",
+        "x": 25,
+        "y": 27,
+        "hard": true,
+        "condition": {
+            "action": "minecraft:use_block_entity",
+            "block_entity": "{id:\"minecraft:beacon\",Levels:4}"
+        }
+    },
+    "minecraft:achievement.explore_all_biome": {
+        "distance": 4,
+        "parent": "minecraft:the_end",
+        "icon": "minecraft:diamond_boots",
+        "icon_data": "0",
+        "icon_nbt": "",
+        "name": "achievement.exploreAllBiome",
+        "description": "achievement.exploreAllBiome.desc",
+        "x": 20,
+        "y": 27,
+        "hard": true,
+        "condition": {
+            "action": "minecraft:explore_biome",
+            "biome": {
+                "value_0": "minecraft:beach",
+                "value_1": "minecraft:birch_forest",
+                "value_2": "minecraft:birch_forest_hills",
+                "value_3": "minecraft:cold_beach",
+                "value_4": "minecraft:cold_taiga",
+                "value_5": "minecraft:cold_taiga_hills",
+                "value_6": "minecraft:deep_ocean",
+                "value_7": "minecraft:desert",
+                "value_8": "minecraft:desert_hills",
+                "value_9": "minecraft:extreme_hills",
+                "value_10": "minecraft:extreme_hills+",
+                "value_11": "minecraft:forest",
+                "value_12": "minecraft:forest_hills",
+                "value_13": "minecraft:frozen_river",
+                "value_14": "minecraft:ice_mountains",
+                "value_15": "minecraft:ice_plains",
+                "value_16": "minecraft:jungle",
+                "value_17": "minecraft:jungle_edge",
+                "value_18": "minecraft:jungle_hills",
+                "value_19": "minecraft:mega_taiga",
+                "value_20": "minecraft:mega_taiga_hills",
+                "value_21": "minecraft:mesa",
+                "value_22": "minecraft:mesa_plateau",
+                "value_23": "minecraft:mesa_plateau_f",
+                "value_24": "minecraft:mushroom_island",
+                "value_25": "minecraft:mushroom_island_shore",
+                "value_26": "minecraft:ocean",
+                "value_27": "minecraft:plains",
+                "value_28": "minecraft:river",
+                "value_29": "minecraft:roofed_forest",
+                "value_30": "minecraft:savannah",
+                "value_31": "minecraft:savanna_plateau",
+                "value_32": "minecraft:stone_beach",
+                "value_33": "minecraft:swampland",
+                "value_34": "minecraft:taiga",
+                "value_35": "minecraft:taiga_hills",
+                "value_36": "minecraft:hell",
+                "value_37": "minecraft:the_end"				
+            }
+        }
+    },
+    "minecraft:achievement.overpowered": {
+        "distance": 4,
+        "parent": "minecraft:build_better_pickaxe",
+        "icon": "minecraft:golden_apple",
+        "icon_data": "1",
+        "icon_nbt": "",
+        "name": "achievement.overpowered",
+        "description": "achievement.overpowered.desc",
+        "x": 24,
+        "y": 21,
+        "hard": false,
+        "condition": {
+            "action": "minecraft:use_item",
+            "item": "{id:\"minecraft:golden_apple\",Damage:1s}"
+        }
+    }
+}

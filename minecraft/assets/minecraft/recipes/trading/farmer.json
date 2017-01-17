@@ -1,0 +1,607 @@
+{
+    "0": [
+        {
+            "buy": "minecraft:wheat",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 18,
+                        "max": 22
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:potato",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 15,
+                        "max": 19
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:carrot",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 15,
+                        "max": 19
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:pumpkin",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 8,
+                        "max": 13
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:melon",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 7,
+                        "max": 12
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 3
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:bread",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                }
+            ],
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:pumpkin_pie",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:apple",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 6
+                    }
+                }
+            ],
+            "tier": 3
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:cookie",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 6,
+                        "max": 10
+                    }
+                }
+            ],
+            "tier": 4
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:cake",
+            "tier": 4
+        }
+    ],
+    "1": [
+        {
+            "buy": "minecraft:string",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:coal",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 16,
+                        "max": 24
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 0
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                }
+            ],
+            "buy2": "minecraft:fish",
+            "buy2_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 6
+                }
+            ],
+            "sell": "minecraft:cooked_fish",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 6
+                }
+            ],
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 7,
+                        "max": 8
+                    }
+                }
+            ],
+            "sell": "minecraft:fishing_rod",
+            "sell_functions": [
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                        "min": 5,
+                        "max": 19
+                    },
+                    "treasure": false
+                }
+            ],
+            "tier": 2
+        }
+    ],
+    "2": [
+        {
+            "buy": "minecraft:wool",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 16,
+                        "max": 22
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 0
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 4
+                    }
+                }
+            ],
+            "sell": "minecraft:shears",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 0
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 4
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 5
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 6
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 7
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 8
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 9
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 10
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 11
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 12
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 13
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 14
+                }
+            ],
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:wool",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 15
+                }
+            ],
+            "tier": 2
+        }
+    ],
+    "3": [
+        {
+            "buy": "minecraft:string",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                }
+            ],
+            "sell": "minecraft:emerald",
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "sell": "minecraft:arrow",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                }
+            ],
+            "tier": 1
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }
+            ],
+            "sell": "minecraft:bow",
+            "tier": 2
+        },
+        {
+            "buy": "minecraft:emerald",
+            "buy2": "minecraft:gravel",
+            "buy2_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 10
+                }
+            ],
+            "sell": "minecraft:flint",
+            "sell_functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 6,
+                        "max": 10
+                    }
+                }
+            ],
+            "tier": 2
+        }
+    ]
+}

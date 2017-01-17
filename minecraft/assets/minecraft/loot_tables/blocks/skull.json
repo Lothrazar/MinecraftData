@@ -1,0 +1,134 @@
+{
+    "facing=north,nodrop=false": [
+        {
+            "item": "{id:\"minecraft:skull\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{SkullType}",
+                    "paste": "{Damage}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Owner}",
+                    "paste": "{tag:{SkullOwner}}"
+                }
+            ]
+        }
+    ],
+    "facing=south,nodrop=false": [
+        {
+            "item": "{id:\"minecraft:skull\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{SkullType}",
+                    "paste": "{Damage}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Owner}",
+                    "paste": "{tag:{SkullOwner}}"
+                }
+            ]
+        }
+    ],
+    "facing=east,nodrop=false": [
+        {
+            "item": "{id:\"minecraft:skull\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{SkullType}",
+                    "paste": "{Damage}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Owner}",
+                    "paste": "{tag:{SkullOwner}}"
+                }
+            ]
+        }
+    ],
+    "facing=west,nodrop=false": [
+        {
+            "item": "{id:\"minecraft:skull\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{SkullType}",
+                    "paste": "{Damage}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Owner}",
+                    "paste": "{tag:{SkullOwner}}"
+                }
+            ]
+        }
+    ],
+    "facing=up,nodrop=false": [
+        {
+            "item": "{id:\"minecraft:skull\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{SkullType}",
+                    "paste": "{Damage}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Owner}",
+                    "paste": "{tag:{SkullOwner}}"
+                }
+            ]
+        }
+    ],
+    "facing=down,nodrop=false": [
+        {
+            "item": "{id:\"minecraft:skull\",Count:1b}",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{SkullType}",
+                    "paste": "{Damage}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Owner}",
+                    "paste": "{tag:{SkullOwner}}"
+                }
+            ]
+        }
+    ],
+    "facing=north,nodrop=true": [
+        {
+            
+        }
+    ],
+    "facing=south,nodrop=true": [
+        {
+            
+        }
+    ],
+    "facing=east,nodrop=true": [
+        {
+            
+        }
+    ],
+    "facing=west,nodrop=true": [
+        {
+            
+        }
+    ],
+    "facing=up,nodrop=true": [
+        {
+            
+        }
+    ],
+    "facing=down,nodrop=true": [
+        {
+            
+        }
+    ]
+}

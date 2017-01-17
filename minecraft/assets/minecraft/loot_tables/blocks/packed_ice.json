@@ -1,0 +1,10 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:packed_ice\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        }
+    ]
+}

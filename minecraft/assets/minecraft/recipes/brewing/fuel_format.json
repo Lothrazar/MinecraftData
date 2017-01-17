@@ -1,0 +1,15 @@
+[
+    { 'A individual fuel recipe'
+        "item": "The fuel item in data tag format",
+        "amount": 'The amount of brews the fuel will last as an integer'
+        "functions": [
+            {
+                "function": "minecraft:return_items" 'to return in the fuel slot'
+                "item": "The item in data tag format, only used for dragon breath"
+            }
+        ]
+    }
+]
+
+Notes: 
+When NBT is copied, and a list which already exists is being specified in return, it adds to the end of the list, unless the returned list is empty.

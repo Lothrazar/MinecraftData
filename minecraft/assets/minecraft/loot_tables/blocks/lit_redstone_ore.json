@@ -1,0 +1,86 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:redstone_ore\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}"        
+                ]
+            }
+        },
+        {
+            "item": "{id:\"minecraft:redstone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}"        
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 10
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:redstone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}"        
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 15
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:redstone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}"        
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 20
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:redstone\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
+                ],
+                "minecraft:drops": 0
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 5
+                    }
+                }
+            ]
+        }
+    ]
+}

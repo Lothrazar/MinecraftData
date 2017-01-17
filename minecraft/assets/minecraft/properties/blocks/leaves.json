@@ -1,0 +1,802 @@
+{
+    "check_decay=false,decayable=false,variant=oak": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=false,decayable=false,variant=spruce": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=false,decayable=false,variant=birch": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=false,decayable=false,variant=jungle": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=false,variant=oak": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=false,variant=spruce": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=false,variant=birch": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=false,variant=jungle": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=false,decayable=true,variant=oak": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=false,decayable=true,variant=spruce": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=false,decayable=true,variant=birch": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=false,decayable=true,variant=jungle": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=true,variant=oak": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=true,variant=spruce": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=true,variant=birch": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "check_decay=true,decayable=true,variant=jungle": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:stone_sword": 0.2,
+                "minecraft:iron_sword": 0.2,
+                "minecraft:diamond_sword": 0.2,
+                "minecraft:wooden_sword": 0.2,
+                "minecraft:shears": 0.05
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                "minecraft:wooden_sword": 1,
+                "minecraft:stone_sword": 1,
+                "minecraft:iron_sword": 1,
+                "minecraft:diamond_sword": 1,
+                "minecraft:wooden_sword": 1,
+                "minecraft:shears": 1
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 1,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

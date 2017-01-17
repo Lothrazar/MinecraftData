@@ -1,0 +1,2770 @@
+{
+    "contents=empty,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=0": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=1": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=2": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=3": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=4": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=5": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=6": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=7": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=8": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=9": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=10": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=11": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=12": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=13": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=14": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=empty,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        }
+    ],
+    "contents=rose,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=blue_orchid,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=allium,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=houstonia,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=red_tulip,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=orange_tulip,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=white_tulip,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "contents=pink_tulip,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "contents=oxeye_daisy,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ],
+    "contents=dandelion,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:yellow_flower\",Count:1b}"
+        }
+    ],
+    "contents=oak_sapling,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+        }
+    ],
+    "contents=spruce_sapling,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+        }
+    ],
+    "contents=birch_sapling,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=jungle_sapling,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+        }
+    ],
+    "contents=acacia_sapling,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+        }
+    ],
+    "contents=dark_oak_sapling,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+        }
+    ],
+    "contents=mushroom_red,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:red_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=mushroom_brown,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+        }
+    ],
+    "contents=dead_bush,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:deadbush\",Count:1b}"
+        }
+    ],
+    "contents=fern,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}"
+        }
+    ],
+    "contents=cactus,legacy_data=15": [
+        {
+            "item": "{id:\"minecraft:flower_pot\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:cactus\",Count:1b,Damage:0s}"
+        }
+    ]
+}

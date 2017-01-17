@@ -1,0 +1,15 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:dragon_egg\",Count:1b}",
+            "conditions": {
+                "minecraft:block": [
+                    "{id:\"minecraft:piston_extension\",Count:1b}",
+                    "{id:\"minecraft:piston\",Count:1b}",
+                    "{id:\"minecraft:sticky_piston\",Count:1b}",
+                    "{id:\"minecraft:piston_head\",Count:1b}"
+                ]
+            }
+        }
+    ]
+}

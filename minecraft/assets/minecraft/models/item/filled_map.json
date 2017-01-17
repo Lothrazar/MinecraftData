@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:items/map_filled",
+        "layer1": "minecraft:items/map_filled_markings"
+    }
+}

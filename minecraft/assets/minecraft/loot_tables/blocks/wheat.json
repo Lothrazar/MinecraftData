@@ -1,0 +1,54 @@
+{
+    "age=0": [
+        {
+            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+        }
+    ],
+    "age=1": [
+        {
+            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+        }
+    ],
+    "age=2": [
+        {
+            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+        }
+    ],
+    "age=3": [
+        {
+            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+        }
+    ],
+    "age=4": [
+        {
+            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+        }
+    ],
+    "age=5": [
+        {
+            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+        }
+    ],
+    "age=6": [
+        {
+            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+        }
+    ],
+    "age=7": [
+        {
+            "item": "{id:\"minecraft:wheat\",Count:1b}"
+        },
+        {
+            "item": "{id:\"minecraft:wheat_seeds\"}",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+[
+    { 'A individual brewing recipe'
+        "potion": "The potion to be replaced in data tag format",
+        "item": "The ingredient to be used in data tag format",
+        "result": "The resulting potion in data tag format",
+        "functions": [
+            {
+                "function": "minecraft:return_items" 'to return in the ingredient slot only, used for dragon breath'
+                "item": "The item in data tag format"
+            },
+            {
+                "function": "minecraft:copy_nbt" 'For adding NBT data from the tag tag to the returning item',
+                "copy": "What tag to copy, empty means all tags",
+                "paste": "Where to paste the tag, empty for same path as copy, note: this does NOT defaut to BlockEntityTag:{}"
+            }
+        ]
+    }
+]
+
+Notes: 
+When NBT is copied, and a list which already exists is being specified in return, it adds to the end of the list, unless the returned list is empty.

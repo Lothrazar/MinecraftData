@@ -1,0 +1,10 @@
+{
+	"hostile": {
+		"false": {
+			"model": "minecraft:giant"
+		},
+		"true": {
+			"model": "minecraft:giant_hostile"
+		}
+	}
+}

@@ -1,0 +1,143 @@
+*Ideas by skylinerw*
+Entity selector for containers/fishing, not mobs
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "looting_player",
+    "properties": {
+        "minecraft:on_fire": true
+    }
+}
+
+Conditions:
+{
+    "condition": "minecraft:random_chance_with_lure",
+    "chance": 1.0,
+    "lure_multiplier": -0.15
+}
+{
+    "condition": "minecraft:death_source",
+    "source": "fall",
+    "inverse": true
+}
+
+Entity Properties:
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "properties": {
+        "minecraft:in_water": true
+    }
+}
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "killer_player",
+    "properties": {
+        "minecraft:biome": "minecraft:the_end"
+    }
+}
+
+Functions:
+{
+    "function": "minecraft:set_potion",
+    "effects": [
+        "minecraft:speed",
+        "minecraft:strong_healing",
+        "minecraft:strong_healing"
+    ]
+}
+{
+    "function": "minecraft:set_custom_effects",
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "amplifier": {
+                "min": 0,
+                "max": 1
+            },
+            "duration": {
+                "min": 300,
+                "max": 800
+            },
+            "ambient": true,
+            "particles": true
+        }
+    ]
+}
+
+*Ideas by FVbico*
+spawning entity as loot (DONT USE IF YOU ARE GOING TO IMPLEMENT THE SPAWNING JSON FILES)
+{
+    "type": "entity",
+    "name": "minecraft:chicken",
+    "weight": 1,
+    "functions": [
+        {
+            "function": "minecraft:set_nbt",
+            "nbt": "{IsChickenJockey:1b,Passengers:[{id:\"minecraft:zombie\",IsBaby:1b}]}"
+        }
+    ]
+}
+
+Dragon respawned condition and gamemode condition
+{
+    "conditions": [
+        {
+            "condition": "minecraft:dragon_respawned",
+            "inverse": true
+        },
+		{
+            "condition": "minecraft:gamemode",
+			"gamemode": "adventure",
+            "inverse": true
+        }
+    ]
+}
+
+Entity properties is_baby(all animals), nbt(all entities(also applies to container properties)) and has_effect(all mobs)
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "properties": {
+        "minecraft:is_baby": true,
+        "minecraft:nbt": "{CustomNameVisible:1b}",
+		"minecraft:has_effect": [
+			"minecrsft:speed",
+			"minecraft:haste"
+		]
+    }
+}
+{
+    "condition": "minecraft:container_properties",
+    "properties": {
+        "minecraft:nbt": "{id:\"minecraft:dispenser\"}"
+    }
+}
+
+Function spawn_more for spawning entities (*more*, so it'll spawn 1 + selected number) (DONT USE IF YOU ARE GOING TO IMPLEMENT THE SPAWNING JSON FILES)
+{
+    "functions": [
+        {
+            "function": "minecraft:spawn_more",
+            "amount": {
+				"min": 1,
+				"max": 4
+			}
+        }
+    ]
+}
+
+New type: inventory, xp
+{
+    "type": "experience",
+    "weight": 1,
+    "functions": [
+        {
+            "function": "minecraft:set_value",
+            "value": 5
+        }
+    ]
+}
+{
+    "type": "inventory",
+    "weight": 1
+}

@@ -1,0 +1,114 @@
+10-1-2017:
++ added block_properties (gravity, burnability, hardness, tool damage, light(grass, mushrooms, crops), needing support(crops), etc.)
+ # is not fully complete; to do:
+  + add hitbox models
+  + add boundingbox models
+  + add aditional functions (like slowness on soul sand, and particle spawning)
+  * change the hurt_on_touch to a function
+* changed old wooden slabs to not require a pickaxe
+! fixed completely wrong item drop for (mossy) cobblestone walls
+! fixed missing facing=up and facing=down for command block loot tables
+! fixed stone (brick), (red) sandstone, quartz, purpur and nether brick stairs have no tool condition
+! fixed enchanting table loot table states enchantment (and is named as such)
+! fixed missing silk touch drop for ender chests
+! fixed missing silk touch drop for monster eggs
+- removed piston extension loot table; you can't break it properly anyway (without commands)
+# note will be foccusing more on the entity models now
+# note the planned.txt now shows more details and progress made in files to be uploaded (eg entity models)
+
+24-12-2016:
+* changed the enchanting/enchantability json files quite a bit
+! fixed default crafting recipes file misses coloring values for leather armor/fireworks
+! fixed block loot table for brick stairs has no tool condition
+! fixed bookshelf loot table has no silk touch drop
+
+15-12-2016:
++ added the iron/gold nugget related recipes to furnace and crafting
++ added a note at the recipes (most complx ones are first)
+! fixed the block loot table of activator_rail is named activator_rails
+# note block properties and models are in the make
+
+3-12-2016:
++ added a nbt condition to the block loot tables
++ added plains type village sperately from the default folder(previously called normal)
+* changed structure DataVersion:815 to 1.11 full release (DataVersion:819) so no upgrade path code needs to run on them
+! fixed village structure files have too much/duplicate data
+
+21-11-2015:
+* remade the crafting files:
+ + added item groups
+ + added optional ingredients tag
+ + added add_nbt function
+ + added a few tags that control item group movability
+ + added an id tag to the items, so that functions can target the id instead
+ * changed no slot_x/item_x but an items list, this makes it so recipes don't break if a mod adds a crafting recipe with additional rows on the side
+ * changed repair function
+ - removed multiple recipe files
++ added default en_us.lang, with some chances (see changes.lang)
+
+14-11-2016:
+* changed the mooshroom loot table is now called mooshroom.json instead of mushroom_cow.json (to be consistent with the others, who use the new entity names)
+! fixed some more of files have invalid JSON
+
+8-11-2016:
++ added a lang file for some missing/incorrect/unused strings
+
+3-11-2016:
++ added player loot table (only contains dropping inventory and apple for notch)
+! fixed a number of files have invalid JSON, I did NOT double check each of the loot tables
+
+31-10-2016:
++ added all current files from the jar
+ - removed unused parts of the textures (eg. angry villager particle, villager speach bubble)
+ - removed unused texture files
++ added all current item/block models and block states
+* changed loot tables quite a bit:
+ + added entity_property has_effect
+ + added condition gamemode
+ + added type inventory (if specified it drops it's inventory/gear (inventory is only applicatable to villagers, minecarts with chests/hoppers, falling blocks, (zombie/skeleton) horses, donkeys, mules, llamas)
+ * changed custom_name to name
+ * changed type entity name minecraft:xp_orb to type experience function set_value value X
+ * changed entity_properties to have a data tag tag
+  + added saddle drop for saddled pigs
+  + added chest drop for chested mobs
+  + added wool drops to normal sheep drops
+  - removed colored sheep specific loot tables
+  - removed size for slimes
+  - removed is_baby for all zombie types
+* changed to no longer have mediafire folders, but be a zipped file instead
+* changed organization
+ * made it like the minecraft jar's storage
+! fixed functions and some loot table stuff don't have prefixes
+! fixed fishing rod has no enchantability set
+- removed hoe enchantability
+- removed JSONfied files (options and server properties)
+
+29-10-2016:
++ added more to the Entity_loot_Table_upgrade.json
++ added minecraft_pe_ce.json to the achievements, they have no requirements set (only the mini-game related achievements and awarded all trophies are not in this list)
++ added more achievement functionality to make some of the pe/ce achievements trackabale
++ added all entities to the entity loot tables (inclusing arrows, potions, minecarts, etc.)
+* changed the block list in the achievements format a bit, can now track depending on last interacted block, and check for "2 happens after 1 happened, which happened after 0"
+! fixed shulker boxes lose Lock tag upon breaking and placing
+
+27-10-2016:
++ added structure file mansion/room_big_high_sealed1
+! fixed enchanting had wrong weight for curses
+- removed Panorama files
+
+25-10-2016:
++ added the Decorations tag to the cartographer's exploration map trades
++ added blocks list in the achievements format for detecting whole block configuratons
+* changed normal maps now have a MapColor tag value of 0
+* changed the way to target the player trying to get the achievement in the achievements.json
+! fixed librarian cartographer had the MapColor tag outside the display tag in the exploration map trades
+! fixed exploration maps could be scaled
+- removed head_in_block, feet_in_block and feet_on_block in the achievemnts format, use the blocks list instead.
+
+21-10-2016:
++ re-added the data structure blocks to the end city structues for loot tables only
+* changed DataVersion of all structures to 815
+* changed the end city structures are now rotated to face north
+! fixed some end city structures had no structure voids in them
+! fixed some structures had me set as author, set them to jeb_ instead
+# note the current structure files are now in their final state

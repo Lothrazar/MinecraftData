@@ -1,0 +1,380 @@
+{
+    "type=poppy": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=blue_orchid": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=allium": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=houstonia": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=red_tulip": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=orange_tulip": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=white_tulip": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=pink_tulip": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "type=oxeye_daisy": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:dirt",
+                    "minecraft:grass"
+                ]
+            },
+            "resistence": 0,
+            "transparent": true,
+            "solid": false,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

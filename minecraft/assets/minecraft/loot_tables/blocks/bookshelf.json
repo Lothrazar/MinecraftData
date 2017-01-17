@@ -1,0 +1,16 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:bookshelf\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
+            }
+        },
+        {
+            "item": "{id:\"minecraft:book\",Count:3b}",
+            "conditions": {
+                "minecraft:drops": 0
+            }
+        }
+    ]
+}

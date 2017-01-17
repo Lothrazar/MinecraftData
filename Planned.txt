@@ -1,0 +1,466 @@
+General:
+
+
+JSON:
+list of yet to be created JSON files:
++ spawning (Entity spawning, including: random spawns, breeding, collision created mobs (eg charged creeper), generated)
+ + add bat
+ + add chicken
+ + add cow
+ + add mooshroom
+ + add pig
+ + add rabbit
+ + add sheep
+ + add squid
+ + add villager
+ + add enderman
+ + add polar bear
+ + add spider
+ + add cave_spider
+ + add zombie_pigman
+ + add blaze
+ + add creeper
+ + add endermite
+ + add ghast
+ + add guardian
+ + add elder_guradian
+ + add evocation_illager
+ + add magma_cube
+ + add shulker
+ + add silverfish
+ + add skeleton
+ + add wither_skeleton
+ + add stray
+ + add slime
+ + add vex
+ + add vindication_illager
+ + add witch
+ + add zombie
+ + add zombie_villager
+ + add husk
+ + add giant
+ + add horse
+ + add donkey
+ + add mule
+ + add zombie_horse
+ + add skeleton_horse
+ + add ocelot
+ + add wolf
+ + add llama
+ + add villager_golem
+ + add snowman
+ + add ender_dragon
+ + add wither
+ + add falling_block
+ + add tnt
+ + add boat
+ + add minecart
+ + add chest_minecart
+ + add commandblock_minecart
+ + add furnace_minecart
+ + add hopper_minecart
+ + add tnt_minecart
+ + add spawner_minecart
+ + add fireball
+ + add small_fireball
+ + add dragon_fireball
+ + add llama_spit
+ + add arrow
+ + add spectral_arrow
+ + add xp_bottle
+ + add potion
+ + add egg
+ + add ender_pearl
+ + add eye_of_ender_sygnal
+ + add snowball
+ + add wither_skull
+ + add armor_stand
+ + add end_crystal
+ + add evocation_fangs
+ + add item_frame
+ + add leash_knot
+ + add painting
+ + add xp_orb
+ + add bobber
+ + add item
+ + add fireworks_rocket
+ + add lightning_bolt
+ - remove the entity spawning from loot tables
++ biomes (Would list: grass color, cave count/size, ores, structures (including trees, grass, dungeons, villages, etc.), terrain blocks, terrain noise, mobs it can('t) spawn (and method)(Not things like 70% of zombie=husk in deserts, but just Zombie, skeleton, etc and then be combined with spawning.json), NOT water level, that's global)
+ + add ocean
+ + add plains
+ + add plains_m
+ + add sunflower_plains
+ + add desert
+ + add desert_m
+ + add extreme_hills
+ + add extreme_hills_m
+ + add forest
+ + add flower_forest
+ + add taiga
+ + add taiga_m
+ + add swampland
+ + add swampland_m
+ + add river
+ + add hell
+ + add the_end
+ + add frozen_ocean
+ + add frozen_river
+ + add ice_plains
+ + add ice_plains_spikes
+ + add ice_mountains
+ + add mushroom_island
+ + add mushroom_island_shore
+ + add beach
+ + add desert_hills
+ + add forest_hills
+ + add taiga_hills
+ + add extreme_hills_edge
+ + add jungle
+ + add jungle_m
+ + add jungle_hills
+ + add jungle_edge
+ + add jungle_edge_m
+ + add deep_ocean
+ + add stone_beach
+ + add cold_beach
+ + add birch_forest
+ + add birch_forest_m
+ + add birch_forest_hills
+ + add birch_forest_hills_m
+ + add roofed_forest
+ + add roofed_forest_m
+ + add cold_taiga
+ + add cold_taiga_m
+ + add cold_taiga_hills
+ + add mega_taiga
+ + add mega_spruce_taiga
+ + add mega_taiga_hills
+ + add redwood_taiga_hills_m
+ + add extreme_hills_plus
+ + add extreme_hills_plus_m
+ + add savanna
+ + add savanna_m
+ + add savanna_plateau
+ + add savanna_plateau_m
+ + add mesa
+ + add mesa_bryce
+ + add mesa_plateau_f
+ + add mesa_plateau_f_m
+ + add mesa_plateau
+ + add mesa_plateau_m
+ + add the_void
++ entity_properties (water-fly-ground, fire resistance, armor points, hostility, ai (giant=none, animal=animal, pathfind, pathfind-water, etc))
+ + add bat
+ + add chicken
+ + add cow
+ + add mooshroom
+ + add pig
+ + add rabbit
+ + add sheep
+ + add squid
+ + add villager
+ + add enderman
+ + add polar bear
+ + add spider
+ + add cave_spider
+ + add zombie_pigman
+ + add blaze
+ + add creeper
+ + add endermite
+ + add ghast
+ + add guardian
+ + add elder_guradian
+ + add evocation_illager
+ + add magma_cube
+ + add shulker
+ + add silverfish
+ + add skeleton
+ + add wither_skeleton
+ + add stray
+ + add slime
+ + add vex
+ + add vindication_illager
+ + add witch
+ + add zombie
+ + add zombie_villager
+ + add husk
+ + add giant
+ + add horse
+ + add donkey
+ + add mule
+ + add zombie_horse
+ + add skeleton_horse
+ + add ocelot
+ + add wolf
+ + add llama
+ + add villager_golem
+ + add snowman
+ + add ender_dragon
+ + add wither
+ + add falling_block
+ + add tnt
+ + add boat
+ + add minecart
+ + add chest_minecart
+ + add commandblock_minecart
+ + add furnace_minecart
+ + add hopper_minecart
+ + add tnt_minecart
+ + add spawner_minecart
+ + add fireball
+ + add small_fireball
+ + add dragon_fireball
+ + add llama_spit
+ + add arrow
+ + add spectral_arrow
+ + add xp_bottle
+ + add potion
+ + add egg
+ + add ender_pearl
+ + add eye_of_ender_sygnal
+ + add snowball
+ + add wither_skull
+ + add armor_stand
+ + add ender_crystal
+ + add evocation_fangs
+ + add item_frame
+ + add leash_knot
+ + add painting
+ + add xp_orb
+ + add bobber
+ + add item
+ + add fireworks_rocket
+ + add lightning_bolt
+
+List of planned changes:
++ add hitbox models to the block properties
++ add boundingbox models to the block properties
++ add aditional functions (like slowness on soul sand, and particle spawning) in the block properties
+* change the hurt_on_touch to a function and make it more specific (sneaking on magam blocks doesn't hurt you) in the block properties
+* update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
+
+
+Structures:
+list of yet to be created structure files:
+
+List of planned changes:
+* update the DataVersion to 1.11.2
+* update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
+
+
+Models: (WIP, the completed parts are marked as such)
+list of yet to be created model files:
++ add particle models
++ add entities (no player models)
+ + add bat
+ + add chicken
+  + add baby
+ + add cow
+  + add baby
+ + add mooshroom
+  + add baby
+ + add pig
+  + add baby
+  + add saddle variant
+ + add rabbit
+  + add baby
+  + add color variants
+ + add sheep
+  + add baby
+  + add color variants
+ + add squid
+ + added villager
+  + add baby
+  + added profession variants
+  + add riding variant
+ + add enderman
+ + add polar bear
+  + add baby
+ + add spider
+ + add cave_spider
+ + added zombie_pigman
+  + add baby
+  + add riding variant
+ + add blaze
+ + add creeper
+  + add charged variant
+ + add endermite
+ + add ghast
+ + add guardian
+ + add elder_guradian
+ + added evocation_illager
+  + add riding variant
+ + add magma_cube
+ + add shulker
+ + add silverfish
+ + added skeleton
+  + add riding variant
+ + added wither_skeleton
+  + add riding variant
+ + added stray
+  + add riding variant
+ + add slime
+ + add vex
+ + added vindication_illager
+  + add riding variant
+ + added witch
+  + add riding variant
+ + added zombie
+  + add baby
+  + add riding variant
+ + added zombie_villager
+  + add baby
+  + add riding variant
+ + added husk
+  + add baby
+  + add riding variant
+ + added giant
+  + add riding variant
+ + add horse
+  + add sadled variant
+  + add color variants
+  + add armored variants
+ + add donkey
+  + add sadled variant
+  + add chested variant
+ + add mule
+  + add sadled variant
+  + add chested variant
+ + add zombie_horse
+  + add sadled variant
+ + add skeleton_horse
+  + add sadled variant
+ + add ocelot
+  + add cat variants
+  + add sitting variants
+ + add wolf
+  + add collar collor variants
+  + add angry variant
+  + add sitting variants
+ + add llama
+  + add sadled variants
+  + add color variants
+  + add chested variant
+ + add villager_golem
+  + add poppy variant
+ + add snowman
+  + add pumpkinless variant
+ + add ender_dragon
+ + add wither
+  + add invul variant
+  + add armor variant
+ + add falling_block
+  # parent to the block
+ + add tnt
+  # parent to the block
+ + add boat
+  + add wood variants
+ + add minecart
+  + add block position
+   # parent to the block
+  + add chest_minecart
+  + add commandblock_minecart
+  + add furnace_minecart
+  + add hopper_minecart
+  + add tnt_minecart
+  + add spawner_minecart
+ + add fireball
+  # parent to the item
+ + add small_fireball
+  # parent to the item
+ + add dragon_fireball
+ + add llama_spit
+ + add arrow
+  + add tipped variant
+ + add spectral_arrow
+ + add xp_bottle
+  # parent to the item
+ + add potion
+  # parent to the item
+ + add egg
+  # parent to the item
+ + add ender_pearl
+  # parent to the item
+ + add eye_of_ender_sygnal
+  # parent to the item
+ + add snowball
+  # parent to the item
+ + add wither_skull
+  + add blue variant
+ + add armor_stand
+  + add small variant
+  + add armed variant
+  + add NoBasePlate variant
+ + add ender_crystal
+ + add evocation_fangs
+ * change the item frame to entity, instead of block
+  + add map variant
+ + add leash_knot
+ + add painting
+  + add art variants
+ + add xp_orb
+ + add bobber
+ + add item
+  # parent to the item model
+ + add fireworks_rocket
+  # parent to the item model
+ + add lightning_bolt
++ add nbt dependent models (basically the same as blockstates, but instead of the state, it's the NBT required (only specified NBT is required))
++ add item_states (NBT dependent models (damage for tools/armor, color for potions/splash potions/lingering potions/tipped arrows, color for mob eggs), specify enchantment glint, clock/compass positioning)
+ 
+List of planned changes:
++ added armor layer to the following:
+ + added to zombie
+  + add to baby
+ + added to zombie_villager
+  + add to baby
+ + added to zombie_pigman
+  + add to baby
+ + added to husk
+  + add to baby
+ + added to skeleton
+ + added to wither_skeleton
+ + added to stray
+ + added to giant
+ + added to villager
+  + add to baby
+ + added to witch
+ + added to vindication_illager
+ + added to evocation_illager
++ added the held item positions to:
+ + added to zombie
+  + add to baby
+ + added to zombie_villager
+  + add to baby
+ + added to zombie_pigman
+  + add to baby
+ + added to husk
+  + add to baby
+ + added to skeleton
+ + added to wither_skeleton
+ + added to stray
+ + added to giant
+ + added to villager
+  + add to baby
+ + added to witch
+ + added to vindication_illager
+ + added to evocation_illager
+ + add to vex
++ add eyes layer to:
+ + add to spider
+ + add to cave_spider
+ + add to enderman
+ + add to ender_dragon
++ add seperatly textureable legs, arms, etc. for all entities
+ + add fixed textures
++ added villager, illager and witch hat layer rendering
+ + added the hat to the zombie villagers
+* change texture files to be square so they can be properly used/animated
+* change the particles and paintings into a file for each (like how it was done with blocks and items in 1.5 (add animation to the particles))
+* change giant texture to steve/alex
+* change the sheep wool and wolf collar texture for 1 per color, instead of hardcoded coloring
+* change sheared sheep to show correct wool color
+* changed the villagers/illagers/witch to unfold their arms when they wear a chestplate, or hold something in their hand (only exceptions being vindicator axe and witch potion)
+* update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
+! fixed villager, illager and witch robe cuts off 2 pixels early

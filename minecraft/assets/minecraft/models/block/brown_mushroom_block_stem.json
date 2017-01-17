@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "side": "minecraft:blocks/mushroom_block_skin_stem",
+        "end": "minecraft:blocks/mushroom_block_inside"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "default": [
+        {
+            "item": "{id:\"minecraft:sea_lantern\",Count:1b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "tag:{ench:[{id:33s}]}}"    
+                ]
+            }
+        },
+        {
+            "item": "{id:\"minecraft:prismarine_crystals\"}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:35s,lvl:1s}]}}"        
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:prismarine_crystals\"}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:35s,lvl:2s}]}}"    
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:prismarine_crystals\"}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{tag:{ench:[{id:35s,lvl:3s}]}}"        
+                ]
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 6
+                    }
+                }
+            ]
+        },
+        {
+            "item": "{id:\"minecraft:prismarine_crystals\"}",
+            "conditions": {
+                "minecraft:drops": 0
+            },
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

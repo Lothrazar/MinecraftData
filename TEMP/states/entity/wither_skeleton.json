@@ -1,0 +1,10 @@
+{
+	"hostile": {
+		"false": {
+			"model": "minecraft:wither_skeleton"
+		},
+		"true": {
+			"model": "minecraft:wither_skeleton_hostile"
+		}
+	}
+}

@@ -1,0 +1,322 @@
+{
+    "facing=north,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=false,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=false,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=false,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=false,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=right,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=left,open=false,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=right,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=left,open=true,powered=false": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=right,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=left,open=false,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=right,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=north,in_wall=true,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=south,in_wall=true,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=east,in_wall=true,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ],
+    "facing=west,in_wall=true,hinge=left,open=true,powered=true": [
+        {
+            "item": "{id:\"minecraft:fence_gate\",Count:1b}"
+        }
+    ]
+}

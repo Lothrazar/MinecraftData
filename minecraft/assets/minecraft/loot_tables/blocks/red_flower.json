@@ -1,0 +1,47 @@
+{
+    "type=poppy": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+        }
+    ],
+    "type=blue_orchid": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+        }
+    ],
+    "type=allium": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+        }
+    ],
+    "type=houstonia": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+        }
+    ],
+    "type=red_tulip": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+        }
+    ],
+    "type=orange_tulip": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+        }
+    ],
+    "type=white_tulip": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+        }
+    ],
+    "type=pink_tulip": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+        }
+    ],
+    "type=oxeye_daisy": [
+        {
+            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+        }
+    ]
+}

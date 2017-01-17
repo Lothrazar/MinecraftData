@@ -1,0 +1,642 @@
+{
+    "facing=north,occupied=false,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "north": "minecraft:bed[facing=south,occupied=false,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=south,occupied=false,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "south": "minecraft:bed[facing=north,occupied=false,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=east,occupied=false,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "west": "minecraft:bed[facing=east,occupied=false,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=west,occupied=false,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "east": "minecraft:bed[facing=west,occupied=false,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=north,occupied=true,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "north": "minecraft:bed[facing=south,occupied=true,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=south,occupied=true,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "south": "minecraft:bed[facing=north,occupied=true,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=east,occupied=true,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "east": "minecraft:bed[facing=west,occupied=true,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=west,occupied=true,part=head": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "west": "minecraft:bed[facing=east,occupied=true,part=foot]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=north,occupied=false,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "north": "minecraft:bed[facing=south,occupied=false,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=south,occupied=false,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "south": "minecraft:bed[facing=north,occupied=false,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=east,occupied=false,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "east": "minecraft:bed[facing=west,occupied=false,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=west,occupied=false,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "west": "minecraft:bed[facing=east,occupied=false,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=north,occupied=true,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "north": "minecraft:bed[facing=south,occupied=true,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=south,occupied=true,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "south": "minecraft:bed[facing=north,occupied=true,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=east,occupied=true,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "east": "minecraft:bed[facing=west,occupied=true,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    },
+    "facing=west,occupied=true,part=foot": {
+        "{}": {
+            "hardness": {
+                "minecraft:default": 0.35
+            },
+            "gravity": false,
+            "burnability": 1,
+            "light": 0,
+            "light_needed": {
+                
+            },
+            "tool_damage": {
+                
+            },
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "west": "minecraft:bed[facing=east,occupied=true,part=head]",
+                "down": ""
+            },
+            "resistence": 1,
+            "transparent": true,
+            "solid": true,
+            "hurt_on_touch": "",
+            "pushable": 2,
+            "fall_damage": 1,
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
+        }
+    }
+}

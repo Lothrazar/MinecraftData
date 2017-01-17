@@ -1,0 +1,114 @@
+{
+    "check_decay=false,decayable=false,variant=oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ],
+    "check_decay=false,decayable=false,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=false,decayable=false,variant=birch": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=false,decayable=false,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
+            "chance": 0.025
+        }
+    ],
+    "check_decay=true,decayable=false,variant=oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ],
+    "check_decay=true,decayable=false,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=true,decayable=false,variant=birch": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=true,decayable=false,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
+            "chance": 0.025
+        }
+    ],
+    "check_decay=false,decayable=true,variant=oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ],
+    "check_decay=false,decayable=true,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=false,decayable=true,variant=birch": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=false,decayable=true,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
+            "chance": 0.025
+        }
+    ],
+    "check_decay=true,decayable=true,variant=oak": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
+            "chance": 0.05
+        },
+        {
+            "item": "{id:\"minecraft:apple\",Count:1b}",
+            "chance": 0.005
+        }
+    ],
+    "check_decay=true,decayable=true,variant=spruce": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=true,decayable=true,variant=birch": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
+            "chance": 0.05
+        }
+    ],
+    "check_decay=true,decayable=true,variant=jungle": [
+        {
+            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
+            "chance": 0.025
+        }
+    ]
+}

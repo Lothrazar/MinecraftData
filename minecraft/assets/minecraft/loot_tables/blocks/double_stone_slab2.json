@@ -1,0 +1,30 @@
+{
+    "seamless=false,variant=red_sandstone": [
+        {
+            "item": "{id:\"minecraft:stone_slab2\",Count:2b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
+                ]
+            }
+        }
+    ],
+    "seamless=true,variant=red_sandstone": [
+        {
+            "item": "{id:\"minecraft:stone_slab2\",Count:2b}",
+            "conditions": {
+                "minecraft:tool": [
+                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
+                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
+                ]
+            }
+        }
+    ]
+}
