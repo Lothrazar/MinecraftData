@@ -4,6 +4,7 @@ replaced tile. with block.
 removed .name
 renamed the blocks, items, entities, effects and enchantments keys to use the actual name as used in commands
 ordered alphabetically
+some other minor changes
 
 
 //missing strings (tried to be found by the game like this)
@@ -31,10 +32,8 @@ entity.LlamaSpit.name=Llama Spit
 
 //untranslated in-game, not even got a key assigned/wrong key assigned (block.xxxxx are for command feedback distinction)
 
-minecraft:block.flowing_water=Flowing Water
-minecraft:block.flowing_lava=Flowing Lava
 minecraft:block.melon_stem=Melon Stem
-minecraft:block.piston_extension=Moving Piston
+minecraft:block.piston_extension=Moving Block
 minecraft:block.piston_head=Piston Head
 minecraft:block.end_portal=End Portal
 minecraft:block.end_gateway=End Gateway
@@ -43,37 +42,15 @@ minecraft:block.brown_mushroom=Brown Mushroom
 minecraft:block.brown_mushroom_block=Brown Mushroom Block
 minecraft:block.red_mushroom=Red Mushroom
 minecraft:block.red_mushroom_block=Red Mushroom Block
-minecraft:block.lit_furnace=Lit Furnace
-minecraft:block.lit_redstone_lamp=Lit Redstone Lamp
-minecraft:block.lit_redstone_ore=Lit Redstone Ore
-minecraft:block.unlit_redstone_torch=Unlit Redstone Torch
-minecraft:block.standing_sign=Standing Sign
 minecraft:block.wall_sign=Wall Sign
-minecraft:block.powered_repeater=Powered Repeater
-minecraft:block.powered_comparator=Powered Comparator
 minecraft:block.stone_button=Stone Button
 minecraft:block.wooden_button=Wooden Button
 minecraft:block.snow_layer=Snow Layer
-minecraft:block.standing_banner=Standing Banner
+minecraft:block.banner=Standing Banner
 minecraft:block.wall_banner=Wall Banner
-minecraft:block.double_purpur_slab=Double Purpur Slab
-minecraft:block.double_stone_slab=Double Stone Slab
-minecraft:block.double_sandstone_slab=Double Sandstone Slab
-minecraft:block.double_pertified_wood_slab=Double Wooden Slab
-minecraft:block.double_cobblestone_slab=Double Cobblestone Slab
-minecraft:block.double_brick_slab=Double Bricks Slab
-minecraft:block.double_stone_brick_slab=Double Stone Bricks Slab
-minecraft:block.double_nether_brick_slab=Double Nether Brick Slab
-minecraft:block.double_quartz_slab=Double Quartz Slab
-minecraft:block.double_red_sandstone_slab=Double Red Sandstone Slab
-minecraft:block.double_oak_wood_slab=Double Oak Wood Slab
-minecraft:block.double_spruce_wood_slab=Double Spruce Wood Slab
-minecraft:block.double_birch_wood_slab=Double Birch Wood Slab
-minecraft:block.double_jungle_wood_slab=Double Jungle Wood Slab
-minecraft:block.double_acacia_wood_slab=Double Acacia Wood Slab
-minecraft:block.double_big_oak_wood_slab=Double Dark Oak Wood Slab
-minecraft:block.unpowered_repeater=Unpowered Repeater
-minecraft:block.unpowered_comparator=Unpowered Comparator
+minecraft:block.wall_lever=Wall Lever
+minecraft:block.wall_redstone_torch=Wall Redstone Torch
+minecraft:block.wall_torch=Wall Torch
 minecraft:block.oak_door=Oak Door
 minecraft:block.spruce_door=Spruce Door
 minecraft:block.birch_door=Birch Door
@@ -84,21 +61,26 @@ minecraft:block.iron_door=Iron Door
 minecraft:block.brewing_stand=Brewing Stand
 minecraft:block.cauldron=Cauldron
 minecraft:block.skeleton_skull=Skeleton Skull
+minecraft:block.wall_skeleton_skull=Wall Skeleton Skull
 minecraft:block.wither_skeleton_skull=Wither Skeleton Skull
-minecraft:block.zombie_skull=Zombie Head
-minecraft:block.player_skull=Player Head
-minecraft:block.creeper_skull=Creeper Head
-minecraft:block.dragon_skull=Dragon Head
-minecraft:block.nether_wart=Nether Wart
+minecraft:block.wall_wither_skeleton_skull=Wall Wither Skeleton Skull
+minecraft:block.zombie_head=Zombie Head
+minecraft:block.wall_zombie_head=Wall Zombie Head
+minecraft:block.player_head=Player Head
+minecraft:block.wall_player_head=Wall Player Head
+minecraft:block.creeper_head=Creeper Head
+minecraft:block.wall_creeper_head=Wall Creeper Head
+minecraft:block.ender_dragon_head=Ender Dragon Head
+minecraft:block.wall_ender_dragon_head=Wall Ender Dragon Head
 
 minecraft:entity.item_frame=Item Frame
 minecraft:entity.leash_knot=Lead
 minecraft:entity.xp_bottle=Bottle o' Enchanting
 minecraft:entity.ender_pearl=Ender Pearl
 minecraft:entity.eye_of_ender_signal=Eye of Ender
-minecraft:entity.fireworks_rocket=Firework Rocket
+minecraft:entity.fireworks_rocket=Fireworks Rocket
 minecraft:entity.wither_skull=Wither Skull
-minecraft:entity.ender_crystal=End Crystal
+minecraft:entity.ender_crystal=Ender Crystal
 minecraft:entity.furnace_minecart=Minecart with Furnace
 minecraft:entity.tnt_minecart=Minecart with TNT
 minecraft:entity.commandblock_minecart=Minecart with Command Block
@@ -128,14 +110,14 @@ minecraft:connect.outdated=Outdated server!
 minecraft:disconnect.closed=Server closed
 minecraft:disconnect.cant_connect=Can't connect to server
 minecraft:disconnect.cant_resolve_name=Can't resolve hostname
-minecraft:disconnect.illigal_position=Illegal position
+minecraft:disconnect.illegal_position=Illegal position
 minecraft:disconnect.incompatible=Incompatible client
 
 minecraft:death_screen.title.hardcore.server=You have died. Game over, man, game over!
 
 
 
-//remove
+//removed
 
 tile.mushroom.name=Mushroom
 tile.sign.name=Sign
