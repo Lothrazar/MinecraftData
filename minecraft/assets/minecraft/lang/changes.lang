@@ -112,6 +112,7 @@ minecraft:disconnect.cant_connect=Can't connect to server
 minecraft:disconnect.cant_resolve_name=Can't resolve hostname
 minecraft:disconnect.illegal_position=Illegal position
 minecraft:disconnect.incompatible=Incompatible client
+minecraft:disconnect.spam=Kicked for spamming
 
 minecraft:death_screen.title.hardcore.server=You have died. Game over, man, game over!
 
