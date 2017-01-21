@@ -95,7 +95,7 @@ minecraft:adventure_mode.nearest_player=Use "@p" to target nearest player
 minecraft:adventure_mode.not_allowed=Must be an opped player in creative mode
 minecraft:adventure_mode.not_enabled=Command blocks are not enabled on this server
 minecraft:adventure_mode.previous_output=Previous Output
-minecraft:adventure_mode.randomP_player=Use "@r" to target random player
+minecraft:adventure_mode.random_player=Use "@r" to target random player
 minecraft:adventure_mode.set_command.success=Command set: %s
 minecraft:adventure_mode.set_command=Set Console Command for Block
 
