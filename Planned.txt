@@ -464,3 +464,17 @@ List of planned changes:
 * changed the villagers/illagers/witch to unfold their arms when they wear a chestplate, or hold something in their hand (only exceptions being vindicator axe and witch potion)
 * update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
 ! fixed villager, illager and witch robe cuts off 2 pixels early
+! fixed villager, illager and wich arms not mirrored like other mobs
+! fixed mooshtoom and cow udder textures off by one
+! fix redstone wire overlay has no line texture
+! fix arrow texture is not the same then shooting from the left or from the right (down vs up)
+! fix redstone wire cross has the entire side line covering the cross; make the cross cover both lines instead
+! fix wolf snout has z-fightning
+! fix leather cap overlay texture not aglined correctly
+! fix horse armor texture not rendering completely on right side of snout
+! fix top of snowy grass texture doesn't use the snow texture
+! fix transformation of banner texture to fit on shield
+! fix acacia sapling texture doesn't match acacia log color
+! fix brewing stand extends arms and inverts its texture when bottles are placed
+! fix the totem of undying lacks a proper outline, making it look off in the off hand
+! fix small model mistake on the top side of cocoa pods
