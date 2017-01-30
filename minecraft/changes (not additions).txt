@@ -1,5 +1,0 @@
-loot tables have been redone
-texture files no longer contain unused areas
-Blockstate files moved (and will be changed)
-language keys have prefix and are now lowercased
-splashes, poem and credits are now translatable/in json
