@@ -513,7 +513,7 @@
             "action": "minecraft:use_entity",
             "entity_use": "minecraft:kill",
             "Data": {
-                "entity": "{id:\"EnderDragon\"}"
+                "entity": "{id:\"minecraft:ender_dragon\"}"
             }
         }
     },
