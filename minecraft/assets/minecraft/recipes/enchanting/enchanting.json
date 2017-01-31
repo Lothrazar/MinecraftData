@@ -2342,7 +2342,7 @@
             "secondairy": false
         },
         {
-            "name": "minecraft:sweeping_edge",
+            "name": "minecraft:sweeping",
             "weight": 2,
             "treasure": false,
             "not_with": [
@@ -2447,7 +2447,7 @@
             "secondairy": false
         },
         {
-            "name": "minecraft:sweeping_edge",
+            "name": "minecraft:sweeping",
             "weight": 2,
             "treasure": false,
             "not_with": [
@@ -2552,7 +2552,7 @@
             "secondairy": false
         },
         {
-            "name": "minecraft:sweeping_edge",
+            "name": "minecraft:sweeping",
             "weight": 2,
             "treasure": false,
             "not_with": [
@@ -2657,7 +2657,7 @@
             "secondairy": false
         },
         {
-            "name": "minecraft:sweeping_edge",
+            "name": "minecraft:sweeping",
             "weight": 2,
             "treasure": false,
             "not_with": [
@@ -2762,7 +2762,7 @@
             "secondairy": false
         },
         {
-            "name": "minecraft:sweeping_edge",
+            "name": "minecraft:sweeping",
             "weight": 2,
             "treasure": false,
             "not_with": [
