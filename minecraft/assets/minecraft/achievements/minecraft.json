@@ -476,6 +476,7 @@
                 "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_strength\"}}",
                 "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:weakness\"}}",
                 "{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_weakness\"}}",
+                "{id:\"minecraft:potion\",tag:{CustomPotionEffects:[{}]}}"
                 "{id:\"minecraft:splash_potion\"}",
                 "{id:\"minecraft:lingering_potion\"}"
             ]
