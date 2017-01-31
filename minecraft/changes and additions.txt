@@ -2,8 +2,9 @@ changes:
 loot tables have been redone
 texture files no longer contain unused areas
 Blockstate files moved (and will be changed)
-language keys have prefix and are now lowercased
+language keys have namespace and are now lowercased
 splashes, poem and credits are now translatable/in json
+namespace now exists in all locations it gets used (sounds.json, models, states, etc.)
 
 additions:
 achievements json files
