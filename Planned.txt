@@ -1,6 +1,5 @@
 General:
 
-
 JSON:
 list of yet to be created JSON files:
 + spawning (Entity spawning, including: random spawns, breeding, collision created mobs (eg charged creeper), generated)
@@ -234,7 +233,7 @@ list of yet to be created JSON files:
  + add lightning_bolt
 
 List of planned changes:
-+ add 1.12 block loot tables, recipes, block properties, models, block state files and textures
++ add 1.12 block loot tables, recipes, block properties, models, block state files and textures (including wool and shulkers)
 + add hitbox models to the block properties
 + add boundingbox models to the block properties
 + add aditional functions (like slowness on soul sand, and particle spawning) in the block properties
@@ -246,7 +245,7 @@ Structures:
 list of yet to be created structure files:
 
 List of planned changes:
-* update the DataVersion to 1.11.2
+* update the DataVersion to 1.12
 * update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
 
 
