@@ -234,6 +234,7 @@ list of yet to be created JSON files:
  + add lightning_bolt
 
 List of planned changes:
++ add 1.12 block loot tables, recipes, block properties, models, block state files and textures
 + add hitbox models to the block properties
 + add boundingbox models to the block properties
 + add aditional functions (like slowness on soul sand, and particle spawning) in the block properties
