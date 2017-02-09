@@ -72,6 +72,8 @@ minecraft:block.creeper_head=Creeper Head
 minecraft:block.wall_creeper_head=Wall Creeper Head
 minecraft:block.ender_dragon_head=Ender Dragon Head
 minecraft:block.wall_ender_dragon_head=Wall Ender Dragon Head
+minecraft:block.melon_plant=Melon Plant
+minecraft:block.pumpkin_plant=Pumpkin Plant
 
 minecraft:entity.item_frame=Item Frame
 minecraft:entity.leash_knot=Lead
