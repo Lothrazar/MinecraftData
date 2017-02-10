@@ -410,5 +410,85 @@
         "item": "{id:\"minecraft:chorus_fruit\",Count:1b}",
         "return": "{id:\"minecraft:chorus_fruit_popped\",Count:1b}",
         "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:0s}",
+        "return": "{id:\"minecraft:white_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:1s}",
+        "return": "{id:\"minecraft:orange_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:2s}",
+        "return": "{id:\"minecraft:magenta_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:3s}",
+        "return": "{id:\"minecraft:light_blue_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:4s}",
+        "return": "{id:\"minecraft:yellow_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:5s}",
+        "return": "{id:\"minecraft:lime_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:6s}",
+        "return": "{id:\"minecraft:pink_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:7s}",
+        "return": "{id:\"minecraft:gray_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:8s}",
+        "return": "{id:\"minecraft:silver_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:9s}",
+        "return": "{id:\"minecraft:cyan_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:10s}",
+        "return": "{id:\"minecraft:purple_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:11s}",
+        "return": "{id:\"minecraft:blue_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:12s}",
+        "return": "{id:\"minecraft:brown_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:13s}",
+        "return": "{id:\"minecraft:green_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:14s}",
+        "return": "{id:\"minecraft:red_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
+    },
+    {
+        "item": "{id:\"minecraft:stained_hardened_clay\",Count:1b,Damage:15s}",
+        "return": "{id:\"minecraft:black_glazed_terracotta\",Count:1b}",
+        "exp": 0.1
     }
 ]
