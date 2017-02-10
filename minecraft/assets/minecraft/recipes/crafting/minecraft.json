@@ -44836,7 +44836,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:15s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:15s}"
     },
     {
         "ingredients": [
@@ -44949,7 +44949,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:14s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:14s}"
     },
     {
         "ingredients": [
@@ -45062,7 +45062,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:13s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:13s}"
     },
     {
         "ingredients": [
@@ -45175,7 +45175,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:12s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:12s}"
     },
     {
         "ingredients": [
@@ -45288,7 +45288,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:11s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:11s}"
     },
     {
         "ingredients": [
@@ -45401,7 +45401,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:10s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:10s}"
     },
     {
         "ingredients": [
@@ -45514,7 +45514,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:9s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:9s}"
     },
     {
         "ingredients": [
@@ -45627,7 +45627,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:8s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:8s}"
     },
     {
         "ingredients": [
@@ -45740,7 +45740,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:7s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:7s}"
     },
     {
         "ingredients": [
@@ -45853,7 +45853,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:6s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:6s}"
     },
     {
         "ingredients": [
@@ -45966,7 +45966,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:5s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:5s}"
     },
     {
         "ingredients": [
@@ -46079,7 +46079,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:4s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:4s}"
     },
     {
         "ingredients": [
@@ -46192,7 +46192,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:3s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:3s}"
     },
     {
         "ingredients": [
@@ -46305,7 +46305,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:2s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:2s}"
     },
     {
         "ingredients": [
@@ -46418,7 +46418,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:1s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:1s}"
     },
     {
         "ingredients": [
@@ -46531,7 +46531,7 @@
                 "can_flip": true
             }
         ],
-        "return": "{id:\"minecraft:concrete_powder\",Count:1b,Damage:0s}"
+        "return": "{id:\"minecraft:concrete_powder\",Count:8b,Damage:0s}"
     },
     {
         "ingredients": [
