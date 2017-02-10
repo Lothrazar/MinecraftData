@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/glazed_terracotta",
+    "textures": {
+        "particle": "minecraft:blocks/glazed_terracotta_yellow",
+        "pattern": "minecraft:blocks/glazed_terracotta_yellow"
+    }
+}
