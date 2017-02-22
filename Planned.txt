@@ -242,6 +242,7 @@ List of planned changes:
 
 Structures:
 list of yet to be created structure files:
++ add assembly json files for naturally generating structures (eg mansion=halls+rooms+walls+roof+...)
 
 List of planned changes:
 * update the DataVersion to 1.12
