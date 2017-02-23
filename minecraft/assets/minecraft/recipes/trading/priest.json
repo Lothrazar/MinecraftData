@@ -99,7 +99,7 @@
                     }
                 }
             ],
-            "sell": "minecraft:exp_bottle",
+            "sell": "minecraft:experience_bottle",
             "tier": 4
         }
     ]
