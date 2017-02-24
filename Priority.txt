@@ -1,4 +1,0 @@
-1. Entity models (started)
-2. Entity Properties json 
-3. Biomes json
-4. Spawning json (lost the files, got to restart) 
