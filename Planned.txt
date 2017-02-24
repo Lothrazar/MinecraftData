@@ -243,6 +243,7 @@ List of planned changes:
  * loot tables
  * achievements
 * update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
+! fix format files are invalid json (type like "TAG": "TAG TYPE; DESCRIPTION")
 
 
 Structures:
