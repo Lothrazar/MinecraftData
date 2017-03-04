@@ -159,6 +159,7 @@ list of yet to be created JSON files:
  + add sheep
  + add squid
  + add villager
+  * split the villager recipe files per career and assign the used files here
  + add enderman
  + add polar bear
  + add spider
@@ -242,8 +243,11 @@ List of planned changes:
  * block properties
  * loot tables
  * achievements
+* change the crafting recipe files, 1 file per resulting base item (eg 1 file for banners, 1 file for planks,...)
+* change the smelting recipe files, 1 file per resulting base item (eg 1 file for banners, 1 file for planks,...)
 * update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
 ! fix format files are invalid json (type like "TAG": "TAG TYPE; DESCRIPTION")
+! fix villager loot tables miss rewardexp and base_cost, base_random_cost, per_level_random_cost and per_level_cost for enchant_with_levels
 
 
 Structures:
