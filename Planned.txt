@@ -488,3 +488,4 @@ List of planned changes:
 ! fix brewing stand extends arms and inverts its texture when bottles are placed
 ! fix the totem of undying lacks a proper outline, making it look off in the off hand
 ! fix small model mistake on the top side of cocoa pods
+! fix Bed does not render the legs from the inside
