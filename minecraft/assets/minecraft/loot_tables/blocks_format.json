@@ -25,7 +25,6 @@
 				],
 				"inverse": "BOOLEAN: if it should be anything BUT the stated tool/block/entity (does not invert drops condition)",
 				"minecraft:nbt": "STRING: NBT of the block entity required to match"
-				}
 			},
 			"functions": [
 				{
