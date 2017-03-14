@@ -1,48 +1,48 @@
 {
     "block states": [
 		{
-			"item": "the item to be dropped, in nbt format",
-			"block": "the block name of the spawned block if this block is destroyed, default = minecraft:air",
-			"block_state": "the block states of the spawned block if this block is destroyed, default = default",
-			"chance": 'the chance the item drops',
+			"item": "STRING: the item to be dropped, in nbt format",
+			"block": "STRING: the block name of the spawned block if this block is destroyed, default = minecraft:air",
+			"block_state": "STRING: the block states of the spawned block if this block is destroyed, default = default",
+			"chance": "FLOAT: the chance the item drops",
 			"conditions": {
-				"minecraft:drops": 'amount of drops already dropped, before this item spawns',
+				"minecraft:drops": "INTEGER: amount of drops already dropped, before this item spawns",
 				"minecraft:drops": {
-					"min": 'minimum amount of drops already dropped, before this item spawns',
-					"max": 'maximum amount of drops already dropped, before this item spawns'
+					"min": "INTEGER: minimum amount of drops already dropped, before this item spawns",
+					"max": "INTEGER: maximum amount of drops already dropped, before this item spawns"
 				},
-				"minecraft:tool": "the tool required to obtain this drop in nbt format",
+				"minecraft:tool": "STRING: the tool required to obtain this drop in nbt format",
 				"minecraft:tool": [
-					"one of the tools required to obtain this drop in nbt format"
+					"STRING: one of the tools required to obtain this drop in nbt format"
 				],
-				"minecraft:block": "the block name that replaces this block",
+				"minecraft:block": "STRING: the block name that replaces this block",
 				"minecraft:block": [
-					"one of the block names that replaces this block"
+					"STRING: one of the block names that replaces this block"
 				],
-				"minecraft:entity": "the entity that is required to destroy the block for this drop to spawn, in nbt format",
+				"minecraft:entity": "STRING: the entity that is required to destroy the block for this drop to spawn, in nbt format",
 				"minecraft:entity": [
-					"one of the entities that is required to destroy the block for this drop to spawn, in nbt format"
+					"STRING: one of the entities that is required to destroy the block for this drop to spawn, in nbt format"
 				],
-				"inverse": true/false 'if it should be anything BUT the stated tool/block/entity (does not invert drops condition)',
-				"minecraft:nbt": "NBT of the block entity required to match"
+				"inverse": "BOOLEAN: if it should be anything BUT the stated tool/block/entity (does not invert drops condition)",
+				"minecraft:nbt": "STRING: NBT of the block entity required to match"
 				}
 			},
 			"functions": [
 				{
 					"function": "minecraft:set_count",
 					"count": {
-						"min": 'minimum number required for a random count value',
-						"max": 'maximum number required for a random count value'
+						"min": "INTEGER: minimum number required for a random count valuE",
+						"max": "INTEGER: maximum number required for a random count value"
 					}
 				},
 				{
-					"function": "minecraft:copy_nbt" 'For adding NBT data from the tag tag to the returning item',
-					"copy": "What tags to copy, empty means all tags",
-					"paste": "Where to paste the tags, empty for same path as copy, note: this does NOT default to tag:{BlockEntityTag:{}} but tag:{}"
+					"function": "minecraft:copy_nbt",
+					"copy": "STRING: What tags to copy to the resulting item, empty means all tags",
+					"paste": "STRING: Where to paste the tags, empty for same path as copy, note: this does NOT default to tag:{BlockEntityTag:{}} but tag:{}"
 				},
 				{
 					"function": "minecraft:drop_inventory",
-					"drop": true/false 'if the Items tag and similar should drop all items upon removal of this block'
+					"drop": "BOOLEAN: if the Items tag and similar should drop all items upon removal of this block"
 				}
 			]
 		}
