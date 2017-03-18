@@ -1,17 +1,6 @@
 {
     "attached=false,disarmed=false,north=false,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -20,16 +9,10 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -44,18 +27,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -64,16 +36,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -85,18 +52,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -105,16 +61,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -126,18 +77,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -146,16 +86,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -167,18 +102,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -187,16 +111,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -208,18 +127,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -228,16 +136,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -249,18 +152,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -269,16 +161,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -290,18 +177,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -310,16 +186,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -331,18 +202,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -351,16 +211,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -372,18 +227,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -392,16 +236,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -413,18 +252,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -433,16 +261,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -454,18 +277,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -474,16 +286,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -495,18 +302,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -515,16 +311,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -536,18 +327,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -556,16 +336,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -577,18 +352,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -597,16 +361,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -618,18 +377,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=false,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -638,16 +386,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -659,18 +402,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -679,16 +411,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -700,18 +427,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -720,16 +436,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -741,18 +452,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -761,16 +461,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -782,18 +477,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -802,16 +486,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -823,18 +502,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -843,16 +511,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -864,18 +527,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -884,16 +536,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -905,18 +552,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -925,16 +561,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -946,18 +577,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -966,16 +586,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -987,18 +602,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1007,16 +611,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1028,18 +627,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1048,16 +636,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1069,18 +652,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1089,16 +661,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1110,18 +677,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1130,16 +686,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1151,18 +702,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1171,16 +711,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1192,18 +727,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1212,16 +736,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1233,18 +752,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1253,16 +761,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1274,18 +777,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=true,west=false,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1294,16 +786,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1315,18 +802,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1335,16 +811,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1356,18 +827,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1376,16 +836,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1397,18 +852,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1417,16 +861,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1438,18 +877,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1458,16 +886,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1479,18 +902,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1499,16 +911,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1520,18 +927,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1540,16 +936,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1561,18 +952,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1581,16 +961,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1602,18 +977,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1622,16 +986,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1643,18 +1002,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1663,16 +1011,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1684,18 +1027,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1704,16 +1036,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1725,18 +1052,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1745,16 +1061,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1766,18 +1077,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1786,16 +1086,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1807,18 +1102,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1827,16 +1111,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1848,18 +1127,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1868,16 +1136,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1889,18 +1152,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1909,16 +1161,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -1930,18 +1177,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=false,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1950,16 +1186,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -1971,18 +1202,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -1991,16 +1211,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2012,18 +1227,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2032,16 +1236,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2053,18 +1252,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2073,16 +1261,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2094,18 +1277,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2114,16 +1286,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2135,18 +1302,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2155,16 +1311,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2176,18 +1327,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2196,16 +1336,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2217,18 +1352,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2237,16 +1361,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2258,18 +1377,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2278,16 +1386,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2299,18 +1402,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2319,16 +1411,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2340,18 +1427,7 @@
         ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2360,16 +1436,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2381,18 +1452,7 @@
         ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2401,16 +1461,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2422,18 +1477,7 @@
         ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2442,16 +1486,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2463,18 +1502,7 @@
         ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2483,16 +1511,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2504,18 +1527,7 @@
         ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2524,16 +1536,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2545,18 +1552,7 @@
         ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2565,16 +1561,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2586,18 +1577,7 @@
         ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=true,west=true,powered=false": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2606,16 +1586,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2627,18 +1602,7 @@
         ]
     },
     "attached=false,disarmed=false,north=false,south=false,east=false,west=false,powered=true": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -2647,16 +1611,10 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2678,10 +1636,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2692,15 +1650,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2708,9 +1665,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=false,west=false,powered=true": {
         "hardness": {
@@ -2720,10 +1683,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2734,15 +1697,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2750,9 +1712,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=false,west=false,powered=true": {
         "hardness": {
@@ -2762,10 +1730,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2776,15 +1744,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2792,9 +1759,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=false,west=false,powered=true": {
         "hardness": {
@@ -2804,10 +1777,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2818,15 +1791,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2834,9 +1806,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=false,west=false,powered=true": {
         "hardness": {
@@ -2846,10 +1824,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2860,15 +1838,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2876,9 +1853,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=false,west=false,powered=true": {
         "hardness": {
@@ -2888,10 +1871,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2902,15 +1885,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -2918,9 +1900,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=false,west=false,powered=true": {
         "hardness": {
@@ -2930,10 +1918,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2944,15 +1932,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -2960,9 +1947,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -2972,10 +1965,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -2986,15 +1979,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3002,9 +1994,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -3014,10 +2012,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3028,15 +2026,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3044,9 +2041,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -3056,10 +2059,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3070,15 +2073,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3086,9 +2088,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -3098,10 +2106,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3112,15 +2120,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3128,9 +2135,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -3140,10 +2153,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3154,15 +2167,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3170,9 +2182,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -3182,10 +2200,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3196,15 +2214,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3212,9 +2229,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -3224,10 +2247,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3238,15 +2261,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3254,9 +2276,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=false,west=false,powered=true": {
         "hardness": {
@@ -3266,10 +2294,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3280,15 +2308,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3296,9 +2323,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=false,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3308,10 +2341,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3322,15 +2355,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3338,9 +2370,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=false,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3350,10 +2388,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3364,15 +2402,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3380,9 +2417,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3392,10 +2435,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3406,15 +2449,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3422,9 +2464,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3434,10 +2482,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3448,15 +2496,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3464,9 +2511,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3476,10 +2529,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3490,15 +2543,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3506,9 +2558,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3518,10 +2576,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3532,15 +2590,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3548,9 +2605,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3560,10 +2623,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3574,15 +2637,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3590,9 +2652,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=true,west=false,powered=true": {
         "hardness": {
@@ -3602,10 +2670,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3616,15 +2684,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3632,9 +2699,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3644,10 +2717,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3658,15 +2731,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3674,9 +2746,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3686,10 +2764,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3700,15 +2778,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3716,9 +2793,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3728,10 +2811,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3742,15 +2825,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3758,9 +2840,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3770,10 +2858,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3784,15 +2872,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3800,9 +2887,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3812,10 +2905,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3826,15 +2919,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3842,9 +2934,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3854,10 +2952,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3868,15 +2966,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3884,9 +2981,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3896,10 +2999,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3910,15 +3013,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -3926,9 +3028,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=true,west=false,powered=true": {
         "hardness": {
@@ -3938,10 +3046,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -3952,15 +3060,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -3968,23 +3075,18 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=false,south=false,east=false,west=true,powered=true": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -3993,16 +3095,11 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistance": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4021,10 +3118,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4035,15 +3132,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4051,9 +3147,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=false,west=true,powered=true": {
         "hardness": {
@@ -4063,10 +3165,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4077,15 +3179,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4093,9 +3194,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=false,west=true,powered=true": {
         "hardness": {
@@ -4105,10 +3212,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4119,15 +3226,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4135,9 +3241,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=false,west=true,powered=true": {
         "hardness": {
@@ -4147,10 +3259,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4161,15 +3273,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4177,9 +3288,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=false,west=true,powered=true": {
         "hardness": {
@@ -4189,10 +3306,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4203,15 +3320,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4219,9 +3335,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=false,west=true,powered=true": {
         "hardness": {
@@ -4231,10 +3353,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4245,15 +3367,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4261,9 +3382,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=false,west=true,powered=true": {
         "hardness": {
@@ -4273,10 +3400,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4287,15 +3414,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4303,9 +3429,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4315,10 +3447,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4329,15 +3461,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4345,9 +3476,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4357,10 +3494,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4371,15 +3508,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4387,9 +3523,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4399,10 +3541,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4413,15 +3555,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4429,9 +3570,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4441,10 +3588,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4455,15 +3602,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4471,9 +3617,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4483,10 +3635,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4497,15 +3649,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4513,9 +3664,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4525,10 +3682,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4539,15 +3696,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4555,9 +3711,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4567,10 +3729,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4581,15 +3743,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4597,9 +3758,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=false,west=true,powered=true": {
         "hardness": {
@@ -4609,10 +3776,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4623,15 +3790,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4639,9 +3805,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=false,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4651,10 +3823,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4665,15 +3837,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4681,9 +3852,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=false,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4693,10 +3870,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4707,15 +3884,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4723,9 +3899,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4735,10 +3917,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4749,15 +3931,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4765,9 +3946,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4777,10 +3964,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4791,15 +3978,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4807,9 +3993,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4819,10 +4011,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4833,15 +4025,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4849,9 +4040,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4861,10 +4058,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4875,15 +4072,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4891,9 +4087,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4903,10 +4105,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4917,15 +4119,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -4933,9 +4134,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=false,east=true,west=true,powered=true": {
         "hardness": {
@@ -4945,10 +4152,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -4959,15 +4166,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -4975,9 +4181,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=false,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -4987,10 +4199,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5001,15 +4213,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -5017,9 +4228,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=false,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -5029,10 +4246,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5043,15 +4260,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -5059,9 +4275,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=false,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -5071,10 +4293,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5085,15 +4307,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -5101,9 +4322,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=false,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -5113,10 +4340,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5127,15 +4354,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -5143,9 +4369,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=false,north=true,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -5155,10 +4387,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5169,15 +4401,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -5185,9 +4416,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=false,north=true,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -5197,10 +4434,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5211,15 +4448,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -5227,9 +4463,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=false,disarmed=true,north=true,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -5239,10 +4481,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5253,15 +4495,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -5269,9 +4510,15 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     },
     "attached=true,disarmed=true,north=true,south=true,east=true,west=true,powered=true": {
         "hardness": {
@@ -5281,10 +4528,10 @@
         "burnability": 1,
         "light": 0,
         "light_needed": {
-                
+            
         },
         "tool_damage": {
-                
+            
         },
         "solid_faces": {
             "down": false,
@@ -5295,15 +4542,14 @@
             "west": false
         },
         "need_support": {
-                
+            
         },
         "resistance": 0,
         "transparent": true,
         "solid": false,
         "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 1, 0 ],
@@ -5311,8 +4557,14 @@
             }
         ],
         "boundingbox": [
-                
+            
+        ],
+        "boundingbox": [
+            
         ]
-    }
+    },
+        "boundingbox": [
+            
+        ]
     }
 }

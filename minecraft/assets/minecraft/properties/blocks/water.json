@@ -1,17 +1,6 @@
 {
     "level=0": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -20,36 +9,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=1": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -58,36 +44,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=2": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -96,36 +79,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=3": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -134,36 +114,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=4": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -172,36 +149,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=5": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -210,36 +184,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=6": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -248,36 +219,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=7": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -286,36 +254,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=8": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -324,36 +289,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=9": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -362,36 +324,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=10": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -400,36 +359,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=11": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -438,36 +394,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=12": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -476,36 +429,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=13": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -514,36 +464,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=14": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -552,36 +499,33 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=15": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": -2,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -590,19 +534,27 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:drown @e[r=1] {Air:0s}",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
         ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 0.2,
+                "source": "water",
+                "effect": [
+                    {
+                        "air": 0
+                    }
+                ]
+            }
+        ],
         "boundingbox": [
             
         ]

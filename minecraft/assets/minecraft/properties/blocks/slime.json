@@ -1,46 +1,8 @@
 {
     "default": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
-        "solid_faces": {
-            "down": true,
-            "up": true,
-            "north": true,
-            "south": true,
-            "east": true,
-            "west": true
-        },
-        "need_support": {
-            
-        },
-        "resistence": 0,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 2
-        "sticky_push": 2,
-        "fall_damage": -1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "piston_push": "sticky",
+        "sticky_push": "sticky",
+        "fall_damage": -1
     }
 }
