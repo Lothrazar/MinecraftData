@@ -8,12 +8,8 @@
             "minecraft:diamond_pickaxe": 0.1,
             "minecraft:golden_pickaxe": 0.1
         },
-        "gravity": false,
         "burnability": -1,
         "light": 3,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -21,34 +17,33 @@
             "minecraft:diamond_pickaxe": 1,
             "minecraft:golden_pickaxe": 1
         },
-        "solid_faces": {
-            "down": true,
-            "up": true,
-            "north": true,
-            "south": true,
-            "east": true,
-            "west": true
-        },
-        "need_support": {
-            
-        },
         "resistence": 2.5,
-        "transparent": false,
-        "solid": true,
-        "hurt_on_touch": "minecraft:fire @a[y=1,r=1]",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
+        "functions": [
             {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
+                "function": "minecraft:hurt",
+                "sides": [
+                    "up"
+                ],
+                "damage": 1.0,
+                "source": "magma",
+                "effect": [
+                    {
+                        "sneaking": true, 
+                        "inverse": true
+                    },
+                    {
+                        "enchantment": "minecraft:frost_walker", 
+                        "inverse": true
+                    },
+                    {
+                        "effect": "minecraft:fire_resistance", 
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true, 
+                        "inverse": true
+                    }
+                ]
             }
         ]
     }

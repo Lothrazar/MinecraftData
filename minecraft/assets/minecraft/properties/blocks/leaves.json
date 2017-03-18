@@ -9,12 +9,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -31,28 +26,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=false,decayable=false,variant=spruce": {
         "hardness": {
@@ -64,12 +39,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -86,28 +56,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=false,decayable=false,variant=birch": {
         "hardness": {
@@ -119,12 +69,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -141,28 +86,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=false,decayable=false,variant=jungle": {
         "hardness": {
@@ -174,12 +99,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -196,28 +116,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=false,variant=oak": {
         "hardness": {
@@ -229,12 +129,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -251,28 +146,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=false,variant=spruce": {
         "hardness": {
@@ -284,12 +159,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -306,28 +176,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=false,variant=birch": {
         "hardness": {
@@ -339,12 +189,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -361,28 +206,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=false,variant=jungle": {
         "hardness": {
@@ -394,12 +219,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -416,28 +236,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=false,decayable=true,variant=oak": {
         "hardness": {
@@ -449,12 +249,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -471,28 +266,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=false,decayable=true,variant=spruce": {
         "hardness": {
@@ -504,12 +279,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -526,28 +296,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=false,decayable=true,variant=birch": {
         "hardness": {
@@ -559,12 +309,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -581,28 +326,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=false,decayable=true,variant=jungle": {
         "hardness": {
@@ -614,12 +339,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -636,28 +356,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=true,variant=oak": {
         "hardness": {
@@ -669,12 +369,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -691,28 +386,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=true,variant=spruce": {
         "hardness": {
@@ -724,12 +399,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -746,28 +416,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=true,variant=birch": {
         "hardness": {
@@ -779,12 +429,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -801,28 +446,8 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     },
     "check_decay=true,decayable=true,variant=jungle": {
         "hardness": {
@@ -834,12 +459,7 @@
             "minecraft:wooden_sword": 0.2,
             "minecraft:shears": 0.05
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_sword": 1,
             "minecraft:stone_sword": 1,
@@ -856,27 +476,7 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 1,
-        "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "transparent": true
     }
 }

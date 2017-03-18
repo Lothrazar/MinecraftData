@@ -1,16 +1,7 @@
 {
     "age=0,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -23,13 +14,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -41,17 +29,8 @@
         ]
     },
     "age=1,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -64,13 +43,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -82,17 +58,8 @@
         ]
     },
     "age=2,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -105,13 +72,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -123,17 +87,8 @@
         ]
     },
     "age=3,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -146,13 +101,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -164,17 +116,8 @@
         ]
     },
     "age=4,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -187,13 +130,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -205,17 +145,8 @@
         ]
     },
     "age=5,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -228,13 +159,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -246,17 +174,8 @@
         ]
     },
     "age=6,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -269,13 +188,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -287,17 +203,8 @@
         ]
     },
     "age=7,facing=north": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -310,13 +217,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -328,17 +232,8 @@
         ]
     },
     "age=0,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -351,13 +246,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -369,17 +261,8 @@
         ]
     },
     "age=1,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -392,13 +275,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -410,17 +290,8 @@
         ]
     },
     "age=2,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -433,13 +304,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -451,17 +319,8 @@
         ]
     },
     "age=3,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -474,13 +333,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -492,17 +348,8 @@
         ]
     },
     "age=4,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -515,13 +362,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -533,17 +377,8 @@
         ]
     },
     "age=5,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -556,13 +391,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -574,17 +406,8 @@
         ]
     },
     "age=6,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -597,13 +420,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -615,17 +435,8 @@
         ]
     },
     "age=7,facing=south": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -638,13 +449,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -656,17 +464,8 @@
         ]
     },
     "age=0,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -679,13 +478,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -697,17 +493,8 @@
         ]
     },
     "age=1,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -720,13 +507,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -738,17 +522,8 @@
         ]
     },
     "age=2,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -761,13 +536,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -779,17 +551,8 @@
         ]
     },
     "age=3,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -802,13 +565,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -820,17 +580,8 @@
         ]
     },
     "age=4,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -843,13 +594,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -861,17 +609,8 @@
         ]
     },
     "age=5,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -884,13 +623,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -902,17 +638,8 @@
         ]
     },
     "age=6,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -925,13 +652,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -943,17 +667,8 @@
         ]
     },
     "age=7,facing=west": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -966,13 +681,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -984,17 +696,8 @@
         ]
     },
     "age=0,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1007,13 +710,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1025,17 +725,8 @@
         ]
     },
     "age=1,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1048,13 +739,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1066,17 +754,8 @@
         ]
     },
     "age=2,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1089,13 +768,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1107,17 +783,8 @@
         ]
     },
     "age=3,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1130,13 +797,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1148,17 +812,8 @@
         ]
     },
     "age=4,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1171,13 +826,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1189,17 +841,8 @@
         ]
     },
     "age=5,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1212,13 +855,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1230,17 +870,8 @@
         ]
     },
     "age=6,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1253,13 +884,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1271,17 +899,8 @@
         ]
     },
     "age=7,facing=east": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1294,13 +913,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1312,17 +928,8 @@
         ]
     },
     "age=0,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1335,13 +942,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1353,17 +957,8 @@
         ]
     },
     "age=1,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1376,13 +971,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1394,17 +986,8 @@
         ]
     },
     "age=2,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1417,13 +1000,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1435,17 +1015,8 @@
         ]
     },
     "age=3,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1458,13 +1029,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1476,17 +1044,8 @@
         ]
     },
     "age=4,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1499,13 +1058,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1517,17 +1073,8 @@
         ]
     },
     "age=5,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1540,13 +1087,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1558,17 +1102,8 @@
         ]
     },
     "age=6,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1581,13 +1116,10 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
@@ -1599,17 +1131,8 @@
         ]
     },
     "age=7,facing=up": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
         "light_needed": {
             "min": 7
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -1622,19 +1145,16 @@
         "need_support": {
             "down": "minecraft:farmland"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 6, -1, 6 ],
                 "to": [ 10, 14, 10 ]
             }
-        ],
+        ],
         "boundingbox": [
             
         ]

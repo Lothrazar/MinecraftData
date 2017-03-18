@@ -1,16 +1,8 @@
 {
     "default": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 1,
         "light_needed": {
             "max": 12
-        },
-        "tool_damage": {
-            
         },
         "solid_faces": {
             "down": false,
@@ -26,10 +18,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 5, 0, 5 ],

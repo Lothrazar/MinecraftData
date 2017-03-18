@@ -1,17 +1,6 @@
 {
     "stage=0,type=oak": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -26,13 +15,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -44,18 +30,7 @@
         ]
     },
     "stage=0,type=spruce": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -70,13 +45,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -88,18 +60,7 @@
         ]
     },
     "stage=0,type=birch": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -114,13 +75,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -132,18 +90,7 @@
         ]
     },
     "stage=0,type=jungle": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -158,13 +105,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -176,18 +120,7 @@
         ]
     },
     "stage=0,type=acacia": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -202,13 +135,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -220,18 +150,7 @@
         ]
     },
     "stage=0,type=dark_oak": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -246,13 +165,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -264,18 +180,7 @@
         ]
     },
     "stage=1,type=oak": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -290,13 +195,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -308,18 +210,7 @@
         ]
     },
     "stage=1,type=spruce": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -334,13 +225,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -352,18 +240,7 @@
         ]
     },
     "stage=1,type=birch": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -378,13 +255,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -396,18 +270,7 @@
         ]
     },
     "stage=1,type=jungle": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -422,13 +285,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -440,18 +300,7 @@
         ]
     },
     "stage=1,type=acacia": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -466,13 +315,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],
@@ -484,18 +330,7 @@
         ]
     },
     "stage=1,type=dark_oak": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -510,13 +345,10 @@
                 "minecraft:grass"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],

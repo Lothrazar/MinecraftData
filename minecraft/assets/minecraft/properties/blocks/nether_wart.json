@@ -1,17 +1,5 @@
 {
     "age=0": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -23,13 +11,10 @@
         "need_support": {
             "down": "minecraft:soul_sand"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -41,18 +26,6 @@
         ]
     },
     "age=1": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -64,13 +37,10 @@
         "need_support": {
             "down": "minecraft:soul_sand"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -82,18 +52,6 @@
         ]
     },
     "age=2": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -105,13 +63,10 @@
         "need_support": {
             "down": "minecraft:soul_sand"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
@@ -123,18 +78,6 @@
         ]
     },
     "age=3": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -146,13 +89,10 @@
         "need_support": {
             "down": "minecraft:soul_sand"
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],
