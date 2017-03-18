@@ -233,13 +233,10 @@ list of yet to be created JSON files:
  + add lightning_bolt
 
 List of planned changes:
-+ add hitbox models to the block properties (WIP)
-+ add boundingbox models to the block properties (WIP)
 + add aditional functions (like slowness on soul sand, and particle spawning) in the block properties
 * change the hurt_on_touch to a function and make it more specific (sneaking on magam blocks doesn't hurt you) in the block properties
 * change all files to use as little nbt phrasing as possible, but don't remove the ability to base/add nbt tags
  * recipes
- * block properties
  * loot tables
  * achievements
 * change a number of files into sperate files:
