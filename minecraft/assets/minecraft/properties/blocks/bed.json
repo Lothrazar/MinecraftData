@@ -3,13 +3,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -27,10 +22,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -64,13 +57,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -88,10 +76,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -125,13 +111,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -149,10 +130,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -186,13 +165,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -210,10 +184,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -247,13 +219,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -271,10 +238,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -308,13 +273,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -332,10 +292,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -369,13 +327,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -393,10 +346,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -430,13 +381,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -454,10 +400,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -491,13 +435,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -515,10 +454,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -552,13 +489,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -576,10 +508,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -613,13 +543,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -637,10 +562,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -674,13 +597,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -698,10 +616,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -735,13 +651,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -759,10 +670,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -796,13 +705,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -820,10 +724,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -857,13 +759,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -881,10 +778,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],
@@ -918,13 +813,8 @@
         "hardness": {
             "minecraft:default": 0.35
         },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -942,10 +832,8 @@
         "resistence": 1,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 0, 3, 0 ],

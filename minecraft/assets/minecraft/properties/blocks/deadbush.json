@@ -1,14 +1,6 @@
 {
     "default": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
         "burnability": 1,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:shears": 1
         },
@@ -27,13 +19,10 @@
                 "minecraft:stained_hardened_clay"
             ]
         },
-        "resistence": 0,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1.5, 0, 1.5 ],

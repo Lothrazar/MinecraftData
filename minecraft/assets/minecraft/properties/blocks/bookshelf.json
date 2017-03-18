@@ -8,12 +8,6 @@
             "minecraft:diamond_axe": 0.3,
             "minecraft:golden_axe": 0.2
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -29,16 +23,8 @@
             "east": true,
             "west": true
         },
-        "need_support": {
-            
-        },
         "resistence": 7.5,
-        "transparent": false,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],

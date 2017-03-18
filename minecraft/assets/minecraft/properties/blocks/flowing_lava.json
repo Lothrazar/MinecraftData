@@ -1,17 +1,6 @@
 {
     "level=0": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -20,36 +9,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=1": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -58,36 +49,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=2": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -96,36 +89,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=3": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -134,36 +129,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=4": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -172,36 +169,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=5": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -210,36 +209,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=6": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -248,36 +249,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=7": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -286,36 +289,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=8": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -324,36 +329,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=9": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -362,36 +369,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=10": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -400,36 +409,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=11": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -438,36 +449,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=12": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -476,36 +489,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=13": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -514,36 +529,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=14": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -552,36 +569,38 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             
         ]
     },
     "level=15": {
-        "hardness": {
-            "minecraft:default": 0
-        },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": false,
             "up": false,
@@ -590,18 +609,31 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 500,
         "transparent": true,
         "solid": false,
-        "hurt_on_touch": "minecraft:fire @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "fall_damage": 0,
         "hitbox": [
             
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "lava",
+                "effects": [
+                    {
+                        "effect": "fire_resistance",
+                        "inverse": true
+                    },
+                    {
+                        "fire_resistant": true,
+                        "inverse": true
+                    }
+                ]
+            }
         ],
         "boundingbox": [
             

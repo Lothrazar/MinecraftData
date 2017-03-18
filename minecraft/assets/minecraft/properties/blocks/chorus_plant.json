@@ -8,12 +8,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -29,16 +23,10 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -77,12 +65,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -103,11 +85,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -146,12 +125,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -172,11 +145,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -215,12 +185,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -242,11 +206,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -285,12 +246,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -311,11 +266,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -354,12 +306,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -381,11 +327,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -424,12 +367,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -451,11 +388,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -494,12 +428,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -522,11 +450,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -565,12 +490,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -591,11 +510,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -634,12 +550,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -661,11 +571,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -704,12 +611,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -731,11 +632,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -774,12 +672,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -802,11 +694,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -845,12 +734,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -872,11 +755,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -915,12 +795,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -943,11 +817,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -986,12 +857,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1014,11 +879,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1057,12 +919,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1086,11 +942,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1129,12 +982,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1158,11 +1005,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1201,12 +1045,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1231,11 +1069,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1274,12 +1109,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1304,11 +1133,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1347,12 +1173,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1378,11 +1198,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1421,12 +1238,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1451,11 +1262,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1494,12 +1302,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1525,11 +1327,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1568,12 +1367,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1599,11 +1392,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1642,12 +1432,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1674,11 +1458,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1717,12 +1498,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1747,11 +1522,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1790,12 +1562,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1821,11 +1587,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1864,12 +1627,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1895,11 +1652,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -1938,12 +1692,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -1970,11 +1718,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -2013,12 +1758,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2044,11 +1783,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -2087,12 +1823,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2119,11 +1849,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -2162,12 +1889,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2194,11 +1915,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -2237,12 +1955,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2270,11 +1982,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 3, 4 ],
@@ -2313,12 +2022,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2342,11 +2045,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2385,12 +2085,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2415,11 +2109,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2458,12 +2149,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2488,11 +2173,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2531,12 +2213,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2562,11 +2238,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2605,12 +2278,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2635,11 +2302,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2678,12 +2342,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2709,11 +2367,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2752,12 +2407,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2783,11 +2432,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2826,12 +2472,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2858,11 +2498,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2901,12 +2538,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -2931,11 +2562,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -2974,12 +2602,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3005,11 +2627,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3048,12 +2667,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3079,11 +2692,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3122,12 +2732,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3154,11 +2758,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3197,12 +2798,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3228,11 +2823,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3271,12 +2863,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3303,11 +2889,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3346,12 +2929,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3378,11 +2955,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3421,12 +2995,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3454,11 +3022,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3497,12 +3062,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3530,11 +3089,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3573,12 +3129,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3607,11 +3157,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3650,12 +3197,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3684,11 +3225,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3727,12 +3265,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3762,11 +3294,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3805,12 +3334,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3839,11 +3362,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3882,12 +3402,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3917,11 +3431,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -3960,12 +3471,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -3995,11 +3500,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4038,12 +3540,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4074,11 +3570,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4117,12 +3610,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4151,11 +3638,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4194,12 +3678,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4229,11 +3707,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4272,12 +3747,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4307,11 +3776,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4350,12 +3816,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4386,11 +3846,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4429,12 +3886,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4464,11 +3915,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4507,12 +3955,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4543,11 +3985,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4586,12 +4025,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4622,11 +4055,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],
@@ -4665,12 +4095,6 @@
             "minecraft:diamond_axe": 0.1,
             "minecraft:golden_axe": 0.05
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
         "tool_damage": {
             "minecraft:wooden_axe": 1,
             "minecraft:stone_axe": 1,
@@ -4702,11 +4126,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 4, 0, 4 ],

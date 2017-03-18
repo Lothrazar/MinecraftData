@@ -3,13 +3,8 @@
         "hardness": {
             "minecraft:default": 4.5
         },
-        "gravity": false,
-        "burnability": 0,
         "light": 15,
         "light_needed": {
-                
-        },
-        "tool_damage": {
             
         },
         "solid_faces": {
@@ -20,16 +15,11 @@
             "east": true,
             "west": true
         },
-        "need_support": {
-            
-        },
         "resistence": 15,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 0
-        "sticky_push": 0,
-        "fall_damage": 1,
+        "piston_push": "no",
+        "sticky_push": "no",
         "hitbox": [
             {
                 "from": [ 0, 0, 0 ],

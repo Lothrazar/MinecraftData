@@ -9,11 +9,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -29,16 +24,9 @@
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -86,11 +74,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -99,23 +82,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -163,11 +137,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -176,23 +145,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -240,11 +200,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -253,23 +208,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -317,11 +263,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -330,23 +271,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -394,11 +326,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -407,23 +334,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -471,11 +389,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -484,23 +397,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -548,11 +452,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -561,23 +460,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -625,11 +515,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -638,23 +523,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -702,11 +578,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -715,23 +586,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -779,11 +641,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -792,23 +649,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],
@@ -856,11 +704,6 @@
             "minecraft:golden_pickaxe": 0.65
         },
         "gravity": true,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-                
-        },
         "tool_damage": {
             "minecraft:wooden_pickaxe": 1,
             "minecraft:stone_pickaxe": 1,
@@ -869,23 +712,14 @@
             "minecraft:golden_pickaxe": 1
         },
         "solid_faces": {
-            "down": true,
-            "up": true,
             "north": false,
             "south": false,
             "east": false,
             "west": false
         },
-        "need_support": {
-            
-        },
         "resistence": 6000,
         "transparent": true,
         "solid": true,
-        "hurt_on_touch": "",
-        "piston_push": 1
-        "sticky_push": 1,
-        "fall_damage": 1,
         "hitbox": [
             {
                 "from": [ 2, 0, 2 ],

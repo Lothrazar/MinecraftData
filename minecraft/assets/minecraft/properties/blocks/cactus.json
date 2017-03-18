@@ -3,15 +3,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -32,11 +23,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -47,6 +35,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -54,15 +49,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -83,11 +69,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -98,6 +81,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -105,15 +95,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -134,11 +115,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -149,6 +127,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -156,15 +141,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -185,11 +161,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -200,6 +173,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -207,15 +187,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -236,11 +207,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -251,6 +219,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -258,15 +233,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -287,11 +253,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -302,6 +265,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -309,15 +279,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -338,11 +299,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -353,6 +311,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -360,15 +325,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -389,11 +345,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -404,6 +357,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -411,15 +371,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -440,11 +391,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -455,6 +403,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -462,15 +417,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -491,11 +437,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -506,6 +449,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -513,15 +463,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -542,11 +483,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -557,6 +495,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -564,15 +509,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -593,11 +529,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -608,6 +541,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -615,15 +555,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -644,11 +575,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -659,6 +587,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -666,15 +601,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -695,11 +621,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -710,6 +633,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -717,15 +647,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -746,11 +667,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -761,6 +679,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     },
@@ -768,15 +693,6 @@
         "hardness": {
             "minecraft:default": 0.65
         },
-        "gravity": false,
-        "burnability": 0,
-        "light": 0,
-        "light_needed": {
-            
-        },
-        "tool_damage": {
-            
-        },
         "solid_faces": {
             "down": true,
             "up": true,
@@ -797,11 +713,8 @@
         },
         "resistence": 2,
         "transparent": true,
-        "solid": true,
-        "hurt_on_touch": "minecraft:cactus @e[r=1]",
-        "piston_push": -1
-        "sticky_push": -1,
-        "fall_damage": 1,
+        "piston_push": "break",
+        "sticky_push": "break",
         "hitbox": [
             {
                 "from": [ 1, 0, 1 ],
@@ -812,6 +725,13 @@
             {
                 "from": [ 1, 0, 1 ],
                 "to": [ 15, 16, 15]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "cactus"
             }
         ]
     }
