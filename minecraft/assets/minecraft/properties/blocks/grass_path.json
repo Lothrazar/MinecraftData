@@ -1,50 +1,55 @@
 {
     "default": {
-        "{}": {
-            "hardness": {
-                "minecraft:default": 0.9,
-                "minecraft:wooden_shovel": 0.45,
-                "minecraft:stone_shovel": 0.25,
-                "minecraft:iron_shovel": 0.15,
-                "minecraft:diamond_shovel": 0.15,
-                "minecraft:golden_shovel": 0.1
-            },
-            "gravity": false,
-            "burnability": 0,
-            "light": 0,
-            "light_needed": {
-                
-            },
-            "tool_damage": {
-                "minecraft:wooden_shovel": 1,
-                "minecraft:stone_shovel": 1,
-                "minecraft:iron_shovel": 1,
-                "minecraft:diamond_shovel": 1,
-                "minecraft:golden_shovel": 1
-            },
-            "solid_faces": {
-                "down": true,
-                "up": false,
-                "north": false,
-                "south": false,
-                "east": false,
-                "west": false
-            },
-            "need_support": {
-                
-            },
-            "resistence": 3.25,
-            "transparent": false,
-            "solid": true,
-            "hurt_on_touch": "",
-            "pushable": 1,
-            "fall_damage": 1,
-            "hitbox": [
-                
-            ],
-            "boundingbox": [
-                
-            ]
-        }
+        "hardness": {
+            "minecraft:default": 0.9,
+            "minecraft:wooden_shovel": 0.45,
+            "minecraft:stone_shovel": 0.25,
+            "minecraft:iron_shovel": 0.15,
+            "minecraft:diamond_shovel": 0.15,
+            "minecraft:golden_shovel": 0.1
+        },
+        "gravity": false,
+        "burnability": 0,
+        "light": 0,
+        "light_needed": {
+            
+        },
+        "tool_damage": {
+            "minecraft:wooden_shovel": 1,
+            "minecraft:stone_shovel": 1,
+            "minecraft:iron_shovel": 1,
+            "minecraft:diamond_shovel": 1,
+            "minecraft:golden_shovel": 1
+        },
+        "solid_faces": {
+            "down": true,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            
+        },
+        "resistence": 3.25,
+        "transparent": false,
+        "solid": true,
+        "hurt_on_touch": "",
+        "piston_push": 1
+        "sticky_push": 1,
+        "fall_damage": 1,
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 15, 16 ]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 15, 16 ]
+            }
+        ]
     }
 }

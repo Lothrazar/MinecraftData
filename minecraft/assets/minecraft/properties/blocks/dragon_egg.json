@@ -1,41 +1,102 @@
 {
     "default": {
-        "{}": {
-            "hardness": {
-                "minecraft:default": 4.5
+        "hardness": {
+            "minecraft:default": 4.5
+        },
+        "gravity": true,
+        "burnability": 0,
+        "light": 1,
+        "light_needed": {
+            
+        },
+        "tool_damage": {
+            
+        },
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            
+        },
+        "resistence": 45,
+        "transparent": false,
+        "solid": true,
+        "hurt_on_touch": "",
+        "piston_push": -1
+        "sticky_push": -1,
+        "fall_damage": 1,
+        "hitbox": [
+            {   
+                "from": [ 6, 15, 6 ],
+                "to": [ 10, 16, 10 ]
             },
-            "gravity": true,
-            "burnability": 0,
-            "light": 1,
-            "light_needed": {
-                
+            {   
+                "from": [ 5, 14, 5 ],
+                "to": [ 11, 15, 11 ]
             },
-            "tool_damage": {
-                
+            {   
+                "from": [ 5, 13, 5 ],
+                "to": [ 11, 14, 11 ]
             },
-            "solid_faces": {
-                "down": false,
-                "up": false,
-                "north": false,
-                "south": false,
-                "east": false,
-                "west": false
+            {   
+                "from": [ 3, 11, 3 ],
+                "to": [ 13, 13, 13 ]
             },
-            "need_support": {
-                
+            {   
+                "from": [ 2, 8, 2 ],
+                "to": [ 14, 11, 14 ]
             },
-            "resistence": 45,
-            "transparent": false,
-            "solid": true,
-            "hurt_on_touch": "",
-            "pushable": 2,
-            "fall_damage": 1,
-            "hitbox": [
-                
-            ],
-            "boundingbox": [
-                
-            ]
-        }
+            {   
+                "from": [ 1, 3, 1 ],
+                "to": [ 15, 8, 15 ]
+            },
+            {   
+                "from": [ 2, 1, 2 ],
+                "to": [ 14, 3, 14 ]
+            },
+            {   
+                "from": [ 3, 0, 3 ],
+                "to": [ 13, 1, 13 ]
+            }
+        ],
+        "boundingbox": [
+            {   
+                "from": [ 6, 15, 6 ],
+                "to": [ 10, 16, 10 ]
+            },
+            {   
+                "from": [ 5, 14, 5 ],
+                "to": [ 11, 15, 11 ]
+            },
+            {   
+                "from": [ 5, 13, 5 ],
+                "to": [ 11, 14, 11 ]
+            },
+            {   
+                "from": [ 3, 11, 3 ],
+                "to": [ 13, 13, 13 ]
+            },
+            {   
+                "from": [ 2, 8, 2 ],
+                "to": [ 14, 11, 14 ]
+            },
+            {   
+                "from": [ 1, 3, 1 ],
+                "to": [ 15, 8, 15 ]
+            },
+            {   
+                "from": [ 2, 1, 2 ],
+                "to": [ 14, 3, 14 ]
+            },
+            {   
+                "from": [ 3, 0, 3 ],
+                "to": [ 13, 1, 13 ]
+            }
+        ]
     }
 }
