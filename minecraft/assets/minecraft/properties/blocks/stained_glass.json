@@ -14,13 +14,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -41,13 +41,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -68,13 +68,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -95,13 +95,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -122,13 +122,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -149,13 +149,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -176,13 +176,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -203,13 +203,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -230,13 +230,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -257,13 +257,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -284,13 +284,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -311,13 +311,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -338,13 +338,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -365,13 +365,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -392,13 +392,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
@@ -419,13 +419,13 @@
         "resistence": 1.5,
         "transparent": true,
         "hitbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
         ],
         "boundingbox": [
-            {   
+            {
                 "from": [ 0, 0, 0 ],
                 "to": [ 16, 16, 16 ]
             }
