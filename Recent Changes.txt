@@ -1,3 +1,9 @@
+19-3-2017:
++ added SuperGeniusZeb to this github to help out
++ added bounding and hitboxes to the block properties
+* changed hurt_on_touch to a function, made pushable a stringand split it ip in piston_push and sticky_push
+! fixed quite broken block properties
+
 10-1-2017:
 + added block_properties (gravity, burnability, hardness, tool damage, light(grass, mushrooms, crops), needing support(crops), etc.)
  # is not fully complete; to do:
