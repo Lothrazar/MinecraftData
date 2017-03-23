@@ -235,11 +235,11 @@ list of yet to be created JSON files:
 List of planned changes:
 + add other functions (like slowness on soul sand, and particle spawning) in the block properties
 * change all files to use as little nbt phrasing as possible, but don't remove the ability to base/add nbt tags
- * recipes
- * loot tables (WIP)
+ * recipes (WIP)
+ * loot tables
  * achievements
 * change a number of files into sperate files:
- * crafting, 1 per sesulting base item (make stat.craftItem based on the files)
+ * crafting, 1 per sesulting base item (make stat.craftItem based on the files) (WIP)
  * smelting, fuel and recipe folder, 1 per resulting base item/fuel item
  * enchanting and enchantability, combine both files into 1 per item
  * trading, 1 per career instead of per profession
