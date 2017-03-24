@@ -422,7 +422,7 @@ list of yet to be created model files:
   # parent to the item model
  + add lightning_bolt
 + add nbt dependent models (basically the same as blockstates, but instead of the state, it's the NBT required (only specified NBT is required))
-+ add item_states (NBT dependent models (damage for tools/armor, color for potions/splash potions/lingering potions/tipped arrows, color for mob eggs), specify enchantment glint, clock/compass positioning)
++ add item_states (NBT dependent models, damage for tools/armor, color for potions/splash potions/lingering potions/tipped arrows, color for mob eggs, specify enchantment glint, clock/compass positioning)
  
 List of planned changes:
 + added armor layer to the following:
@@ -481,7 +481,6 @@ List of planned changes:
  * change variant: normal to variant: default
 * update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
  * models
-! fix uv mapping is greatly off in the currently made entity models
 ! fixed villager, illager and witch robe cuts off 2 pixels early
 ! fixed villager, illager and wich arms not mirrored like other mobs
 ! fix redstone wire overlay has no line textures
