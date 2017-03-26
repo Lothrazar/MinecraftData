@@ -21,8 +21,7 @@
                 "items": [
                     [
                         {
-                            "item": "minecraft:writeable_book",
-                            "id": 0
+                            "item": "minecraft:writeable_book"
                         }
                     ]
                 ]
