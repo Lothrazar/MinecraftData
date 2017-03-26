@@ -48,7 +48,7 @@
                 "function": "minecraft:copy_nbt",
                 "id": 1,
                 "copy": "{Explosion}",
-				"paste": "{Fireworks:{Explosions:[]}}"
+                "paste": "{Fireworks:{Explosions:[]}}"
             },
             {
                 "function": "minecraft:add",
