@@ -70,10 +70,10 @@
                 "max_groups": "INTEGER: the maximum amount of slots that can be used by this ingredient, default = -1 (unlimited"
             }
         ],
-        "optional_ingredients_required": [
+        "optional_ingredients_required": {
             "min": "INTEGER: the minimum amount of optional ingredient groups required, default = 0",
             "max": "INTEGER: the maximum amount of optional ingredient groups required, default = -1 (unlimited)"
-        ],
+        },
         "return": {
             "nbt": "STRING: additional nbt data",
             "data": "INTEGER: data value of the item, default = 0",
