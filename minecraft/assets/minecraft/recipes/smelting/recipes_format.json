@@ -1,18 +1,31 @@
 [
-    { 'a individual smelting recipe'
-        "item": "The item that needs to be smelted in data tag format",
-        "return": "The item you get in data tag format",
-        "exp": 'the amount of exp you get for this smelt as a decimal value'
+    {
+        "item": {
+            "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
+            "nbt": "STRING: additional nbt data",
+            "data": "INTEGER: data value of the item, neglected if not provided",
+            "durability": "FLOAT: durability of the item, 1=full, 0=broken, neglected if not provided"
+		},
+        "return": {
+            "nbt": "STRING: additional nbt data",
+			"amount": "INTEGER: amount, default = 1",
+            "data": "INTEGER: data value of the item, default = 0",
+            "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
+		},
+        "exp": "FLOAT: the amount of exp you get for this smelt",
         "functions": [
             {
-                "function": "minecraft:return_items" 'optional, what the item should replace in the fuel slot with what',
-                "item": "The item you get in data tag format",
-                "return": "The item that needs to be replaced in data tag format",
-                "copy_nbt": true/false 'If it should keep any tags it had before, return tag overwrites existing NBT'
+                "function": "minecraft:return_items",
+				"replace": "STRING: item id to replace",
+                "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
+                "nbt": "STRING: Optional, what tags it gets, default = empty",
+                "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
+				"data": "INTEGER: data value of the item, default = 0",
+				"durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
             },
 			{
-                "function": "minecraft:scale_durability" 'optional, see below, formula: current durability/full durability*default value of the tag (rounded up)',
-                "tag": "The tag of the Result item that gets scaled by durability"
+                "function": "minecraft:scale_durability",
+                "tag": "The tag of the result item that gets scaled by durability, values: amount, data, durability or an nbt tag, default = durability"
             }
         ]
     }

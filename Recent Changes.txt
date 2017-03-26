@@ -1,7 +1,7 @@
 26-3-2017:
-* changed crafting files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
-* changed crafting files, split into 1 file per sesulting base item
-! fixed crafting format file is invalid json
+* changed crafting and smelting files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed crafting and smelting files, split into 1 file per sesulting base item
+! fixed crafting and smelting format files are invalid json
 
 19-3-2017:
 + added SuperGeniusZeb to this github to help out

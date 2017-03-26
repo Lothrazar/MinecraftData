@@ -1,0 +1,14 @@
+[
+    {
+        "item": {
+            "item": [
+				"minecraft:log",
+				"minecraft:log2"
+			]
+		},
+		"return": {
+			"data": 1
+		},
+        "exp": 0.15
+    }
+]

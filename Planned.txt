@@ -239,7 +239,6 @@ List of planned changes:
  * loot tables
  * achievements
 * change a number of files into sperate files:
- * smelting, fuel and recipe folder, 1 per resulting base item/fuel item
  * enchanting and enchantability, combine both files into 1 per item
  * trading, 1 per career instead of per profession
  * brewing, fuel and recipe folder, 1 per resulting base item/fuel item
