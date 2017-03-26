@@ -1,0 +1,40 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:beetroot"
+                        },
+                        {
+                            "item": "minecraft:beetroot"
+                        },
+                        {
+                            "item": "minecraft:beetroot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:beetroot"
+                        },
+                        {
+                            "item": "minecraft:beetroot"
+                        },
+                        {
+                            "item": "minecraft:beetroot"
+                        }
+                    ],
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:bowl"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

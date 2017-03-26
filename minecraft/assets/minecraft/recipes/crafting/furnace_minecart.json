@@ -1,0 +1,20 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:furnace"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:minecart"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

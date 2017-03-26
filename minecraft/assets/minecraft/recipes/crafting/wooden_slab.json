@@ -1,0 +1,157 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 1
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 1
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 1
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 1
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 2
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 2
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 2
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 2
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 3
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 4
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 4
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 4
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 4
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 5
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 5
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 5
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 5
+        }
+    }
+]

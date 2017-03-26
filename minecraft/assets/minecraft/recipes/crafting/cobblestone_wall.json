@@ -1,0 +1,69 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:mossy_cobblestone"
+                        },
+                        {
+                            "item": "minecraft:mossy_cobblestone"
+                        },
+                        {
+                            "item": "minecraft:mossy_cobblestone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:mossy_cobblestone"
+                        },
+                        {
+                            "item": "minecraft:mossy_cobblestone"
+                        },
+                        {
+                            "item": "minecraft:mossy_cobblestone"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 1
+        }
+    }
+]

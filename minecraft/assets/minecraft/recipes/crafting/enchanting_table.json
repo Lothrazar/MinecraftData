@@ -1,0 +1,40 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:book"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:diamond"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:diamond"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

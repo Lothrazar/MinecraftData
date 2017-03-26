@@ -1,7 +1,12 @@
+26-3-2017:
+* changed crafting files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed crafting files, split into 1 file per sesulting base item
+! fixed crafting format file is invalid json
+
 19-3-2017:
 + added SuperGeniusZeb to this github to help out
 + added bounding and hitboxes to the block properties
-* changed hurt_on_touch to a function, made pushable a stringand split it ip in piston_push and sticky_push
+* changed hurt_on_touch to a function, made pushable a string and split it up in piston_push and sticky_push
 ! fixed quite broken block properties
 
 10-1-2017:

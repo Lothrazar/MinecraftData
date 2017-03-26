@@ -1,0 +1,24 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:reeds"
+                        },
+                        {
+                            "item": "minecraft:reeds"
+                        },
+                        {
+                            "item": "minecraft:reeds"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 3
+        }
+    }
+]

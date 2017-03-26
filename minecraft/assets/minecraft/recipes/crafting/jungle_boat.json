@@ -1,0 +1,37 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        },
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        },
+                        {
+                            "item": "minecraft:planks",
+                            "data": 3
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

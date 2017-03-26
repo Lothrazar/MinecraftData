@@ -1,0 +1,46 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 3
+        }
+    }
+]

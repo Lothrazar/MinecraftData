@@ -1,0 +1,28 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:flint"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:feather"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 4
+        }
+    }
+]

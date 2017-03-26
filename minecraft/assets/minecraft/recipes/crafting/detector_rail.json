@@ -1,0 +1,46 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:iron_ingot"
+                        },
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:iron_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:iron_ingot"
+                        },
+                        {
+                            "item": "minecraft:stone_pressure_plate"
+                        },
+                        {
+                            "item": "minecraft:iron_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:iron_ingot"
+                        },
+                        {
+                            "item": "minecraft:redstone"
+                        },
+                        {
+                            "item": "minecraft:iron_ingot"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6
+        }
+    }
+]

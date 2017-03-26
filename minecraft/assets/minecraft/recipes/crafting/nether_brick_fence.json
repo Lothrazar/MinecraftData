@@ -1,0 +1,35 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:nether_brick"
+                        },
+                        {
+                            "item": "minecraft:nether_brick"
+                        },
+                        {
+                            "item": "minecraft:nether_brick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:nether_brick"
+                        },
+                        {
+                            "item": "minecraft:nether_brick"
+                        },
+                        {
+                            "item": "minecraft:nether_brick"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 3
+        }
+    }
+]

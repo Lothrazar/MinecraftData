@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_crystals"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:prismarine_crystals"
+                        },
+                        {
+                            "item": "minecraft:prismarine_crystals"
+                        },
+                        {
+                            "item": "minecraft:prismarine_crystals"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_crystals"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

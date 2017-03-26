@@ -1,0 +1,59 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:iron_block"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 9
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:iron_nugget"
+                        },
+                        {
+                            "item": "minecraft:iron_nugget"
+                        },
+                        {
+                            "item": "minecraft:iron_nugget"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:iron_nugget"
+                        },
+                        {
+                            "item": "minecraft:iron_nugget"
+                        },
+                        {
+                            "item": "minecraft:iron_nugget"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:iron_nugget"
+                        },
+                        {
+                            "item": "minecraft:iron_nugget"
+                        },
+                        {
+                            "item": "minecraft:iron_nugget"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

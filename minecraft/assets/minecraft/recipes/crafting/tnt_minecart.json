@@ -1,0 +1,20 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:tnt"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:minecart"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

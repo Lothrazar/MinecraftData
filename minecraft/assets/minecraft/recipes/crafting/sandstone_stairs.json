@@ -1,0 +1,37 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:sandstone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:sandstone"
+                        },
+                        {
+                            "item": "minecraft:sandstone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:sandstone"
+                        },
+                        {
+                            "item": "minecraft:sandstone"
+                        },
+                        {
+                            "item": "minecraft:sandstone"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 4
+        }
+    }
+]

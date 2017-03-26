@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            "item": "minecraft:ender_eye"
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            "item": "minecraft:ghast_tear"
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

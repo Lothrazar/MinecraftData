@@ -1,0 +1,59 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stone_shovel",
+                            "id": 0
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stone_shovel",
+                            "id": 1
+                        }
+                    ]
+                ]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:repair",
+                "ids": [
+                    0,
+                    1
+                ],
+                "bonus": 5
+            }
+        ]
+    }
+]

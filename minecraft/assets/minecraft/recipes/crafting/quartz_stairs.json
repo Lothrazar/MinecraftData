@@ -1,0 +1,37 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:quartz_block"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:quartz_block"
+                        },
+                        {
+                            "item": "minecraft:quartz_block"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:quartz_block"
+                        },
+                        {
+                            "item": "minecraft:quartz_block"
+                        },
+                        {
+                            "item": "minecraft:quartz_block"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 4
+        }
+    }
+]

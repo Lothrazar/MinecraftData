@@ -1,0 +1,31 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dirt",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:gravel"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:gravel"
+                        },
+                        {
+                            "item": "minecraft:dirt",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 1
+        }
+    }
+]

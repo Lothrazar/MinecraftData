@@ -1,0 +1,26 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:rabbit_hide"
+                        },
+                        {
+                            "item": "minecraft:rabbit_hide"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:rabbit_hide"
+                        },
+                        {
+                            "item": "minecraft:rabbit_hide"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

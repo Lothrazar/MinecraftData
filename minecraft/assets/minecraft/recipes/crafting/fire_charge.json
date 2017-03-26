@@ -1,0 +1,33 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:blaze_powder"
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:coal"
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:gunpowder"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

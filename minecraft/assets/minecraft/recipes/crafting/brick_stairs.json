@@ -1,0 +1,37 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:bricks"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:bricks"
+                        },
+                        {
+                            "item": "minecraft:bricks"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:bricks"
+                        },
+                        {
+                            "item": "minecraft:bricks"
+                        },
+                        {
+                            "item": "minecraft:bricks"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 4
+        }
+    }
+]

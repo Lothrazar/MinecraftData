@@ -1,0 +1,35 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:iron_ingot"
+                        },
+                        {
+                            "item": "minecraft:iron_ingot"
+                        },
+                        {
+                            "item": "minecraft:iron_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:iron_ingot"
+                        },
+                        {
+                            "item": "minecraft:iron_ingot"
+                        },
+                        {
+                            "item": "minecraft:iron_ingot"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 16
+        }
+    }
+]

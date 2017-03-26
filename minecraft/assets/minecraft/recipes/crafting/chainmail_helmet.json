@@ -1,0 +1,36 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:chainmail_helmet",
+                            "id": 0
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:chainmail_helmet",
+                            "id": 1
+                        }
+                    ]
+                ]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:repair",
+                "ids": [
+                    0,
+                    1
+                ],
+                "bonus": 5
+            }
+        ]
+    }
+]

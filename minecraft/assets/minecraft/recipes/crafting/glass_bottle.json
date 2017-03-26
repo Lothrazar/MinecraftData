@@ -1,0 +1,32 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        }
+                    ],
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 3
+        }
+    }
+]

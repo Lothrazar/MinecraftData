@@ -1,0 +1,37 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:redstone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:redstone"
+                        },
+                        {
+                            "item": "minecraft:glowstone"
+                        },
+                        {
+                            "item": "minecraft:redstone"
+                        }
+                    ],
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:redstone"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:vines"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

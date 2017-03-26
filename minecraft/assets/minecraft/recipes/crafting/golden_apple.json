@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            "item": "minecraft:apple"
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

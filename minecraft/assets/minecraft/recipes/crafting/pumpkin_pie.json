@@ -1,0 +1,33 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:pumpkin"
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:sugar"
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:egg"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

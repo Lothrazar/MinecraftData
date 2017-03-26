@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:ender_eye"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

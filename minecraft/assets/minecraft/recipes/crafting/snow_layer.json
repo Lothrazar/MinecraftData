@@ -1,0 +1,24 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:snow"
+                        },
+                        {
+                            "item": "minecraft:snow"
+                        },
+                        {
+                            "item": "minecraft:snow"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6
+        }
+    }
+]

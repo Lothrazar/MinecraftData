@@ -1,0 +1,24 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:blaze_rod"
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:ender_pearl"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

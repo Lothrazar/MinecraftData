@@ -1,0 +1,58 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:flint"
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:iron_ingot"
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:flint_and_steel",
+                            "id": 0
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:flint_and_steel",
+                            "id": 1
+                        }
+                    ]
+                ]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:repair",
+                "ids": [
+                    0,
+                    1
+                ],
+                "bonus": 5
+            }
+        ]
+    }
+]

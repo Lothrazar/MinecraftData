@@ -1,0 +1,27 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:red_sandstone",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:red_sandstone",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:red_sandstone",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6
+        }
+    }
+]

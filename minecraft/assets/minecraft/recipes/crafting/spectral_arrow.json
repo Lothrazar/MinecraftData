@@ -1,0 +1,40 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:glowstone_dust"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:glowstone_dust"
+                        },
+                        {
+                            "item": "minecraft:arrow"
+                        },
+                        {
+                            "item": "minecraft:glowstone_dust"
+                        }
+                    ],
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:glowstone_dust"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 2
+        }
+    }
+]

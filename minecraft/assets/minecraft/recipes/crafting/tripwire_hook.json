@@ -1,0 +1,28 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:iron_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:planks"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 2
+        }
+    }
+]

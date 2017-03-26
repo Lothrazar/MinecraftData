@@ -1,0 +1,32 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        },
+                        {
+                            "item": "minecraft:wool"
+                        },
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:planks"
+                        },
+                        {
+                            "item": "minecraft:planks"
+                        },
+                        {
+                            "item": "minecraft:planks"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

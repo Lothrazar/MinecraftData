@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            "item": "minecraft:leather"
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        },
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

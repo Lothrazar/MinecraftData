@@ -1,0 +1,44 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:bow",
+                            "durability": 1
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:redstone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

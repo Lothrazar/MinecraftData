@@ -1,0 +1,18 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 9
+        }
+    }
+]

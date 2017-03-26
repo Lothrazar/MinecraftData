@@ -1,0 +1,25 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wheat"
+                        },
+                        {
+                            "item": "minecraft:dye",
+                            "data": 3
+                        },
+                        {
+                            "item": "minecraft:wheat"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 8
+        }
+    }
+]

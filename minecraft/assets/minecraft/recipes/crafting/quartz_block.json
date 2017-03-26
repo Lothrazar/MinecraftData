@@ -1,0 +1,73 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:quartz"
+                        },
+                        {
+                            "item": "minecraft:quartz"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:quartz"
+                        },
+                        {
+                            "item": "minecraft:quartz"
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stone_slab",
+                            "data": 7
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stone_slab",
+                            "data": 7
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 1
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:quartz_block",
+                            "data": 0
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:quartz_block",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 2,
+            "amount": 2
+        }
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wheat"
+                        },
+                        {
+                            "item": "minecraft:wheat"
+                        },
+                        {
+                            "item": "minecraft:wheat"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:wheat"
+                        },
+                        {
+                            "item": "minecraft:wheat"
+                        },
+                        {
+                            "item": "minecraft:wheat"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:wheat"
+                        },
+                        {
+                            "item": "minecraft:wheat"
+                        },
+                        {
+                            "item": "minecraft:wheat"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

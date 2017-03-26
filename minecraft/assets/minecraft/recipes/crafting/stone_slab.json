@@ -1,0 +1,168 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stone",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:stone",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:stone",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:sandstone",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:sandstone",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:sandstone",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 1
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 3
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:bricks"
+                        },
+                        {
+                            "item": "minecraft:bricks"
+                        },
+                        {
+                            "item": "minecraft:bricks"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 4
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stonebrick"
+                        },
+                        {
+                            "item": "minecraft:stonebrick"
+                        },
+                        {
+                            "item": "minecraft:stonebrick"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 5
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:nether_brick"
+                        },
+                        {
+                            "item": "minecraft:nether_brick"
+                        },
+                        {
+                            "item": "minecraft:nether_brick"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 6
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:quartz_block"
+                        },
+                        {
+                            "item": "minecraft:quartz_block"
+                        },
+                        {
+                            "item": "minecraft:quartz_block"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 6,
+            "data": 7
+        }
+    }
+]

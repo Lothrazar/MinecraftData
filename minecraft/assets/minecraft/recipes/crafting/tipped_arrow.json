@@ -1,0 +1,59 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:arrow"
+                        },
+                        {
+                            "item": "minecraft:arrow"
+                        },
+                        {
+                            "item": "minecraft:arrow"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:arrow"
+                        },
+                        {
+                            "item": "minecraft:lingering_potion",
+                            "id": 0
+                        },
+                        {
+                            "item": "minecraft:arrow"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:arrow"
+                        },
+                        {
+                            "item": "minecraft:arrow"
+                        },
+                        {
+                            "item": "minecraft:arrow"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 8
+        },
+        "functions": [
+            {
+                "function": "minecraft:copy_nbt",
+                "id": 0,
+                "copy": "{Potion}"
+            },
+            {
+                "function": "minecraft:copy_nbt",
+                "id": 0,
+                "copy": "{CustomPotionEffects}"
+            }
+        ]
+    }
+]

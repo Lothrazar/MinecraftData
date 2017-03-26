@@ -1,0 +1,37 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:purpur_block"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:purpur_block"
+                        },
+                        {
+                            "item": "minecraft:purpur_block"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:purpur_block"
+                        },
+                        {
+                            "item": "minecraft:purpur_block"
+                        },
+                        {
+                            "item": "minecraft:purpur_block"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 4
+        }
+    }
+]

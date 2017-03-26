@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:glass"
+                        },
+                        {
+                            "item": "minecraft:nether_star"
+                        },
+                        {
+                            "item": "minecraft:glass"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        },
+                        {
+                            "item": "minecraft:obsidian"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

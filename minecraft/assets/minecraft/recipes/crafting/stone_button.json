@@ -1,0 +1,16 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:stone",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

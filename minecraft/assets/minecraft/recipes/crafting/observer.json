@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:redstone"
+                        },
+                        {
+                            "item": "minecraft:redstone"
+                        },
+                        {
+                            "item": "minecraft:quartz"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        },
+                        {
+                            "item": "minecraft:cobblestone"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

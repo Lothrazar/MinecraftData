@@ -1,0 +1,439 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:string"
+                        },
+                        {
+                            "item": "minecraft:string"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:string"
+                        },
+                        {
+                            "item": "minecraft:string"
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 0
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 15
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 1
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 14
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 2
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 13
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 3
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 12
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 4
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 11
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 5
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 10
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 6
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 9
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 7
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 8
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 8
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 7
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 9
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 6
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 10
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 5
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 11
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 4
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 12
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 3
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 13
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 2
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 14
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 1
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:dye",
+                            "data": 15
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:wool"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

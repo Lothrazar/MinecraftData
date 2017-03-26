@@ -1,0 +1,29 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:end_stone"
+                        },
+                        {
+                            "item": "minecraft:end_stone"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:end_stone"
+                        },
+                        {
+                            "item": "minecraft:end_stone"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 4
+        }
+    }
+]

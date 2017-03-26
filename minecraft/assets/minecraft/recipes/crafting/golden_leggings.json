@@ -1,0 +1,77 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:gold_ingot"
+                        },
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:golden_leggings",
+                            "id": 0
+                        }
+                    ]
+                ]
+            },
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:golden_leggings",
+                            "id": 1
+                        }
+                    ]
+                ]
+            }
+        ],
+        "functions": [
+            {
+                "function": "minecraft:repair",
+                "ids": [
+                    0,
+                    1
+                ],
+                "bonus": 5
+            }
+        ]
+    }
+]

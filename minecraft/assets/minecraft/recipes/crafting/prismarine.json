@@ -1,0 +1,115 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 1
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:dye",
+                            "data": 0
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item": "minecraft:prismarine_shard"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 2
+        }
+    }
+]

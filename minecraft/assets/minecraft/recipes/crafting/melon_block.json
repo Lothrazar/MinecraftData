@@ -1,0 +1,43 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:melon"
+                        },
+                        {
+                            "item": "minecraft:melon"
+                        },
+                        {
+                            "item": "minecraft:melon"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:melon"
+                        },
+                        {
+                            "item": "minecraft:melon"
+                        },
+                        {
+                            "item": "minecraft:melon"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:melon"
+                        },
+                        {
+                            "item": "minecraft:melon"
+                        },
+                        {
+                            "item": "minecraft:melon"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

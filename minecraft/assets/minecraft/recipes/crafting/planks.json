@@ -1,0 +1,104 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:log",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 0
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:log",
+                            "data": 1
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 1
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:log",
+                            "data": 2
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 2
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:log",
+                            "data": 3
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 3
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:log2",
+                            "data": 0
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 4
+        }
+    },
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:log2",
+                            "data": 1
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "data": 5
+        }
+    }
+]

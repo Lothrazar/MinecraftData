@@ -1,0 +1,23 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:coal"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:stick"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 4
+        }
+    }
+]

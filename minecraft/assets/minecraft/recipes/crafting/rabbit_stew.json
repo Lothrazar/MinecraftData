@@ -1,0 +1,37 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:cooked_rabbit"
+                        }
+                    ],
+                    [
+                        {
+                            "item": "minecraft:carrot"
+                        },
+                        {
+                            "item": "minecraft:potato"
+                        },
+                        {
+                            "item": "minecraft:red_mushroom"
+                        }
+                    ],
+                    [
+                        {
+                            
+                        },
+                        {
+                            "item": "minecraft:bowl"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

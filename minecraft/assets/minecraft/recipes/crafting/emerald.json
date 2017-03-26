@@ -1,0 +1,18 @@
+[
+    {
+        "ingredients": [
+            {
+                "items": [
+                    [
+                        {
+                            "item": "minecraft:emerald_block"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "return": {
+            "amount": 9
+        }
+    }
+]
