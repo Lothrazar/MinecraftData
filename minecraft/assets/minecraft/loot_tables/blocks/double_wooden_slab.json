@@ -1,32 +1,88 @@
 {
     "variant=oak": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:2b,Damage:0s}"
+            "item": "minecraft:wooden_slab",
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				}
+			]
         }
     ],
     "variant=spruce": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:2b,Damage:1s}"
+            "item": "minecraft:wooden_slab",
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
     "variant=birch": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:2b,Damage:2s}"
+            "item": "minecraft:wooden_slab",
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "variant=jungle": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:2b,Damage:3s}"
+            "item": "minecraft:wooden_slab",
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
     "variant=acacia": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:2b,Damage:4s}"
+            "item": "minecraft:wooden_slab",
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
     "variant=dark_oak": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:2b,Damage:5s}"
+            "item": "minecraft:wooden_slab",
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ]
 }

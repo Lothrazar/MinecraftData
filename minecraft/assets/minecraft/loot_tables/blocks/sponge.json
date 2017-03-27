@@ -1,12 +1,18 @@
 {
     "wet=false": [
         {
-            "item": "{id:\"minecraft:sponge\",Count:1b,Damage:0s}"
+            "item": "minecraft:sponge"
         }
     ],
     "wet=true": [
         {
-            "item": "{id:\"minecraft:sponge\",Count:1b,Damage:1s}"
+            "item": "minecraft:sponge",
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ]
 }

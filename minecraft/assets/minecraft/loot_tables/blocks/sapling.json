@@ -1,62 +1,62 @@
 {
-    "stage=0,type=oak": [
+    "type=oak": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
+            "item": "minecraft:sapling"
         }
     ],
-    "stage=0,type=spruce": [
+    "type=spruce": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
+            "item": "minecraft:sapling",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
-    "stage=0,type=birch": [
+    "type=birch": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
+            "item": "minecraft:sapling",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
-    "stage=0,type=jungle": [
+    "type=jungle": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
+            "item": "minecraft:sapling",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
-    "stage=0,type=acacia": [
+    "type=acacia": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
+            "item": "minecraft:sapling",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
-    "stage=0,type=dark_oak": [
+    "type=dark_oak": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
-        }
-    ],
-    "stage=1,type=oak": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}"
-        }
-    ],
-    "stage=1,type=spruce": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}"
-        }
-    ],
-    "stage=1,type=birch": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}"
-        }
-    ],
-    "stage=1,type=jungle": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}"
-        }
-    ],
-    "stage=1,type=acacia": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:4s}"
-        }
-    ],
-    "stage=1,type=dark_oak": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:5s}"
+            "item": "minecraft:sapling",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ]
 }

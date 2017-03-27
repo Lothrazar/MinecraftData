@@ -1,217 +1,191 @@
 {
-    "seamless=false,variant=stone": [
+    "variant=stone": [
         {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stone_slab",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				}
+			]
         }
     ],
-    "seamless=false,variant=sandstone": [
+    "variant=sandstone": [
         {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stone_slab",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
-    "seamless=false,variant=wood_old": [
+    "variant=wood_old": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:2b,Damage:0s}"
+            "item": "minecraft:wooden_slab",
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				}
+			]
         }
     ],
-    "seamless=false,variant=cobblestone": [
+    "variant=cobblestone": [
         {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stone_slab",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
-    "seamless=false,variant=brick": [
+    "variant=brick": [
         {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stone_slab",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
-    "seamless=false,variant=stone_brick": [
+    "variant=stone_brick": [
         {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:5s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stone_slab",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ],
-    "seamless=false,variant=nether_brick": [
+    "variant=nether_brick": [
         {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:6s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stone_slab",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 6
+				}
+			]
         }
     ],
-    "seamless=false,variant=quartz": [
+    "variant=quartz": [
         {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:7s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=stone": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=sandstone": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=wood_old": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:2s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=cobblestone": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=brick": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=stone_brick": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:5s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=nether_brick": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:6s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
-        }
-    ],
-    "seamless=true,variant=quartz": [
-        {
-            "item": "{id:\"minecraft:stone_slab\",Count:2b,Damage:7s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stone_slab",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 2
+				},
+				{
+					"function": "minecraft:set_data",
+					"data": 7
+				}
+			]
         }
     ]
 }

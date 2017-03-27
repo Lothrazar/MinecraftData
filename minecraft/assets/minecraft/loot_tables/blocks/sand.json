@@ -1,12 +1,18 @@
 {
     "variant=sand": [
         {
-            "item": "{id:\"minecraft:sand\",Count:1b,Damage:0s}"
+            "item": "minecraft:sand"
         }
     ],
     "variant=red_sand": [
         {
-            "item": "{id:\"minecraft:sand\",Count:1b,Damage:1s}"
+            "item": "minecraft:sand",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ]
 }

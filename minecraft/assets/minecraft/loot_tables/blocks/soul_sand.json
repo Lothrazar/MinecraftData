@@ -1,7 +1,7 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:soul_sand\",Count:1b}"
+            "item": "minecraft:soul_sand"
         }
     ]
 }

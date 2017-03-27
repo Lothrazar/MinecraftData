@@ -2,16 +2,24 @@
     "default": [
         {
             "block": "minecraft:flowing_water",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}",
-                "inverse": true
-            }
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					},
+					"inverse": true
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:ice\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
+            "item": "minecraft:ice",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         }
     ]
 }

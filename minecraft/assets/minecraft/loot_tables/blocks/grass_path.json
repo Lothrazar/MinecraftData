@@ -1,7 +1,7 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+            "item": "minecraft:dirt"
         }
     ]
 }

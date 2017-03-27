@@ -1,24 +1,35 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:lapis_ore\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}"        
-                ]
-            }
+            "item": "minecraft:lapis_ore",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:dye\",Damage:4s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}"        
-                ]
-            },
+            "item": "minecraft:dye",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -26,18 +37,28 @@
                         "min": 4,
                         "max": 16
                     }
-                }
+                },
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
             ]
         },
         {
-            "item": "{id:\"minecraft:dye\",Damage:4s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}"        
-                ]
-            },
+            "item": "minecraft:dye",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -45,18 +66,28 @@
                         "min": 4,
                         "max": 24
                     }
-                }
+                },
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
             ]
         },
         {
-            "item": "{id:\"minecraft:dye\",Damage:4s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}"        
-                ]
-            },
+            "item": "minecraft:dye",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -64,19 +95,25 @@
                         "min": 4,
                         "max": 32
                     }
-                }
+                },
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
             ]
         },
         {
-            "item": "{id:\"minecraft:dye\",Damage:4s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ],
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:dye",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"
+					],
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -84,7 +121,11 @@
                         "min": 4,
                         "max": 8
                     }
-                }
+                },
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
             ]
         }
     ]

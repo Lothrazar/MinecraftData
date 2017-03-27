@@ -1,16 +1,31 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:glowstone\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
+            "item": "minecraft:glowstone",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:1s}]}}"
-            },
+            "item": "minecraft:glowstone_dust",
+            "conditions": [
+				{
+					"minecraft:enchantment": [
+						{
+							"name": "minecraft:fortune",
+							"level": 1
+						},
+						{
+							"name": "minecraft:fortune",
+							"level": 2
+						}
+					]
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -22,31 +37,29 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:2s}]}}"
-            },
+            "item": "minecraft:glowstone_dust",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
-                    "count": {
-                        "min": 3,
-                        "max": 4
-                    }
+                    "count": 4
                 }
             ]
         },
         {
-            "item": "{id:\"minecraft:glowstone_dust\",Count:4b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:4s}]}}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:glowstone_dust\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:glowstone_dust",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",

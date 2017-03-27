@@ -1,16 +1,20 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:deadbush\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:deadbush",
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:stick\"}",
-            "conditions": {
-                "minecraft:drop": 0
-            },
+            "item": "minecraft:stick",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",

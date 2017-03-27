@@ -1,65 +1,117 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:coal_ore\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:33s}]}}"        
-                ]
-            }
+            "item": "minecraft:coal_ore",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:coal\",Count:2b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:1s}]}}"        
-                ]
-            }
+            "item": "minecraft:coal",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 1,
+						"max": 2
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:coal\",Count:3b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:2s}]}}"        
-                ]
-            }
+            "item": "minecraft:coal",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 1,
+						"max": 3
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:coal\",Count:4b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{ench:[{id:35s,lvl:3s}]}}"        
-                ]
-            }
+            "item": "minecraft:coal",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:coal\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ],
-                "minecraft:drops": 0
-            }
+            "item": "minecraft:coal",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					],
+					"minecraft:drops": 0
+				}
+			]
         }
     ]
 }

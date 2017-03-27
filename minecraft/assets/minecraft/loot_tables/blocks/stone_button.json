@@ -1,62 +1,7 @@
 {
-    "facing=north,powered=false": [
+    "*": [
         {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=south,powered=false": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=west,powered=false": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=east,powered=false": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=up,powered=false": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=down,powered=false": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=north,powered=true": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=south,powered=true": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=west,powered=true": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=east,powered=true": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=up,powered=true": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
-        }
-    ],
-    "facing=down,powered=true": [
-        {
-            "item": "{id:\"minecraft:stone_button\",Count:1b}"
+            "item": "minecraft:stone_button"
         }
     ]
 }

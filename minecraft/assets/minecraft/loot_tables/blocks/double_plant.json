@@ -1,370 +1,109 @@
 {
-    "half=lower,variant=sunflower,facing=north": [
+    "half=upper,variant=sunfupper": [
         {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:double_plant",
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			]
         }
     ],
-    "half=lower,variant=syringa,facing=north": [
+    "half=upper,variant=syringa": [
         {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:double_plant,
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
-    "half=lower,variant=double_grass,facing=north": [
+    "half=upper,variant=double_grass": [
         {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        },
+            "item": "minecraft:double_plant,
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			],
         {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:seeds",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "chance": 0.04167
         }
     ],
-    "half=lower,variant=double_fern,facing=north": [
+    "half=upper,variant=double_fern": [
         {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:double_plant,
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:seeds",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "chance": 0.04167
         }
     ],
-    "half=lower,variant=double_rose,facing=north": [
+    "half=upper,variant=double_rose": [
         {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:double_plant,
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
-    "half=lower,variant=peonia,facing=north": [
+    "half=upper,variant=peonia": [
         {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:5s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=sunflower,facing=south": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=syringa,facing=south": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=double_grass,facing=south": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
-            "chance": 0.04167
-        }
-    ],
-    "half=lower,variant=double_fern,facing=south": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
-            "chance": 0.04167
-        }
-    ],
-    "half=lower,variant=double_rose,facing=south": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=peonia,facing=south": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:5s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=sunflower,facing=east": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=syringa,facing=east": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=double_grass,facing=east": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
-            "chance": 0.04167
-        }
-    ],
-    "half=lower,variant=double_fern,facing=east": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
-            "chance": 0.04167
-        }
-    ],
-    "half=lower,variant=double_rose,facing=east": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=peonia,facing=east": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:5s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=sunflower,facing=west": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=syringa,facing=west": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=double_grass,facing=west": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
-            "chance": 0.04167
-        }
-    ],
-    "half=lower,variant=double_fern,facing=west": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
-            "chance": 0.04167
-        }
-    ],
-    "half=lower,variant=double_rose,facing=west": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=lower,variant=peonia,facing=west": [
-        {
-            "item": "{id:\"minecraft:double_plant\",Count:1b,Damage:5s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
-        }
-    ],
-    "half=upper,variant=sunflower,facing=north": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=syringa,facing=north": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_grass,facing=north": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_fern,facing=north": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_rose,facing=north": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=peonia,facing=north": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=sunflower,facing=south": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=syringa,facing=south": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_grass,facing=south": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_fern,facing=south": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_rose,facing=south": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=peonia,facing=south": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=sunflower,facing=east": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=syringa,facing=east": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_grass,facing=east": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_fern,facing=east": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_rose,facing=east": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=peonia,facing=east": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=sunflower,facing=west": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=syringa,facing=west": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_grass,facing=west": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_fern,facing=west": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=double_rose,facing=west": [
-        {
-            
-        }
-    ],
-    "half=upper,variant=peonia,facing=west": [
-        {
-            
+            "item": "minecraft:double_plant,
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ]
 }

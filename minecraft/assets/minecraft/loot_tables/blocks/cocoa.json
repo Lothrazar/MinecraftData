@@ -1,62 +1,39 @@
 {
-    "age=0,facing=north": [
+    "age=0": [
         {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
+            "item": "minecraft:dye",
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
-    "age=1,facing=north": [
+    "age=1": [
         {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
+            "item": "minecraft:dye",
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
-    "age=2,facing=north": [
+    "age=2": [
         {
-            "item": "{id:\"minecraft:dye\",Count:3b,Damage:5s}"
-        }
-    ],
-    "age=0,facing=south": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
-        }
-    ],
-    "age=1,facing=south": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
-        }
-    ],
-    "age=2,facing=south": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:3b,Damage:5s}"
-        }
-    ],
-    "age=0,facing=east": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
-        }
-    ],
-    "age=1,facing=east": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
-        }
-    ],
-    "age=2,facing=east": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:3b,Damage:5s}"
-        }
-    ],
-    "age=0,facing=west": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
-        }
-    ],
-    "age=1,facing=west": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:1b,Damage:5s}"
-        }
-    ],
-    "age=2,facing=west": [
-        {
-            "item": "{id:\"minecraft:dye\",Count:3b,Damage:5s}"
+            "item": "minecraft:dye",
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				},
+				{
+					"function": "minecraft:set_count",
+					"data": 3
+				}
+			]
         }
     ]
 }

@@ -1,14 +1,16 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:lapis_block\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:lapis_block",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			]
         }
     ]
 }

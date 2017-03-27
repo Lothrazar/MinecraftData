@@ -1,7 +1,7 @@
 {
     "age=0": [
         {
-            "item": "{id:\"minecraft:beetroot_seeds\"}",
+            "item": "minecraft:beetroot_seeds",
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -15,7 +15,7 @@
     ],
     "age=1": [
         {
-            "item": "{id:\"minecraft:beetroot_seeds\"}",
+            "item": "minecraft:beetroot_seeds",
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -29,7 +29,7 @@
     ],
     "age=2": [
         {
-            "item": "{id:\"minecraft:beetroot_seeds\"}",
+            "item": "minecraft:beetroot_seeds",
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -43,7 +43,72 @@
     ],
     "age=3": [
         {
-            "item": "{id:\"minecraft:beetroot_seeds\"}",
+            "item": "minecraft:beetroot_seeds",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 4
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:beetroot_seeds",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 5
+                    }
+                }
+            ]
+        },
+                {
+            "item": "minecraft:beetroot_seeds",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 6
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:beetroot_seeds",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -55,7 +120,7 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:beetroot\"}",
+            "item": "minecraft:beetroot",
             "functions": [
                 {
                     "function": "minecraft:set_count",

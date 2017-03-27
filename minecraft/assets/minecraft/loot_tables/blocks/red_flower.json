@@ -1,47 +1,95 @@
 {
     "type=poppy": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:0s}"
+            "item": "minecraft:red_flower"
         }
     ],
     "type=blue_orchid": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:1s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
     "type=allium": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:2s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "type=houstonia": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:3s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
     "type=red_tulip": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:4s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
     "type=orange_tulip": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:5s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ],
     "type=white_tulip": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:6s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 6
+				}
+			]
         }
     ],
     "type=pink_tulip": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:7s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 7
+				}
+			]
         }
     ],
     "type=oxeye_daisy": [
         {
-            "item": "{id:\"minecraft:red_flower\",Count:1b,Damage:8s}"
+            "item": "minecraft:red_flower",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 8
+				}
+			]
         }
     ]
 }

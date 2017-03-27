@@ -1,7 +1,7 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:brown_mushroom\",Count:1b}"
+            "item": "minecraft:brown_mushroom"
         }
     ]
 }

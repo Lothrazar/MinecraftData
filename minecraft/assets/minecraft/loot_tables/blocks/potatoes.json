@@ -1,45 +1,50 @@
 {
     "age=0": [
         {
-            "item": "{id:\"minecraft:potato\",Count:1b}"
+            "item": "minecraft:potato"
         }
     ],
     "age=1": [
         {
-            "item": "{id:\"minecraft:potato\",Count:1b}"
+            "item": "minecraft:potato"
         }
     ],
     "age=2": [
         {
-            "item": "{id:\"minecraft:potato\",Count:1b}"
+            "item": "minecraft:potato"
         }
     ],
     "age=3": [
         {
-            "item": "{id:\"minecraft:potato\",Count:1b}"
+            "item": "minecraft:potato"
         }
     ],
     "age=4": [
         {
-            "item": "{id:\"minecraft:potato\",Count:1b}"
+            "item": "minecraft:potato"
         }
     ],
     "age=5": [
         {
-            "item": "{id:\"minecraft:potato\",Count:1b}"
+            "item": "minecraft:potato"
         }
     ],
     "age=6": [
         {
-            "item": "{id:\"minecraft:potato\",Count:1b}"
+            "item": "minecraft:potato"
         }
     ],
     "age=7": [
         {
-            "item": "{id:\"minecraft:potato\"}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:1s}]}}"
-            },
+            "item": "minecraft:potato",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -51,10 +56,15 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:potato\"}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:2s}]}}"
-            },
+            "item": "minecraft:potato",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -66,10 +76,15 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:potato\"}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:3s}]}}"
-            },
+            "item": "minecraft:potato",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -81,10 +96,12 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:potato\"}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:potato",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -96,7 +113,7 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:poisonous_potato\",Count:1b}",
+            "item": "minecraft:poisonous_potato",
             "chance": 0.02
         }
     ]

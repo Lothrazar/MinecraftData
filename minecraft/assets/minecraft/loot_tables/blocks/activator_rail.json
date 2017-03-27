@@ -1,62 +1,7 @@
 {
-    "shape=north_south,powered=false": [
+    "*": [
         {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=east_west,powered=false": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_north,powered=false": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_south,powered=false": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_east,powered=false": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_west,powered=false": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=north_south,powered=true": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=east_west,powered=true": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_north,powered=true": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_south,powered=true": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_east,powered=true": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_west,powered=true": [
-        {
-            "item": "{id:\"minecraft:activator_rail\",Count:1b}"
+            "item": "minecraft:activator_rail"
         }
     ]
 }

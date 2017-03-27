@@ -1,62 +1,62 @@
 {
-    "half=bottom,variant=oak": [
+    "variant=oak": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}"
+            "item": "minecraft:wooden_slab"
         }
     ],
-    "half=bottom,variant=spruce": [
+    "variant=spruce": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:1s}"
+            "item": "minecraft:wooden_slab",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
-    "half=bottom,variant=birch": [
+    "variant=birch": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:2s}"
+            "item": "minecraft:wooden_slab",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
-    "half=bottom,variant=jungle": [
+    "variant=jungle": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:3s}"
+            "item": "minecraft:wooden_slab",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
-    "half=bottom,variant=acacia": [
+    "variant=acacia": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:4s}"
+            "item": "minecraft:wooden_slab",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
-    "half=bottom,variant=dark_oak": [
+    "variant=dark_oak": [
         {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:5s}"
-        }
-    ],
-    "half=top,variant=oak": [
-        {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:0s}"
-        }
-    ],
-    "half=top,variant=spruce": [
-        {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:1s}"
-        }
-    ],
-    "half=top,variant=birch": [
-        {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:2s}"
-        }
-    ],
-    "half=top,variant=jungle": [
-        {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:3s}"
-        }
-    ],
-    "half=top,variant=acacia": [
-        {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:4s}"
-        }
-    ],
-    "half=top,variant=dark_oak": [
-        {
-            "item": "{id:\"minecraft:wooden_slab\",Count:1b,Damage:5s}"
+            "item": "minecraft:wooden_slab",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ]
 }

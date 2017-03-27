@@ -1,14 +1,16 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:iron_ore\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:iron_ore",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			]
         }
     ]
 }

@@ -1,46 +1,70 @@
 {
     "type=dead_bush": [
         {
-            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:tallgrass",
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:seeds",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "chance": 0.04167
         }
     ],
     "type=tall_grass": [
         {
-            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:tallgrass",
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:seeds",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "chance": 0.04167
         }
     ],
     "type=fern": [
         {
-            "item": "{id:\"minecraft:tallgrass\",Count:1b,Damage:2s}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:shears\",Count:1b}"
-            }
+            "item": "minecraft:tallgrass",
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:shears"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:seeds\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:seeds",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "chance": 0.04167
         }
     ]

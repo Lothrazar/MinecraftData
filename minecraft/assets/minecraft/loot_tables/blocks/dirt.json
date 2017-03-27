@@ -1,50 +1,44 @@
 {
-    "variant=dirt,snowy=false": [
+    "variant=dirt": [
         {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+            "item": "minecraft:dirt"
         }
     ],
-    "variant=dirt,snowy=true": [
+    "variant=coarse_dirt": [
         {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}"
+            "item": "minecraft:dirt,
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
-    "variant=coarse_dirt,snowy=false": [
+    "variant=podzol": [
         {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:1s}"
-        }
-    ],
-    "variant=coarse_dirt,snowy=true": [
-        {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:1s}"
-        }
-    ],
-    "variant=podzol,snowy=false": [
-        {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:2s}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
+            "item": "minecraft:dirt,
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:drops": 0
-            }
-        }
-    ],
-    "variant=podzol,snowy=true": [
-        {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:2s}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        },
-        {
-            "item": "{id:\"minecraft:dirt\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:drops": 0
-            }
+            "item": "minecraft:dirt",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			]
         }
     ]
 }

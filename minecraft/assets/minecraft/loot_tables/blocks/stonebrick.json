@@ -1,58 +1,84 @@
 {
     "variant=stonebrick": [
         {
-            "item": "{id:\"minecraft:stonebrick\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stonebrick",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			]
         }
     ],
     "variant=mossy_stonebrick": [
         {
-            "item": "{id:\"minecraft:stonebrick\",Count:1b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stonebrick",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
     "variant=cracked_stonebrick": [
         {
-            "item": "{id:\"minecraft:stonebrick\",Count:1b,Damage:2s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stonebrick",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "variant=chiseled_stonebrick": [
         {
-            "item": "{id:\"minecraft:stonebrick\",Count:1b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:stonebrick",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ]
 }

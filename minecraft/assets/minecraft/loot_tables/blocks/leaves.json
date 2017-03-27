@@ -1,114 +1,310 @@
 {
-    "check_decay=false,decayable=false,variant=oak": [
+    "variant=oak": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
-            "chance": 0.05
+            "item": "minecraft:sapling",
+            "chance": 0.0625,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:apple\",Count:1b}",
-            "chance": 0.005
-        }
-    ],
-    "check_decay=false,decayable=false,variant=spruce": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
-            "chance": 0.05
-        }
-    ],
-    "check_decay=false,decayable=false,variant=birch": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
-            "chance": 0.05
-        }
-    ],
-    "check_decay=false,decayable=false,variant=jungle": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
-            "chance": 0.025
-        }
-    ],
-    "check_decay=true,decayable=false,variant=oak": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
-            "chance": 0.05
+            "item": "minecraft:sapling",
+            "chance": 0.0833,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:apple\",Count:1b}",
-            "chance": 0.005
-        }
-    ],
-    "check_decay=true,decayable=false,variant=spruce": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
-            "chance": 0.05
-        }
-    ],
-    "check_decay=true,decayable=false,variant=birch": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
-            "chance": 0.05
-        }
-    ],
-    "check_decay=true,decayable=false,variant=jungle": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
-            "chance": 0.025
-        }
-    ],
-    "check_decay=false,decayable=true,variant=oak": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
-            "chance": 0.05
+            "item": "minecraft:sapling",
+            "chance": 0.1,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:apple\",Count:1b}",
-            "chance": 0.005
-        }
-    ],
-    "check_decay=false,decayable=true,variant=spruce": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
-            "chance": 0.05
-        }
-    ],
-    "check_decay=false,decayable=true,variant=birch": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
-            "chance": 0.05
-        }
-    ],
-    "check_decay=false,decayable=true,variant=jungle": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
-            "chance": 0.025
-        }
-    ],
-    "check_decay=true,decayable=true,variant=oak": [
-        {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:0s}",
-            "chance": 0.05
+            "item": "minecraft:sapling",
+            "chance": 0.05,
+			"conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:apple\",Count:1b}",
-            "chance": 0.005
+            "item": "minecraft:apple",
+            "chance": 0.00556,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					},
+					"minecraft:drops": 0
+				}
+			]
+        },
+        {
+            "item": "minecraft:apple",
+            "chance": 0.00625,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					},
+					"minecraft:drops": 0
+				}
+			]
+        },
+        {
+            "item": "minecraft:apple",
+            "chance": 0.00833,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					},
+					"minecraft:drops": 0
+				}
+			]
+        },
+        {
+            "item": "minecraft:apple",
+            "chance": 0.005,
+			"conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			]
         }
     ],
-    "check_decay=true,decayable=true,variant=spruce": [
+    "variant=spruce": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:1s}",
-            "chance": 0.05
+            "item": "minecraft:sapling",
+            "chance": 0.0625,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.0833,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.1,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.05,
+			"conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
-    "check_decay=true,decayable=true,variant=birch": [
+    "variant=birch": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:2s}",
-            "chance": 0.05
+            "item": "minecraft:sapling",
+            "chance": 0.0625,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.0833,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.1,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.05,
+			"conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
-    "check_decay=true,decayable=true,variant=jungle": [
+    "variant=jungle": [
         {
-            "item": "{id:\"minecraft:sapling\",Count:1b,Damage:3s}",
-            "chance": 0.025
+            "item": "minecraft:sapling",
+            "chance": 0.0278,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.03125,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.0417,
+			"conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
+        },
+        {
+            "item": "minecraft:sapling",
+            "chance": 0.025,
+			"conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ]
 }

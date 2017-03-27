@@ -1,45 +1,50 @@
 {
     "age=0": [
         {
-            "item": "{id:\"minecraft:carrot\",Count:1b}"
+            "item": "minecraft:carrot"
         }
     ],
     "age=1": [
         {
-            "item": "{id:\"minecraft:carrot\",Count:1b}"
+            "item": "minecraft:carrot"
         }
     ],
     "age=2": [
         {
-            "item": "{id:\"minecraft:carrot\",Count:1b}"
+            "item": "minecraft:carrot"
         }
     ],
     "age=3": [
         {
-            "item": "{id:\"minecraft:carrot\",Count:1b}"
+            "item": "minecraft:carrot"
         }
     ],
     "age=4": [
         {
-            "item": "{id:\"minecraft:carrot\",Count:1b}"
+            "item": "minecraft:carrot"
         }
     ],
     "age=5": [
         {
-            "item": "{id:\"minecraft:carrot\",Count:1b}"
+            "item": "minecraft:carrot"
         }
     ],
     "age=6": [
         {
-            "item": "{id:\"minecraft:carrot\",Count:1b}"
+            "item": "minecraft:carrot"
         }
     ],
     "age=7": [
         {
-            "item": "{id:\"minecraft:carrot\"}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:1s}]}}"
-            },
+            "item": "minecraft:carrot",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -51,10 +56,15 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:carrot\"}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:2s}]}}"
-            },
+            "item": "minecraft:carrot",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -66,10 +76,15 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:carrot\"}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:35s,lvl:3s}]}}"
-            },
+            "item": "minecraft:carrot\"}",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -81,12 +96,16 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:carrot\"}",
-            "conditions": {
-                "minecraft:drops": 0,
-                "minecraft:entity": "{id:\"minecraft:rabbit\",Count:1b}",
-                "inverse": true
-            },
+            "item": "minecraft:carrot\"}",
+            "conditions": [
+				{
+					"minecraft:entity": "minecraft:rabbit",
+					"inverse": true
+				},
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",

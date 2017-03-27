@@ -1,226 +1,348 @@
 {
     "color=white": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:0s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			]
         }
     ],
     "color=orange": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:1s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
     "color=magenta": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:2s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "color=light_blue": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:3s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
     "color=yellow": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:4s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
     "color=lime": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:5s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ],
     "color=pink": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:6s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 6
+				}
+			]
         }
     ],
     "color=gray": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:7s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 7
+				}
+			]
         }
     ],
     "color=silver": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:8s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 8
+				}
+			]
         }
     ],
     "color=cyan": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:9s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 9
+				}
+			]
         }
     ],
     "color=purple": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:10s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 10
+				}
+			]
         }
     ],
     "color=blue": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:11s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 11
+				}
+			]
         }
     ],
     "color=brown": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:12s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 12
+				}
+			]
         }
     ],
     "color=green": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:13s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 13
+				}
+			]
         }
     ],
     "color=red": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:14s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 14
+				}
+			]
         }
     ],
     "color=black": [
         {
-            "item": "{id:\"minecraft:concrete\",Count:1b,Damage:15s}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-                ]
-            }
+            "item": "minecraft:concrete",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"
+					]
+				}
+			],
+            "functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 15
+				}
+			]
         }
     ]
 }

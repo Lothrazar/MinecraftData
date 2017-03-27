@@ -1,22 +1,87 @@
 {
     "age=0": [
         {
-            "item": "{id:\"minecraft:nether_wart\",Count:1b}"
+            "item": "minecraft:nether_wart"
         }
     ],
     "age=1": [
         {
-            "item": "{id:\"minecraft:nether_wart\",Count:1b}"
+            "item": "minecraft:nether_wart"
         }
     ],
     "age=2": [
         {
-            "item": "{id:\"minecraft:nether_wart\",Count:1b}"
+            "item": "minecraft:nether_wart"
         }
     ],
     "age=3": [
         {
-            "item": "{id:\"minecraft:nether_wart\"}",
+            "item": "minecraft:nether_wart",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                }
+            ]
+        },
+		{
+            "item": "minecraft:nether_wart",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 6
+                    }
+                }
+            ]
+        },
+		{
+            "item": "minecraft:nether_wart",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 7
+                    }
+                }
+            ]
+        },
+		{
+            "item": "minecraft:nether_wart",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",

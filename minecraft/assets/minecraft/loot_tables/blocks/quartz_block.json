@@ -1,72 +1,106 @@
 {
     "variant=default": [
         {
-            "item": "{id:\"minecraft:quartz_block\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:quartz_block",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					]
+				}
+			]
         }
     ],
     "variant=chiseled": [
         {
-            "item": "{id:\"minecraft:quartz_block\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:quartz_block",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
     "variant=lines_x": [
         {
-            "item": "{id:\"minecraft:quartz_block\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:quartz_block",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "variant=lines_y": [
         {
-            "item": "{id:\"minecraft:quartz_block\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:quartz_block",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "variant=lines_z": [
         {
-            "item": "{id:\"minecraft:quartz_block\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:stone_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:golden_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:quartz_block",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_pickaxe",
+						"minecraft:stone_pickaxe",
+						"minecraft:iron_pickaxe",
+						"minecraft:golden_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ]
 }

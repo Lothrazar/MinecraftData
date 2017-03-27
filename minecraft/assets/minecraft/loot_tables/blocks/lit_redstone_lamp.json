@@ -1,7 +1,7 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:redstone_lamp\",Count:1b}"
+            "item": "minecraft:redstone_lamp"
         }
     ]
 }

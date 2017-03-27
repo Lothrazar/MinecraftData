@@ -1,60 +1,8 @@
 {
-    "facing=north": [
+    "*": [
         {
-            "item": "{id:\"minecraft:chest\",Count:1b}",
+            "item": "minecraft:chest",
             "functions": [
-                {
-                    "function": "minecraft:drop_inventory",
-                    "drop": true
-                },
-                {
-                    "function": "minecraft:copy_nbt",
-                    "copy": "{CustomName}",
-                    "paste": "{display:{Name}}"
-                }
-            ]
-        }
-    ],
-    "facing=south": [
-        {
-            "item": "{id:\"minecraft:chest\",Count:1b}",
-            "functions": [
-                {
-                    "function": "minecraft:drop_inventory",
-                    "drop": true
-                },
-                {
-                    "function": "minecraft:copy_nbt",
-                    "copy": "{CustomName}",
-                    "paste": "{display:{Name}}"
-                }
-            ]
-        }
-    ],
-    "facing=east": [
-        {
-            "item": "{id:\"minecraft:chest\",Count:1b}",
-            "functions": [
-                {
-                    "function": "minecraft:drop_inventory",
-                    "drop": true
-                },
-                {
-                    "function": "minecraft:copy_nbt",
-                    "copy": "{CustomName}",
-                    "paste": "{display:{Name}}"
-                }
-            ]
-        }
-    ],
-    "facing=west": [
-        {
-            "item": "{id:\"minecraft:chest\",Count:1b}",
-            "functions": [
-                {
-                    "function": "minecraft:drop_inventory",
-                    "drop": true
-                },
                 {
                     "function": "minecraft:copy_nbt",
                     "copy": "{CustomName}",

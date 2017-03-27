@@ -1,16 +1,28 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:bookshelf\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
+            "item": "minecraft:bookshelf",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:book\",Count:3b}",
-            "conditions": {
-                "minecraft:drops": 0
-            }
+            "item": "minecraft:book",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 3
+				}
+			]
         }
     ]
 }

@@ -1,10 +1,12 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:obsidian\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{id:\"minecraft:diamond_pickaxe\",Count:1b}"
-            }
+            "item": "minecraft:obsidian",
+            "conditions": [
+				{
+					"minecraft:tool": "minecraft:diamond_pickaxe"
+				}
+			]
         }
     ]
 }

@@ -1,32 +1,62 @@
 {
     "variant=oak": [
         {
-            "item": "{id:\"minecraft:planks\",Count:1b,Damage:0s}"
+            "item": "minecraft:planks"
         }
     ],
     "variant=spruce": [
         {
-            "item": "{id:\"minecraft:planks\",Count:1b,Damage:1s}"
+            "item": "minecraft:planks",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
     "variant=birch": [
         {
-            "item": "{id:\"minecraft:planks\",Count:1b,Damage:2s}"
+            "item": "minecraft:planks",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "variant=jungle": [
         {
-            "item": "{id:\"minecraft:planks\",Count:1b,Damage:3s}"
+            "item": "minecraft:planks",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
     "variant=acacia": [
         {
-            "item": "{id:\"minecraft:planks\",Count:1b,Damage:4s}"
+            "item": "minecraft:planks",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
     "variant=dark_oak": [
         {
-            "item": "{id:\"minecraft:planks\",Count:1b,Damage:5s}"
+            "item": "minecraft:planks",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ]
 }

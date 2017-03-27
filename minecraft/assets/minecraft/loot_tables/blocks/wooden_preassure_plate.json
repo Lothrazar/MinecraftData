@@ -1,12 +1,7 @@
 {
-    "powered=false": [
+    "*": [
         {
-            "item": "{id:\"minecraft:wooden_pressure_plate\",Count:1b}"
-        }
-    ],
-    "powered=true": [
-        {
-            "item": "{id:\"minecraft:wooden_pressure_plate\",Count:1b}"
+            "item": "minecraft:wooden_pressure_plate"
         }
     ]
 }

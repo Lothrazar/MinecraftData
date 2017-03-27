@@ -1,3 +1,10 @@
+27-3-2017:
+* changed block loot to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed block loot files to allow * to affect all it's states (lowering file size quite a bit)
+! fixed block loot format files are invalid json
+! fixed missing fortune conditions for some blocks
+! fixed wrong fortune effect on redstone ore
+
 26-3-2017:
 * changed crafting and smelting files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
 * changed crafting and smelting files, split into 1 file per sesulting base item

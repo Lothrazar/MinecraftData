@@ -1,82 +1,40 @@
 {
-    "axis=none,variant=oak": [
+    "variant=oak": [
         {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
+            "item": "minecraft:log"
         }
     ],
-    "axis=none,variant=spruce": [
+    "variant=spruce": [
         {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
+            "item": "minecraft:log",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
-    "axis=none,variant=birch": [
+    "variant=birch": [
         {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
+            "item": "minecraft:log",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
-    "axis=none,variant=jungle": [
+    "variant=jungle": [
         {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
-        }
-    ],
-    "axis=x,variant=oak": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
-        }
-    ],
-    "axis=x,variant=spruce": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
-        }
-    ],
-    "axis=x,variant=birch": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
-        }
-    ],
-    "axis=x,variant=jungle": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
-        }
-    ],
-    "axis=y,variant=oak": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
-        }
-    ],
-    "axis=y,variant=spruce": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
-        }
-    ],
-    "axis=y,variant=birch": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
-        }
-    ],
-    "axis=y,variant=jungle": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
-        }
-    ],
-    "axis=z,variant=oak": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:0s}"
-        }
-    ],
-    "axis=z,variant=spruce": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:1s}"
-        }
-    ],
-    "axis=z,variant=birch": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:2s}"
-        }
-    ],
-    "axis=z,variant=jungle": [
-        {
-            "item": "{id:\"minecraft:log\",Count:1b,Damage:3s}"
+            "item": "minecraft:log",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ]
 }

@@ -1,17 +1,7 @@
 {
-    "axis=x": [
+    "*": [
         {
-            "item": "{id:\"minecraft:bone_block\",Count:1b}"
-        }
-    ],
-    "axis=y": [
-        {
-            "item": "{id:\"minecraft:bone_block\",Count:1b}"
-        }
-    ],
-    "axis=z": [
-        {
-            "item": "{id:\"minecraft:bone_block\",Count:1b}"
+            "item": "minecraft:bone_block"
         }
     ]
 }

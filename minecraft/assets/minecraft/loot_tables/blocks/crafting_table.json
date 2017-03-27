@@ -1,7 +1,7 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:crafting_table\",Count:1b}"
+            "item": "minecraft:crafting_table"
         }
     ]
 }

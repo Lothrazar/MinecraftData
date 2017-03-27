@@ -1,20 +1,25 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:sea_lantern\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "tag:{ench:[{id:33s}]}}"    
-                ]
-            }
+            "item": "minecraft:sea_lantern",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:prismarine_crystals\"}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{tag:{ench:[{id:35s,lvl:1s}]}}"        
-                ]
-            },
+            "item": "minecraft:prismarine_crystals",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -26,12 +31,15 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:prismarine_crystals\"}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{tag:{ench:[{id:35s,lvl:2s}]}}"    
-                ]
-            },
+            "item": "minecraft:prismarine_crystals",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -43,27 +51,32 @@
             ]
         },
         {
-            "item": "{id:\"minecraft:prismarine_crystals\"}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{tag:{ench:[{id:35s,lvl:3s}]}}"        
-                ]
-            },
+            "item": "minecraft:prismarine_crystals",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
                     "count": {
-                        "min": 2,
-                        "max": 6
+                        "min": 3,
+                        "max": 5
                     }
                 }
             ]
         },
         {
-            "item": "{id:\"minecraft:prismarine_crystals\"}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:prismarine_crystals",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",

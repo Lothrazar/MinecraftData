@@ -1,13 +1,15 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:gold_ore\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:iron_pickaxe\",Count:1b}",
-                    "{id:\"minecraft:diamond_pickaxe\",Count:1b}"        
-                ]
-            }
+            "item": "minecraft:gold_ore",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:iron_pickaxe",
+						"minecraft:diamond_pickaxe"        
+					]
+				}
+			]
         }
     ]
 }

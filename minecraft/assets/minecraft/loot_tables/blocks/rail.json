@@ -1,52 +1,7 @@
 {
-    "shape=north_south": [
+    "*": [
         {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=east_west": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=north_east": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=north_west": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=south_east": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=south_west": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_north": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_south": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_east": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
-        }
-    ],
-    "shape=ascending_west": [
-        {
-            "item": "{id:\"minecraft:rail\",Count:1b}"
+            "item": "minecraft:rail"
         }
     ]
 }

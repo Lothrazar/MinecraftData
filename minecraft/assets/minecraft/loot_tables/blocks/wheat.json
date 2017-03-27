@@ -1,45 +1,107 @@
 {
     "age=0": [
         {
-            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+            "item": "minecraft:wheat_seeds"
         }
     ],
     "age=1": [
         {
-            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+            "item": "minecraft:wheat_seeds"
         }
     ],
     "age=2": [
         {
-            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+            "item": "minecraft:wheat_seeds"
         }
     ],
     "age=3": [
         {
-            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+            "item": "minecraft:wheat_seeds"
         }
     ],
     "age=4": [
         {
-            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+            "item": "minecraft:wheat_seeds"
         }
     ],
     "age=5": [
         {
-            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+            "item": "minecraft:wheat_seeds"
         }
     ],
     "age=6": [
         {
-            "item": "{id:\"minecraft:wheat_seeds\",Count:1b}"
+            "item": "minecraft:wheat_seeds"
         }
     ],
     "age=7": [
         {
-            "item": "{id:\"minecraft:wheat\",Count:1b}"
+            "item": "minecraft:wheat_seeds",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 4
+                    }
+                }
+            ]
         },
         {
-            "item": "{id:\"minecraft:wheat_seeds\"}",
+            "item": "minecraft:wheat_seeds",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 5
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:wheat_seeds",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 6
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:wheat_seeds",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -49,6 +111,9 @@
                     }
                 }
             ]
+        },
+		{
+            "item": "minecraft:wheat"
         }
     ]
 }

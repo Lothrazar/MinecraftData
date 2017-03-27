@@ -1,29 +1,42 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:snow\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_shovel\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:stone_shovel\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:iron_shovel\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:golden_shovel\",Count:1b,tag:{ench:[{id:33s}]}}",
-                    "{id:\"minecraft:diamond_shovel\",Count:1b,tag:{ench:[{id:33s}]}}"
-                ]
-            }
+            "item": "minecraft:snow",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_shovel",
+						"minecraft:stone_shovel",
+						"minecraft:iron_shovel",
+						"minecraft:golden_shovel",
+						"minecraft:diamond_shovel"
+					],
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:snowball\",Count:4b}",
-            "conditions": {
-                "minecraft:tool": [
-                    "{id:\"minecraft:wooden_shovel\",Count:1b}",
-                    "{id:\"minecraft:stone_shovel\",Count:1b}",
-                    "{id:\"minecraft:iron_shovel\",Count:1b}",
-                    "{id:\"minecraft:golden_shovel\",Count:1b}",
-                    "{id:\"minecraft:diamond_shovel\",Count:1b}"
-                ],
-                "minecraft:drops": 0
-            }
+            "item": "minecraft:snowball",
+            "conditions": [
+				{
+					"minecraft:tool": [
+						"minecraft:wooden_shovel",
+						"minecraft:stone_shovel",
+						"minecraft:iron_shovel",
+						"minecraft:golden_shovel",
+						"minecraft:diamond_shovel"
+					],
+					"minecraft:drops": 0
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": 4
+				}
+			]
         }
     ]
 }

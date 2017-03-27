@@ -1,32 +1,7 @@
 {
-    "age=0": [
+    "*": [
         {
-            "item": "{id:\"minecraft:chorus_flower\",Count:1b}"
-        }
-    ],
-    "age=1": [
-        {
-            "item": "{id:\"minecraft:chorus_flower\",Count:1b}"
-        }
-    ],
-    "age=2": [
-        {
-            "item": "{id:\"minecraft:chorus_flower\",Count:1b}"
-        }
-    ],
-    "age=3": [
-        {
-            "item": "{id:\"minecraft:chorus_flower\",Count:1b}"
-        }
-    ],
-    "age=4": [
-        {
-            "item": "{id:\"minecraft:chorus_flower\",Count:1b}"
-        }
-    ],
-    "age=5": [
-        {
-            "item": "{id:\"minecraft:chorus_flower\",Count:1b}"
+            "item": "minecraft:chorus_flower"
         }
     ]
 }

@@ -1,10 +1,14 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:glass\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
+            "item": "minecraft:glass",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         }
     ]
 }

@@ -1,130 +1,14 @@
 {
-    "north=false,south=false,east=false,west=false": [
+    "*": [
         {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=false,east=false,west=false": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=false,south=true,east=false,west=false": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=true,east=false,west=false": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=false,south=false,east=true,west=false": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=false,east=true,west=false": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=false,south=true,east=true,west=false": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=true,east=true,west=false": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=false,south=false,east=false,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=false,east=false,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=false,south=true,east=false,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=true,east=false,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=false,south=false,east=true,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=false,east=true,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=false,south=true,east=true,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
-        }
-    ],
-    "north=true,south=true,east=true,west=true": [
-        {
-            "item": "{id:\"minecraft:glass_pane\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
+            "item": "minecraft:glass_pane",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         }
     ]
 }

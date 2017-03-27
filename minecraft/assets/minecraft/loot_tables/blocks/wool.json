@@ -1,82 +1,172 @@
 {
     "color=white": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:0s}"
+            "item": "minecraft:wool"
         }
     ],
     "color=orange": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:1s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 1
+				}
+			]
         }
     ],
     "color=magenta": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:2s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 2
+				}
+			]
         }
     ],
     "color=light_blue": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:3s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 3
+				}
+			]
         }
     ],
     "color=yellow": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:4s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 4
+				}
+			]
         }
     ],
     "color=lime": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:5s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 5
+				}
+			]
         }
     ],
     "color=pink": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:6s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 6
+				}
+			]
         }
     ],
     "color=gray": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:7s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 7
+				}
+			]
         }
     ],
     "color=silver": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:8s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 8
+				}
+			]
         }
     ],
     "color=cyan": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:9s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 9
+				}
+			]
         }
     ],
     "color=purple": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:10s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 10
+				}
+			]
         }
     ],
     "color=blue": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:11s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 11
+				}
+			]
         }
     ],
     "color=brown": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:12s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 12
+				}
+			]
         }
     ],
     "color=green": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:13s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 13
+				}
+			]
         }
     ],
     "color=red": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:14s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 14
+				}
+			]
         }
     ],
     "color=black": [
         {
-            "item": "{id:\"minecraft:wool\",Count:1b,Damage:15s}"
+            "item": "minecraft:wool",
+			"functions": [
+				{
+					"function": "minecraft:set_data",
+					"data": 15
+				}
+			]
         }
     ]
 }

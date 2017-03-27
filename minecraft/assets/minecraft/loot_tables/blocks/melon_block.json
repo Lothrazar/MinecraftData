@@ -1,16 +1,82 @@
 {
     "default": [
         {
-            "item": "{id:\"minecraft:melon_block\",Count:1b}",
-            "conditions": {
-                "minecraft:tool": "{tag:{ench:[{id:33s}]}}"
-            }
+            "item": "minecraft:melon_block",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:silk_touch"
+					}
+				}
+			]
         },
         {
-            "item": "{id:\"minecraft:melon\",Count:1b}",
-            "conditions": {
-                "minecraft:drops": 0
-            },
+            "item": "minecraft:melon",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 1
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:melon",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 2
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 9
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:melon",
+            "conditions": [
+				{
+					"minecraft:enchantment": {
+						"name": "minecraft:fortune",
+						"level": 3
+					}
+				}
+			],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 9
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:melon",
+            "conditions": [
+				{
+					"minecraft:drops": 0
+				}
+			],
             "functions": [
                 {
                     "function": "minecraft:set_count",
