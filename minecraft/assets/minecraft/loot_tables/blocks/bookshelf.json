@@ -3,26 +3,26 @@
         {
             "item": "minecraft:bookshelf",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:book",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 3
-				}
-			]
+                {
+                    "minecraft:drops": 0
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                }
+            ]
         }
     ]
 }

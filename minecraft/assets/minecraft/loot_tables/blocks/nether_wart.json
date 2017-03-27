@@ -18,13 +18,13 @@
         {
             "item": "minecraft:nether_wart",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -35,16 +35,16 @@
                 }
             ]
         },
-		{
+        {
             "item": "minecraft:nether_wart",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -55,16 +55,16 @@
                 }
             ]
         },
-		{
+        {
             "item": "minecraft:nether_wart",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -75,13 +75,13 @@
                 }
             ]
         },
-		{
+        {
             "item": "minecraft:nether_wart",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",

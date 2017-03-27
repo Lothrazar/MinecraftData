@@ -3,37 +3,37 @@
         {
             "item": "minecraft:quartz_ore",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:quartz",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			],
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -47,20 +47,20 @@
         {
             "item": "minecraft:quartz",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 2
-					}
-				}
-			],
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -74,20 +74,20 @@
         {
             "item": "minecraft:quartz",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 3
-					}
-				}
-			],
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -101,17 +101,17 @@
         {
             "item": "minecraft:quartz",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:drops": 0
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:drops": 0
+                }
+            ]
         }
     ]
 }

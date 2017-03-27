@@ -38,13 +38,13 @@
         {
             "item": "minecraft:potato",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -58,13 +58,13 @@
         {
             "item": "minecraft:potato",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 2
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -78,13 +78,13 @@
         {
             "item": "minecraft:potato",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 3
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -98,10 +98,10 @@
         {
             "item": "minecraft:potato",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",

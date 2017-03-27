@@ -3,37 +3,37 @@
         {
             "item": "minecraft:dye",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         }
     ],
     "age=1": [
         {
             "item": "minecraft:dye",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         }
     ],
     "age=2": [
         {
             "item": "minecraft:dye",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				},
-				{
-					"function": "minecraft:set_count",
-					"data": 3
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                },
+                {
+                    "function": "minecraft:set_count",
+                    "data": 3
+                }
+            ]
         }
     ]
 }

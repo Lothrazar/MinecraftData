@@ -38,13 +38,13 @@
         {
             "item": "minecraft:carrot",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -58,13 +58,13 @@
         {
             "item": "minecraft:carrot",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 2
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -78,13 +78,13 @@
         {
             "item": "minecraft:carrot\"}",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 3
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -98,14 +98,14 @@
         {
             "item": "minecraft:carrot\"}",
             "conditions": [
-				{
-					"minecraft:entity": "minecraft:rabbit",
-					"inverse": true
-				},
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:entity": "minecraft:rabbit",
+                    "inverse": true
+                },
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",

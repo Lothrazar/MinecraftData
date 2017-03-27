@@ -3,49 +3,49 @@
         {
             "item": "minecraft:double_plant",
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			]
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ]
         }
     ],
     "half=upper,variant=syringa": [
         {
             "item": "minecraft:double_plant,
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			],
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ],
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "half=upper,variant=double_grass": [
         {
             "item": "minecraft:double_plant,
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			],
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ],
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			],
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ],
         {
             "item": "minecraft:seeds",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "chance": 0.04167
         }
     ],
@@ -53,24 +53,24 @@
         {
             "item": "minecraft:double_plant,
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			],
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ],
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         },
         {
             "item": "minecraft:seeds",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "chance": 0.04167
         }
     ],
@@ -78,32 +78,32 @@
         {
             "item": "minecraft:double_plant,
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			],
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ],
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 4
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 4
+                }
+            ]
         }
     ],
     "half=upper,variant=peonia": [
         {
             "item": "minecraft:double_plant,
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			],
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ],
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 5
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 5
+                }
+            ]
         }
     ]
 }

@@ -3,86 +3,86 @@
         {
             "item": "minecraft:wooden_slab",
             "functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 2
-				}
-			]
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                }
+            ]
         }
     ],
     "variant=spruce": [
         {
             "item": "minecraft:wooden_slab",
             "functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 2
-				},
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "variant=birch": [
         {
             "item": "minecraft:wooden_slab",
             "functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 2
-				},
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         }
     ],
     "variant=jungle": [
         {
             "item": "minecraft:wooden_slab",
             "functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 2
-				},
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         }
     ],
     "variant=acacia": [
         {
             "item": "minecraft:wooden_slab",
             "functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 2
-				},
-				{
-					"function": "minecraft:set_data",
-					"data": 4
-				}
-			]
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 4
+                }
+            ]
         }
     ],
     "variant=dark_oak": [
         {
             "item": "minecraft:wooden_slab",
             "functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 2
-				},
-				{
-					"function": "minecraft:set_data",
-					"data": 5
-				}
-			]
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": 5
+                }
+            ]
         }
     ]
 }

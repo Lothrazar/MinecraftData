@@ -7,12 +7,12 @@
     "variant=red_sand": [
         {
             "item": "minecraft:sand",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ]
 }

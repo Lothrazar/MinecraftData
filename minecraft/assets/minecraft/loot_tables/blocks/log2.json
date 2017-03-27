@@ -7,12 +7,12 @@
     "variant=dark_oak": [
         {
             "item": "minecraft:log2",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ]
 }

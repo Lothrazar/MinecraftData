@@ -3,13 +3,13 @@
         {
             "item": "minecraft:gold_ore",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:iron_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					]
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:iron_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -3,31 +3,31 @@
         {
             "item": "minecraft:emerald_ore",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:iron_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:iron_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:emerald",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:iron_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			],
+                {
+                    "minecraft:tool": [
+                        "minecraft:iron_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -41,17 +41,17 @@
         {
             "item": "minecraft:emerald",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:iron_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 2
-					}
-				}
-			],
+                {
+                    "minecraft:tool": [
+                        "minecraft:iron_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -65,17 +65,17 @@
         {
             "item": "minecraft:emerald",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:iron_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 3
-					}
-				}
-			],
+                {
+                    "minecraft:tool": [
+                        "minecraft:iron_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -89,15 +89,15 @@
         {
             "item": "minecraft:emerald",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:iron_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					],
-					"minecraft:drops": 0
-					}
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:iron_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:drops": 0
+                    }
+                }
+            ]
         }
     ]
 }

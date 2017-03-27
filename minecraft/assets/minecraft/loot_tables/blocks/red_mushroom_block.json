@@ -3,29 +3,29 @@
         {
             "item": "minecraft:red_mushroom_block",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"       
-					}
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"       
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:red_mushroom",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": {
-						"min": 0,
-						"max": 2
-					}
-				}
-			]
+                {
+                    "minecraft:drops": 0
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 2
+                    }
+                }
+            ]
         }
     ]
 }

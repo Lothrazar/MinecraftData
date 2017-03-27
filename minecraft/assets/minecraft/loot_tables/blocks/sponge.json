@@ -8,11 +8,11 @@
         {
             "item": "minecraft:sponge",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ]
 }

@@ -1,68 +1,68 @@
 {
     "block states": [
-		{
-			"item": "STRING: the item id to be dropped, default = nothing",
-			"block": "STRING: the block name of the spawned block if this block is destroyed, default = minecraft:air",
-			"block_state": "STRING: the block states of the spawned block if this block is destroyed, default = default",
-			"chance": "FLOAT: the chance the item drops",
-			"conditions": [
-				{
-					"minecraft:drops": "INTEGER: amount of drops that already need to be dropped, before this item spawns",
-					"minecraft:drops": {
-						"min": "INTEGER: minimum amount of drops that already need to be dropped, before this item spawns",
-						"max": "INTEGER: maximum amount of drops that already need to be dropped, before this item spawns"
-					},
-					"minecraft:tool": "STRING: the item id required to mine this block to obtain this drop, can also be a list of strings",
-					"minecraft:enchantment": {
-						"name": "STRING: the enchantment id required to mine this block to obtain this drop, this compound can also be a list of compounds",
-						"level": "INTEGER: the enchantment level required to mine this block to obtain this drop"
-					},
-					"minecraft:block": "STRING: the block name (and states) that replaces this block, can also be a list of strings",
-					"minecraft:entity": "STRING: the entity id that is required to destroy the block for this drop to spawn, can also be a list of strings",
-					"inverse": "BOOLEAN: if it should be anything BUT the stated condition",
-					"minecraft:nbt": "STRING: NBT of the block entity required to match"
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": "INTEGER: amount of drops, default = 1"
-					"count": {
-						"min": "INTEGER: minimum random count value",
-						"max": "INTEGER: maximum random count value"
-					}
-				},
-				{
-					"function": "minecraft:set_nbt",
-					"nbt": "STRING: the nbt tag that this item/block gets",
-					"item": "BOOLEAN: if this if for the item (true) or for the block (false), default = true"
-				},
-				{
-					"function": "minecraft:set_data",
-					"data": "INTEGER: data of the drop, default = 0"
-					"data": {
-						"min": "INTEGER: minimum random data value",
-						"max": "INTEGER: maximum random data value"
-					}
-				},
-				{
-					"function": "minecraft:set_durability",
-					"durability": "FLOAT: amount of durability left, 1=full, 0=broken, default = 1"
-					"durability": {
-						"min": "FLOAT: minimum random durability left",
-						"max": "FLAOT: maximum random durability left"
-					}
-				},
-				{
-					"function": "minecraft:copy_nbt",
-					"copy": "STRING: What tags to copy to the resulting item, default = all tags",
-					"paste": "STRING: Where to paste the tags, default = same path as copy, note: this does NOT default to tag:{BlockEntityTag:{}} but tag:{}"
-				},
-				{
-					"function": "minecraft:drops_inventory",
-					"drops": "BOOLEAN: if the Items tag and similar should drop all items upon removal of this block, default = true"
-				}
-			]
-		}
-	]
+        {
+            "item": "STRING: the item id to be dropped, default = nothing",
+            "block": "STRING: the block name of the spawned block if this block is destroyed, default = minecraft:air",
+            "block_state": "STRING: the block states of the spawned block if this block is destroyed, default = default",
+            "chance": "FLOAT: the chance the item drops",
+            "conditions": [
+                {
+                    "minecraft:drops": "INTEGER: amount of drops that already need to be dropped, before this item spawns",
+                    "minecraft:drops": {
+                        "min": "INTEGER: minimum amount of drops that already need to be dropped, before this item spawns",
+                        "max": "INTEGER: maximum amount of drops that already need to be dropped, before this item spawns"
+                    },
+                    "minecraft:tool": "STRING: the item id required to mine this block to obtain this drop, can also be a list of strings",
+                    "minecraft:enchantment": {
+                        "name": "STRING: the enchantment id required to mine this block to obtain this drop, this compound can also be a list of compounds",
+                        "level": "INTEGER: the enchantment level required to mine this block to obtain this drop"
+                    },
+                    "minecraft:block": "STRING: the block name (and states) that replaces this block, can also be a list of strings",
+                    "minecraft:entity": "STRING: the entity id that is required to destroy the block for this drop to spawn, can also be a list of strings",
+                    "inverse": "BOOLEAN: if it should be anything BUT the stated condition",
+                    "minecraft:nbt": "STRING: NBT of the block entity required to match"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": "INTEGER: amount of drops, default = 1"
+                    "count": {
+                        "min": "INTEGER: minimum random count value",
+                        "max": "INTEGER: maximum random count value"
+                    }
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "nbt": "STRING: the nbt tag that this item/block gets",
+                    "item": "BOOLEAN: if this if for the item (true) or for the block (false), default = true"
+                },
+                {
+                    "function": "minecraft:set_data",
+                    "data": "INTEGER: data of the drop, default = 0"
+                    "data": {
+                        "min": "INTEGER: minimum random data value",
+                        "max": "INTEGER: maximum random data value"
+                    }
+                },
+                {
+                    "function": "minecraft:set_durability",
+                    "durability": "FLOAT: amount of durability left, 1=full, 0=broken, default = 1"
+                    "durability": {
+                        "min": "FLOAT: minimum random durability left",
+                        "max": "FLAOT: maximum random durability left"
+                    }
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "STRING: What tags to copy to the resulting item, default = all tags",
+                    "paste": "STRING: Where to paste the tags, default = same path as copy, note: this does NOT default to tag:{BlockEntityTag:{}} but tag:{}"
+                },
+                {
+                    "function": "minecraft:drops_inventory",
+                    "drops": "BOOLEAN: if the Items tag and similar should drop all items upon removal of this block, default = true"
+                }
+            ]
+        }
+    ]
 }

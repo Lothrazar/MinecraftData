@@ -7,34 +7,34 @@
     "variant=spruce": [
         {
             "item": "minecraft:log",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "variant=birch": [
         {
             "item": "minecraft:log",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         }
     ],
     "variant=jungle": [
         {
             "item": "minecraft:log",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         }
     ]
 }

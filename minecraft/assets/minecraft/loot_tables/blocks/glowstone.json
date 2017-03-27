@@ -3,29 +3,29 @@
         {
             "item": "minecraft:glowstone",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:glowstone_dust",
             "conditions": [
-				{
-					"minecraft:enchantment": [
-						{
-							"name": "minecraft:fortune",
-							"level": 1
-						},
-						{
-							"name": "minecraft:fortune",
-							"level": 2
-						}
-					]
-				}
-			],
+                {
+                    "minecraft:enchantment": [
+                        {
+                            "name": "minecraft:fortune",
+                            "level": 1
+                        },
+                        {
+                            "name": "minecraft:fortune",
+                            "level": 2
+                        }
+                    ]
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -39,13 +39,13 @@
         {
             "item": "minecraft:glowstone_dust",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 3
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",
@@ -56,10 +56,10 @@
         {
             "item": "minecraft:glowstone_dust",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "functions": [
                 {
                     "function": "minecraft:set_count",

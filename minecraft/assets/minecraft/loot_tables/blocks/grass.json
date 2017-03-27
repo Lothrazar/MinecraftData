@@ -3,20 +3,20 @@
         {
             "item": "minecraft:grass",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:dirt",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			]
+                {
+                    "minecraft:drops": 0
+                }
+            ]
         }
     ]
 }

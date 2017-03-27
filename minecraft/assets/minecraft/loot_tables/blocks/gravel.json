@@ -3,54 +3,54 @@
         {
             "item": "minecraft:flint",
             "chance": 0.14,
-			"conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 1
-					}
-				}
-			]
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:flint",
             "chance": 0.25,
-			"conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 2
-					}
-				}
-			]
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:flint",
-			"conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:fortune",
-						"level": 3
-					}
-				}
-			]
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ]
         },
         {
             "item": "minecraft:flint",
             "chance": 0.1,
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			]
+                {
+                    "minecraft:drops": 0
+                }
+            ]
         },
         {
             "item": "minecraft:gravel",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			]
+                {
+                    "minecraft:drops": 0
+                }
+            ]
         }
     ]
 }

@@ -3,90 +3,90 @@
         {
             "item": "minecraft:stone",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         }
     ],
     "variant=cobblestone": [
         {
             "item": "minecraft:cobblestone",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         }
     ],
     "variant=stone_brick": [
         {
             "item": "minecraft:stonebrick",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
         }
     ],
     "variant=mossy_brick": [
         {
             "item": "minecraft:stonebrick",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "variant=cracked_brick": [
         {
             "item": "minecraft:stonebrick",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         }
     ],
     "variant=chiseled_brick": [
         {
             "item": "minecraft:stonebrick",
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         }
     ]
 }

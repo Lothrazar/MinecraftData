@@ -3,14 +3,14 @@
         {
             "item": "minecraft:lapis_block",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:diamond_pickaxe"
-					]
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:diamond_pickaxe"
+                    ]
+                }
+            ]
         }
     ]
 }

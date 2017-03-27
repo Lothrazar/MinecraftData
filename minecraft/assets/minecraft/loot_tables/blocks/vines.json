@@ -3,10 +3,10 @@
         {
             "item": "minecraft:vines",
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			]
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ]
         }
     ]
 }

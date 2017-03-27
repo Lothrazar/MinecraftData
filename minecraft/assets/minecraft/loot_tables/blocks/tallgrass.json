@@ -3,18 +3,18 @@
         {
             "item": "minecraft:tallgrass",
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			]
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ]
         },
         {
             "item": "minecraft:seeds",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "chance": 0.04167
         }
     ],
@@ -22,24 +22,24 @@
         {
             "item": "minecraft:tallgrass",
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         },
         {
             "item": "minecraft:seeds",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "chance": 0.04167
         }
     ],
@@ -47,24 +47,24 @@
         {
             "item": "minecraft:tallgrass",
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:shears"
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         },
         {
             "item": "minecraft:seeds",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			],
+                {
+                    "minecraft:drops": 0
+                }
+            ],
             "chance": 0.04167
         }
     ]

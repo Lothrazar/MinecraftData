@@ -3,10 +3,10 @@
         {
             "item": "minecraft:obsidian",
             "conditions": [
-				{
-					"minecraft:tool": "minecraft:diamond_pickaxe"
-				}
-			]
+                {
+                    "minecraft:tool": "minecraft:diamond_pickaxe"
+                }
+            ]
         }
     ]
 }

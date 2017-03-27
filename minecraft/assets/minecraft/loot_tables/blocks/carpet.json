@@ -7,166 +7,166 @@
     "color=orange": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "color=magenta": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         }
     ],
     "color=light_blue": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         }
     ],
     "color=yellow": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 4
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 4
+                }
+            ]
         }
     ],
     "color=lime": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 5
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 5
+                }
+            ]
         }
     ],
     "color=pink": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 6
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 6
+                }
+            ]
         }
     ],
     "color=gray": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 7
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 7
+                }
+            ]
         }
     ],
     "color=silver": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 8
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 8
+                }
+            ]
         }
     ],
     "color=cyan": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 9
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 9
+                }
+            ]
         }
     ],
     "color=purple": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 10
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 10
+                }
+            ]
         }
     ],
     "color=blue": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 11
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 11
+                }
+            ]
         }
     ],
     "color=brown": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 12
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 12
+                }
+            ]
         }
     ],
     "color=green": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 13
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 13
+                }
+            ]
         }
     ],
     "color=red": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 14
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 14
+                }
+            ]
         }
     ],
     "color=black": [
         {
             "item": "minecraft:carpet",
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 15
-				}
-			]
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 15
+                }
+            ]
         }
     ]
 }

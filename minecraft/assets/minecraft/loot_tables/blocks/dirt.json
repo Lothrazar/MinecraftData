@@ -8,37 +8,37 @@
         {
             "item": "minecraft:dirt,
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "variant=podzol": [
         {
             "item": "minecraft:dirt,
             "conditions": [
-				{
-					"minecraft:enchantment": {
-						"name": "minecraft:silk_touch"
-					}
-				}
-			],
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ],
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         },
         {
             "item": "minecraft:dirt",
             "conditions": [
-				{
-					"minecraft:drops": 0
-				}
-			]
+                {
+                    "minecraft:drops": 0
+                }
+            ]
         }
     ]
 }

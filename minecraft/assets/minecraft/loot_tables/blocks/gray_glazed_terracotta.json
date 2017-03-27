@@ -3,16 +3,16 @@
         {
             "item": "minecraft:gray_glazed_terracotta",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"
-					]
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"
+                    ]
+                }
+            ]
         }
     ]
 }

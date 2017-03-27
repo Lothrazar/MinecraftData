@@ -3,60 +3,60 @@
         {
             "item": "minecraft:anvil",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					]
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ]
+                }
+            ]
         }
     ],
     "damage=1": [
         {
             "item": "minecraft:anvil",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "damage=2": [
         {
             "item": "minecraft:anvil",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_pickaxe",
-						"minecraft:stone_pickaxe",
-						"minecraft:iron_pickaxe",
-						"minecraft:golden_pickaxe",
-						"minecraft:diamond_pickaxe"        
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         }
     ]
 }

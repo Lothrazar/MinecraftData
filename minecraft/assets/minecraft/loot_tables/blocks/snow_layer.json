@@ -3,170 +3,170 @@
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ]
         }
     ],
     "layers=2": [
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 2
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                }
+            ]
         }
     ],
     "layers=3": [
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 3
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                }
+            ]
         }
     ],
     "layers=4": [
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 4
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                }
+            ]
         }
     ],
     "layers=5": [
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 5
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 5
+                }
+            ]
         }
     ],
     "layers=6": [
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 6
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 6
+                }
+            ]
         }
     ],
     "layers=7": [
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 7
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 7
+                }
+            ]
         }
     ],
     "layers=8": [
         {
             "item": "minecraft:snowball",
             "conditions": [
-				{
-					"minecraft:tool": [
-						"minecraft:wooden_shovel",
-						"minecraft:stone_shovel",
-						"minecraft:iron_shovel",
-						"minecraft:golden_shovel",
-						"minecraft:diamond_shovel"
-					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_count",
-					"count": 8
-				}
-			]
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 8
+                }
+            ]
         }
     ]
 }

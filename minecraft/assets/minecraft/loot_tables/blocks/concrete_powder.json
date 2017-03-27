@@ -8,165 +8,165 @@
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 1
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 1
+                }
+            ]
         }
     ],
     "color=magenta": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 2
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 2
+                }
+            ]
         }
     ],
     "color=light_blue": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 3
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 3
+                }
+            ]
         }
     ],
     "color=yellow": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 4
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 4
+                }
+            ]
         }
     ],
     "color=lime": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 5
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 5
+                }
+            ]
         }
     ],
     "color=pink": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 6
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 6
+                }
+            ]
         }
     ],
     "color=gray": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 7
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 7
+                }
+            ]
         }
     ],
     "color=silver": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 8
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 8
+                }
+            ]
         }
     ],
     "color=cyan": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 9
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 9
+                }
+            ]
         }
     ],
     "color=purple": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 10
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 10
+                }
+            ]
         }
     ],
     "color=blue": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 11
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 11
+                }
+            ]
         }
     ],
     "color=brown": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 12
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 12
+                }
+            ]
         }
     ],
     "color=green": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 13
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 13
+                }
+            ]
         }
     ],
     "color=red": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 14
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 14
+                }
+            ]
         }
     ],
     "color=black": [
         {
             "item": "minecraft:concrete_powder",
             "functions": [
-				{
-					"function": "minecraft:set_data",
-					"data": 5
-				}
-			]
+                {
+                    "function": "minecraft:set_data",
+                    "data": 5
+                }
+            ]
         }
     ]
 }

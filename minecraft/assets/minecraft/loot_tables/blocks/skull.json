@@ -4,16 +4,16 @@
             "item": "minecraft:skull",
             "conditions": [
                 {
-					"minecraft:nbt": "{SkullType:0b}"
-				}
+                    "minecraft:nbt": "{SkullType:0b}"
+                }
             ]
         },
-		{
+        {
             "item": "minecraft:skull",
             "conditions": [
                 {
-					"minecraft:nbt": "{SkullType:1b}"
-				}
+                    "minecraft:nbt": "{SkullType:1b}"
+                }
             ],
             "functions": [
                 {
@@ -22,12 +22,12 @@
                 }
             ]
         },
-		{
+        {
             "item": "minecraft:skull",
             "conditions": [
                 {
-					"minecraft:nbt": "{SkullType:2b}"
-				}
+                    "minecraft:nbt": "{SkullType:2b}"
+                }
             ],
             "functions": [
                 {
@@ -36,12 +36,12 @@
                 }
             ]
         },
-		{
+        {
             "item": "minecraft:skull",
             "conditions": [
                 {
-					"minecraft:nbt": "{SkullType:3b}"
-				}
+                    "minecraft:nbt": "{SkullType:3b}"
+                }
             ],
             "functions": [
                 {
@@ -55,12 +55,12 @@
                 }
             ]
         },
-		{
+        {
             "item": "minecraft:skull",
             "conditions": [
                 {
-					"minecraft:nbt": "{SkullType:4b}"
-				}
+                    "minecraft:nbt": "{SkullType:4b}"
+                }
             ],
             "functions": [
                 {
@@ -69,12 +69,12 @@
                 }
             ]
         },
-		{
+        {
             "item": "minecraft:skull",
             "conditions": [
                 {
-					"minecraft:nbt": "{SkullType:5b}"
-				}
+                    "minecraft:nbt": "{SkullType:5b}"
+                }
             ],
             "functions": [
                 {
