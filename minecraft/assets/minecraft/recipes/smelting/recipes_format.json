@@ -5,25 +5,25 @@
             "nbt": "STRING: additional nbt data",
             "data": "INTEGER: data value of the item, neglected if not provided",
             "durability": "FLOAT: durability of the item, 1=full, 0=broken, neglected if not provided"
-		},
+        },
         "return": {
             "nbt": "STRING: additional nbt data",
-			"amount": "INTEGER: amount, default = 1",
+            "amount": "INTEGER: amount, default = 1",
             "data": "INTEGER: data value of the item, default = 0",
             "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
-		},
+        },
         "exp": "FLOAT: the amount of exp you get for this smelt",
         "functions": [
             {
                 "function": "minecraft:return_items",
-				"replace": "STRING: item id to replace",
+                "replace": "STRING: item id to replace",
                 "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
                 "nbt": "STRING: Optional, what tags it gets, default = empty",
                 "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
-				"data": "INTEGER: data value of the item, default = 0",
-				"durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
-            },
-			{
+                "data": "INTEGER: data value of the item, default = 0",
+                "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
+           },
+           {
                 "function": "minecraft:scale_durability",
                 "tag": "The tag of the result item that gets scaled by durability, values: amount, data, durability or an nbt tag, default = durability"
             }
