@@ -22,8 +22,8 @@
                 "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
                 "data": "INTEGER: data value of the item, default = 0",
                 "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
-           },
-           {
+            },
+            {
                 "function": "minecraft:scale_durability",
                 "tag": "The tag of the result item that gets scaled by durability, values: amount, data, durability or an nbt tag, default = durability"
             }
