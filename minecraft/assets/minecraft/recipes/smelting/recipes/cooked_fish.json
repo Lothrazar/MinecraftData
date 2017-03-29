@@ -2,18 +2,18 @@
     {
         "item": {
             "item": "minecraft:fish",
-			"data": 0
-		},
+            "data": 0
+        },
         "exp": 0.35
     },
-	{
+    {
         "item": {
             "item": "minecraft:fish",
-			"data": 1
-		},
-		"return": {
-			"data": 1
-		},
+            "data": 1
+        },
+        "return": {
+            "data": 1
+        },
         "exp": 0.35
     }
 ]

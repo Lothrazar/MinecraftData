@@ -2,11 +2,11 @@
     {
         "item": {
             "item": "minecraft:stonebrick",
-			"data": 0
-		},
-		"return": {
-			"data": 2
-		},
+            "data": 0
+        },
+        "return": {
+            "data": 2
+        },
         "exp": 0.1
     }
 ]
