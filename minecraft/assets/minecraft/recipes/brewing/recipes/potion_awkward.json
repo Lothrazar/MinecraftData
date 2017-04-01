@@ -1,0 +1,27 @@
+{
+    "potion": {
+        "item: "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:water"
+        }
+    },
+    "item": {
+        "item: "minecraft:nether_wart"
+    },
+    "return": {
+        "item: "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "potion": {
+                "potion": "minecraft:awkward"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "{CustomPotionEffects}",
+            "paste": "{CustomPotionEffects}"
+        }
+    ]
+}

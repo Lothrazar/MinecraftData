@@ -1,0 +1,45 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:rose_red"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:red_stained_glass",
+        "count": 8
+    }
+}

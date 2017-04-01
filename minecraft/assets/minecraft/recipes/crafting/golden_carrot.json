@@ -1,43 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:carrot"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gold_nugget"
+                    },
+                    {
+                        "item": "minecraft:gold_nugget"
+                    },
+                    {
+                        "item": "minecraft:gold_nugget"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:gold_nugget"
+                    },
+                    {
+                        "item": "minecraft:carrot"
+                    },
+                    {
+                        "item": "minecraft:gold_nugget"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:gold_nugget"
+                    },
+                    {
+                        "item": "minecraft:gold_nugget"
+                    },
+                    {
+                        "item": "minecraft:gold_nugget"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:golden_carrot"
     }
-]
+}

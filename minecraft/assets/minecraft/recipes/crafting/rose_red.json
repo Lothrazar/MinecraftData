@@ -1,0 +1,17 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:rose_bush"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:rose_red"
+        "count": 2
+    }
+}

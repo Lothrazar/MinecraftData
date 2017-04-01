@@ -1,85 +1,27 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:sand",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:sand",
-                            "data": 0
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:sand",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:sand",
-                            "data": 0
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:sand"
+                    },
+                    {
+                        "item": "minecraft:sand"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:sand"
+                    },
+                    {
+                        "item": "minecraft:sand"
+                    }
                 ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:sandstone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:sandstone",
-                            "data": 0
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:sandstone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:sandstone",
-                            "data": 0
-                        }
-                    ]
-                ]
-            }
-        ],
-        "return": {
-            "data": 2,
-            "amount": 4
+            ]
         }
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stone_slab",
-                            "data": 1
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stone_slab",
-                            "data": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "return": {
-            "data": 1
-        }
+    ],
+    "return": {
+        "item": "minecraft:sandstone"
     }
-]
+}

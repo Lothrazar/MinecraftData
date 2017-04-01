@@ -1,8 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:chorus_fruit"
-        },
-        "exp": 0.1
+{
+    "item": {
+        "item": "minecraft:chorus_fruit"
+    },
+    "exp": 0.1,
+    "return": {
+        "name": "minecraft:chorus_fruit_popped"
     }
-]
+}

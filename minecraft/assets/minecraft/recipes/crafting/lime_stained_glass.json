@@ -1,0 +1,45 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:lime_dye"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:lime_stained_glass",
+        "count": 8
+    }
+}

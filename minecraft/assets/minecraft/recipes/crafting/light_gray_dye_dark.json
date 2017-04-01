@@ -1,0 +1,35 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:light_gray_dye",
+        "count": 3
+    }
+}

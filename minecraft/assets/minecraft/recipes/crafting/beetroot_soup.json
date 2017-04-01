@@ -1,40 +1,41 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:beetroot"
-                        },
-                        {
-                            "item": "minecraft:beetroot"
-                        },
-                        {
-                            "item": "minecraft:beetroot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:beetroot"
-                        },
-                        {
-                            "item": "minecraft:beetroot"
-                        },
-                        {
-                            "item": "minecraft:beetroot"
-                        }
-                    ],
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:bowl"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:beetroot"
+                    },
+                    {
+                        "item": "minecraft:beetroot"
+                    },
+                    {
+                        "item": "minecraft:beetroot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:beetroot"
+                    },
+                    {
+                        "item": "minecraft:beetroot"
+                    },
+                    {
+                        "item": "minecraft:beetroot"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:bowl"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:beetroot_soup"
     }
-]
+}

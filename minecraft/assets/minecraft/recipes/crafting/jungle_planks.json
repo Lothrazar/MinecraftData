@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:jungle_log",
+                            "minecraft:jungle_bark"
+                        ]
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:jungle_planks",
+        "count": 4
+    }
+}

@@ -1,32 +1,30 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:blaze_rod"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:cobblestone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:cobblestone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:cobblestone",
-                            "data": 0
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:blaze_rod"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:brewing_stand"
     }
-]
+}

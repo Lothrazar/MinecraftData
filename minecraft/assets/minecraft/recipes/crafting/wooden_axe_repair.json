@@ -1,0 +1,37 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:wooden_axe",
+                        "id": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:wooden_axe",
+                        "id": 1
+                    }
+                ]
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:repair",
+            "ids": [
+                0,
+                1
+            ],
+            "bonus": 5
+        }
+    ],
+    "return": {
+        "item": "minecraft:wooden_axe"
+    }
+}

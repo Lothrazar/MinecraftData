@@ -1,43 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:diamond_block"
     }
-]
+}

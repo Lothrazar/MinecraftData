@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:black_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:black_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:black_stained_glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:black_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:black_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:black_stained_glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:black_stained_glass_pane",
+        "count": 16
+    }
+}

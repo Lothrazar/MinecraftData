@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cactus_green"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:cyan_dye",
+        "count": 2
+    }
+}

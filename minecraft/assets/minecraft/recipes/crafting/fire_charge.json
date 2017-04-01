@@ -1,33 +1,37 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:blaze_powder"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:blaze_powder"
+                    }
                 ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:coal"
-                        }
-                    ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:coal",
+                            "minecraft:charcoal"
+                        ]
+                    }
                 ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:gunpowder"
-                        }
-                    ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gunpowder"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:fire_charge"
     }
-]
+}

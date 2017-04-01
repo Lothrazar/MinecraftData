@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:mossy_cobblestone"
+                    },
+                    {
+                        "item": "minecraft:mossy_cobblestone"
+                    },
+                    {
+                        "item": "minecraft:mossy_cobblestone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:mossy_cobblestone"
+                    },
+                    {
+                        "item": "minecraft:mossy_cobblestone"
+                    },
+                    {
+                        "item": "minecraft:mossy_cobblestone"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:mossy_cobblestone_wall",
+        "count": 6
+    }
+}

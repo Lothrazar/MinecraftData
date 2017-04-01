@@ -1,43 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:jungle_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:jungle_stairs",
+        "count": 4
     }
-]
+}

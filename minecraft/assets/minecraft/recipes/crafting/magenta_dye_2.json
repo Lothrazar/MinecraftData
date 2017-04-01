@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:purple_dye"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:pink_dye"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:magenta_dye",
+        "count": 2
+    }
+}

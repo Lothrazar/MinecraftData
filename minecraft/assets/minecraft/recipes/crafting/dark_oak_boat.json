@@ -1,37 +1,33 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 5
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 5
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 5
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 5
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 5
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    },
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    },
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:dark_oak_boat"
     }
-]
+}

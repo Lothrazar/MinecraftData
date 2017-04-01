@@ -1,0 +1,27 @@
+{
+    "potion": {
+        "item: "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:awkward"
+        }
+    },
+    "item": {
+        "item: "minecraft:magma_cream"
+    },
+    "return": {
+        "item: "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "potion": {
+                "potion": "minecraft:fire_resistance"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "{CustomPotionEffects}",
+            "paste": "{CustomPotionEffects}"
+        }
+    ]
+}

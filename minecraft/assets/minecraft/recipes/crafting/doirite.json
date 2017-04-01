@@ -1,0 +1,28 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:quartz"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:quartz"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:diorite",
+        "count": 2
+    }
+}

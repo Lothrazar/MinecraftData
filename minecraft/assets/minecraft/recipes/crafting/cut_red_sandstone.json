@@ -1,0 +1,28 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:red_sandstone"
+                    },
+                    {
+                        "item": "minecraft:red_sandstone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:red_sandstone"
+                    },
+                    {
+                        "item": "minecraft:red_sandstone"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:cut_red_sandstone",
+        "count": 4
+    }
+}

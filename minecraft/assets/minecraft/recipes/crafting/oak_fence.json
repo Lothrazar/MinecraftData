@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:oak_fence",
+        "count": 3
+    }
+}

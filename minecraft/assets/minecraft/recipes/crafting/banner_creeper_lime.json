@@ -1,0 +1,55 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:creeper_head"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lime_dye"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "lime",
+                    "pattern": "creeper"
+                }
+            }
+        }
+    ]
+}

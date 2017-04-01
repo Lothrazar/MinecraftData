@@ -1,0 +1,49 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:blue_wool"
+                    },
+                    {
+                        "item": "minecraft:blue_wool"
+                    },
+                    {
+                        "item": "minecraft:blue_wool"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:blue_wool"
+                    },
+                    {
+                        "item": "minecraft:blue_wool"
+                    },
+                    {
+                        "item": "minecraft:blue_wool"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "base": "blue"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:magenta_dye"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:magenta_stained_glass",
+        "count": 8
+    }
+}

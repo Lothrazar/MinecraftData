@@ -1,0 +1,49 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lime_wool"
+                    },
+                    {
+                        "item": "minecraft:lime_wool"
+                    },
+                    {
+                        "item": "minecraft:lime_wool"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:lime_wool"
+                    },
+                    {
+                        "item": "minecraft:lime_wool"
+                    },
+                    {
+                        "item": "minecraft:lime_wool"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "base": "lime"
+            }
+        }
+    ]
+}

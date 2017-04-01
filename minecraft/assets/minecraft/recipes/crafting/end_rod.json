@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:blaze_rod"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:chorus_fruit_popped"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:blaze_rod"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:chorus_fruit_popped"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:end_rod"
     }
-]
+}

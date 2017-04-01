@@ -1,0 +1,17 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:peony"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:pink_dye",
+        "count": 2
+    }
+}

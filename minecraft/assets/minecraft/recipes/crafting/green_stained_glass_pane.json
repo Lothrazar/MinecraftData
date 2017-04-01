@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:green_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:green_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:green_stained_glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:green_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:green_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:green_stained_glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:green_stained_glass_pane",
+        "count": 16
+    }
+}

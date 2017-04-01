@@ -1,0 +1,17 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lapis_block"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:lapis_lazuli",
+        "count": 9
+    }
+}

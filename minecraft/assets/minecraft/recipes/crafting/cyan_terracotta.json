@@ -1,0 +1,45 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:hardened_clay"
+                    },
+                    {
+                        "item": "minecraft:hardened_clay"
+                    },
+                    {
+                        "item": "minecraft:hardened_clay"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:hardened_clay"
+                    },
+                    {
+                        "item": "minecraft:cyan_dye"
+                    },
+                    {
+                        "item": "minecraft:hardened_clay"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:hardened_clay"
+                    },
+                    {
+                        "item": "minecraft:hardened_clay"
+                    },
+                    {
+                        "item": "minecraft:hardened_clay"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:cyan_terracotta",
+        "count": 8
+    }
+}

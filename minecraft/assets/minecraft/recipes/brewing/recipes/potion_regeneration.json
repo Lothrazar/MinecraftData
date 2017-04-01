@@ -1,0 +1,27 @@
+{
+    "potion": {
+        "item: "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:awkward"
+        }
+    },
+    "item": {
+        "item: "minecraft:ghast_tear"
+    },
+    "return": {
+        "item: "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "potion": {
+                "potion": "minecraft:regeneration"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "{CustomPotionEffects}",
+            "paste": "{CustomPotionEffects}"
+        }
+    ]
+}

@@ -1,65 +1,32 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:diamond_axe",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:diamond_axe",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    }
                 ],
-                "bonus": 5
-            }
-        ]
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:diamond_axe"
     }
-]
+}

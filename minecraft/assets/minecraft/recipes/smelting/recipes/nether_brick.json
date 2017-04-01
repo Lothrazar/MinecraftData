@@ -1,1 +1,9 @@
-[]
+{
+    "item": {
+        "item": "minecraft:netherrack"
+    },
+    "exp": 0.1,
+    "return": {
+        "item": "minecraft:nether_brick"
+    }
+}

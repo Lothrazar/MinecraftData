@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:hopper"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:minecart"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:hopper"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:minecart"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:hopper_minecart"
     }
-]
+}

@@ -1,43 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:iron_block"
     }
-]
+}

@@ -1,33 +1,34 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:red_mushroom"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:red_mushroom"
+                    }
                 ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:brown_mushroom"
-                        }
-                    ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:brown_mushroom"
+                    }
                 ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:bowl"
-                        }
-                    ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:bowl"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:mushroom_stew"
     }
-]
+}

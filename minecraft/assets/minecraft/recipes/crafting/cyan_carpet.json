@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cyan_wool"
+                    },
+                    {
+                        "item": "minecraft:cyan_wool"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:cyan_carpet",
+        "count": 3
+    }
+}

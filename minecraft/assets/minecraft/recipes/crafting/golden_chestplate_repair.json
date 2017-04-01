@@ -1,0 +1,37 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:golden_chestplate",
+                        "id": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:golden_chestplate",
+                        "id": 1
+                    }
+                ]
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:repair",
+            "ids": [
+                0,
+                1
+            ],
+            "bonus": 5
+        }
+    ],
+    "return": {
+        "item": "minecraft:golden_chestplate"
+    }
+}

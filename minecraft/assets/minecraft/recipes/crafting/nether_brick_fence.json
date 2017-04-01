@@ -1,35 +1,34 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:nether_brick"
-                        },
-                        {
-                            "item": "minecraft:nether_brick"
-                        },
-                        {
-                            "item": "minecraft:nether_brick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:nether_brick"
-                        },
-                        {
-                            "item": "minecraft:nether_brick"
-                        },
-                        {
-                            "item": "minecraft:nether_brick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:nether_bricks"
+                    },
+                    {
+                        "item": "minecraft:nether_bricks"
+                    },
+                    {
+                        "item": "minecraft:nether_bricks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:nether_bricks"
+                    },
+                    {
+                        "item": "minecraft:nether_bricks"
+                    },
+                    {
+                        "item": "minecraft:nether_bricks"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 3
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:nether_brick_fence",
+        "count": 3
     }
-]
+}

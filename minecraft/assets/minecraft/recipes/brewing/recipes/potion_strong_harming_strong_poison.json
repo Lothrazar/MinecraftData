@@ -1,0 +1,27 @@
+{
+    "potion": {
+        "item: "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:strong_poison"
+        }
+    },
+    "item": {
+        "item: "minecraft:fermented_spider_eye"
+    },
+    "return": {
+        "item: "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "potion": {
+                "potion": "minecraft:strong_harming"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "{CustomPotionEffects}",
+            "paste": "{CustomPotionEffects}"
+        }
+    ]
+}

@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:redstone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:redstone_dust"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:redstone_torch"
     }
-]
+}

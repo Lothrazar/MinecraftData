@@ -1,43 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:emerald"
-                        },
-                        {
-                            "item": "minecraft:emerald"
-                        },
-                        {
-                            "item": "minecraft:emerald"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:emerald"
-                        },
-                        {
-                            "item": "minecraft:emerald"
-                        },
-                        {
-                            "item": "minecraft:emerald"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:emerald"
-                        },
-                        {
-                            "item": "minecraft:emerald"
-                        },
-                        {
-                            "item": "minecraft:emerald"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:emerald"
+                    },
+                    {
+                        "item": "minecraft:emerald"
+                    },
+                    {
+                        "item": "minecraft:emerald"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:emerald"
+                    },
+                    {
+                        "item": "minecraft:emerald"
+                    },
+                    {
+                        "item": "minecraft:emerald"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:emerald"
+                    },
+                    {
+                        "item": "minecraft:emerald"
+                    },
+                    {
+                        "item": "minecraft:emerald"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:emerald_block"
     }
-]
+}

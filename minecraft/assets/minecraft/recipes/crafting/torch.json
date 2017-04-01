@@ -1,23 +1,25 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:coal"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:charcoal",
+                            "minecraft:coal"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:torch",
+        "count": 4
     }
-]
+}

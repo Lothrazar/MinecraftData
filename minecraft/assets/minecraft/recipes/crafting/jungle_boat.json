@@ -1,37 +1,33 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:jungle_boat"
     }
-]
+}

@@ -1,0 +1,23 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:quartz_block"
+                    },
+                    {
+                        "item": "minecraft:quartz_block"
+                    },
+                    {
+                        "item": "minecraft:quartz_block"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:quartz_slab",
+        "count": 6
+    }
+}

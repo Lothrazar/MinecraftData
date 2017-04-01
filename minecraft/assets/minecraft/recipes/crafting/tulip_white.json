@@ -1,0 +1,16 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:white_tulip"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:bone_meal"
+    }
+}

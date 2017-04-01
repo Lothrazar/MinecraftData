@@ -1,0 +1,65 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:ink_sack"
+                    },
+                    {
+                        "item": "minecraft:ink_sack"
+                    },
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:ink_sack"
+                    },
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    },
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:ink_sack"
+                    },
+                    {
+                        "item": "minecraft:ink_sack"
+                    },
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "black",
+                    "pattern": "border"
+                }
+            }
+        }
+    ]
+}

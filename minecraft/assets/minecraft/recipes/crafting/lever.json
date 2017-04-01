@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:lever"
     }
-]
+}

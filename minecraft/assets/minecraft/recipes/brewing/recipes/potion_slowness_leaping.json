@@ -1,0 +1,27 @@
+{
+    "potion": {
+        "item: "minecraft:potion",
+        "conditions": {
+            "potion": "minecraft:leaping"
+        }
+    },
+    "item": {
+        "item: "minecraft:fermented_spider_eye"
+    },
+    "return": {
+        "item: "minecraft:potion"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "potion": {
+                "potion": "minecraft:slowness"
+            }
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "{CustomPotionEffects}",
+            "paste": "{CustomPotionEffects}"
+        }
+    ]
+}

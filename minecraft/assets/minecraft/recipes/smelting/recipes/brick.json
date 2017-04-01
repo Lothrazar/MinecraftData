@@ -1,8 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:clay_ball"
-        },
-        "exp": 0.3
+{
+    "item": {
+        "item": "minecraft:clay_ball"
+    },
+    "exp": 0.3,
+    "return": {
+        "name": "minecraft:brick"
     }
-]
+}

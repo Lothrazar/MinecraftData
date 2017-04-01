@@ -1,0 +1,22 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stone_brick_slab"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stone_brick_slab"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:chiseled_stone_bricks",
+        "data": 3
+    }
+}

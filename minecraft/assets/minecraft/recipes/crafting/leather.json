@@ -1,26 +1,27 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:rabbit_hide"
-                        },
-                        {
-                            "item": "minecraft:rabbit_hide"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:rabbit_hide"
-                        },
-                        {
-                            "item": "minecraft:rabbit_hide"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:rabbit_hide"
+                    },
+                    {
+                        "item": "minecraft:rabbit_hide"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:rabbit_hide"
+                    },
+                    {
+                        "item": "minecraft:rabbit_hide"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:leather"
     }
-]
+}

@@ -1,37 +1,38 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:redstone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:redstone"
-                        },
-                        {
-                            "item": "minecraft:glowstone"
-                        },
-                        {
-                            "item": "minecraft:redstone"
-                        }
-                    ],
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:redstone"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:redstone_dust"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:redstone_dust"
+                    },
+                    {
+                        "item": "minecraft:glowstone"
+                    },
+                    {
+                        "item": "minecraft:redstone_dust"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:redstone_dust"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:redstone_lamp"
     }
-]
+}

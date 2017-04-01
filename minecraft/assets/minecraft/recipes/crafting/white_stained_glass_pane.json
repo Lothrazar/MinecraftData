@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:white_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:white_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:white_stained_glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:white_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:white_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:white_stained_glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:white_stained_glass_pane",
+        "count": 16
+    }
+}

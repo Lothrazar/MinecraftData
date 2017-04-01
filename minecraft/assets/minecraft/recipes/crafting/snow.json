@@ -1,26 +1,23 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:snowball"
-                        },
-                        {
-                            "item": "minecraft:snowball"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:snowball"
-                        },
-                        {
-                            "item": "minecraft:snowball"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:snow_block"
+                    },
+                    {
+                        "item": "minecraft:snow_block"
+                    },
+                    {
+                        "item": "minecraft:snow_block"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:snow",
+        "count": 6
     }
-]
+}

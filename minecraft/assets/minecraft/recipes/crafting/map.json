@@ -1,43 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:paper"
-                        },
-                        {
-                            "item": "minecraft:paper"
-                        },
-                        {
-                            "item": "minecraft:paper"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:paper"
-                        },
-                        {
-                            "item": "minecraft:compass"
-                        },
-                        {
-                            "item": "minecraft:paper"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:paper"
-                        },
-                        {
-                            "item": "minecraft:paper"
-                        },
-                        {
-                            "item": "minecraft:paper"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:compass"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:map"
     }
-]
+}

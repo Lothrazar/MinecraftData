@@ -1,0 +1,45 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:brown_stained_glass",
+        "count": 8
+    }
+}

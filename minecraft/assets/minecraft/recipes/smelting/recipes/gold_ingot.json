@@ -1,8 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:gold_ore"
-        },
-        "exp": 1.0
+{
+    "item": {
+        "item": "minecraft:gold_ore"
+    },
+    "exp": 1.0,
+    "return": {
+        "name": "minecraft:gold_ingot"
     }
-]
+}

@@ -1,37 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:quartz_block"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:quartz_block"
-                        },
-                        {
-                            "item": "minecraft:quartz_block"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:quartz_block"
-                        },
-                        {
-                            "item": "minecraft:quartz_block"
-                        },
-                        {
-                            "item": "minecraft:quartz_block"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:quartz_block"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:quartz_block"
+                    },
+                    {
+                        "item": "minecraft:quartz_block"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:quartz_block"
+                    },
+                    {
+                        "item": "minecraft:quartz_block"
+                    },
+                    {
+                        "item": "minecraft:quartz_block"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:quartz_stairs",
+        "count": 4
     }
-]
+}

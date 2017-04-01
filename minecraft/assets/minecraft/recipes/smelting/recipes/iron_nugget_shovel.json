@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:iron_shovel"
+    },
+    "exp": 0.2,
+    "return": {
+        "name": "minecraft:iron_nugget"
+    }
+}

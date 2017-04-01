@@ -1,0 +1,16 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:orange_tulip"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:orange_dye"
+    }
+}

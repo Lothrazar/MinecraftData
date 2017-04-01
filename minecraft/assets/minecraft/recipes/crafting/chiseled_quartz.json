@@ -1,0 +1,21 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:quartz_slab"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:quartz_slab"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:chiseled_quartz"
+    }
+}

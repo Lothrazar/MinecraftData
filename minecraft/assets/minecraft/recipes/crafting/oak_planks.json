@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:oak_log",
+                            "minecraft:oak_bark"
+                        ]
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:oak_planks",
+        "count": 4
+    }
+}

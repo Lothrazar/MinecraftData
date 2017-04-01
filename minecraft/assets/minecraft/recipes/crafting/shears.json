@@ -1,57 +1,24 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:shears",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:shears",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
                 ],
-                "bonus": 5
-            }
-        ]
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:shears"
     }
-]
+}

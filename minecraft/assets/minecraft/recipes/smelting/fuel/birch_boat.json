@@ -1,3 +1,6 @@
 {
-    "time": 400
+    "time": 400,
+    "item": {
+        "item": "minecraft:birch_boat"
+    }
 }

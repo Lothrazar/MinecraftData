@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gray_dye"
+                    },
+                    {
+                        "item": "minecraft:gray_dye"
+                    },
+                    {
+                        "item": "minecraft:gray_dye"
+                    }
+                ]
+            ],
+            "can_move": false,
+            "can_mirror": false
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "gray",
+                    "pattern": "top_stripe"
+                }
+            }
+        }
+    ]
+}

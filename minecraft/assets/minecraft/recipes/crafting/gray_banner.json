@@ -1,0 +1,49 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gray_wool"
+                    },
+                    {
+                        "item": "minecraft:gray_wool"
+                    },
+                    {
+                        "item": "minecraft:gray_wool"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:gray_wool"
+                    },
+                    {
+                        "item": "minecraft:gray_wool"
+                    },
+                    {
+                        "item": "minecraft:gray_wool"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "base": "gray"
+            }
+        }
+    ]
+}

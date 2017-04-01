@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lime_wool"
+                    },
+                    {
+                        "item": "minecraft:lime_wool"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:lime_carpet",
+        "count": 3
+    }
+}

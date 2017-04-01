@@ -1,0 +1,37 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "id": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "id": 1
+                    }
+                ]
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:repair",
+            "ids": [
+                0,
+                1
+            ],
+            "bonus": 5
+        }
+    ],
+    "return": {
+        "item": "minecraft:carrot_on_a_stick"
+    }
+}

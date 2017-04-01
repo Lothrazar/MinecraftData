@@ -1,0 +1,28 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:granite"
+                    },
+                    {
+                        "item": "minecraft:granite"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:granite"
+                    },
+                    {
+                        "item": "minecraft:granite"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:polished_granite",
+        "count": 4
+    }
+}

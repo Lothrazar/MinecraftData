@@ -1,18 +1,17 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:emerald_block"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:emerald_block"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 9
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:emerald",
+        "count": 9
     }
-]
+}

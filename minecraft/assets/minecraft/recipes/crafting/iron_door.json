@@ -1,37 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 3
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:iron_door",
+        "count": 3
     }
-]
+}

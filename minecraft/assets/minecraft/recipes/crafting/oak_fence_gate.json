@@ -1,0 +1,33 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:oak_fence_gate"
+    }
+}

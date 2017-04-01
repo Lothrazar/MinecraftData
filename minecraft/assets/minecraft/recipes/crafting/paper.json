@@ -1,24 +1,23 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:reeds"
-                        },
-                        {
-                            "item": "minecraft:reeds"
-                        },
-                        {
-                            "item": "minecraft:reeds"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:suger_cane"
+                    },
+                    {
+                        "item": "minecraft:suger_cane"
+                    },
+                    {
+                        "item": "minecraft:suger_cane"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 3
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:paper",
+        "count": 3
     }
-]
+}

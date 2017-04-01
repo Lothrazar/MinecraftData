@@ -1,34 +1,33 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:jungle_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:jungle_fence_gate"
     }
-]
+}

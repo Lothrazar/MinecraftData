@@ -1,9 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:stained_hardened_clay",
-            "data": 6
-        },
-        "exp": 0.1
+{
+    "item": {
+        "item": "minecraft:pink_terracotta"
+    },
+    "exp": 0.1,
+    "return": {
+        "item": "minecraft:pink_glazed_terracotta"
     }
-]
+}

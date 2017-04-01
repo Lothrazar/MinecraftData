@@ -1,83 +1,27 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:sand",
-                            "data": 1
-                        },
-                        {
-                            "item": "minecraft:sand",
-                            "data": 1
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:sand",
-                            "data": 1
-                        },
-                        {
-                            "item": "minecraft:sand",
-                            "data": 1
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:red_sand"
+                    },
+                    {
+                        "item": "minecraft:red_sand"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:red_sand"
+                    },
+                    {
+                        "item": "minecraft:red_sand"
+                    }
                 ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:red_sandstone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:red_sandstone",
-                            "data": 0
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:red_sandstone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:red_sandstone",
-                            "data": 0
-                        }
-                    ]
-                ]
-            }
-        ],
-        "return": {
-            "data": 2,
-            "amount": 4
+            ]
         }
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stone_slab2"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stone_slab2"
-                        }
-                    ]
-                ]
-            }
-        ],
-        "return": {
-            "data": 1
-        }
+    ],
+    "return": {
+        "item": "minecraft:red_sandstone"
     }
-]
+}

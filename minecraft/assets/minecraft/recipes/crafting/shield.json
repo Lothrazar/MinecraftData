@@ -1,114 +1,83 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:planks"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:planks"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks"
-                        },
-                        {
-                            "item": "minecraft:planks"
-                        },
-                        {
-                            "item": "minecraft:planks"
-                        }
-                    ],
-                    [
-                        {
-                            
-                        }
-                        {
-                            "item": "minecraft:planks"
-                        }
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:shield",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:shield",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    }
                 ],
-                "bonus": 5
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:shield",
-                            "id": 0,
-                            "conditions": {
-                                "layers": {
-                                    "base": "none"
-                                }
-                            }
-                        }
-                    ]
+                [
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    },
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    },
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        
+                    }
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    }
                 ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:banner",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:copy_nbt",
-                "id": 0
-            },
-            {
-                "function": "minecraft:copy_nbt",
-                "id": 1,
-                "copy": "{BlockEntityTag}"
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:shield"
     }
-]
+}

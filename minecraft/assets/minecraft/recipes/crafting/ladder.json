@@ -1,46 +1,45 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 3
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:ladder",
+        "count": 3
     }
-]
+}

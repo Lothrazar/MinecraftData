@@ -1,0 +1,43 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:shield",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "base": "none"
+                            }
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "id": 1
+                    }
+                ]
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 1,
+            "copy": "{BlockEntityTag}"
+        }
+    ],
+    "return": {
+        "item": "minecraft:shield_pattern"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:gray_dye",
+        "count": 2
+    }
+}

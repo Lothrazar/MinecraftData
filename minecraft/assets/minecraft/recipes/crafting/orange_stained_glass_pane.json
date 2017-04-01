@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:orange_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:orange_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:orange_stained_glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:orange_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:orange_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:orange_stained_glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:orange_stained_glass_pane",
+        "count": 16
+    }
+}

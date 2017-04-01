@@ -1,0 +1,70 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    }
+                ]
+            ],
+            "can_move": false,
+            "can_mirror": false
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "brown",
+                    "pattern": "gradient_upside_down"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:lapis_ore"
+    },
+    "return": {
+        "item": "minecraft:lapis_lazuli"
+    },
+    "exp": 0.2
+}

@@ -1,52 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        },
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        },
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        },
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        },
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        },
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        },
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    },
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    },
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    },
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    },
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    },
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    },
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:lapis_block"
     }
-]
+}

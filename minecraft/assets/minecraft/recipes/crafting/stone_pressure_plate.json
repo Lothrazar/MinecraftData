@@ -1,20 +1,19 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:stone",
-                            "data": 0
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stone"
+                    },
+                    {
+                        "item": "minecraft:stone"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:stone_pressure_plate"
     }
-]
+}

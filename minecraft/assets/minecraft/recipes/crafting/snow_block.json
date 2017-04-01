@@ -1,0 +1,27 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:snow_ball"
+                    },
+                    {
+                        "item": "minecraft:snow_ball"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:snow_ball"
+                    },
+                    {
+                        "item": "minecraft:snow_ball"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:snow_block"
+    }
+}

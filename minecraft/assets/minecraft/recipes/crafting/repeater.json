@@ -1,35 +1,33 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:redstone_torch"
-                        },
-                        {
-                            "item": "minecraft:redstone"
-                        },
-                        {
-                            "item": "minecraft:redstone_torch"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:stone",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:stone",
-                            "data": 0
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:redstone_torch"
+                    },
+                    {
+                        "item": "minecraft:redstone_dust"
+                    },
+                    {
+                        "item": "minecraft:redstone_torch"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stone"
+                    },
+                    {
+                        "item": "minecraft:stone"
+                    },
+                    {
+                        "item": "minecraft:stone"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:repeater"
     }
-]
+}

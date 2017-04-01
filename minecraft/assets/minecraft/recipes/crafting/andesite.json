@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:diorite"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:andesite",
+        "count": 2
+    }
+}

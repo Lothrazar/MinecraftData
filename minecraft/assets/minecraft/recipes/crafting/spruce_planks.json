@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:spruce_log",
+                            "minecraft:spruce_bark"
+                        ]
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:spruce_planks",
+        "count": 4
+    }
+}

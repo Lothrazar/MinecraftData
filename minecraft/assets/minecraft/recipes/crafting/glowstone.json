@@ -1,26 +1,27 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        },
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        },
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    },
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    },
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:glowstone"
     }
-]
+}

@@ -1,0 +1,316 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gunpowder"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:fire_charge"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
+                ]
+            ]
+        }
+    ],
+    "optional_ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:ink_sack",
+                        "id": 0
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:rose_red",
+                        "id": 1
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cactus_green",
+                        "id": 2
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cocoa_beans",
+                        "id": 3
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lapis_lazuli",
+                        "id": 4
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:purple_dye",
+                        "id": 5
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cyan_dye",
+                        "id": 6
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:light_gray_dye",
+                        "id": 7
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gray_dye",
+                        "id": 8
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:pink_dye",
+                        "id": 9
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lime_dye",
+                        "id": 10
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:dandelion_yellow",
+                        "id": 11
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:light_blue_dye",
+                        "id": 12
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:magenta_dye",
+                        "id": 13
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:orange_dye",
+                        "id": 14
+                    }
+                ]
+            ],
+            "max_groups": 1
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:bone_meal",
+                        "id": 15
+                    }
+                ]
+            ],
+            "max_groups": 1
+        }
+    ],
+    "optional_ingredients_required": {
+        "min": 1,
+        "max": 1
+    },
+    "return": {
+        "item": "minecraft:fireworks_charge"
+    },
+    "functions": [
+        {
+            "function": "minecraft:color",
+            "id": 0,
+            "color": 1644825
+        },
+        {
+            "function": "minecraft:color",
+            "id": 1,
+            "color": 10040115
+        },
+        {
+            "function": "minecraft:color",
+            "id": 2,
+            "color": 6717235
+        },
+        {
+            "function": "minecraft:color",
+            "id": 3,
+            "color": 6704179
+        },
+        {
+            "function": "minecraft:color",
+            "id": 4,
+            "color": 3361970
+        },
+        {
+            "function": "minecraft:color",
+            "id": 5,
+            "color": 8339378
+        },
+        {
+            "function": "minecraft:color",
+            "id": 6,
+            "color": 5013401
+        },
+        {
+            "function": "minecraft:color",
+            "id": 7,
+            "color": 10066329
+        },
+        {
+            "function": "minecraft:color",
+            "id": 8,
+            "color": 5000268
+        },
+        {
+            "function": "minecraft:color",
+            "id": 9,
+            "color": 15892389
+        },
+        {
+            "function": "minecraft:color",
+            "id": 10,
+            "color": 8375321
+        },
+        {
+            "function": "minecraft:color",
+            "id": 11,
+            "color": 15066419
+        },
+        {
+            "function": "minecraft:color",
+            "id": 12,
+            "color": 6724056
+        },
+        {
+            "function": "minecraft:color",
+            "id": 13,
+            "color": 11685080
+        },
+        {
+            "function": "minecraft:color",
+            "id": 14,
+            "color": 14188339
+        },
+        {
+            "function": "minecraft:color",
+            "id": 15,
+            "color": 16777215
+        },
+        {
+            "function": "minecraft:add",
+            "fireworks": {
+                "type": "large_ball",
+                "trail": true,
+                "twinkle": true
+            },
+            "overwrite": true
+        }
+    ]
+}

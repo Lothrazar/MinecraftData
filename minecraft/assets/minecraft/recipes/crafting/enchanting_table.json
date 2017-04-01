@@ -1,40 +1,41 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:book"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:diamond"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:diamond"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:book"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:enchanting_table"
     }
-]
+}

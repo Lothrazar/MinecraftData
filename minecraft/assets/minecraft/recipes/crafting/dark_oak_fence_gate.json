@@ -1,34 +1,33 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 5
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 5
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:dark_oak_planks"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:dark_oak_fence_gate"
     }
-]
+}

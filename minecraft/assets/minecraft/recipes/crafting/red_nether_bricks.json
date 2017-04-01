@@ -1,0 +1,27 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:nether_wart"
+                    },
+                    {
+                        "item": "minecraft:netherbrick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:netherbrick"
+                    },
+                    {
+                        "item": "minecraft:nether_wart"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:red_nether_bricks"
+    }
+}

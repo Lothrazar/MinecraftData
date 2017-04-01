@@ -1,24 +1,25 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:blaze_powder"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:blaze_powder"
+                    }
                 ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:slime_ball"
-                        }
-                    ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:magma_cream"
     }
-]
+}

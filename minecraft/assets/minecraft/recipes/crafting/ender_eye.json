@@ -1,24 +1,25 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:blaze_rod"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:blaze_rod"
+                    }
                 ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:ender_pearl"
-                        }
-                    ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:ender_pearl"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:ender_eye"
     }
-]
+}

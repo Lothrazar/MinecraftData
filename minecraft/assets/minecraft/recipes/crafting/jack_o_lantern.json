@@ -1,0 +1,21 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:pumpkin"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:torch"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:jack_o_lantern"
+    }
+}

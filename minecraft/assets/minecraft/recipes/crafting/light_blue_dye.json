@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:light_blue_dye",
+        "count": 2
+    }
+}

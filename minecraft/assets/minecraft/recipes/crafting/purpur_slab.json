@@ -1,24 +1,23 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:purpur_block"
-                        },
-                        {
-                            "item": "minecraft:purpur_block"
-                        },
-                        {
-                            "item": "minecraft:purpur_block"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:purpur_block"
+                    },
+                    {
+                        "item": "minecraft:purpur_block"
+                    },
+                    {
+                        "item": "minecraft:purpur_block"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 6
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:purpur_slab",
+        "count": 6
     }
-]
+}

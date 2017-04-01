@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:dark_oak_log",
+                            "minecraft:dark_oak_bark"
+                        ]
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:dark_oak_planks",
+        "count": 4
+    }
+}

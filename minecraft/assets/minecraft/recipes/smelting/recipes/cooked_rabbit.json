@@ -1,8 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:rabbit"
-        },
-        "exp": 0.35
+{
+    "item": {
+        "item": "minecraft:rabbit"
+    },
+    "exp": 0.35,
+    "return": {
+        "name": "minecraft:cooked_rabbit"
     }
-]
+}

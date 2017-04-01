@@ -1,0 +1,28 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:diorite"
+                    },
+                    {
+                        "item": "minecraft:diorite"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:diorite"
+                    },
+                    {
+                        "item": "minecraft:diorite"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:polished_diorite",
+        "count": 4
+    }
+}

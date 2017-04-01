@@ -1,0 +1,45 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:bone_meal"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:white_stained_glass",
+        "count": 8
+    }
+}

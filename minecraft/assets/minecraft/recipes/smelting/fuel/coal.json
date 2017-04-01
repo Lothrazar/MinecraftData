@@ -1,3 +1,6 @@
 {
-    "time": 1600
+    "time": 1600,
+    "item": {
+        "item": "minecraft:coal"
+    }
 }

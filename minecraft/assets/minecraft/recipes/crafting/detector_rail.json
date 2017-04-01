@@ -1,46 +1,45 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:stone_pressure_plate"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:redstone"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:stone_pressure_plate"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:redstone_dust"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 6
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:detector_rail",
+        "count": 6
     }
-]
+}

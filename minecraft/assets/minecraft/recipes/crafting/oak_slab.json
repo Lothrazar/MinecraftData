@@ -1,0 +1,23 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:oak_slab",
+        "count": 6
+    }
+}

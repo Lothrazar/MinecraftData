@@ -1,62 +1,63 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:paper"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:paper"
+                    }
                 ]
-            }
-        ],
-        "optional_ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:gunpowder",
-                            "id": 0
-                        }
-                    ]
-                ],
-                "min_groups": 1,
-                "max_groups": 3
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:fireworks_charge",
-                            "id": 1
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            }
-        ],
-        "optional_ingredients_required": {
-            "min": 1,
-            "max": 4
+            ]
+        }
+    ],
+    "optional_ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gunpowder",
+                        "id": 0
+                    }
+                ]
+            ],
+            "min_groups": 1,
+            "max_groups": 3
         },
-        "return": {
-            "amount": 3
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:fireworks_charge",
+                        "id": 1
+                    }
+                ]
+            ],
+            "max_groups": 1
+        }
+    ],
+    "optional_ingredients_required": {
+        "min": 1,
+        "max": 4
+    },
+    "return": {
+        "count": 3
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 1,
+            "copy": "{Explosion}",
+            "paste": "{Fireworks:{Explosions:[]}}"
         },
-        "functions": [
-            {
-                "function": "minecraft:copy_nbt",
-                "id": 1,
-                "copy": "{Explosion}",
-                "paste": "{Fireworks:{Explosions:[]}}"
-            },
-            {
-                "function": "minecraft:add",
-                "id": 0,
-                "fireworks": {
-                    "flight": 1
-                }
+        {
+            "function": "minecraft:add",
+            "id": 0,
+            "fireworks": {
+                "flight": 1
             }
-        ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:fireworks"
     }
-]
+}

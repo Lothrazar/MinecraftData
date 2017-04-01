@@ -1,0 +1,28 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stone"
+                    },
+                    {
+                        "item": "minecraft:stone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stone"
+                    },
+                    {
+                        "item": "minecraft:stone"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:stone_bricks",
+        "count": 4
+    }
+}

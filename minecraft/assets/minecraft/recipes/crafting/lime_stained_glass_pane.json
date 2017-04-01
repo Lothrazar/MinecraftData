@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lime_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:lime_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:lime_stained_glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:lime_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:lime_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:lime_stained_glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:lime_stained_glass_pane",
+        "count": 16
+    }
+}

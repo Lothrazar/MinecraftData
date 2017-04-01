@@ -1,8 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:quartz_ore"
-        },
-        "exp": 0.2
+{
+    "item": {
+        "item": "minecraft:quartz_ore"
+    },
+    "exp": 0.2,
+    "return": {
+        "item": "minecraft:quartz"
     }
-]
+}

@@ -1,0 +1,65 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    
+                ],
+                [
+                    {
+                        "item": "minecraft:magenta_dye"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:magenta_dye"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:magenta_dye"
+                    }
+                ]
+            ],
+            "can_move": false,
+            "can_mirror": false
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "magenta",
+                    "pattern": "bottom_triangle_sawtooth"
+                }
+            }
+        }
+    ]
+}

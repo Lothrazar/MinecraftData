@@ -1,43 +1,65 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:planks"
-                        },
-                        {
-                            "item": "minecraft:planks"
-                        },
-                        {
-                            "item": "minecraft:planks"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:cobblestone"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:cobblestone"
-                        },
-                        {
-                            "item": "minecraft:redstone"
-                        },
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    },
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    },
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:redstone_dust"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:piston"
     }
-]
+}

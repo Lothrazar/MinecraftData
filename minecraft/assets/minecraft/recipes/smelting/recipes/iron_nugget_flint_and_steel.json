@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:flint_and_steel"
+    },
+    "exp": 0.2,
+    "return": {
+        "name": "minecraft:iron_nugget"
+    }
+}

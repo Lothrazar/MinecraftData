@@ -1,59 +1,26 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:iron_shovel",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:iron_shovel",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
                 ],
-                "bonus": 5
-            }
-        ]
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:iron_shovel"
     }
-]
+}

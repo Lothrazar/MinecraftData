@@ -1,0 +1,16 @@
+{
+    "item": {
+        "item": "minecraft:iron_sword"
+    },
+    "exp": 0.2,
+    "return": {
+        "name": "minecraft:iron_nugget",
+        "count": 2
+    },
+    "functions": [
+        {
+            "function": "minecraft:scale_durability",
+            "tag": "count"
+        }
+    ]
+}

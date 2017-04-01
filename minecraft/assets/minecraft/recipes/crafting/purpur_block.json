@@ -1,26 +1,27 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:chorus_fruit_popped"
-                        },
-                        {
-                            "item": "minecraft:chorus_fruit_popped"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:chorus_fruit_popped"
-                        },
-                        {
-                            "item": "minecraft:chorus_fruit_popped"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:chorus_fruit_popped"
+                    },
+                    {
+                        "item": "minecraft:chorus_fruit_popped"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:chorus_fruit_popped"
+                    },
+                    {
+                        "item": "minecraft:chorus_fruit_popped"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:purpur_block"
     }
-]
+}

@@ -1,0 +1,21 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:sandstone_slab"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:sandstone_slab"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:chisiled_sandstone"
+    }
+}

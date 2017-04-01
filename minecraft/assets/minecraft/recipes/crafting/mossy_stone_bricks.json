@@ -1,0 +1,25 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stone_bricks"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:vines"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:mossy_stone_bricks"
+    }
+}

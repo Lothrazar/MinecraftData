@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:purple_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:purple_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:purple_stained_glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:purple_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:purple_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:purple_stained_glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:purple_stained_glass_pane",
+        "count": 16
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:magenta_wool"
+                    },
+                    {
+                        "item": "minecraft:magenta_wool"
+                    },
+                    {
+                        "item": "minecraft:magenta_wool"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:magenta_wool"
+                    },
+                    {
+                        "item": "minecraft:magenta_wool"
+                    },
+                    {
+                        "item": "minecraft:magenta_wool"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "base": "magenta"
+            }
+        }
+    ]
+    }
+}

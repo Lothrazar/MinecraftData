@@ -1,44 +1,45 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:cobblestone"
-                        },
-                        {
-                            "item": "minecraft:cobblestone"
-                        },
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:cobblestone"
-                        },
-                        {
-                            "item": "minecraft:bow",
-                            "durability": 1
-                        },
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:cobblestone"
-                        },
-                        {
-                            "item": "minecraft:redstone"
-                        },
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:bow",
+                        "durability": 1
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:redstone_dust"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:dispenser"
     }
-]
+}

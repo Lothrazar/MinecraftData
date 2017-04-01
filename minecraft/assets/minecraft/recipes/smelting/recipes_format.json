@@ -1,35 +1,94 @@
-[
-    {
-        "item": {
-            "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
-            "nbt": "STRING: additional nbt data",
-            "data": "INTEGER: data value of the item, neglected if not provided",
-            "durability": "FLOAT: durability of the item, 1=full, 0=broken, neglected if not provided"
-        },
-        "return": {
-            "nbt": "STRING: additional nbt data",
-            "amount": "INTEGER: amount, default = 1",
-            "data": "INTEGER: data value of the item, default = 0",
+{
+    "item": {
+        "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
+        "nbt": "STRING: additional nbt data",
+        "count": "INTEGER: count, default = 1",
+        "durability": "FLOAT: durability of the item, 1=full, 0=broken, neglected if not provided",
+        "conditions": {
+            "layers": {
+                "min": "INTEGER: minimum count of layers this banner or shield must have for this recipe",
+                "max": "INTEGER: maximum count of layers this banner or shield must have for this recipe",
+                "base": "STRING: the base color this banner or shield (none for uncolored) must have for this recipe"
+            },
+            "treasure": "BOOLEAN: if this has to be a treasure or normal map for this recipe",
+            "zoom_level": {
+                "min": "INTEGER: minimum count of zoom this map must have for this recipe",
+                "max": "INTEGER: maximum count of zoom this map must have for this recipe"
+            },
+            "generation": {
+                "min": "INTEGER: maximum generation this written book must have for this recipe",
+                "max": "INTEGER: maximum generation this written book must have for this recipe"
+            },
+            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow must have for this recipe (can also be a list of strings, then any of the listed has to be in this slot)"
+        }
+    },
+    "return": {
+        "item": "STRING: The item id",
+        "nbt": "STRING: additional nbt data",
+        "count": "INTEGER: count, default = 1",
+        "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
+    },
+    "exp": "FLOAT: the count of exp you get for this smelt",
+    "functions": [
+        {
+            "function": "minecraft:minecraft:return_items",
+            "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
+            "nbt": "STRING: Optional, what tags it gets, default = empty",
+            "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
+            "count": "INTEGER: count, default = 1",
             "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
         },
-        "exp": "FLOAT: the amount of exp you get for this smelt",
-        "functions": [
-            {
-                "function": "minecraft:return_items",
-                "replace": "STRING: item id to replace",
-                "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
-                "nbt": "STRING: Optional, what tags it gets, default = empty",
-                "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
-                "data": "INTEGER: data value of the item, default = 0",
-                "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
+        {
+            "function": "minecraft:copy_nbt",
+            "copy": "Optional, what tag to copy, {} means all tags, default = {}",
+            "paste": "Optional, where to paste the tag, default = same as copy"
+        },
+        {
+            "function": "minecraft:add",
+            "count": "INTEGER: how many to add to the resulting item",
+            "fireworks": {
+                "flight": "INTEGER: the count of time it flies in seconds",
+                "trail": "BOOLEAN: if the trail effect happens",
+                "twinkle": "BOOLEAN: if the twinkle effect happens",
+                "type": "STRING: the type of explosion that happens"
             },
-            {
-                "function": "minecraft:scale_durability",
-                "tag": "The tag of the result item that gets scaled by durability, values: amount, data, durability or an nbt tag, default = durability"
-            }
-        ]
-    }
-]
+            "written_book": {
+                "author": "STRING: the author this book's wil become",
+                "generation": "INTEGER: the generation this book's wil become"
+            },
+            "banner": {
+                "base": "STRING: the base color",
+                "layer": {
+                    "color": "STRING: the layer color",
+                    "pattern": "STRING: the layer pattern"
+                }
+            },
+            "potion": {
+                "potion": "STRING: the potion id"
+            },
+            "nbt": "STRING: The tag(s) it adds",
+            "overwrite": "BOOLEAN: if the tags should replace existing tags with the same path (if false and not a string, the numbers will be added/substracted), default = false"
+        },
+        {
+            "function": "minecraft:color",
+            "coloring": "STRING: What exactly get's colored, so the correct calculation/tag gets used, allowed values are: minecraft:armor, minecraft:fireworks, minecraft:fireworks_fade, minecraft:potion, default = minecraft:fireworks",
+            "color": "INTEGER: The color value to add (decimal)"
+        },
+        {
+            "function": "minecraft:zoom_map",
+            "zoom_level": "INTEGER: How much the map should zoom in, as, negative values means zooming out",
+            "zoom_from": "STRING: Where the map should be zoomed in/out from, allowed values are: center, top, bottom, left, right, top_left, top_right, bottom_left, bottom_right"
+        },
+        {
+            "function": "minecraft:repair",
+            "bonus": "INTEGER: adittional percentage of bonus durability the returned item gets, default = 0"
+        },
+        {
+            "function": "minecraft:scale_durability",
+            "tag": "The tag of the result item that gets scaled by durability, values: count, data, durability or an nbt tag, default = durability"
+        }
+    ]
+}
 
 Notes: 
 When NBT is copied, and a list which already exists is being specified in return, it adds to the end of the list, unless the returned list is empty.

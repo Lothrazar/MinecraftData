@@ -1,59 +1,17 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:gold_block"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gold_block"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 9
+            ]
         }
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        },
-                        {
-                            "item": "minecraft:gold_nugget"
-                        }
-                    ]
-                ]
-            }
-        ]
+    ],
+    "return": {
+        "item": "minecraft:gold_ingot",
+        "count": 9
     }
-]
+}

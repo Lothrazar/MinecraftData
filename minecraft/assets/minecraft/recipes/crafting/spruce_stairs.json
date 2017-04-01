@@ -1,43 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 1
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 1
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 1
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 1
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 1
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 1
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:spruce_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:spruce_planks"
+                    },
+                    {
+                        "item": "minecraft:spruce_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:spruce_planks"
+                    },
+                    {
+                        "item": "minecraft:spruce_planks"
+                    },
+                    {
+                        "item": "minecraft:spruce_planks"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:spruce_stairs",
+        "count": 4
     }
-]
+}

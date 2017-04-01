@@ -43,6 +43,7 @@ list of yet to be created JSON files:
  + add mule
  + add zombie_horse
  + add skeleton_horse
+ + add parrot
  + add ocelot
  + add wolf
  + add llama
@@ -190,6 +191,7 @@ list of yet to be created JSON files:
  + add mule
  + add zombie_horse
  + add skeleton_horse
+ + add parrot
  + add ocelot
  + add wolf
  + add llama
@@ -235,21 +237,19 @@ list of yet to be created JSON files:
 List of planned changes:
 + add other functions (like slowness on soul sand, and particle spawning) in the block properties
 * change all files to use as little nbt phrasing as possible, but don't remove the ability to base/add nbt tags
- * recipes
+ * recipes (villager only)
  * loot tables
  * achievements
 * change a number of files into sperate files:
  * enchanting and enchantability, combine both files into 1 per item
  * trading, 1 per career instead of per profession
- * brewing, fuel and recipe folder, 1 per resulting base item/fuel item
  * achievements, 1 per achievement
-* change block states and block properties files to allow * to affect all it's states (lowering file size quite a bit)
- * change model's variant: normal to variant: default
+* change block states block properties files to allow * to affect all it's states (lowering file size quite a bit)
 * update all files (and split them were nececairy) when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
  * achievements
  * loot tables
  * block properties
- * recipes
+ * recipes (villager only)
 ! fix format files are invalid json (change to "TAG": "TAG TYPE: DESCRIPTION")
 ! fix villager loot tables miss rewardexp and base_cost, base_random_cost, per_level_random_cost and per_level_cost for enchant_with_levels
 
@@ -344,6 +344,8 @@ list of yet to be created model files:
   + add sadled variant
  + add skeleton_horse
   + add sadled variant
+ + add parrot
+  + add color variants
  + add ocelot
   + add cat variants
   + add sitting variants

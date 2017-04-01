@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:orange_wool"
+                    },
+                    {
+                        "item": "minecraft:orange_wool"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:orange_carpet",
+        "count": 3
+    }
+}

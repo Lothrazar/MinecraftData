@@ -1,0 +1,65 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:bone_meal"
+                    },
+                    {
+                        "item": "minecraft:bone_meal"
+                    },
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:bone_meal"
+                    },
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    },
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:bone_meal"
+                    },
+                    {
+                        "item": "minecraft:bone_meal"
+                    },
+                    {
+                        "item": "minecraft:bone_meal"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "white",
+                    "pattern": "border"
+                }
+            }
+        }
+    ]
+}

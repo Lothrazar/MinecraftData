@@ -1,0 +1,67 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ]
+            ],
+            "can_move": false,
+            "can_mirror": false
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "black",
+                    "pattern": "down_right_stripe"
+                }
+            }
+        }
+    ]
+}

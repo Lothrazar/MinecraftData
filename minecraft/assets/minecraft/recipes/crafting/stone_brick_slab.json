@@ -1,0 +1,23 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stone_bricks"
+                    },
+                    {
+                        "item": "minecraft:stone_bricks"
+                    },
+                    {
+                        "item": "minecraft:stone_bricks"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:stone_brick_slab",
+        "count": 6
+    }
+}

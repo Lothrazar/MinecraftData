@@ -1,43 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:ender_eye"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        },
-                        {
-                            "item": "minecraft:obsidian"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:ender_eye"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    },
+                    {
+                        "item": "minecraft:obsidian"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:ender_chest"
     }
-]
+}

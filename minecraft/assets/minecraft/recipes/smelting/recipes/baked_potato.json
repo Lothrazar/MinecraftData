@@ -1,8 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:potato"
-        },
-        "exp": 0.35
+{
+    "item": {
+        "item": "minecraft:potato"
+    },
+    "exp": 0.35,
+    "return": {
+        "name": "minecraft:baked_potato"
     }
-]
+}

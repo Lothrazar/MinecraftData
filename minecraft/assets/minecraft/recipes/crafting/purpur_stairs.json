@@ -1,37 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:purpur_block"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:purpur_block"
-                        },
-                        {
-                            "item": "minecraft:purpur_block"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:purpur_block"
-                        },
-                        {
-                            "item": "minecraft:purpur_block"
-                        },
-                        {
-                            "item": "minecraft:purpur_block"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:purpur_block"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:purpur_block"
+                    },
+                    {
+                        "item": "minecraft:purpur_block"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:purpur_block"
+                    },
+                    {
+                        "item": "minecraft:purpur_block"
+                    },
+                    {
+                        "item": "minecraft:purpur_block"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:purpur_stairs",
+        "count": 4
     }
-]
+}

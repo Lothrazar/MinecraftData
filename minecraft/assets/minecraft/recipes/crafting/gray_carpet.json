@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gray_wool"
+                    },
+                    {
+                        "item": "minecraft:gray_wool"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:gray_carpet",
+        "count": 3
+    }
+}

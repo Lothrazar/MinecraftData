@@ -1,62 +1,29 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:cobblestone"
-                        },
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stick"
-                        }
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stone_hoe",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stone_hoe",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cobblestone"
+                    },
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
                 ],
-                "bonus": 5
-            }
-        ]
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stick"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:stone_hoe"
     }
-]
+}

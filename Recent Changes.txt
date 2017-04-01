@@ -1,5 +1,12 @@
+1-4-2017:
+* changed recipes, 1 file per recipe
+* changed brewing files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed recipes to use the upcomming block/item ids
+* updated textures to 17w13b
+! fixed brewing format files are invalid json
+
 27-3-2017:
-* changed block loot to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed block loot files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
 * changed block loot files to allow * to affect all it's states (lowering file size quite a bit)
 ! fixed block loot format files are invalid json
 ! fixed missing fortune conditions for some blocks

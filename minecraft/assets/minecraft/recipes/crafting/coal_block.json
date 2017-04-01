@@ -1,52 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:coal",
-                            "data": 0
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:coal"
+                    },
+                    {
+                        "item": "minecraft:coal"
+                    },
+                    {
+                        "item": "minecraft:coal"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:coal"
+                    },
+                    {
+                        "item": "minecraft:coal"
+                    },
+                    {
+                        "item": "minecraft:coal"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:coal"
+                    },
+                    {
+                        "item": "minecraft:coal"
+                    },
+                    {
+                        "item": "minecraft:coal"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:coal_block"
     }
-]
+}

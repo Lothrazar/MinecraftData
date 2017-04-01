@@ -1,25 +1,23 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:wheat"
-                        },
-                        {
-                            "item": "minecraft:dye",
-                            "data": 3
-                        },
-                        {
-                            "item": "minecraft:wheat"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:wheat"
+                    },
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    },
+                    {
+                        "item": "minecraft:wheat"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 8
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:cookie",
+        "count": 8
     }
-]
+}

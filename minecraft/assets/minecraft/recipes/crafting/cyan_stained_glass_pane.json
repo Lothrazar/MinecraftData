@@ -1,0 +1,34 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cyan_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:cyan_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:cyan_stained_glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cyan_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:cyan_stained_glass"
+                    },
+                    {
+                        "item": "minecraft:cyan_stained_glass"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:cyan_stained_glass_pane",
+        "count": 16
+    }
+}

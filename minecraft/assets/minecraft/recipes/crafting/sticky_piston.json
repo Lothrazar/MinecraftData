@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:slime_ball"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:piston"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:piston"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:sticky_piston"
     }
-]
+}

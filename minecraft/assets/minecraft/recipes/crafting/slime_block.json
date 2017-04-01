@@ -1,0 +1,44 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:slime_ball"
+                    },
+                    {
+                        "item": "minecraft:slime_ball"
+                    },
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:slime_ball"
+                    },
+                    {
+                        "item": "minecraft:slime_ball"
+                    },
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:slime_ball"
+                    },
+                    {
+                        "item": "minecraft:slime_ball"
+                    },
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:slime_block"
+    }
+}

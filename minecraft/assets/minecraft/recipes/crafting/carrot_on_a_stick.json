@@ -1,57 +1,24 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:fishing_rod"
-                        }
-                    ],
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:carrot"
-                        }
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:carrot_on_a_stick",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:carrot_on_a_stick",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:fishing_rod"
+                    }
                 ],
-                "bonus": 5
-            }
-        ]
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:carrot"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:carrot_on_a_stick"
     }
-]
+}

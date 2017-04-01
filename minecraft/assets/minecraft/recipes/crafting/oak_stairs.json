@@ -1,43 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 0
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 0
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:planks",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 0
-                        },
-                        {
-                            "item": "minecraft:planks",
-                            "data": 0
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    },
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:oak_stairs",
+        "count": 4
     }
-]
+}

@@ -1,43 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:prismarine_shard"
-                        },
-                        {
-                            "item": "minecraft:prismarine_crystals"
-                        },
-                        {
-                            "item": "minecraft:prismarine_shard"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:prismarine_crystals"
-                        },
-                        {
-                            "item": "minecraft:prismarine_crystals"
-                        },
-                        {
-                            "item": "minecraft:prismarine_crystals"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:prismarine_shard"
-                        },
-                        {
-                            "item": "minecraft:prismarine_crystals"
-                        },
-                        {
-                            "item": "minecraft:prismarine_shard"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:prismarine_shard"
+                    },
+                    {
+                        "item": "minecraft:prismarine_crystals"
+                    },
+                    {
+                        "item": "minecraft:prismarine_shard"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:prismarine_crystals"
+                    },
+                    {
+                        "item": "minecraft:prismarine_crystals"
+                    },
+                    {
+                        "item": "minecraft:prismarine_crystals"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:prismarine_shard"
+                    },
+                    {
+                        "item": "minecraft:prismarine_crystals"
+                    },
+                    {
+                        "item": "minecraft:prismarine_shard"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:sea_lantern",
     }
-]
+}

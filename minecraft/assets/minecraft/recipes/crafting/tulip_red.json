@@ -1,0 +1,16 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:red_tulip"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:rose_red"
+    }
+}

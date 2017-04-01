@@ -1,0 +1,17 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lilac"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:magenta_dye",
+        "count": 2
+    }
+}

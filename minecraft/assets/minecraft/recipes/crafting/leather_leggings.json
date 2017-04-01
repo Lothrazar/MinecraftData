@@ -1,390 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:leather"
-                        },
-                        {
-                            "item": "minecraft:leather"
-                        },
-                        {
-                            "item": "minecraft:leather"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:leather"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:leather"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:leather"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:leather"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:leather"
+                    },
+                    {
+                        "item": "minecraft:leather"
+                    },
+                    {
+                        "item": "minecraft:leather"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:leather"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:leather"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:leather"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:leather"
+                    }
                 ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:leather_leggings",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:leather_leggings",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
-                ],
-                "bonus": 5
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:leather_leggings",
-                            "id": 100
-                        }
-                    ]
-                ]
-            }
-        ],
-        "optional_ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 0,
-                            "id": 0
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 1,
-                            "id": 1
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 2,
-                            "id": 2
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 3,
-                            "id": 3
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 4,
-                            "id": 4
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 5,
-                            "id": 5
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 6,
-                            "id": 6
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 7,
-                            "id": 7
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 8,
-                            "id": 8
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 9,
-                            "id": 9
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 10,
-                            "id": 10
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 11,
-                            "id": 11
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 12,
-                            "id": 12
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 13,
-                            "id": 13
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 14,
-                            "id": 14
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:dye",
-                            "data": 15,
-                            "id": 15
-                        }
-                    ]
-                ],
-                "max_groups": 1
-            }
-        ],
-        "optional_ingredients_required": [
-            "min": 1,
-        ],
-        "functions": [
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 0,
-                "color": 1644825
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 1,
-                "color": 10040115
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 2,
-                "color": 6717235
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 3,
-                "color": 6704179
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 4,
-                "color": 3361970
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 5,
-                "color": 8339378
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 6,
-                "color": 5013401
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 7,
-                "color": 10066329
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 8,
-                "color": 5000268
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 9,
-                "color": 15892389
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 10,
-                "color": 8375321
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 11,
-                "color": 15066419
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 12,
-                "color": 6724056
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 13,
-                "color": 11685080
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 14,
-                "color": 14188339
-            },
-            {
-                "function": "minecraft:color",
-                "coloring": "minecraft:armor",
-                "id": 15,
-                "color": 16777215
-            },
-            {
-                "function": "minecraft:copy_nbt",
-                "id": 100
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:leather_leggings"
     }
-]
+}

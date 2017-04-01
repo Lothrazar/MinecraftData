@@ -1,18 +1,17 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:blaze_rod"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:blaze_rod"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 2
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:blaze_powder",
+        "count": 2
     }
-]
+}

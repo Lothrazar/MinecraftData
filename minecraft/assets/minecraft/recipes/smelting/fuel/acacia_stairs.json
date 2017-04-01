@@ -1,3 +1,6 @@
 {
-    "time": 300
+    "time": 300,
+    "item": {
+        "item": "minecraft:acacia_stairs"
+    }
 }

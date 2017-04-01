@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:purpur_slab"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:purpur_slab"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:purpur_slab"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:purpur_slab"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:purpur_pillar"
     }
-]
+}

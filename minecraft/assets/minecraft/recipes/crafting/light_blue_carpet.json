@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:light_blue_wool"
+                    },
+                    {
+                        "item": "minecraft:light_blue_wool"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:light_blue_carpet",
+        "count": 3
+    }
+}

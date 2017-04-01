@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:chest"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:minecart"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:chest"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:minecart"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:chest_minecart"
     }
-]
+}

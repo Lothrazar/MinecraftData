@@ -1,0 +1,16 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:blue_orchid"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:light_blue_dye"
+    }
+}

@@ -1,63 +1,64 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:milk_bucket",
-                            "id": 0
-                        },
-                        {
-                            "item": "minecraft:milk_bucket",
-                            "id": 1
-                        },
-                        {
-                            "item": "minecraft:milk_bucket",
-                            "id": 2
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:sugar"
-                        },
-                        {
-                            "item": "minecraft:egg"
-                        },
-                        {
-                            "item": "minecraft:sugar"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:wheat"
-                        },
-                        {
-                            "item": "minecraft:wheat"
-                        },
-                        {
-                            "item": "minecraft:wheat"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:milk_bucket",
+                        "id": 0
+                    },
+                    {
+                        "item": "minecraft:milk_bucket",
+                        "id": 1
+                    },
+                    {
+                        "item": "minecraft:milk_bucket",
+                        "id": 2
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:sugar"
+                    },
+                    {
+                        "item": "minecraft:egg"
+                    },
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:wheat"
+                    },
+                    {
+                        "item": "minecraft:wheat"
+                    },
+                    {
+                        "item": "minecraft:wheat"
+                    }
                 ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:return_items",
-                "item": "minecraft:bucket",
-                "id": 0
-            },
-            {
-                "function": "minecraft:return_items",
-                "item": "minecraft:bucket",
-                "id": 1
-            },
-            {
-                "function": "minecraft:return_items",
-                "item": "minecraft:bucket",
-                "id": 2
-            }
-        ]
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:return_items",
+            "item": "minecraft:bucket",
+            "id": 0
+        },
+        {
+            "function": "minecraft:return_items",
+            "item": "minecraft:bucket",
+            "id": 1
+        },
+        {
+            "function": "minecraft:return_items",
+            "item": "minecraft:bucket",
+            "id": 2
+        }
+    ],
+    "return": {
+        "item": "minecraft:cake"
     }
-]
+}

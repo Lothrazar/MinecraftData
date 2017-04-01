@@ -1,0 +1,52 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:filled_map",
+                        "id": 0
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:map"
+                    }
+                ]
+            ]
+        }
+    ],
+    "optional_ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:map",
+                        "id": 1
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "count": 2
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "id": 1,
+            "count": 1
+        }
+    ],
+    "return": {
+        "item": "minecraft:filled_map"
+    }
+}

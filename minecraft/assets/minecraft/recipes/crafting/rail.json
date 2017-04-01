@@ -1,46 +1,45 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": "minecraft:stick"
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:iron_ingot"
-                        },
-                        {
-                            "item": 
-                        },
-                        {
-                            "item": "minecraft:iron_ingot"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    },
+                    {
+                        "item": 
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 16
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:rail",
+        "count": 16
     }
-]
+}

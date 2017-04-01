@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:stone_bricks"
+    },
+    "return": {
+        "item": "minecraft:cracked_stone_bricks"
+    },
+    "exp": 0.1
+}

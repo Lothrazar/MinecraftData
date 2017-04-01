@@ -1,0 +1,16 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:beetroot"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:rose_red"
+    }
+}

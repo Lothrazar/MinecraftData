@@ -1,0 +1,65 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cactus_green"
+                    },
+                    {
+                        "item": "minecraft:cactus_green"
+                    },
+                    {
+                        "item": "minecraft:cactus_green"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cactus_green"
+                    },
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    },
+                    {
+                        "item": "minecraft:cactus_green"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:cactus_green"
+                    },
+                    {
+                        "item": "minecraft:cactus_green"
+                    },
+                    {
+                        "item": "minecraft:cactus_green"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "green",
+                    "pattern": "border"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:andesite"
+                    },
+                    {
+                        "item": "minecraft:andesite"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:andesite"
+                    },
+                    {
+                        "item": "minecraft:andesite"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:polished_andesite",
+        "count": 4
+    }
+}

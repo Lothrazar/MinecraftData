@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:tnt"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:minecart"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:tnt"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:minecart"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:tnt_minecart"
     }
-]
+}

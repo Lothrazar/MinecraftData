@@ -1,35 +1,34 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:glass"
-                        },
-                        {
-                            "item": "minecraft:glass"
-                        },
-                        {
-                            "item": "minecraft:glass"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:glass"
-                        },
-                        {
-                            "item": "minecraft:glass"
-                        },
-                        {
-                            "item": "minecraft:glass"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    },
+                    {
+                        "item": "minecraft:glass"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 16
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:glass_pane",
+        "count": 16
     }
-]
+}

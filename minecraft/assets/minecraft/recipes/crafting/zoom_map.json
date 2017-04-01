@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:filled_map",
+                        "conditions": {
+                            "treasure": false
+                        }
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    },
+                    {
+                        "item": "minecraft:paper"
+                    }
+                ]
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:zoom_map",
+            "zoom_level": -1,
+            "zoom_from": "center"
+        }
+    ],
+    "return": {
+        "item": "minecraft:filled_map"
+    }
+}

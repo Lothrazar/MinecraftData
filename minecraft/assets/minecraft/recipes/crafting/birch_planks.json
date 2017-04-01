@@ -1,0 +1,20 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": [
+                            "minecraft:birch_log",
+                            "minecraft:birch_bark"
+                        ]
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:birch_planks",
+        "count": 4
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    },
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    },
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    },
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "max": 15
+                            }
+                        }
+                    },
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    },
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    },
+                    {
+                        "item": "minecraft:dandelion_yellow"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add",
+            "banner": {
+                "layer": {
+                    "color": "yellow",
+                    "pattern": "border"
+                }
+            }
+        }
+    ]
+}

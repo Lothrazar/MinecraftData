@@ -1,26 +1,27 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:brick"
-                        },
-                        {
-                            "item": "minecraft:brick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:brick"
-                        },
-                        {
-                            "item": "minecraft:brick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:brick"
+                    },
+                    {
+                        "item": "minecraft:brick"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:brick"
+                    },
+                    {
+                        "item": "minecraft:brick"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:bricks"
     }
-]
+}

@@ -1,40 +1,39 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        },
-                        {
-                            "item": "minecraft:arrow"
-                        },
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        }
-                    ],
-                    [
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:glowstone_dust"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    },
+                    {
+                        "item": "minecraft:arrow"
+                    },
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
+                ],
+                [
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:glowstone_dust"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 2
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:spectral_arrow",
+        "count": 2
     }
-]
+}

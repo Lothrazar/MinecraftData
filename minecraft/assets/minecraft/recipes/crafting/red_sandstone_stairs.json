@@ -1,37 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:red_sandstone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:red_sandstone"
-                        },
-                        {
-                            "item": "minecraft:red_sandstone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:red_sandstone"
-                        },
-                        {
-                            "item": "minecraft:red_sandstone"
-                        },
-                        {
-                            "item": "minecraft:red_sandstone"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:red_sandstone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:red_sandstone"
+                    },
+                    {
+                        "item": "minecraft:red_sandstone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:red_sandstone"
+                    },
+                    {
+                        "item": "minecraft:red_sandstone"
+                    },
+                    {
+                        "item": "minecraft:red_sandstone"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:red_sandstone_stairs",
+        "count": 4
     }
-]
+}

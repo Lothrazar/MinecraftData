@@ -1,0 +1,23 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:nether_bricks"
+                    },
+                    {
+                        "item": "minecraft:nether_bricks"
+                    },
+                    {
+                        "item": "minecraft:nether_bricks"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:nether_brick_slab",
+        "count": 6
+    }
+}

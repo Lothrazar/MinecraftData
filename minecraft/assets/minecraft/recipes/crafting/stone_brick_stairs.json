@@ -1,37 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:stonebrick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stonebrick"
-                        },
-                        {
-                            "item": "minecraft:stonebrick"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:stonebrick"
-                        },
-                        {
-                            "item": "minecraft:stonebrick"
-                        },
-                        {
-                            "item": "minecraft:stonebrick"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:stone_bricks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stone_bricks"
+                    },
+                    {
+                        "item": "minecraft:stone_bricks"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:stone_bricks"
+                    },
+                    {
+                        "item": "minecraft:stone_bricks"
+                    },
+                    {
+                        "item": "minecraft:stone_bricks"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:stone_brick_stairs",
+        "count": 4
     }
-]
+}

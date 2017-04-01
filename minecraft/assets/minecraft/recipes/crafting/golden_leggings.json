@@ -1,77 +1,44 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:gold_ingot"
-                        },
-                        {
-                            "item": "minecraft:gold_ingot"
-                        },
-                        {
-                            "item": "minecraft:gold_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:gold_ingot"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:gold_ingot"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:gold_ingot"
-                        },
-                        {
-                            
-                        },
-                        {
-                            "item": "minecraft:gold_ingot"
-                        }
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:golden_leggings",
-                            "id": 0
-                        }
-                    ]
-                ]
-            },
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:golden_leggings",
-                            "id": 1
-                        }
-                    ]
-                ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:repair",
-                "ids": [
-                    0,
-                    1
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    {
+                        "item": "minecraft:gold_ingot"
+                    }
                 ],
-                "bonus": 5
-            }
-        ]
+                [
+                    {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:gold_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:gold_ingot"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:golden_leggings"
     }
-]
+}

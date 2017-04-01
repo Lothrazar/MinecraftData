@@ -1,37 +1,36 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:sandstone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:sandstone"
-                        },
-                        {
-                            "item": "minecraft:sandstone"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:sandstone"
-                        },
-                        {
-                            "item": "minecraft:sandstone"
-                        },
-                        {
-                            "item": "minecraft:sandstone"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:sandstone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:sandstone"
+                    },
+                    {
+                        "item": "minecraft:sandstone"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:sandstone"
+                    },
+                    {
+                        "item": "minecraft:sandstone"
+                    },
+                    {
+                        "item": "minecraft:sandstone"
+                    }
                 ]
-            }
-        ],
-        "return": {
-            "amount": 4
+            ]
         }
+    ],
+    "return": {
+        "item": "minecraft:sandstone_stairs",
+        "count": 4
     }
-]
+}

@@ -1,0 +1,23 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:red_sandstone"
+                    },
+                    {
+                        "item": "minecraft:red_sandstone"
+                    },
+                    {
+                        "item": "minecraft:red_sandstone"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:red_sandstone_slab",
+        "count": 6
+    }
+}

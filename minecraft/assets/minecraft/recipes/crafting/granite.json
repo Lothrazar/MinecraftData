@@ -1,0 +1,25 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:diorite"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:quartz"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:granite"
+    }
+}

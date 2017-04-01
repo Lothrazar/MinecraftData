@@ -1,20 +1,21 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:furnace"
-                        }
-                    ],
-                    [
-                        {
-                            "item": "minecraft:minecart"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:furnace"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:minecart"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:furnace_minecart"
     }
-]
+}

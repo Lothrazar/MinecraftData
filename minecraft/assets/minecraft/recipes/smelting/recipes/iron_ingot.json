@@ -1,8 +1,9 @@
-[
-    {
-        "item": {
-            "item": "minecraft:iron_ore"
-        },
-        "exp": 0.7
+{
+    "item": {
+        "item": "minecraft:iron_ore"
+    },
+    "exp": 0.7,
+    "return": {
+        "name": "minecraft:iron_ingot"
     }
-]
+}

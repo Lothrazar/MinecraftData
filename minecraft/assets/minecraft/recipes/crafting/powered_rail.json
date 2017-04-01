@@ -1,0 +1,45 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    {
+                        
+                    },
+                    {
+                        "item": "minecraft:gold_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    {
+                        "item": "minecraft:stick"
+                    },
+                    {
+                        "item": "minecraft:gold_ingot"
+                    }
+                ],
+                [
+                    {
+                        "item": "minecraft:gold_ingot"
+                    },
+                    {
+                        "item": "minecraft:redstone"
+                    },
+                    {
+                        "item": "minecraft:gold_ingot"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:powered_rail",
+        "count": 6
+    }
+}

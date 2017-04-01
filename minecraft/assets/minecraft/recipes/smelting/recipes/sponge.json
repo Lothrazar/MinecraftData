@@ -1,16 +1,16 @@
-[
-    {
-        "item": {
-            "item": "minecraft:sponge",
-            "data": 1
-        },
-        "exp": 0.2,
-        "functions": [
-            {
-                "function": "return_items",
-                "replace": "minecraft:bucket",
-                "item": "minecraft:water_bucket"
-            }
-        ]
-    }
-]
+{
+    "item": {
+        "item": "minecraft:wet_sponge"
+    },
+    "exp": 0.2,
+    "return": {
+        "item": "minecraft:sponge"
+    },
+    "functions": [
+        {
+            "function": "return_items",
+            "replace": "minecraft:bucket",
+            "item": "minecraft:water_bucket"
+        }
+    ]
+}

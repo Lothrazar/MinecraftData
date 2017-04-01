@@ -1,0 +1,49 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "id": 0,
+                        "conditions": {
+                            "layers": {
+                                "min": 1,
+                                "base": "black"
+                            }
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:banner",
+                        "conditions": {
+                            "layers": {
+                                "max": 0,
+                                "base": "black"
+                            }
+                        }
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:banner"
+    },
+    "functions": [
+        {
+            "function": "minecraft:copy_nbt",
+            "id": 0,
+            "copy": "{BlockEntityTag}"
+        },
+        {
+            "function": "minecraft:return_items",
+            "id": 0
+        }
+    ]
+}

@@ -1,21 +1,22 @@
-[
-    {
-        "ingredients": [
-            {
-                "items": [
-                    [
-                        {
-                            "item": "minecraft:wheat"
-                        },
-                        {
-                            "item": "minecraft:wheat"
-                        },
-                        {
-                            "item": "minecraft:wheat"
-                        }
-                    ]
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:wheat"
+                    },
+                    {
+                        "item": "minecraft:wheat"
+                    },
+                    {
+                        "item": "minecraft:wheat"
+                    }
                 ]
-            }
-        ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:bread"
     }
-]
+}

@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:cod"
+    },
+    "exp": 0.35,
+    "return": {
+        "name": "minecraft:cooked_cod"
+    }
+}
