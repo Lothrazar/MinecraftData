@@ -80,8 +80,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 5
+                            "function": "minecraft:set_count",
+                            "count": 5
                         }
                     ]
                 }
@@ -94,7 +94,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-                        "minecraft:nbt": "{IsBaby:0b}"
+                        "minecraft:is_baby": false
                     }
                 }
             ]
@@ -107,8 +107,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 12
+                            "function": "minecraft:set_count",
+                            "count": 12
                         }
                     ]
                 }
@@ -121,7 +121,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-                        "minecraft:nbt": "{IsBaby:1b}"
+                        "minecraft:is_baby": true
                     }
                 }
             ]

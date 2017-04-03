@@ -1,3 +1,11 @@
+3-4-2017:
++ added other color bed recipes and block loot tables (copied form PE)
++ added parrot loot table and sounds (and subtitles)
+* changed other loot tables to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags
+* changed loot tables to use the upcomming block/item ids
+* changed the lang file a bit
+! fixed snowball -> snowball, slimeball -> slimeball (accedentially changed the snowball one instead of slimeball before)
+
 1-4-2017:
 * changed recipes, 1 file per recipe
 * changed brewing files to use as little nbt phrasing as possible, but didn't remove the ability to base/add nbt tags

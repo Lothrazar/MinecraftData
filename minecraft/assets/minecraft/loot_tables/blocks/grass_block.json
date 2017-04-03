@@ -1,0 +1,22 @@
+{
+    "*": [
+        {
+            "item": "minecraft:grass_block",
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:dirt",
+            "conditions": [
+                {
+                    "minecraft:drops": 0
+                }
+            ]
+        }
+    ]
+}

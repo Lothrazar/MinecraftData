@@ -1,0 +1,21 @@
+{
+    "half=upper": [
+        {
+            "item": "minecraft:large_fern",
+            "conditions": [
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ]
+        },
+        {
+            "item": "minecraft:seeds",
+            "conditions": [
+                {
+                    "minecraft:drops": 0
+                }
+            ],
+            "chance": 0.04167
+        }
+    ]
+}

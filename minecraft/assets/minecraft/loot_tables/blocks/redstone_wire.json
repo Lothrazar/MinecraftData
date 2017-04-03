@@ -1,7 +1,7 @@
 {
     "*": [
         {
-            "item": "minecraft:redstone"
+            "item": "minecraft:redstone_dust"
         }
     ]
 }

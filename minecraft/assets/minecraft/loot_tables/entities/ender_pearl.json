@@ -1,18 +1,1 @@
-{
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "entity",
-                    "name": "minecraft:endermite",
-                    "weight": 1
-                },
-				{
-                    "type": "empty",
-                    "weight": 19
-                }
-            ]
-        }
-    ]
-}
+{}

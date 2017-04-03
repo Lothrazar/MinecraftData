@@ -1,0 +1,12 @@
+{
+    "*": [
+        {
+            "item": "minecraft:jungle_slab"
+        }
+    ],
+    "type=double": [
+        {
+            "item": "minecraft:jungle_slab"
+        }
+    ]
+}

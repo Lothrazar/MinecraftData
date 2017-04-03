@@ -1,0 +1,28 @@
+{
+    "*": [
+        {
+            "item": "minecraft:light_gray_shulker_box",
+            "functions": [
+                {
+                    "function": "minecraft:drops_inventory",
+                    "drops": false
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{CustomName}",
+                    "paste": "{display:{Name}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Items}",
+                    "paste": "{BlockEntityTag:{Items}}"
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Lock}",
+                    "paste": "{BlockEntityTag:{Lock}}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "nodrops=false": [
+        {
+            "item": "minecraft:player_head",
+            "functions": [
+                {
+                    "function": "minecraft:copy_nbt",
+                    "copy": "{Owner}",
+                    "paste": "{SkullOwner}"
+                }
+            ]
+        }
+    ]
+}

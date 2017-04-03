@@ -1,0 +1,20 @@
+{
+    "half=upper": [
+        {
+            "item": "minecraft:tall_grass",
+            "conditions": [
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ]
+        {
+            "item": "minecraft:seeds",
+            "conditions": [
+                {
+                    "minecraft:drops": 0
+                }
+            ],
+            "chance": 0.04167
+        }
+    ]
+}

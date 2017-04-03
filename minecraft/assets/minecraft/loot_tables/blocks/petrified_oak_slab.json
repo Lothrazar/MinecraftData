@@ -1,0 +1,12 @@
+{
+    "*": [
+        {
+            "item": "minecraft:petrified_oak_slab"
+        }
+    ],
+    "type=double": [
+        {
+            "item": "minecraft:petrified_oak_slab"
+        }
+    ]
+}

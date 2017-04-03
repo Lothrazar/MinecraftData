@@ -74,6 +74,28 @@ minecraft:block.ender_dragon_head=Ender Dragon Head
 minecraft:block.wall_ender_dragon_head=Wall Ender Dragon Head
 minecraft:block.melon_plant=Melon Plant
 minecraft:block.pumpkin_plant=Pumpkin Plant
+minecraft:block.acacia_bark=Acacia Bark
+minecraft:block.birch_bark=Birch Bark
+minecraft:block.dark_oak_bark=Dark Oak Bark
+minecraft:block.jungle_bark=Jungle Bark
+minecraft:block.oak_bark=Oak Bark
+minecraft:block.spruce_bark=Spruce Bark
+minecraft:block.black_bed=Black Bed
+minecraft:block.black_bed=Red Bed
+minecraft:block.black_bed=Green Bed
+minecraft:block.black_bed=Brown Bed
+minecraft:block.black_bed=Blue Bed
+minecraft:block.black_bed=Purple Bed
+minecraft:block.black_bed=Cyan Bed
+minecraft:block.black_bed=Light Gray Bed
+minecraft:block.black_bed=Gray Bed
+minecraft:block.black_bed=Pink Bed
+minecraft:block.black_bed=Lime Bed
+minecraft:block.black_bed=Yellow Bed
+minecraft:block.black_bed=Light Blue Bed
+minecraft:block.black_bed=Magenta Bed
+minecraft:block.black_bed=Orange Bed
+minecraft:block.black_bed=White Bed
 
 minecraft:entity.item_frame=Item Frame
 minecraft:entity.leash_knot=Lead
@@ -125,11 +147,14 @@ tile.mushroom.name=Mushroom
 tile.sign.name=Sign
 tile.button.name=Button
 tile.lockedchest.name=Locked Chest
+tile.bed.name=Bed
 
 entity.Mob.name=Mob
 entity.Monster.name=Monster
 
 item.tipped_arrow.water.name=Arrow of Splashing
+
+item translations that also have a block translation (same string except item = tile)
 
 
 

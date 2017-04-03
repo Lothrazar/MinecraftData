@@ -1,5 +1,5 @@
 {
-    "default": [
+    "*": [
         {
             "item": "minecraft:redstone_ore",
             "conditions": [
@@ -15,7 +15,7 @@
             ]
         },
         {
-            "item": "minecraft:redstone",
+            "item": "minecraft:redstone_dust",
             "conditions": [
                 {
                     "minecraft:tool": [
@@ -39,7 +39,7 @@
             ]
         },
         {
-            "item": "minecraft:redstone",
+            "item": "minecraft:redstone_dust",
             "conditions": [
                 {
                     "minecraft:tool": [
@@ -63,7 +63,7 @@
             ]
         },
         {
-            "item": "minecraft:redstone",
+            "item": "minecraft:redstone_dust",
             "conditions": [
                 {
                     "minecraft:tool": [
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "item": "minecraft:redstone",
+            "item": "minecraft:redstone_dust",
             "conditions": [
                 {
                     "minecraft:tool": [

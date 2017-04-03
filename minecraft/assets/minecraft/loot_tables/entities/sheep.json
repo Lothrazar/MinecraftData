@@ -5,14 +5,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 15
-                        }
-                    ]
+                    "name": "minecraft:black_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -21,7 +15,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:15b}"
+                        "minecraft:color": "black"
                     }
                 }
             ]
@@ -31,14 +25,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 14
-                        }
-                    ]
+                    "name": "minecraft:red_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -47,7 +35,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:14b}"
+                        "minecraft:color": "red"
                     }
                 }
             ]
@@ -57,14 +45,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 13
-                        }
-                    ]
+                    "name": "minecraft:green_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -73,7 +55,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:13b}"
+                        "minecraft:color": "green"
                     }
                 }
             ]
@@ -83,14 +65,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 12
-                        }
-                    ]
+                    "name": "minecraft:brown_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -99,7 +75,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:12b}"
+                        "minecraft:color": "brown"
                     }
                 }
             ]
@@ -109,14 +85,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 11
-                        }
-                    ]
+                    "name": "minecraft:blue_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -125,7 +95,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:11b}"
+                        "minecraft:color": "blue"
                     }
                 }
             ]
@@ -135,14 +105,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 10
-                        }
-                    ]
+                    "name": "minecraft:purple_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -151,7 +115,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:10b}"
+                        "minecraft:color": "purple"
                     }
                 }
             ]
@@ -161,14 +125,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 9
-                        }
-                    ]
+                    "name": "minecraft:cyan_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -177,7 +135,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:9b}"
+                        "minecraft:color": "cyan"
                     }
                 }
             ]
@@ -187,14 +145,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 8
-                        }
-                    ]
+                    "name": "minecraft:light_gray_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -203,7 +155,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:8b}"
+                        "minecraft:color": "light_gray"
                     }
                 }
             ]
@@ -213,14 +165,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 7
-                        }
-                    ]
+                    "name": "minecraft:gray_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -229,7 +175,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:7b}"
+                        "minecraft:color": "gray"
                     }
                 }
             ]
@@ -239,14 +185,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 6
-                        }
-                    ]
+                    "name": "minecraft:pink_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -255,7 +195,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:6b}"
+                        "minecraft:color": "pink"
                     }
                 }
             ]
@@ -265,14 +205,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 5
-                        }
-                    ]
+                    "name": "minecraft:lime_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -281,7 +215,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:5b}"
+                        "minecraft:color": "lime"
                     }
                 }
             ]
@@ -291,14 +225,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 4
-                        }
-                    ]
+                    "name": "minecraft:yellow_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -307,7 +235,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:4b}"
+                        "minecraft:color": "yellow"
                     }
                 }
             ]
@@ -317,14 +245,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 3
-                        }
-                    ]
+                    "name": "minecraft:light_blue_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -333,7 +255,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:3b}"
+                        "minecraft:color": "light_blue"
                     }
                 }
             ]
@@ -343,14 +265,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 2
-                        }
-                    ]
+                    "name": "minecraft:magenta_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -359,7 +275,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:2b}"
+                        "minecraft:color": "magenta"
                     }
                 }
             ]
@@ -369,14 +285,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 1
-                        }
-                    ]
+                    "name": "minecraft:orange_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -385,7 +295,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:1b}"
+                        "minecraft:color": "orange"
                     }
                 }
             ]
@@ -395,14 +305,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 0
-                        }
-                    ]
+                    "name": "minecraft:white_wool",
+                    "weight": 1
                 }
             ],
             "conditions": [
@@ -411,7 +315,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Color:0b}"
+                        "minecraft:color": "white"
                     }
                 }
             ]
@@ -471,8 +375,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 1
+                            "function": "minecraft:set_count",
+                            "count": 1
                         }
                     ]
                 },
@@ -481,8 +385,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 2
+                            "function": "minecraft:set_count",
+                            "count": 2
                         }
                     ]
                 },
@@ -491,8 +395,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 3
+                            "function": "minecraft:set_count",
+                            "count": 3
                         }
                     ]
                 }

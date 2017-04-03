@@ -1,34 +1,18 @@
 {
     "age=0": [
         {
-            "item": "minecraft:dye",
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 3
-                }
-            ]
+            "item": "minecraft:cocoa_beans"
         }
     ],
     "age=1": [
         {
-            "item": "minecraft:dye",
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 3
-                }
-            ]
+            "item": "minecraft:cocoa_beans"
         }
     ],
     "age=2": [
         {
-            "item": "minecraft:dye",
+            "item": "minecraft:cocoa_beans",
             "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 3
-                },
                 {
                     "function": "minecraft:set_count",
                     "data": 3

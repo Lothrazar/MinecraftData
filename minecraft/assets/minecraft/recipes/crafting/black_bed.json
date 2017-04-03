@@ -1,0 +1,54 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:black_wool"
+                    },
+                    {
+                        "item": "minecraft:black_wool"
+                    },
+                    {
+                        "item": "minecraft:black_wool"
+                    }
+                ],
+                [
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    },
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    },
+                    {
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:black_bed"
+    }
+}

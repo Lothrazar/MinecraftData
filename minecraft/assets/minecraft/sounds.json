@@ -2348,6 +2348,87 @@
         ],
         "subtitle": "subtitles.entity.painting.place"
     },
+    "entity.parrot.death": {
+		"sounds": [
+			{
+				"name": "minecraft:mob/parrot/death1",
+				"pitch": 0.9
+			},
+			{
+				"name": "minecraft:mob/parrot/death2",
+				"pitch": 0.9
+			},
+			{
+				"name": "minecraft:mob/parrot/death3",
+				"pitch": 0.9
+			},
+			{
+				"name": "minecraft:mob/parrot/death4",
+				"pitch": 0.7
+			}
+		],
+        "subtitle": "subtitles.entity.parrot.death"
+    },
+    "entity.parrot.hurt": {
+		"sounds": [
+			{
+				"name": "minecraft:mob/parrot/hurt1",
+				"pitch": 0.8
+			},
+			{
+				"name": "minecraft:mob/parrot/hurt2",
+				"pitch": 0.9
+			},
+			{
+				"name": "minecraft:mob/parrot/hurt1",
+				"pitch": 0.9
+			}
+		],
+        "subtitle": "subtitles.entity.parrot.hurt"
+    },
+    "entity.parrot.ambient": {
+		"sounds": [
+				"minecraft:mob/parrot/idle1",
+				"minecraft:mob/parrot/idle2",
+				"minecraft:mob/parrot/idle3",
+				"minecraft:mob/parrot/idle4",
+				"minecraft:mob/parrot/idle5",
+				"minecraft:mob/parrot/idle6",
+			    "minecraft:mob/parrot/idle7"
+        ],
+        "subtitle": "subtitles.entity.parrot.ambient"
+    },
+    "entity.parrot.eat": {
+		"sounds": [
+			"minecraft:mob/parrot/eat1",
+			"minecraft:mob/parrot/eat2",
+			"minecraft:mob/parrot/eat3"
+		],
+        "subtitle": "subtitles.block.parrot.eat"
+    },
+    "entity.parrot.fly": {
+		"sounds": [
+			"minecraft:mob/parrot/fly1",
+			"minecraft:mob/parrot/fly2",
+			"minecraft:mob/parrot/fly3",
+			"minecraft:mob/parrot/fly4",
+			"minecraft:mob/parrot/fly5",
+			"minecraft:mob/parrot/fly6",
+			"minecraft:mob/parrot/fly7",
+			"minecraft:mob/parrot/fly8"
+		],
+        "subtitle": "subtitles.block.parrot.fly"
+    },
+    "entity.parrot.step": {
+		"sounds": [
+			"minecraft:mob/parrot/step1",
+			"minecraft:mob/parrot/step2",
+			"minecraft:mob/parrot/step3",
+			"minecraft:mob/parrot/step4",
+			"minecraft:mob/parrot/step5"
+		],
+        "subtitle": "subtitles.block.generic.footsteps"
+    },
     "entity.pig.ambient": {
         "sounds": [
             "minecraft:mob/pig/say1",

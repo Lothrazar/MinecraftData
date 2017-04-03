@@ -33,8 +33,10 @@
                     "weight": 10,
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:water\"}"
+                            "function": "set_potion",
+                            "effects": [
+                                "minecraft:water"
+                            ]
                         }
                     ]
                 },
@@ -69,13 +71,9 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:dye",
+                    "name": "minecraft:ink_sack",
                     "weight": 1,
                     "functions": [
-                        {
-                            "function": "set_data",
-                            "data": 0
-                        },
                         {
                             "function": "set_count",
                             "count": 10

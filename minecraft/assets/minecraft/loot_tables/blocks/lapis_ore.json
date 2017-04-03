@@ -16,7 +16,7 @@
             ]
         },
         {
-            "item": "minecraft:dye",
+            "item": "minecraft:lapis_lazulli",
             "conditions": [
                 {
                     "minecraft:tool": [
@@ -37,15 +37,11 @@
                         "min": 4,
                         "max": 16
                     }
-                },
-                {
-                    "function": "minecraft:set_data",
-                    "data": 4
                 }
             ]
         },
         {
-            "item": "minecraft:dye",
+            "item": "minecraft:lapis_lazulli",
             "conditions": [
                 {
                     "minecraft:tool": [
@@ -66,15 +62,11 @@
                         "min": 4,
                         "max": 24
                     }
-                },
-                {
-                    "function": "minecraft:set_data",
-                    "data": 4
                 }
             ]
         },
         {
-            "item": "minecraft:dye",
+            "item": "minecraft:lapis_lazulli",
             "conditions": [
                 {
                     "minecraft:tool": [
@@ -95,15 +87,11 @@
                         "min": 4,
                         "max": 32
                     }
-                },
-                {
-                    "function": "minecraft:set_data",
-                    "data": 4
                 }
             ]
         },
         {
-            "item": "minecraft:dye",
+            "item": "minecraft:lapis_lazulli",
             "conditions": [
                 {
                     "minecraft:tool": [
@@ -121,10 +109,6 @@
                         "min": 4,
                         "max": 8
                     }
-                },
-                {
-                    "function": "minecraft:set_data",
-                    "data": 4
                 }
             ]
         }

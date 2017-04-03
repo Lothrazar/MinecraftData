@@ -1,0 +1,14 @@
+{
+    "default": [
+        {
+            "item": "minecraft:purple_stained_glass",
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        }
+    ]
+}

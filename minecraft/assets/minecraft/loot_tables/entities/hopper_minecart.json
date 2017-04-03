@@ -10,21 +10,12 @@
                 }
             ]
         },
-		{
+        {
             "rolls": 1,
             "entries": [
                 {
                     "type": "item",
                     "name": "minecraft:hopper",
-                    "weight": 1
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "inventory",
                     "weight": 1
                 }
             ]

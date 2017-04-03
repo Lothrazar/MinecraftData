@@ -1,0 +1,12 @@
+{
+    "*": [
+        {
+            "item": "minecraft:acacia_slab"
+        }
+    ],
+    "type=double": [
+        {
+            "item": "minecraft:acacia_slab"
+        }
+    ]
+}

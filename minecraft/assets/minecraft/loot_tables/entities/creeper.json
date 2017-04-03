@@ -32,7 +32,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "killer",
                     "properties": {
-                        "minecraft:nbt": "{id:\"minecraft:skeleton\"}"
+                        "minecraft:type": "minecraft:skeleton"
                     }
                 }
             ],
@@ -40,62 +40,62 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:record_13",
+                    "name": "minecraft:music_disc_13",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_cat",
+                    "name": "minecraft:music_disc_cat",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_blocks",
+                    "name": "minecraft:music_disc_blocks",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_chirp",
+                    "name": "minecraft:music_disc_chirp",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_far",
+                    "name": "minecraft:music_disc_far",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_mall",
+                    "name": "minecraft:music_disc_mall",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_mellohi",
+                    "name": "minecraft:music_disc_mellohi",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_stal",
+                    "name": "minecraft:music_disc_stal",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_strad",
+                    "name": "minecraft:music_disc_strad",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_ward",
+                    "name": "minecraft:music_disc_ward",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_11",
+                    "name": "minecraft:music_disc_11",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:record_wait",
+                    "name": "minecraft:music_disc_wait",
                     "weight": 1
                 }
             ]
@@ -106,7 +106,8 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "killer",
                     "properties": {
-                        "minecraft:nbt": "{id:\"minecraft:creeper\",powered:1b}"
+                        "minecraft:type": "minecraft:creeper",
+                        "minecraft:powered": true
                     }
                 }
             ],
@@ -114,14 +115,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:skull",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 4
-                        }
-                    ]
+                    "name": "minecraft:creeper_skull",
+                    "weight": 1
                 }
             ]
         },
@@ -133,8 +128,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 5
+                            "function": "minecraft:set_count",
+                            "count": 5
                         }
                     ]
                 }

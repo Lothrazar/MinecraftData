@@ -1,0 +1,117 @@
+{
+    "default": [
+        {
+            "item": "minecraft:nether_quartz_ore",
+            "conditions": [
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:quartz",
+            "conditions": [
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:quartz",
+            "conditions": [
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:quartz",
+            "conditions": [
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 4
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:quartz",
+            "conditions": [
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:diamond_pickaxe"        
+                    ],
+                    "minecraft:drops": 0
+                }
+            ]
+        }
+    ]
+}

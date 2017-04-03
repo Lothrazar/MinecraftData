@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:fish",
+                    "name": "minecraft:cod",
                     "weight": 3,
                     "functions": [
                         {
@@ -21,16 +21,12 @@
                                 "min": 0,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 0
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:fish",
+                    "name": "minecraft:salmon",
                     "weight": 1,
                     "functions": [
                         {
@@ -46,10 +42,6 @@
                                 "min": 0,
                                 "max": 1
                             }
-                        },
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 1
                         }
                     ]
                 }
@@ -72,8 +64,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 1
+                            "function": "minecraft:set_count",
+                            "count": 1
                         }
                     ]
                 },
@@ -82,8 +74,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 2
+                            "function": "minecraft:set_count",
+                            "count": 2
                         }
                     ]
                 },
@@ -92,8 +84,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 3
+                            "function": "minecraft:set_count",
+                            "count": 3
                         }
                     ]
                 }

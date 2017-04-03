@@ -1,0 +1,14 @@
+{
+    "*": [
+        {
+            "item": "minecraft:light_blue_stained_glass_pane",
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        }
+    ]
+}

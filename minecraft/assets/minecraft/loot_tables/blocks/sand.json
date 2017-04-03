@@ -1,18 +1,7 @@
 {
-    "variant=sand": [
+    "default": [
         {
             "item": "minecraft:sand"
-        }
-    ],
-    "variant=red_sand": [
-        {
-            "item": "minecraft:sand",
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 1
-                }
-            ]
         }
     ]
 }

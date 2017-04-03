@@ -1,13 +1,1 @@
-{
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "inventory",
-                    "weight": 1
-                }
-            ]
-        }
-    ]
-}
+{}

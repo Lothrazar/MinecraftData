@@ -1,0 +1,49 @@
+{
+    "*": [
+        {
+            "item": "minecraft:acacia_sapling",
+            "chance": 0.0625,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:acacia_sapling",
+            "chance": 0.0833,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:acacia_sapling",
+            "chance": 0.1,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:acacia_sapling",
+            "chance": 0.05,
+            "conditions": [
+                {
+                    "minecraft:drops": 0
+                }
+            ]
+        }
+    ]
+}

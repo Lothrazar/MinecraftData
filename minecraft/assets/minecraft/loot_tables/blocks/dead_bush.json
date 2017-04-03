@@ -1,0 +1,29 @@
+{
+    "default": [
+        {
+            "item": "minecraft:dead_bush",
+            "conditions": [
+                {
+                    "minecraft:tool": "minecraft:shears"
+                }
+            ]
+        },
+        {
+            "item": "minecraft:stick",
+            "conditions": [
+                {
+                    "minecraft:drops": 0
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 2
+                    }
+                }
+            ]
+        }
+    ]
+}

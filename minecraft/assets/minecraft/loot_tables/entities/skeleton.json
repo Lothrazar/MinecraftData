@@ -58,7 +58,8 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "killer",
                     "properties": {
-                        "minecraft:nbt": "{id:\"minecraft:creeper\",powered:1b}"
+                        "minecraft:type": "minecraft:creeper",
+                        "minecraft:powered": true
                     }
                 }
             ],
@@ -66,7 +67,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:skull",
+                    "name": "minecraft:skeleton_skull",
                     "weight": 1
                 }
             ]
@@ -79,8 +80,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 5
+                            "function": "minecraft:set_count",
+                            "count": 5
                         }
                     ]
                 }

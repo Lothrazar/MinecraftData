@@ -48,7 +48,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-                        "minecraft:nbt": "{ChestedHorse:1b}"
+                        "minecraft:chested_horse": true
                     }
                 }
             ]
@@ -57,21 +57,12 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "inventory",
-                    "weight": 1
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
                     "type": "experience",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 1
+                            "function": "minecraft:set_count",
+                            "count": 1
                         }
                     ]
                 },
@@ -80,8 +71,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 2
+                            "function": "minecraft:set_count",
+                            "count": 2
                         }
                     ]
                 },
@@ -90,8 +81,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 3
+                            "function": "minecraft:set_count",
+                            "count": 3
                         }
                     ]
                 }

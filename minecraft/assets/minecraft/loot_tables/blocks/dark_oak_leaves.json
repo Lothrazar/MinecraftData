@@ -1,0 +1,97 @@
+{
+    "*": [
+        {
+            "item": "minecraft:dark_oak_sapling",
+            "chance": 0.0625,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:dark_oak_sapling",
+            "chance": 0.0833,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:dark_oak_sapling",
+            "chance": 0.1,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:dark_oak_sapling",
+            "chance": 0.05,
+            "conditions": [
+                {
+                    "minecraft:drops": 0
+                }
+            ]
+        },
+        {
+            "item": "minecraft:apple",
+            "chance": 0.00556,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 1
+                    },
+                    "minecraft:drops": 0
+                }
+            ]
+        },
+        {
+            "item": "minecraft:apple",
+            "chance": 0.00625,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 2
+                    },
+                    "minecraft:drops": 0
+                }
+            ]
+        },
+        {
+            "item": "minecraft:apple",
+            "chance": 0.00833,
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:fortune",
+                        "level": 3
+                    },
+                    "minecraft:drops": 0
+                }
+            ]
+        },
+        {
+            "item": "minecraft:apple",
+            "chance": 0.005,
+            "conditions": [
+                {
+                    "minecraft:drops": 0
+                }
+            ]
+        }
+    ]
+}

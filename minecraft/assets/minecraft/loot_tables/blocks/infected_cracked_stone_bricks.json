@@ -1,0 +1,14 @@
+{
+    "default": [
+        {
+            "item": "minecraft:cracked_stone_bricks",
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        }
+    ]
+}

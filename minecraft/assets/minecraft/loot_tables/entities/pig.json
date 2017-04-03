@@ -62,7 +62,7 @@
                     "entity": "this",
                     "properties": {
                         "minecraft:is_baby": false,
-						"minecraft:nbt": "{Saddle:1b}"
+                        "minecraft:nbt": "{Saddle:1b}"
                     }
                 }
             ]
@@ -75,8 +75,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 1
+                            "function": "minecraft:set_count",
+                            "count": 1
                         }
                     ]
                 },
@@ -85,8 +85,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 2
+                            "function": "minecraft:set_count",
+                            "count": 2
                         }
                     ]
                 },
@@ -95,8 +95,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 3
+                            "function": "minecraft:set_count",
+                            "count": 3
                         }
                     ]
                 }

@@ -10,18 +10,39 @@
                         "item": "minecraft:red_wool"
                     },
                     {
-                        "item": "minecraft:white_wool"
+                        "item": "minecraft:red_wool"
                     }
                 ],
                 [
                     {
-                        "item": "minecraft:planks"
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
                     },
                     {
-                        "item": "minecraft:planks"
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
                     },
                     {
-                        "item": "minecraft:planks"
+                        "item": [
+                            "minecraft:oak_planks",
+                            "minecraft:spruce_planks",
+                            "minecraft:birch_planks",
+                            "minecraft:jungle_planks",
+                            "minecraft:acacia_planks",
+                            "minecraft:dark_oak_planks"
+                        ]
                     }
                 ]
             ]

@@ -1,0 +1,42 @@
+{
+    "default": [
+        {
+            "item": "minecraft:snow_block",
+            "conditions": [
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ],
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        },
+        {
+            "item": "minecraft:snowball",
+            "conditions": [
+                {
+                    "minecraft:tool": [
+                        "minecraft:wooden_shovel",
+                        "minecraft:stone_shovel",
+                        "minecraft:iron_shovel",
+                        "minecraft:golden_shovel",
+                        "minecraft:diamond_shovel"
+                    ],
+                    "minecraft:drops": 0
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                }
+            ]
+        }
+    ]
+}

@@ -8,8 +8,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 1
+                            "function": "minecraft:set_count",
+                            "count": 1
                         }
                     ]
                 },
@@ -18,8 +18,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 2
+                            "function": "minecraft:set_count",
+                            "count": 2
                         }
                     ]
                 },
@@ -28,18 +28,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 3
-                        }
-                    ]
-                },
-				{
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_value",
-                            "value": 4
+                            "function": "minecraft:set_count",
+                            "count": 3
                         }
                     ]
                 },
@@ -48,8 +38,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 5
+                            "function": "minecraft:set_count",
+                            "count": 4
                         }
                     ]
                 },
@@ -58,18 +48,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 6
-                        }
-                    ]
-                },
-				{
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_value",
-                            "value": 7
+                            "function": "minecraft:set_count",
+                            "count": 5
                         }
                     ]
                 },
@@ -78,8 +58,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 8
+                            "function": "minecraft:set_count",
+                            "count": 6
                         }
                     ]
                 },
@@ -88,18 +68,8 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 9
-                        }
-                    ]
-                },
-				{
-                    "type": "experience",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_value",
-                            "value": 10
+                            "function": "minecraft:set_count",
+                            "count": 7
                         }
                     ]
                 },
@@ -108,8 +78,38 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_value",
-                            "value": 11
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 9
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "experience",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 11
                         }
                     ]
                 }

@@ -1,0 +1,10 @@
+{
+    "default": [
+        {
+            "item": "minecraft:flower_pot"
+        },
+        {
+            "item": "minecraft:jungle_sapling"
+        }
+    ]
+}

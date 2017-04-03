@@ -1,5 +1,5 @@
 {
-    "variant=stone": [
+    "*": [
         {
             "item": "minecraft:stone_slab",
             "conditions": [
@@ -15,7 +15,7 @@
             ]
         }
     ],
-    "variant=sandstone": [
+    "type=double": [
         {
             "item": "minecraft:stone_slab",
             "conditions": [
@@ -27,127 +27,6 @@
                         "minecraft:golden_pickaxe",
                         "minecraft:diamond_pickaxe"
                     ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 1
-                }
-            ]
-        }
-    ],
-    "variant=wood_old": [
-        {
-            "item": "minecraft:wooden_slab"
-        }
-    ],
-    "variant=cobblestone": [
-        {
-            "item": "minecraft:stone_slab",
-            "conditions": [
-                {
-                    "minecraft:tool": [
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:diamond_pickaxe"
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 3
-                }
-            ]
-        }
-    ],
-    "variant=brick": [
-        {
-            "item": "minecraft:stone_slab",
-            "conditions": [
-                {
-                    "minecraft:tool": [
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:diamond_pickaxe"
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 4
-                }
-            ]
-        }
-    ],
-    "half=bottom,variant=stone_brick": [
-        {
-            "item": "minecraft:stone_slab",
-            "conditions": [
-                {
-                    "minecraft:tool": [
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:diamond_pickaxe"
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 5
-                }
-            ]
-        }
-    ],
-    "variant=nether_brick": [
-        {
-            "item": "minecraft:stone_slab",
-            "conditions": [
-                {
-                    "minecraft:tool": [
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:diamond_pickaxe"
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 6
-                }
-            ]
-        }
-    ],
-    "variant=quartz": [
-        {
-            "item": "minecraft:stone_slab",
-            "conditions": [
-                {
-                    "minecraft:tool": [
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:diamond_pickaxe"
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 7
                 }
             ]
         }

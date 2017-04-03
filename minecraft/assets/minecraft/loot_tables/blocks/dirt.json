@@ -1,44 +1,7 @@
 {
-    "variant=dirt": [
+    "default": [
         {
             "item": "minecraft:dirt"
-        }
-    ],
-    "variant=coarse_dirt": [
-        {
-            "item": "minecraft:dirt,
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 1
-                }
-            ]
-        }
-    ],
-    "variant=podzol": [
-        {
-            "item": "minecraft:dirt,
-            "conditions": [
-                {
-                    "minecraft:enchantment": {
-                        "name": "minecraft:silk_touch"
-                    }
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 2
-                }
-            ]
-        },
-        {
-            "item": "minecraft:dirt",
-            "conditions": [
-                {
-                    "minecraft:drops": 0
-                }
-            ]
         }
     ]
 }

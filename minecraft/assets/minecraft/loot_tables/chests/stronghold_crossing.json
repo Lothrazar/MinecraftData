@@ -36,7 +36,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:redstone",
+                    "name": "minecraft:redstone_dust",
                     "functions": [
                         {
                             "function": "set_count",

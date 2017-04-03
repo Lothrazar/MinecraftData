@@ -1,0 +1,14 @@
+{
+    "default": [
+        {
+            "item": "minecraft:cobblestone",
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        }
+    ]
+}

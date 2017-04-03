@@ -14,12 +14,12 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-						"minecraft:nbt": "{Type:\"oak\"}"
+                        "minecraft:nbt": "{Type:\"oak\"}"
                     }
                 }
             ]
         },
-		{
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -33,12 +33,12 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-						"minecraft:nbt": "{Type:\"spruce\"}"
+                        "minecraft:nbt": "{Type:\"spruce\"}"
                     }
                 }
             ]
         },
-		{
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -52,12 +52,12 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-						"minecraft:nbt": "{Type:\"birch\"}"
+                        "minecraft:nbt": "{Type:\"birch\"}"
                     }
                 }
             ]
         },
-		{
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -71,12 +71,12 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-						"minecraft:nbt": "{Type:\"jungle\"}"
+                        "minecraft:nbt": "{Type:\"jungle\"}"
                     }
                 }
             ]
         },
-		{
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -90,12 +90,12 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-						"minecraft:nbt": "{Type:\"acacia\"}"
+                        "minecraft:nbt": "{Type:\"acacia\"}"
                     }
                 }
             ]
         },
-		{
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -109,7 +109,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "properties": {
-						"minecraft:nbt": "{Type:\"dark_oak\"}"
+                        "minecraft:nbt": "{Type:\"dark_oak\"}"
                     }
                 }
             ]

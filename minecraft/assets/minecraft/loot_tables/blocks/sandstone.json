@@ -1,5 +1,5 @@
 {
-    "type=sandstone": [
+    "default": [
         {
             "item": "minecraft:sandstone",
             "conditions": [
@@ -11,50 +11,6 @@
                         "minecraft:golden_pickaxe",
                         "minecraft:diamond_pickaxe"
                     ]
-                }
-            ]
-        }
-    ],
-    "type=chiseled_sandstone": [
-        {
-            "item": "minecraft:sandstone",
-            "conditions": [
-                {
-                    "minecraft:tool": [
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:diamond_pickaxe"
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 1
-                }
-            ]
-        }
-    ],
-    "type=smooth_sandstone": [
-        {
-            "item": "minecraft:sandstone",
-            "conditions": [
-                {
-                    "minecraft:tool": [
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:diamond_pickaxe"
-                    ]
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 2
                 }
             ]
         }

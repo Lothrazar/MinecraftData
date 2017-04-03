@@ -1,0 +1,14 @@
+{
+    "default": [
+        {
+            "item": "minecraft:stone",
+            "conditions": [
+                {
+                    "minecraft:enchantment": {
+                        "name": "minecraft:silk_touch"
+                    }
+                }
+            ]
+        }
+    ]
+}

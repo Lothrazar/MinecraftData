@@ -1,18 +1,7 @@
 {
-    "wet=false": [
+    "default": [
         {
             "item": "minecraft:sponge"
-        }
-    ],
-    "wet=true": [
-        {
-            "item": "minecraft:sponge",
-            "functions": [
-                {
-                    "function": "minecraft:set_data",
-                    "data": 1
-                }
-            ]
         }
     ]
 }

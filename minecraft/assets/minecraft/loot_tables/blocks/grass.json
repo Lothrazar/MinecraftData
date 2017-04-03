@@ -1,22 +1,21 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:grass",
             "conditions": [
                 {
-                    "minecraft:enchantment": {
-                        "name": "minecraft:silk_touch"
-                    }
+                    "minecraft:tool": "minecraft:shears"
                 }
             ]
         },
         {
-            "item": "minecraft:dirt",
+            "item": "minecraft:seeds",
             "conditions": [
                 {
                     "minecraft:drops": 0
                 }
-            ]
+            ],
+            "chance": 0.04167
         }
     ]
 }
