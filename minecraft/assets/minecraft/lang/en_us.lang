@@ -536,7 +536,7 @@ minecraft:block.slime_block=Slime Block
 minecraft:block.smooth_red_sandstone=Smooth Red Sandstone
 minecraft:block.smooth_sandstone=Smooth Sandstone
 minecraft:block.smooth_stone=Smooth Stone
-minecraft:block.snow_layer=Snow
+minecraft:block.snow=Snow
 minecraft:block.snow_block=Snow Block
 minecraft:block.soul_sand=Soul Sand
 minecraft:block.sponge=Sponge
@@ -637,7 +637,6 @@ minecraft:chat.type.admin=[%s: %s]
 minecraft:chat.type.announcement=[%s] %s
 minecraft:chat.type.emote=* %s %s
 minecraft:chat.type.text=<%s> %s
-
 
 minecraft:commands.advancement.advancement_not_found=No advancement was found by the name '%s'
 minecraft:commands.advancement.criterion_not_found=The advancement '%s' does not contain the criterion '%s'
