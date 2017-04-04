@@ -131,6 +131,9 @@ minecraft:connect.more=... and %s more ...
 minecraft:connect.no_connection=(no connection)
 minecraft:connect.outdated=Outdated server!
 
+minecraft:commands.advancement.test.advancement.success=Player %s has completed advancement '%s'
+minecraft:commands.advancement.test.usage=/advancement test <player> <advancement> [criterion]
+
 minecraft:disconnect.closed=Server closed
 minecraft:disconnect.cant_connect=Can't connect to server
 minecraft:disconnect.cant_resolve_name=Can't resolve hostname
@@ -153,9 +156,16 @@ entity.Mob.name=Mob
 entity.Monster.name=Monster
 
 item.tipped_arrow.water.name=Arrow of Splashing
-
-item translations that also have a block translation (same string except item = tile)
-
-
+item.iron_door.name=Iron Door
+item.woodenDoor.name=Oak Door
+item.spruceDoor.name=Spruce Door
+item.birchDoor.name=Birch Door
+item.jungleDoor.name=Jungle Door
+item.acaciaDoor.name=Acacia Door
+item.darmOakDoor.name=Dark Oak Door
+item.sign.name=Sign
+item.bed.name=Bed
+item.brewingStand.name=Brewing Stand
+item.cauldron.name=Cauldron
 
 //Others are mentioned in splashes.json, credits.json, poem.json and achievements_pe_ce.json
