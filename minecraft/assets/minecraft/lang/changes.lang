@@ -47,6 +47,7 @@ minecraft:block.wooden_button=Wooden Button
 minecraft:block.snow=Snow
 minecraft:block.banner=Banner
 minecraft:block.wall_banner=Wall Banner
+minecraft:block.wall_lever=Wall Lever
 minecraft:block.wall_redstone_torch=Wall Redstone Torch
 minecraft:block.wall_torch=Wall Torch
 minecraft:block.oak_door=Oak Door
@@ -165,11 +166,5 @@ item.sign.name=Sign
 item.bed.name=Bed
 item.brewingStand.name=Brewing Stand
 item.cauldron.name=Cauldron
-item.skull.skeleton.name=Skeleton Skull
-item.skull.witherSkeleton.name=Wither Skeleton Skull
-item.skull.zombie.name=Zombie Head
-item.skull.char.name=Head
-item.skull.creeper.name=Creeper Head
-item.skull.dragon.name=Ender Dragon Head
 
 //Others are mentioned in splashes.json, credits.json, poem.json and achievements_pe_ce.json
