@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:diamond_ore"
     },
-    "exp": 1.0,
     "return": {
-        "name": "minecraft:diamond"
+        "item": "minecraft:diamond",
+        "xp": 1
     }
 }

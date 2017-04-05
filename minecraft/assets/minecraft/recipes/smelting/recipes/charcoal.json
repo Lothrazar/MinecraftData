@@ -16,7 +16,7 @@
         ]
     },
     "return": {
-        "name": "minecraft:charcoal"
-    },
-    "exp": 0.15
+        "item": "minecraft:charcoal",
+        "xp": 0.15
+    }
 }

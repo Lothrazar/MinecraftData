@@ -3,7 +3,7 @@
         "item": "minecraft:salmon"
     },
     "return": {
-        "name": "minecraft:cooked_salmon"
-    },
-    "exp": 0.35
+        "item": "minecraft:cooked_salmon",
+        "xp": 0.35
+    }
 }

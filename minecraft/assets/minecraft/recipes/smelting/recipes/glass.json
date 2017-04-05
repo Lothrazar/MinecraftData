@@ -5,8 +5,8 @@
             "minecraft:red_sand"
         ]
     },
-    "exp": 0.1,
     "return": {
-        "name": "minecraft:glass"
+        "item": "minecraft:glass",
+        "xp": 0.1
     }
 }

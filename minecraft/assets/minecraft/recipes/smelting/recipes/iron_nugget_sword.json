@@ -2,10 +2,10 @@
     "item": {
         "item": "minecraft:iron_sword"
     },
-    "exp": 0.2,
     "return": {
-        "name": "minecraft:iron_nugget",
-        "count": 2
+        "item": "minecraft:iron_nugget",
+        "count": 2,
+        "xp": 0.2
     },
     "functions": [
         {

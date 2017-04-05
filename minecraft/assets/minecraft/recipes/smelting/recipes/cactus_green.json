@@ -3,7 +3,7 @@
         "item": "minecraft:cactus"
     },
     "return": {
-        "name": "minecraft:cactus_green"
-    },
-    "exp": 0.2
+        "item": "minecraft:cactus_green",
+        "xp": 0.2
+    }
 }

@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:white_terracotta"
     },
-    "exp": 0.1,
     "return": {
-        "item": "minecraft:white_glazed_terracotta"
+        "item": "minecraft:white_glazed_terracotta",
+        "xp": 0.1
     }
 }

@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:beef"
     },
-    "exp": 0.35,
     "return": {
-        "name": "minecraft:cooked_beef"
+        "item": "minecraft:cooked_beef",
+        "xp": 0.35
     }
 }

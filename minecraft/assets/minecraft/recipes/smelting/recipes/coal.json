@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:coal_ore"
     },
-    "exp": 1.0,
     "return": {
-        "name": "minecraft:coal"
+        "item": "minecraft:coal",
+        "xp": 1
     }
 }

@@ -1,0 +1,187 @@
+{
+    "tiers": [
+        [
+            {
+                "reward_exp": "BOOLEAN: if theis recipe gives xp",
+                "buy": {
+                    "item": "STRING: the item the villager buys, can also be a list of ids, then all of the items will have the same result functions in their own trades (list cannot be used with buy2 or a list of sell item)",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "STRING: an enchantment id"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "treassure": "BOOLEAN: if treasure enchantments can be selected",
+                            "levels": "INTEGER: amount of levels used to enchant this item",
+                            "levels": {
+                                "min": "INTEGER: minimum amount of levels used to enchant this item",
+                                "max": "INTEGER: maximum amount of levels used to enchant this item"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "STRING: name of the modifier",
+                                    "attribute": "STRING: attribute name that this affects",
+                                    "opperation": "STRING: must be either 'addition', 'multiply_base' or 'multiply_total'",
+                                    "amount": "FLOAT: the change to the modifier",
+                                    "amount": {
+                                        "min": "FLOAT: minimum change to the modifier",
+                                        "max": "FLOAT: maximum change to the modifier"
+                                    },
+                                    "id": "STRING: UUID of the modifier following. if none specified, a new UUID will be generated.",
+                                    "slot": "STRING: slots the item must be in for the modifier to take effect: 'mainhand', 'offhand', 'feet', 'legs', 'chest' or 'head', can also be a list of strings"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": "INTEGER: how many of this item are needed",
+                            "count": {
+                                "min": "INTEGER: minimum amount of this item needed",
+                                "max": "INTEGER: minimum amount of this item needed"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": "FLOAT: how much durability of this item is needed",
+                            "damage": {
+                                "min": "FLOAT: minimum amount of durability this item needs",
+                                "max": "FLOAT: maximum amount of durability this item needs"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "nbt": "STRING: tag string required"
+                        }
+                    ]
+                },
+                "buy2": {
+                    "item": "STRING: the item the villager buys, can also be a list of ids, then all of the items will have the same result functions in their own trades (list cannot be used with buy2 or a list of buy item)",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "STRING: an enchantment id"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "treassure": "BOOLEAN: if treasure enchantments can be selected",
+                            "levels": "INTEGER: amount of levels used to enchant this item",
+                            "levels": {
+                                "min": "INTEGER: minimum amount of levels used to enchant this item",
+                                "max": "INTEGER: maximum amount of levels used to enchant this item"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "STRING: name of the modifier",
+                                    "attribute": "STRING: attribute name that this affects",
+                                    "opperation": "STRING: must be either 'addition', 'multiply_base' or 'multiply_total'",
+                                    "amount": "FLOAT: the change to the modifier",
+                                    "amount": {
+                                        "min": "FLOAT: minimum change to the modifier",
+                                        "max": "FLOAT: maximum change to the modifier"
+                                    },
+                                    "id": "STRING: UUID of the modifier following. if none specified, a new UUID will be generated.",
+                                    "slot": "STRING: slots the item must be in for the modifier to take effect: 'mainhand', 'offhand', 'feet', 'legs', 'chest' or 'head', can also be a list of strings"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": "INTEGER: how many of this item are needed",
+                            "count": {
+                                "min": "INTEGER: minimum amount of this item needed",
+                                "max": "INTEGER: minimum amount of this item needed"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": "FLOAT: how much durability of this item is needed",
+                            "damage": {
+                                "min": "FLOAT: minimum amount of durability this item needs",
+                                "max": "FLOAT: maximum amount of durability this item needs"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "nbt": "STRING: tag string required"
+                        }
+                    ]
+                },
+                "sell": {
+                    "item": "STRING: the item the villager buys",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "STRING: an enchantment id"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "treassure": "BOOLEAN: if treasure enchantments can be selected",
+                            "levels": "INTEGER: amount of levels used to enchant this item",
+                            "levels": {
+                                "min": "INTEGER: minimum amount of levels used to enchant this item",
+                                "max": "INTEGER: maximum amount of levels used to enchant this item"
+                            },
+                            "per_level_random_cost": "INTEGER: the count the buy item randomly gets added per level",
+                            "per_level_cost": "INTEGER: the count the buy item always gets added per level",
+                            "treassure_multiplier": "FLOAT: multiplier applied to the buy count when this is a treassure enchantment"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "STRING: name of the modifier",
+                                    "attribute": "STRING: attribute name that this affects",
+                                    "opperation": "STRING: must be either 'addition', 'multiply_base' or 'multiply_total'",
+                                    "amount": "FLOAT: the change to the modifier",
+                                    "amount": {
+                                        "min": "FLOAT: minimum change to the modifier",
+                                        "max": "FLOAT: maximum change to the modifier"
+                                    },
+                                    "id": "STRING: UUID of the modifier following. if none specified, a new UUID will be generated.",
+                                    "slot": "STRING: slots the item must be in for the modifier to take effect: 'mainhand', 'offhand', 'feet', 'legs', 'chest' or 'head', can also be a list of strings"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": "INTEGER: how many of this item are needed",
+                            "count": {
+                                "min": "INTEGER: minimum amount of this item needed",
+                                "max": "INTEGER: minimum amount of this item needed"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": "FLOAT: how much durability of this item is needed",
+                            "damage": {
+                                "min": "FLOAT: minimum amount of durability this item is needed",
+                                "max": "FLOAT: maximum amount of durability this item needed"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "nbt": "STRING: tag string to be set"
+                        },
+                        {
+                            "function": "minecraft:set_map",
+                            "map": "STRING: the type of map returned: 'normal', 'ocean_monument' or 'woodland_mansion'"
+                        }
+                    ]
+                }
+            }
+        ]
+    ]
+}

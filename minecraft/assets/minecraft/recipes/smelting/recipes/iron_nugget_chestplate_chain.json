@@ -3,10 +3,10 @@
         "item": "minecraft:chainmail_chestplate"
     },
     "return": {
-        "name": "minecraft:iron_nugget",
-        "count": 8
+        "item": "minecraft:iron_nugget",
+        "count": 8,
+        "xp": 0.2
     },
-    "exp": 0.2,
     "functions": [
         {
             "function": "minecraft:scale_durability",

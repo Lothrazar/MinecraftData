@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:quartz_ore"
     },
-    "exp": 0.2,
     "return": {
-        "item": "minecraft:quartz"
+        "item": "minecraft:quartz",
+        "xp": 0.2
     }
 }

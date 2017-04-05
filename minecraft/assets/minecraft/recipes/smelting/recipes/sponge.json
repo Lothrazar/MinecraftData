@@ -2,9 +2,9 @@
     "item": {
         "item": "minecraft:wet_sponge"
     },
-    "exp": 0.2,
     "return": {
-        "item": "minecraft:sponge"
+        "item": "minecraft:sponge",
+        "xp": 0.2
     },
     "functions": [
         {

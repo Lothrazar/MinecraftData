@@ -1,0 +1,16 @@
+{
+    "item": "STRING: the item id to be enchanted",
+    "enchantments": [
+        {
+            "name": "STRING: an enchantment name",
+            "weight": "INTEGER: the chance this enchantment gets selected",
+            "treasure": "BOOLEAN: if this enchantment is a treasure enchantment, default = false",
+            "not_with": [
+                "STRING: what enchantments this cannot combine with"
+            ],
+            "max_lvl": "INTEGER: max level you can get, default = 1",
+            "secondairy": "BOOLEAN: if this enchantment can get on this item via anvil, but not via enchantment table, default = false"
+        }
+    ],
+    "enchantability": "INTEGER: how well the item enchants"
+}

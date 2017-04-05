@@ -85,7 +85,6 @@ list of yet to be created JSON files:
  + add item
  + add fireworks_rocket
  + add lightning_bolt
- - remove the entity spawning from loot tables
 + biomes (Would list: grass color, cave count/size, ores, structures (including trees, grass, dungeons, villages, etc.), terrain blocks, terrain noise, mobs it can('t) spawn (and method)(Not things like 70% of zombie=husk in deserts, but just Zombie, skeleton, etc and then be combined with spawning.json), NOT water level, that's global)
  + add ocean
  + add plains
@@ -237,22 +236,17 @@ list of yet to be created JSON files:
 List of planned changes:
 + add other functions (like slowness on soul sand, and particle spawning) in the block properties
 * change all files to use as little nbt phrasing as possible, but don't remove the ability to base/add nbt tags
- * recipes (still a bit left)(villager only)
+ * recipes (still a bit left)
  * loot tables (still a bit left)
  * achievements
 * change a number of files into sperate files:
- * enchanting and enchantability, combine both files into 1 per item
- * trading, 1 per career instead of per profession
  * achievements, 1 per achievement
 * change block states in the block properties files to allow * to affect all it's states (lowering file size quite a bit)
 * update all files (and split them were nececairy) when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
  * achievements
  * block properties
- * recipes (villager only)
 ! fix format files are invalid json (change to "TAG": "TAG TYPE: DESCRIPTION")
  * achievements
- * recipes (villager and enchanting left)
-! fix villager loot tables miss rewardexp and base_cost, base_random_cost, per_level_random_cost and per_level_cost for enchant_with_levels
 
 
 Structures:
@@ -264,7 +258,7 @@ List of planned changes:
 * update all files when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
 
 
-Models and Textures: (WIP, the completed parts are marked as such)
+Models and Textures: (WIP, the completed parts are marked as such, please be patient)
 list of yet to be created model files:
 + add entities (no player models)
  + add bat

@@ -3,10 +3,10 @@
         "item": "minecraft:golden_boots"
     },
     "return": {
-        "name": "minecraft:gold_nugget",
-        "count": 4
+        "item": "minecraft:gold_nugget",
+        "count": 4,
+        "xp": 0.2
     },
-    "exp": 0.2,
     "functions": [
         {
             "function": "minecraft:scale_durability",

@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:clay_ball"
     },
-    "exp": 0.3,
     "return": {
-        "name": "minecraft:brick"
+        "item": "minecraft:brick",
+        "xp": 0.3
     }
 }

@@ -37,7 +37,6 @@ minecraft:block.piston_extension=Moving Block
 minecraft:block.piston_head=Piston Head
 minecraft:block.end_portal=End Portal
 minecraft:block.end_gateway=End Gateway
-minecraft:block.daylight_detector_inverted=Inverted Daylight Sensor
 minecraft:block.brown_mushroom=Brown Mushroom
 minecraft:block.brown_mushroom_block=Brown Mushroom Block
 minecraft:block.red_mushroom=Red Mushroom
@@ -45,10 +44,9 @@ minecraft:block.red_mushroom_block=Red Mushroom Block
 minecraft:block.wall_sign=Wall Sign
 minecraft:block.stone_button=Stone Button
 minecraft:block.wooden_button=Wooden Button
-minecraft:block.snow_layer=Snow Layer
-minecraft:block.banner=Standing Banner
+minecraft:block.snow=Snow
+minecraft:block.banner=Banner
 minecraft:block.wall_banner=Wall Banner
-minecraft:block.wall_lever=Wall Lever
 minecraft:block.wall_redstone_torch=Wall Redstone Torch
 minecraft:block.wall_torch=Wall Torch
 minecraft:block.oak_door=Oak Door
@@ -131,6 +129,9 @@ minecraft:connect.more=... and %s more ...
 minecraft:connect.no_connection=(no connection)
 minecraft:connect.outdated=Outdated server!
 
+minecraft:commands.advancement.test.advancement.success=Player %s has completed advancement '%s'
+minecraft:commands.advancement.test.usage=/advancement test <player> <advancement> [criterion]
+
 minecraft:disconnect.closed=Server closed
 minecraft:disconnect.cant_connect=Can't connect to server
 minecraft:disconnect.cant_resolve_name=Can't resolve hostname
@@ -153,9 +154,22 @@ entity.Mob.name=Mob
 entity.Monster.name=Monster
 
 item.tipped_arrow.water.name=Arrow of Splashing
-
-item translations that also have a block translation (same string except item = tile)
-
-
+item.iron_door.name=Iron Door
+item.woodenDoor.name=Oak Door
+item.spruceDoor.name=Spruce Door
+item.birchDoor.name=Birch Door
+item.jungleDoor.name=Jungle Door
+item.acaciaDoor.name=Acacia Door
+item.darmOakDoor.name=Dark Oak Door
+item.sign.name=Sign
+item.bed.name=Bed
+item.brewingStand.name=Brewing Stand
+item.cauldron.name=Cauldron
+item.skull.skeleton.name=Skeleton Skull
+item.skull.witherSkeleton.name=Wither Skeleton Skull
+item.skull.zombie.name=Zombie Head
+item.skull.char.name=Head
+item.skull.creeper.name=Creeper Head
+item.skull.dragon.name=Ender Dragon Head
 
 //Others are mentioned in splashes.json, credits.json, poem.json and achievements_pe_ce.json

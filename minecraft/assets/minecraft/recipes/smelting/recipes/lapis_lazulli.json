@@ -3,7 +3,7 @@
         "item": "minecraft:lapis_ore"
     },
     "return": {
-        "item": "minecraft:lapis_lazuli"
-    },
-    "exp": 0.2
+        "item": "minecraft:lapis_lazuli",
+        "xp": 0.2
+    }
 }

@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:cobblestone"
     },
-    "exp": 0.1,
     "return": {
-        "item": "minecraft:stone"
+        "item": "minecraft:stone",
+        "xp": 0.1
     }
 }

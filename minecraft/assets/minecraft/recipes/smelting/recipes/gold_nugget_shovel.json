@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:golden_shovel"
     },
-    "exp": 0.2,
     "return": {
-        "name": "minecraft:gold_nugget",
+        "item": "minecraft:gold_nugget",
+        "xp": 0.2
     }
 }

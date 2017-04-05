@@ -5,26 +5,26 @@
                 [ 
                     {
                         "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
-                        "nbt": "STRING: additional nbt data",
                         "id": "INTEGER: Optional, the ingredient id used for functions",
                         "count": "INTEGER: how many items must be in this slot, default = 1",
-                        "durability": "FLOAT: durability of the item, 1=full, 0=broken, neglected if not provided",
                         "conditions": {
+                            "nbt": "STRING: additional nbt data",
+                            "durability": "FLOAT: durability of the item, 1=full, 0=broken",
                             "layers": {
-                                "min": "INTEGER: minimum count of layers this banner or shield must have for this recipe",
-                                "max": "INTEGER: maximum count of layers this banner or shield must have for this recipe",
-                                "base": "STRING: the base color this banner or shield (none for uncolored) must have for this recipe"
+                                "min": "INTEGER: minimum count of layers this banner or shield has",
+                                "max": "INTEGER: maximum count of layers this banner or shield has",
+                                "base": "STRING: the base color this banner or shield (none for uncolored) has"
                             },
-                            "treasure": "BOOLEAN: if this has to be a treasure or normal map for this recipe",
+                            "treasure": "BOOLEAN: if this has to be a treasure or normal map",
                             "zoom_level": {
-                                "min": "INTEGER: minimum count of zoom this map must have for this recipe",
-                                "max": "INTEGER: maximum count of zoom this map must have for this recipe"
+                                "min": "INTEGER: minimum count of zoom this map has",
+                                "max": "INTEGER: maximum count of zoom this map has"
                             },
                             "generation": {
-                                "min": "INTEGER: maximum generation this written book must have for this recipe",
-                                "max": "INTEGER: maximum generation this written book must have for this recipe"
+                                "min": "INTEGER: maximum generation this written book has",
+                                "max": "INTEGER: maximum generation this written book has"
                             },
-                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow must have for this recipe (can also be a list of strings, then any of the listed has to be in this slot)"
+                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
                         }
                     }
                 ]
@@ -40,26 +40,26 @@
                 [ 
                     {
                         "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
-                        "nbt": "STRING: additional nbt data",
                         "id": "INTEGER: Optional, the ingredient id used for functions",
                         "count": "INTEGER: how many items must be in this slot, default = 1",
-                        "durability": "FLOAT: durability of the item, 1=full, 0=broken, neglected if not provided",
                         "conditions": {
+                            "nbt": "STRING: additional nbt data",
+                            "durability": "FLOAT: durability of the item, 1=full, 0=broken",
                             "layers": {
-                                "min": "INTEGER: minimum count of layers this banner or shield must have for this recipe",
-                                "max": "INTEGER: maximum count of layers this banner or shield must have for this recipe",
-                                "base": "STRING: the base color this banner or shield (none for uncolored) must have for this recipe"
+                                "min": "INTEGER: minimum count of layers this banner or shield has",
+                                "max": "INTEGER: maximum count of layers this banner or shield has",
+                                "base": "STRING: the base color this banner or shield (none for uncolored) has"
                             },
-                            "treasure": "BOOLEAN: if this has to be a treasure or normal map for this recipe",
+                            "treasure": "BOOLEAN: if this has to be a treasure or normal map",
                             "zoom_level": {
-                                "min": "INTEGER: minimum count of zoom this map must have for this recipe",
-                                "max": "INTEGER: maximum count of zoom this map must have for this recipe"
+                                "min": "INTEGER: minimum count of zoom this map has",
+                                "max": "INTEGER: maximum count of zoom this map has"
                             },
                             "generation": {
-                                "min": "INTEGER: maximum generation this written book must have for this recipe",
-                                "max": "INTEGER: maximum generation this written book must have for this recipe"
+                                "min": "INTEGER: maximum generation this written book has",
+                                "max": "INTEGER: maximum generation this written book has"
                             },
-                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow must have for this recipe (can also be a list of strings, then any of the listed has to be in this slot)"
+                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
                         }
                     }
                 ]
@@ -79,7 +79,8 @@
         "item": "STRING: The item id",
         "nbt": "STRING: additional nbt data",
         "count": "INTEGER: count, default = 1",
-        "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
+        "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1",
+        "xp": "FLOAT: how much xp you get from this recipe, default = 0"
     },
     "functions":[
         {
@@ -144,8 +145,8 @@
         },
         {
             "function": "minecraft:scale_durability",
-            "id": "INTEGER: The id of the item in the ingredients, if negated, runs regardless",
-            "tag": "The tag of the result item that gets scaled by durability, values: count, data, durability or an nbt tag, default = durability"
+            "id": "INTEGER: The id of the item in the ingredients to scale the tag by; can also be a list of ids, then it'll average",
+            "tag": "The tag of the result item that gets scaled by durability, values: count, xp, durability or an nbt tag, default = durability"
         }
     ]
 }

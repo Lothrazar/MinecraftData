@@ -2,8 +2,8 @@
     "item": {
         "item": "minecraft:redstone_ore"
     },
-    "exp": 0.7,
     "return": {
-        "item": "minecraft:redstone_dust"
+        "item": "minecraft:redstone_dust",
+        "xp": 0.7
     }
 }
