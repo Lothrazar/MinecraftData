@@ -67,7 +67,7 @@
             }
         ]
     },
-	"facing=north,open=true": {
+    "facing=north,open=true": {
         "hitbox": [
             {
                 "from": [ 0, 0, 12 ],

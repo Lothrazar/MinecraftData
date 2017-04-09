@@ -16,55 +16,55 @@
             "minecraft:wooden_pickaxe": 1
         },
         "resistence": 30,
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 1,
-				"type": "strong",
-				"position": {
-					"y": 1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 1,
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 1,
-				"type": "strong",
-				"position": {
-					"x": 1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 1,
-				"type": "strong",
-				"position": {
-					"x": -1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 1,
-				"type": "strong",
-				"position": {
-					"z": 1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 1,
-				"type": "strong",
-				"position": {
-					"z": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "strong",
+                "position": {
+                    "y": 1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "strong",
+                "position": {
+                    "x": 1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "strong",
+                "position": {
+                    "x": -1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "strong",
+                "position": {
+                    "z": 1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 1,
+                "type": "strong",
+                "position": {
+                    "z": -1
+                }
+            }
+        ]
     }
 }

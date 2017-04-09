@@ -38,48 +38,48 @@
         "boundingbox": [
             
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": "power",
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": "power",
-				"type": "activation",
-				"position": {
-					"x": 1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": "power",
-				"type": "activation",
-				"position": {
-					"x": -1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": "power",
-				"type": "activation",
-				"position": {
-					"z": 1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": "power",
-				"type": "activation",
-				"position": {
-					"z": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": "power",
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": "power",
+                "type": "activation",
+                "position": {
+                    "x": 1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": "power",
+                "type": "activation",
+                "position": {
+                    "x": -1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": "power",
+                "type": "activation",
+                "position": {
+                    "z": 1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": "power",
+                "type": "activation",
+                "position": {
+                    "z": -1
+                }
+            }
+        ]
     },
     "power=0": {
         "hitbox": [

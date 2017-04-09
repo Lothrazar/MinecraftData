@@ -22,26 +22,26 @@
                 "to": [ 16, 15, 16 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:effect",
-				"effect": "movement",
-				"sides": [
-					"up"
-				],
-				"amount": -0.15,
-				"not_affects": [
-					{
-						"flying": true
-					},
-					{
-						"type": "minecraft:spider"
-					},
-					{
-						"type": "minecraft:cave_spider"
-					}
-				]
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:effect",
+                "effect": "movement",
+                "sides": [
+                    "up"
+                ],
+                "amount": -0.15,
+                "not_affects": [
+                    {
+                        "flying": true
+                    },
+                    {
+                        "type": "minecraft:spider"
+                    },
+                    {
+                        "type": "minecraft:cave_spider"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -46,47 +46,47 @@
                 "to": [ 15, 0.5, 15 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation",
-				"position": {
-					"x": 1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation",
-				"position": {
-					"x": -1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation",
-				"position": {
-					"z": 1
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation",
-				"position": {
-					"z": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation",
+                "position": {
+                    "x": 1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation",
+                "position": {
+                    "x": -1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation",
+                "position": {
+                    "z": 1
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation",
+                "position": {
+                    "z": -1
+                }
+            }
+        ]
     }
 }

@@ -33,23 +33,23 @@
         "boundingbox": [
             
         ],
-		"functions": [
-			{
-				"function": "minecraft:effect",
-				"effect": "movement",
-				"amount": -0.85,
-				"not_affects": [
-					{
-						"flying": true
-					},
-					{
-						"type": "minecraft:spider"
-					},
-					{
-						"type": "minecraft:cave_spider"
-					}
-				]
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:effect",
+                "effect": "movement",
+                "amount": -0.85,
+                "not_affects": [
+                    {
+                        "flying": true
+                    },
+                    {
+                        "type": "minecraft:spider"
+                    },
+                    {
+                        "type": "minecraft:cave_spider"
+                    }
+                ]
+            }
+        ]
     }
 }

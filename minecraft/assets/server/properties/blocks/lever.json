@@ -160,104 +160,104 @@
     },
     "face=wall,facing=north,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "weak"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"z": 1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "weak"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "z": 1
+                }
+            }
+        ]
     },
     "face=wall,facing=south,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "weak"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"z": -1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "weak"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "z": -1
+                }
+            }
+        ]
     },
     "face=wall,facing=east,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "weak"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"x": -1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "weak"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "x": -1
+                }
+            }
+        ]
     },
     "face=wall,facing=west,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "weak"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"x": 1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "weak"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "x": 1
+                }
+            }
+        ]
     },
     "face=floor,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "weak"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "weak"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            }
+        ]
     },
     "face=ceiling,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "weak"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": 1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "weak"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": 1
+                }
+            }
+        ]
     }
 }

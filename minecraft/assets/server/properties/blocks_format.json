@@ -63,44 +63,44 @@
                     }
                 ]
             },
-			{
-				"function": "minecraft:extend_box",
-				"hitbox": [
-					"COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
-				],
-				"boundingbox": [
-					"COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
-				],
-				"time": "INTEGER: the time in ticks it takes for this box to extend",
-				"condition": {
-					"entity_tag": "STRING: an nbt tag and it's value",
-					"open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
-				}
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": "INTEGER: how much redstone power this block gives (number)",
-				"amount": "STRING: how much redstone power this block gives (black state key)",
-				"type": "STRING: the type of powering, strong, weak or activation",
-				"position": {
-					"x": "INTEGER: relative coordinates to the block",
-					"y": "INTEGER: relative coordinates to the block",
-					"z": "INTEGER: relative coordinates to the block"
-				},
-				"condition": {
-					"entity_tag": "STRING: an nbt tag and it's value",
-					"open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
-				}
-			},
-			{
-				"function": "minecraft:effect",
-				"sides": [
-					"STRING: what sides of the block effect entities, default = all, valid values: up, down, north, east, south, west"
-				],
-				"effect": "STRING: the effect the entities get: movement",
-				"amount": "FLOAT: hoe much this affects entities, for movement it's a percentage",
-				"not_affects": [
-					{
+            {
+                "function": "minecraft:extend_box",
+                "hitbox": [
+                    "COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
+                ],
+                "boundingbox": [
+                    "COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
+                ],
+                "time": "INTEGER: the time in ticks it takes for this box to extend",
+                "condition": {
+                    "entity_tag": "STRING: an nbt tag and it's value",
+                    "open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
+                }
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": "INTEGER: how much redstone power this block gives (number)",
+                "amount": "STRING: how much redstone power this block gives (black state key)",
+                "type": "STRING: the type of powering, strong, weak or activation",
+                "position": {
+                    "x": "INTEGER: relative coordinates to the block",
+                    "y": "INTEGER: relative coordinates to the block",
+                    "z": "INTEGER: relative coordinates to the block"
+                },
+                "condition": {
+                    "entity_tag": "STRING: an nbt tag and it's value",
+                    "open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
+                }
+            },
+            {
+                "function": "minecraft:effect",
+                "sides": [
+                    "STRING: what sides of the block effect entities, default = all, valid values: up, down, north, east, south, west"
+                ],
+                "effect": "STRING: the effect the entities get: movement",
+                "amount": "FLOAT: hoe much this affects entities, for movement it's a percentage",
+                "not_affects": [
+                    {
                         "air": "INTEGER: how much air the entity has left",
                         "fire_resistant": "BOOLEAN: if this entity cannot be hurt by fire",
                         "effect": "STRING: effect that this entity has",
@@ -110,8 +110,8 @@
                         "type": "STRING: the entity id",
                         "inverse": "BOOLEAN: wheather it should not be this"
                     }
-				]
-			}
+                ]
+            }
         ]
     }
 }

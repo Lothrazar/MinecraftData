@@ -27,51 +27,51 @@
         ]
     },
     "facing=north,powered=true": {
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"z": 1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "z": 1
+                }
+            }
+        ]
     },
     "facing=south,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"z": -1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "z": -1
+                }
+            }
+        ]
     },
     "facing=east,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"x": -1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "x": -1
+                }
+            }
+        ]
     },
     "facing=west,powered=true": {
         "functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"x": 1
-				}
-			}
-		]
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "x": 1
+                }
+            }
+        ]
     }
 }

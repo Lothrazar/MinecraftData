@@ -36,7 +36,7 @@
             
         ]
     },
-	"face=wall,facing=north,powered=false": {
+    "face=wall,facing=north,powered=false": {
         "need_support": {
             "south": ""
         },
@@ -178,21 +178,21 @@
                 "to": [ 11, 10, 16 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"z": 1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "z": 1
+                }
+            }
+        ]
     },
     "face=wall,facing=south,powered=true": {
         "need_support": {
@@ -204,21 +204,21 @@
                 "to": [ 11, 10, 2 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"z": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "z": -1
+                }
+            }
+        ]
     },
     "face=wall,facing=west,powered=true": {
         "need_support": {
@@ -230,21 +230,21 @@
                 "to": [ 16, 10, 11 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"x": 1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "x": 1
+                }
+            }
+        ]
     },
     "face=wall,facing=east,powered=true": {
         "need_support": {
@@ -256,21 +256,21 @@
                 "to": [ 2, 10, 11 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"x": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "x": -1
+                }
+            }
+        ]
     },
     "face=ceiling,facing=north,powered=true": {
         "need_support": {
@@ -282,21 +282,21 @@
                 "to": [ 11, 16, 10 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": 1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": 1
+                }
+            }
+        ]
     },
     "face=ceiling,facing=south,powered=true": {
         "need_support": {
@@ -308,21 +308,21 @@
                 "to": [ 11, 16, 10 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": 1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": 1
+                }
+            }
+        ]
     },
     "face=ceiling,facing=east,powered=true": {
         "need_support": {
@@ -334,21 +334,21 @@
                 "to": [ 10, 16, 11 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": 1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": 1
+                }
+            }
+        ]
     },
     "face=ceiling,facing=west,powered=true": {
         "need_support": {
@@ -360,21 +360,21 @@
                 "to": [ 10, 16, 11 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": 1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": 1
+                }
+            }
+        ]
     },
     "face=floor,facing=north,powered=true": {
         "need_support": {
@@ -385,14 +385,14 @@
                 "from": [ 5, 0, 4 ],
                 "to": [ 11, 2, 10 ]
             },
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			}
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            }
         ]
     },
     "face=floor,facing=south,powered=true": {
@@ -405,21 +405,21 @@
                 "to": [ 11, 2, 10 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            }
+        ]
     },
     "face=floor,facing=east,powered=true": {
         "need_support": {
@@ -431,21 +431,21 @@
                 "to": [ 10, 2, 11 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            }
+        ]
     },
     "face=floor,facing=west,powered=true": {
         "need_support": {
@@ -457,20 +457,20 @@
                 "to": [ 10, 2, 11 ]
             }
         ],
-		"functions": [
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "activation"
-			},
-			{
-				"function": "minecraft:output_power",
-				"amount": 15,
-				"type": "strong",
-				"position": {
-					"y": -1
-				}
-			}
-		]
+        "functions": [
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "activation"
+            },
+            {
+                "function": "minecraft:output_power",
+                "amount": 15,
+                "type": "strong",
+                "position": {
+                    "y": -1
+                }
+            }
+        ]
     }
 }
