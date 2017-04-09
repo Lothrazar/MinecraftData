@@ -1,0 +1,30 @@
+{
+    "default": {
+        "hardness": {
+            "minecraft:default": 0.75,
+            "minecraft:wooden_pickaxe": 0.4,
+            "minecraft:stone_pickaxe": 0.2,
+            "minecraft:iron_pickaxe": 0.15,
+            "minecraft:diamond_pickaxe": 0.1,
+            "minecraft:wooden_pickaxe": 0.1
+        },
+        "light": -2,
+        "tool_damage": {
+            "minecraft:wooden_pickaxe": 1,
+            "minecraft:stone_pickaxe": 1,
+            "minecraft:iron_pickaxe": 1,
+            "minecraft:diamond_pickaxe": 1,
+            "minecraft:wooden_pickaxe": 1
+        },
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "resistence": 2.5,
+        "transparent": true
+    }
+}

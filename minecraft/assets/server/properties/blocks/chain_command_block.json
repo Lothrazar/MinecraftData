@@ -1,0 +1,17 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": -1
+        },
+        "solid_faces": {
+            "down": true,
+            "up": true,
+            "north": true,
+            "south": true,
+            "east": true
+        },
+        "resistence": -1,
+        "piston_push": "no",
+        "sticky_push": "no"
+    }
+}

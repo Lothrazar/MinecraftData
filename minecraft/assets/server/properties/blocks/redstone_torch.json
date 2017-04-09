@@ -1,0 +1,73 @@
+{
+    "*": {
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            "down": ""
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            {
+                "from": [ 6, 0, 6 ],
+                "to": [ 10, 10, 10 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    },
+    "lit=true": {
+        "light": 7,
+		"functions": [
+			{
+				"function": "minecraft:output_power",
+				"amount": 1,
+				"type": "strong",
+				"position": {
+					"y": 1
+				}
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "activation",
+				"position": {
+					"x": 1
+				}
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "activation",
+				"position": {
+					"x": -1
+				}
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "activation",
+				"position": {
+					"z": 1
+				}
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "activation",
+				"position": {
+					"z": -1
+				}
+			}
+		]
+    }
+}

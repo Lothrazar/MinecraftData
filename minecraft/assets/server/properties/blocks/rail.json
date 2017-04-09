@@ -1,0 +1,130 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": 1.05,
+            "minecraft:wooden_pickaxe": 0.55,
+            "minecraft:stone_pickaxe": 0.3,
+            "minecraft:iron_pickaxe": 0.2,
+            "minecraft:diamond_pickaxe": 0.15,
+            "minecraft:golden_pickaxe": 0.1
+        },
+        "tool_damage": {
+            "minecraft:wooden_pickaxe": 1,
+            "minecraft:stone_pickaxe": 1,
+            "minecraft:iron_pickaxe": 1,
+            "minecraft:diamond_pickaxe": 1,
+            "minecraft:golden_pickaxe": 1
+        },
+        "need_support": {
+            "down": ""
+        },
+        "resistence": 3.5,
+        "transparent": true,
+        "solid": false,
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    },
+    "shape=north_south": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ]
+    },
+    "shape=east_west": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ]
+    },
+    "shape=north_east": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ]
+    },
+    "shape=north_west": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ]
+    },
+    "shape=south_east": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ]
+    },
+    "shape=south_west": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ]
+    },
+    "shape=ascending_north": {
+        "need_support": {
+            "down": "",
+            "south": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 8, 16 ]
+            }
+        ]
+    },
+    "shape=ascending_south": {
+        "need_support": {
+            "down": "",
+            "north": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 8, 16 ]
+            }
+        ]
+    },
+    "shape=ascending_east": {
+        "need_support": {
+            "down": "",
+            "west": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 8, 16 ]
+            }
+        ]
+    },
+    "shape=ascending_west": {
+        "need_support": {
+            "down": "",
+            "east": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 8, 16 ]
+            }
+        ]
+    }
+}

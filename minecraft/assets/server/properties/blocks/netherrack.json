@@ -1,0 +1,21 @@
+{
+    "default": {
+        "hardness": {
+            "minecraft:default": 2,
+            "minecraft:wooden_pickaxe": 0.35,
+            "minecraft:stone_pickaxe": 0.2,
+            "minecraft:iron_pickaxe": 0.1,
+            "minecraft:diamond_pickaxe": 0.1,
+            "minecraft:golden_pickaxe": 0.05
+        },
+        "burnability": -1,
+        "tool_damage": {
+            "minecraft:wooden_pickaxe": 1,
+            "minecraft:stone_pickaxe": 1,
+            "minecraft:iron_pickaxe": 1,
+            "minecraft:diamond_pickaxe": 1,
+            "minecraft:golden_pickaxe": 1
+        },
+        "resistence": 2
+    }
+}

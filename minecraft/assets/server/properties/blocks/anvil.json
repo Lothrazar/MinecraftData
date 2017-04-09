@@ -1,0 +1,209 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": 25,
+            "minecraft:wooden_pickaxe": 3.75,
+            "minecraft:stone_pickaxe": 1.9,
+            "minecraft:iron_pickaxe": 1.25,
+            "minecraft:diamond_pickaxe": 0.95,
+            "minecraft:golden_pickaxe": 0.65
+        },
+        "tool_damage": {
+            "minecraft:wooden_pickaxe": 1,
+            "minecraft:stone_pickaxe": 1,
+            "minecraft:iron_pickaxe": 1,
+            "minecraft:diamond_pickaxe": 1,
+            "minecraft:golden_pickaxe": 1
+        },
+        "resistence": 6000,
+        "transparent": true,
+        "hitbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 4, 4, 3 ],
+                "to": [ 12, 5, 13 ]
+            },
+            {
+                "from": [ 6, 5, 4 ],
+                "to": [ 10, 10, 12 ]
+            },
+            {
+                "from": [ 3, 10, 0 ],
+                "to": [ 13, 16, 16 ]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 4, 4, 3 ],
+                "to": [ 12, 5, 13 ]
+            },
+            {
+                "from": [ 6, 5, 4 ],
+                "to": [ 10, 10, 12 ]
+            },
+            {
+                "from": [ 3, 10, 0 ],
+                "to": [ 13, 16, 16 ]
+            }
+        ]
+    },
+    "facing=north": {
+        "hitbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 4, 4, 3 ],
+                "to": [ 12, 5, 13 ]
+            },
+            {
+                "from": [ 6, 5, 4 ],
+                "to": [ 10, 10, 12 ]
+            },
+            {
+                "from": [ 3, 10, 0 ],
+                "to": [ 13, 16, 16 ]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 4, 4, 3 ],
+                "to": [ 12, 5, 13 ]
+            },
+            {
+                "from": [ 6, 5, 4 ],
+                "to": [ 10, 10, 12 ]
+            },
+            {
+                "from": [ 3, 10, 0 ],
+                "to": [ 13, 16, 16 ]
+            }
+        ]
+    },
+    "facing=south": {
+        "hitbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 4, 4, 3 ],
+                "to": [ 12, 5, 13 ]
+            },
+            {
+                "from": [ 6, 5, 4 ],
+                "to": [ 10, 10, 12 ]
+            },
+            {
+                "from": [ 3, 10, 0 ],
+                "to": [ 13, 16, 16 ]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 4, 4, 3 ],
+                "to": [ 12, 5, 13 ]
+            },
+            {
+                "from": [ 6, 5, 4 ],
+                "to": [ 10, 10, 12 ]
+            },
+            {
+                "from": [ 3, 10, 0 ],
+                "to": [ 13, 16, 16 ]
+            }
+        ]
+    },
+    "facing=east": {
+        "hitbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 3, 4, 4 ],
+                "to": [ 13, 5, 12 ]
+            },
+            {
+                "from": [ 4, 5, 6 ],
+                "to": [ 12, 10, 10 ]
+            },
+            {
+                "from": [ 0, 10, 3 ],
+                "to": [ 16, 16, 13 ]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 3, 4, 4 ],
+                "to": [ 13, 5, 12 ]
+            },
+            {
+                "from": [ 4, 5, 6 ],
+                "to": [ 12, 10, 10 ]
+            },
+            {
+                "from": [ 0, 10, 3 ],
+                "to": [ 16, 16, 13 ]
+            }
+        ]
+    },
+    "facing=west": {
+        "hitbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 3, 4, 4 ],
+                "to": [ 13, 5, 12 ]
+            },
+            {
+                "from": [ 4, 5, 6 ],
+                "to": [ 12, 10, 10 ]
+            },
+            {
+                "from": [ 0, 10, 3 ],
+                "to": [ 16, 16, 13 ]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 4, 14 ]
+            },
+            {
+                "from": [ 3, 4, 4 ],
+                "to": [ 13, 5, 12 ]
+            },
+            {
+                "from": [ 4, 5, 6 ],
+                "to": [ 12, 10, 10 ]
+            },
+            {
+                "from": [ 0, 10, 3 ],
+                "to": [ 16, 16, 13 ]
+            }
+        ]
+    }
+}

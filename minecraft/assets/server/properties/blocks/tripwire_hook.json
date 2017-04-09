@@ -1,0 +1,138 @@
+{
+    "facing=north": {
+        "burnability": 1,
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            {
+                "from": [ 6, 1, 14 ],
+                "to": [ 10, 9, 16 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    },
+    "facing=north": {
+        "need_support": {
+            "south": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 6, 1, 14 ],
+                "to": [ 10, 9, 16 ]
+            }
+        ]
+    },
+    "facing=south": {
+        "need_support": {
+            "north": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 6, 1, 0 ],
+                "to": [ 10, 9, 2 ]
+            }
+        ]
+    },
+    "facing=east": {
+        "need_support": {
+            "west": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 1, 6 ],
+                "to": [ 2, 9, 10 ]
+            }
+        ]
+    },
+    "facing=west": {
+        "need_support": {
+            "east": ""
+        },
+        "hitbox": [
+            {
+                "from": [ 14, 1, 6 ],
+                "to": [ 16, 9, 10 ]
+            }
+        ]
+    },
+	"facing=north,powered=true": {
+        "functions": [
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "weak"
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "strong",
+				"position": {
+					"z": 1
+				}
+			}
+		]
+    },
+    "facing=south,powered=true": {
+        "functions": [
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "weak"
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "strong",
+				"position": {
+					"z": -1
+				}
+			}
+		]
+    },
+    "facing=east,powered=true": {
+        "functions": [
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "weak"
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "strong",
+				"position": {
+					"x": -1
+				}
+			}
+		]
+    },
+    "facing=west,powered=true": {
+        "functions": [
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "weak"
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": 15,
+				"type": "strong",
+				"position": {
+					"x": 1
+				}
+			}
+		]
+    }
+}

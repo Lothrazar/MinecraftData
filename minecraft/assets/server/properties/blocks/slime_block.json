@@ -1,0 +1,8 @@
+{
+    "default": {
+        "transparent": true,
+        "piston_push": "sticky",
+        "sticky_push": "sticky",
+        "fall_damage": -1
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "default": {
+        "hardness": {
+            "minecraft:default": -1
+        },
+        "resistence": -1,
+        "transparent": true,
+        "piston_push": "no",
+        "sticky_push": "no"
+    }
+}

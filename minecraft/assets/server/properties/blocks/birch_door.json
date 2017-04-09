@@ -1,0 +1,1028 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": 4.5,
+            "minecraft:wooden_axe": 2.25,
+            "minecraft:stone_axe": 1.15,
+            "minecraft:iron_axe": 0.75,
+            "minecraft:diamond_axe": 0.6,
+            "minecraft:golden_axe": 0.4
+        },
+        "burnability": 1,
+        "tool_damage": {
+            "minecraft:wooden_axe": 1,
+            "minecraft:stone_axe": 1,
+            "minecraft:iron_axe": 1,
+            "minecraft:diamond_axe": 1,
+            "minecraft:golden_axe": 1
+        },
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            "down": ""
+        },
+        "resistence": 15,
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break"
+    },
+    "facing=north,half=lower,hinge=right,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=right,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=right,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=right,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=lower,hinge=left,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=left,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=left,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=left,open=false,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=lower,hinge=right,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=right,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=right,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=right,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=north,half=lower,hinge=left,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=left,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=left,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=left,open=true,powered=false": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=lower,hinge=right,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=right,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=right,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=right,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=lower,hinge=left,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=left,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=left,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=left,open=false,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=lower,hinge=right,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=right,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=right,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=right,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=north,half=lower,hinge=left,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=lower,hinge=left,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=lower,hinge=left,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=west,half=lower,hinge=left,open=true,powered=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=right,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=right,open=false,powered=false]"
+        },
+        "need_support"hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=right,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=right,open=false,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=right,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=right,open=false,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=right,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=right,open=false,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=left,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=left,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=left,open=false,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=left,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=left,open=false,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=left,open=false,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=left,open=false,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=right,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=right,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=right,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=right,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=right,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=right,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=right,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=right,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=left,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=left,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=left,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=left,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=left,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=left,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=left,open=true,powered=false": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=left,open=true,powered=false]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=right,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=right,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=right,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=right,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=right,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=right,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=right,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=right,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=left,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=left,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=left,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=left,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=left,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=left,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=left,open=false,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=left,open=false,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=right,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=right,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=right,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=right,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=right,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=right,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=right,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=right,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=north,half=upper,hinge=left,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=north,half=lower,hinge=left,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 4, 16, 16]
+            }
+        ]
+    },
+    "facing=south,half=upper,hinge=left,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=south,half=lower,hinge=left,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 12, 0, 0 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    },
+    "facing=east,half=upper,hinge=left,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=east,half=lower,hinge=left,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 16, 4]
+            }
+        ]
+    },
+    "facing=west,half=upper,hinge=left,open=true,powered=true": {
+        "need_support": {
+            "down": "minecraft:birch_door[facing=west,half=lower,hinge=left,open=true,powered=true]"
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ],
+        "boundingbox": [
+            {
+                "from": [ 0, 0, 12 ],
+                "to": [ 16, 16, 16]
+            }
+        ]
+    }
+}

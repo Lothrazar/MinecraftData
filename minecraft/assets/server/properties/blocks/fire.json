@@ -1,0 +1,46 @@
+{
+    "*": {
+        "light": 15,
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            "down": ""
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            
+        ],
+        "boundingbox": [
+            
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": 1.0,
+                "source": "fire",
+                "not_affects": [
+                    {
+                        "effect": "fire_resistance"
+                    },
+                    {
+                        "fire_resistant": true
+                    }
+                ]
+            }
+        ]
+    },
+    "up=false,north=false,south=false,west=false,east=false": {
+        "need_support": {
+            "down": ""
+        }
+    }
+}

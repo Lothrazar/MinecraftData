@@ -1,0 +1,117 @@
+{
+    "block states": {
+        "hardness": {
+            "minecraft:default": "FLOAT: the time it takes to break this block with the fist or any tool not specified, default = 0",
+            "item_name": "FLOAT: the time it takes to break this block with the item specified, default = 0"
+        },
+        "gravity": "BOOLEAN: if this block is affected by gravity, default = false",
+        "burnability": "STRING: if it's capable of burning it'll also burn up, unless the value is 'ever', 'no' (default) means cannot burn, 'yes' means can burn",
+        "light": "INTEGER: the amount of light this block produces, if negative reduces light coming through the block by that amount, default = 0",
+        "light_needed": {
+            "min": "INTEGER: minimum light, default = 0",
+            "max": "INTEGER: maximum light, default = 15"
+        },
+        "tool_damage": {
+            "item_name": "INTEGER: the amount of damage this item will get, when used to break this block"
+        },
+        "solid_faces": {
+            "down": "BOOLEAN: if this face can be used as support, default = true",
+            "up": "BOOLEAN: if this face can be used as support, default = true",
+            "north": "BOOLEAN: if this face can be used as support, default = true",
+            "south": "BOOLEAN: if this face can be used as support, default = true",
+            "east": "BOOLEAN: if this face can be used as support, default = true",
+            "west": "BOOLEAN: if this face can be used as support, default = true"
+        },
+        "need_support": {
+            "down": "STRING: if this block needs support of a block here, empty if any solid faced block will suffice as support, negated if not needed (supports block states), can also be a list of strings",
+            "up": "STRING: if this block needs support of a block here, empty if any solid faced block will suffice as support, negated if not needed (supports block states), can also be a list of strings",
+            "north": "STRING: if this block needs support of a block here, empty if any solid faced block will suffice as support, negated if not needed (supports block states), can also be a list of strings",
+            "south": "STRING: if this block needs support of a block here, empty if any solid faced block will suffice as support, negated if not needed (supports block states), can also be a list of strings",
+            "east": "STRING: if this block needs support of a block here, empty if any solid faced block will suffice as support, negated if not needed (supports block states), can also be a list of strings",
+            "west": "STRING: if this block needs support of a block here, empty if any solid faced block will suffice as support, negated if not needed (supports block states), can also be a list of strings"
+        },
+        "resistence": "FLOAT: how much explosion power it needs before getting destroyed, default = 0",
+        "transparent": "BOOLEAN: if this block is transparent (doesn't block redstone wire/doesn't provide power through the block/can have transparent textures), default = false",
+        "solid": "BOOLEAN: if this block is solid (taking damage when in your head when in the bounding box), default = true",
+        "piston_push": "STRING: wheather a piston can push this block; 'no' = not pushable, 'yes' = pushable, 'break' = breaks on push, 'sticky' = pulls other blocks with it too, default = 'yes'",
+        "sticky_push": "STRING: wheather another block that has this or piston_push set to sticky can push this block; 'no' = not pushable, 'yes' = pushable, 'break' = breaks on push, 'sticky' = pulls other blocks with it too, default = 'yes'",
+        "fall_damage": "FLOAT: 1 = 100%, 0.2 = 20%, -1 = bounce off, default = 1",
+        "hitbox": [
+            "COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
+        ],
+        "boundingbox": [
+            "COMPOUND: basically a server-side model to use to calculate the collision, default = from 0 0 0, to 16 16 16"
+        ],
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "damage": "FLOAT: damage per second",
+                "sides": [
+                    "STRING: what sides of the block hurt, default = all, valid values: up, down, north, east, south, west"
+                ],
+                "source": "STRING: the damage source, used in the death message",
+                "not_affects": [
+                    {
+                        "air": "INTEGER: how much air the entity has left",
+                        "fire_resistant": "BOOLEAN: if this entity cannot be hurt by fire",
+                        "effect": "STRING: effect that this entity has",
+                        "enchantment": "STRING: enchantment that this entity has on it's gear",
+                        "sneaking": "BOOLEAN: if the entity is sneaking",
+                        "flying": "BOOLEAN: if the entity is flying",
+                        "type": "STRING: the entity id",
+                        "inverse": "BOOLEAN: wheather it should not be this"
+                    }
+                ]
+            },
+			{
+				"function": "minecraft:extend_box",
+				"hitbox": [
+					"COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
+				],
+				"boundingbox": [
+					"COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
+				],
+				"time": "INTEGER: the time in ticks it takes for this box to extend",
+				"condition": {
+					"entity_tag": "STRING: an nbt tag and it's value",
+					"open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
+				}
+			},
+			{
+				"function": "minecraft:output_power",
+				"amount": "INTEGER: how much redstone power this block gives (number)",
+				"amount": "STRING: how much redstone power this block gives (black state key)",
+				"type": "STRING: the type of powering, strong, weak or activation",
+				"position": {
+					"x": "INTEGER: relative coordinates to the block",
+					"y": "INTEGER: relative coordinates to the block",
+					"z": "INTEGER: relative coordinates to the block"
+				},
+				"condition": {
+					"entity_tag": "STRING: an nbt tag and it's value",
+					"open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
+				}
+			},
+			{
+				"function": "minecraft:effect",
+				"sides": [
+					"STRING: what sides of the block effect entities, default = all, valid values: up, down, north, east, south, west"
+				],
+				"effect": "STRING: the effect the entities get: movement",
+				"amount": "FLOAT: hoe much this affects entities, for movement it's a percentage",
+				"not_affects": [
+					{
+                        "air": "INTEGER: how much air the entity has left",
+                        "fire_resistant": "BOOLEAN: if this entity cannot be hurt by fire",
+                        "effect": "STRING: effect that this entity has",
+                        "enchantment": "STRING: enchantment that this entity has on it's gear",
+                        "sneaking": "BOOLEAN: if the entity is sneaking",
+                        "flying": "BOOLEAN: if the entity is flying",
+                        "type": "STRING: the entity id",
+                        "inverse": "BOOLEAN: wheather it should not be this"
+                    }
+				]
+			}
+        ]
+    }
+}

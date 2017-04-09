@@ -1,0 +1,8 @@
+{
+    "default": {
+        "hardness": {
+            "minecraft:default": 0.9
+        },
+        "resistence": 3
+    }
+}

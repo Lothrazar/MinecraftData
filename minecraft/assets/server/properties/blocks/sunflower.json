@@ -1,0 +1,31 @@
+{
+    "*": {
+        "burnability": 1,
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break"
+    },
+    "half=lower": {
+        "need_support": {
+            "up": "minecraft:sunflower[half=upper]",
+            "down": [
+                "minecraft:grass",
+                "minecraft:dirt"
+            ]
+        }
+    },
+    "half=upper": {
+        "need_support": {
+            "down": "minecraft:sunflower[half=lower]"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "default": {
+        "hardness": {
+            "minecraft:default": 1,
+            "minecraft:wooden_shovel": 0.2,
+            "minecraft:stone_shovel": 0.1,
+            "minecraft:iron_shovel": 0.05,
+            "minecraft:diamond_shovel": 0.05,
+            "minecraft:golden_shovel": 0.05
+        },
+        "tool_damage": {
+            "minecraft:wooden_shovel": 1,
+            "minecraft:stone_shovel": 1,
+            "minecraft:iron_shovel": 1,
+            "minecraft:diamond_shovel": 1,
+            "minecraft:golden_shovel": 1
+        },
+        "resistence": 1
+    }
+}

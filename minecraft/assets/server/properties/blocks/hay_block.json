@@ -1,0 +1,10 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": 0.75
+        },
+        "burnability": 1,
+        "resistence": 2.5,
+        "fall_damage": 0.2
+    }
+}

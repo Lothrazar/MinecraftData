@@ -1,0 +1,38 @@
+{
+    "*": {
+        "burnability": 1,
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 8, 16 ]
+            },
+            {
+                "from": [ 0, 0, 0 ],
+                "to": [ 16, 8, 16 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    },
+    "attached=true": {
+        "hitbox": [
+            {
+                "from": [ 0, 1, 0 ],
+                "to": [ 16, 2.5, 16 ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": -1
+        },
+        "light": 11,
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "no",
+        "sticky_push": "no",
+        "hitbox": [
+            {
+                "from": [ 0, 0, 6 ],
+                "to": [ 16, 16, 10 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    },
+    "axis=x": {
+        "need_support": {
+            "east": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ],
+            "west": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ],
+            "up": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ],
+            "down": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ]
+        },
+        "hitbox": [
+            {
+                "from": [ 0, 0, 6 ],
+                "to": [ 16, 16, 10 ]
+            }
+        ]
+    },
+    "axis=z": {
+        "need_support": {
+            "north": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ],
+            "south": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ],
+            "up": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ],
+            "down": [
+                "minecraft:portal[axis=x]",
+                "minecraft:obsidian"
+            ]
+        },
+        "hitbox": [
+            {
+                "from": [ 6, 0, 0 ],
+                "to": [ 10, 16, 16 ]
+            }
+        ]
+    }
+}

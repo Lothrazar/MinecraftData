@@ -1,0 +1,6 @@
+[
+    {
+        "STRING": "just notmal json text component keys and values",
+        "center": "BOOLEAN: if the text is displayed in the center of the screen, default = false"
+    }
+]

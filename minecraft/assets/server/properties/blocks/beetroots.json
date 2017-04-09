@@ -1,0 +1,63 @@
+{
+    "*": {
+        "light_needed": {
+            "min": 7
+        },
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": { 
+            "down": "minecraft:farmland"
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            {
+                "from": [ 0, -1, 0 ],
+                "to": [ 16, 1, 16 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    },
+    "age=0": {
+        "hitbox": [
+            {
+                "from": [ 0, -1, 0 ],
+                "to": [ 16, 1, 16 ]
+            }
+        ]
+    },
+    "age=1": {
+        "hitbox": [
+            {
+                "from": [ 0, -1, 0 ],
+                "to": [ 16, 2, 16 ]
+            }
+        ]
+    },
+    "age=2": {
+        "hitbox": [
+            {
+                "from": [ 0, -1, 0 ],
+                "to": [ 16, 3, 16 ]
+            }
+        ]
+    },
+    "age=3": {
+        "hitbox": [
+            {
+                "from": [ 0, -1, 0 ],
+                "to": [ 16, 4, 16 ]
+            }
+        ]
+    }
+}

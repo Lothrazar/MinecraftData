@@ -1,0 +1,11 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": 0.45
+        },
+        "resistence": 1.5
+    },
+	"*": {
+        "light": 15
+    }
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "splash": "STRING: the text to display, in JSON",
+        "weight": "INTEGER: the chance of this splash appearing, if negative it always selects that slash (used for date specific splashes)",
+        "condition": {
+            "date": "STRING: the date on which this splash can display (dd-mm)"
+        }
+    }
+]

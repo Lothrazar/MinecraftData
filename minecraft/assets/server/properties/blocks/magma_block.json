@@ -1,0 +1,46 @@
+{
+    "default": {
+        "hardness": {
+            "minecraft:default": 2.5,
+            "minecraft:wooden_pickaxe": 0.4,
+            "minecraft:stone_pickaxe": 0.2,
+            "minecraft:iron_pickaxe": 0.15,
+            "minecraft:diamond_pickaxe": 0.1,
+            "minecraft:golden_pickaxe": 0.1
+        },
+        "burnability": -1,
+        "light": 3,
+        "tool_damage": {
+            "minecraft:wooden_pickaxe": 1,
+            "minecraft:stone_pickaxe": 1,
+            "minecraft:iron_pickaxe": 1,
+            "minecraft:diamond_pickaxe": 1,
+            "minecraft:golden_pickaxe": 1
+        },
+        "resistence": 2.5,
+        "functions": [
+            {
+                "function": "minecraft:hurt",
+                "sides": [
+                    "up"
+                ],
+                "damage": 1.0,
+                "source": "magma",
+                "not_affect": [
+                    {
+                        "sneaking": true
+                    },
+                    {
+                        "enchantment": "minecraft:frost_walker"
+                    },
+                    {
+                        "effect": "minecraft:fire_resistance"
+                    },
+                    {
+                        "fire_resistant": true
+                    }
+                ]
+            }
+        ]
+    }
+}

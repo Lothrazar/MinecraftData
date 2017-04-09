@@ -1,0 +1,18 @@
+{
+    "*": {
+        "hardness": {
+            "minecraft:default": 2.5
+        },
+        "light": -2,
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "resistence": 2.5,
+        "transparent": true
+    }
+}

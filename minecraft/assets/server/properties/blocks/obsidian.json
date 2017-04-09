@@ -1,0 +1,22 @@
+{
+    "default": {
+        "hardness": {
+            "minecraft:default": 250,
+            "minecraft:wooden_pickaxe": 125,
+            "minecraft:stone_pickaxe": 62.5,
+            "minecraft:iron_pickaxe": 41.7,
+            "minecraft:diamond_pickaxe": 9.4,
+            "minecraft:golden_pickaxe": 20.85
+        },
+        "tool_damage": {
+            "minecraft:wooden_pickaxe": 1,
+            "minecraft:stone_pickaxe": 1,
+            "minecraft:iron_pickaxe": 1,
+            "minecraft:diamond_pickaxe": 1,
+            "minecraft:golden_pickaxe": 1
+        },
+        "resistence": 6000,
+        "piston_push": "no",
+        "sticky_push": "no"
+    }
+}

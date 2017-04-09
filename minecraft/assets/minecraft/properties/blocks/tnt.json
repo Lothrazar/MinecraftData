@@ -1,8 +1,0 @@
-{
-    "explode=false": {
-        "burnability": 1
-    },
-    "explode=true": {
-        "burnability": 1
-    }
-}

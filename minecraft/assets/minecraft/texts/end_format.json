@@ -1,6 +1,0 @@
-[
-    { 'A individual line'
-        'Same structure as tellraw, title, etc',
-        "center": true|false 'Optional, if the text is displayed in the center of the screen'
-    }
-]

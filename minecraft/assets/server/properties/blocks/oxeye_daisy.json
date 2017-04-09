@@ -1,0 +1,32 @@
+{
+    "default": {
+        "burnability": 1,
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            "down": [
+                "minecraft:dirt",
+                "minecraft:grass"
+            ]
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            {
+                "from": [ 5, 0, 5 ],
+                "to": [ 11, 9, 11 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    }
+}

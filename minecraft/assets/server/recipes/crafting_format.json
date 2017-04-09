@@ -1,0 +1,157 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [ 
+                    {
+                        "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
+                        "id": "INTEGER: Optional, the ingredient id used for functions",
+                        "count": "INTEGER: how many items must be in this slot, default = 1",
+                        "conditions": {
+                            "nbt": "STRING: additional nbt data",
+                            "durability": "FLOAT: durability of the item, 1=full, 0=broken",
+                            "layers": {
+                                "min": "INTEGER: minimum count of layers this banner or shield has",
+                                "max": "INTEGER: maximum count of layers this banner or shield has",
+                                "base": "STRING: the base color this banner or shield (none for uncolored) has"
+                            },
+                            "treasure": "BOOLEAN: if this has to be a treasure or normal map",
+                            "zoom_level": {
+                                "min": "INTEGER: minimum count of zoom this map has",
+                                "max": "INTEGER: maximum count of zoom this map has"
+                            },
+                            "generation": {
+                                "min": "INTEGER: maximum generation this written book has",
+                                "max": "INTEGER: maximum generation this written book has"
+                            },
+                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
+                        }
+                    }
+                ]
+            ],
+            "can_move": "BOOLEAN: if this item group can be moved, in the recipe, default = true",
+            "can_mirror": "BOOLEAN: if this item group can be mirrored left to right, in the recipe, default = true",
+            "can_flip": "BOOLEAN: if this item group can be flipped upside down, in the recipe, default = false"
+        }
+    ],
+    "optional_ingredients": [
+        {
+            "items": [
+                [ 
+                    {
+                        "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
+                        "count": "INTEGER: how many items must be in this slot, default = 1",
+                        "conditions": {
+                            "nbt": "STRING: additional nbt data",
+                            "durability": "FLOAT: durability of the item, 1=full, 0=broken",
+                            "layers": {
+                                "min": "INTEGER: minimum count of layers this banner or shield has",
+                                "max": "INTEGER: maximum count of layers this banner or shield has",
+                                "base": "STRING: the base color this banner or shield (none for uncolored) has"
+                            },
+                            "treasure": "BOOLEAN: if this has to be a treasure or normal map",
+                            "zoom_level": {
+                                "min": "INTEGER: minimum count of zoom this map has",
+                                "max": "INTEGER: maximum count of zoom this map has"
+                            },
+                            "generation": {
+                                "min": "INTEGER: maximum generation this written book has",
+                                "max": "INTEGER: maximum generation this written book has"
+                            },
+                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
+                        }
+                    }
+                ]
+            ],
+            "id": "INTEGER: Optional, the ingredient id used for functions",
+            "can_move": "BOOLEAN: if this item group can be moved, in the recipe, default = true",
+            "can_mirror": "BOOLEAN: if this item group can be mirrored left to right, in the recipe, default = true",
+            "can_flip": "BOOLEAN: if this item group can be flipped upside down, in the recipe, default = false",
+            "min_groups": "INTEGER: the minimum count of slots that can contain this ingredient, default = 0",
+            "max_groups": "INTEGER: the maximum count of slots that can be used by this ingredient, default = -1 (unlimited"
+        }
+    ],
+    "optional_ingredients_required": {
+        "min": "INTEGER: the minimum count of optional ingredient groups required, default = 0",
+        "max": "INTEGER: the maximum count of optional ingredient groups required, default = -1 (unlimited)"
+    },
+    "return": {
+        "item": "STRING: The item id",
+        "nbt": "STRING: additional nbt data",
+        "count": "INTEGER: count, default = 1",
+        "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1",
+        "xp": "FLOAT: how much xp you get from this recipe, default = 0"
+    },
+    "functions":[
+        {
+            "function": "minecraft:return_items",
+            "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
+            "id": "STRING: The id of the item in the ingredients",
+            "nbt": "STRING: Optional, what tags it gets, default = empty",
+            "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
+            "count": "INTEGER: count, default = 1",
+            "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1"
+        },
+        {
+            "function": "minecraft:zoom_map",
+            "zoom_level": "INTEGER: How much the map should zoom in, as, negative values means zooming out",
+            "zoom_from": "STRING: Where the map should be zoomed in/out from, allowed values are: center, top, bottom, left, right, top_left, top_right, bottom_left, bottom_right"
+        },
+        {
+            "function": "minecraft:copy_nbt",
+            "id": "INTEGER: The id to copy the NBT from, note, this runs before Return runs, meaning the NBT from return is adding/replacing on top of the copied NBT",
+            "copy": "Optional, what tag to copy, {} means all tags, default = {}",
+            "paste": "Optional, where to paste the tag, default = same as copy"
+        },
+        {
+            "function": "minecraft:repair",
+            "ids": [
+                "INTEGER: list of id's that get the durability combined into the final item"
+            ],
+            "bonus": "INTEGER: adittional percentage of bonus durability the returned item gets, default = 0"
+        },
+        {
+            "function": "minecraft:add",
+            "id": "INTEGER: The id of the item in the ingredients, if negated, runs regardless",
+            "count": "INTEGER: how many to add to the resulting item",
+            "fireworks": {
+                "flight": "INTEGER: the count of time it flies in seconds",
+                "trail": "BOOLEAN: if the trail effect happens",
+                "twinkle": "BOOLEAN: if the twinkle effect happens",
+                "type": "STRING: the type of explosion that happens"
+            },
+            "written_book": {
+                "author": "STRING: the author this book's wil become",
+                "generation": "INTEGER: the generation this book's wil become"
+            },
+            "banner": {
+                "base": "STRING: the base color",
+                "layer": {
+                    "color": "STRING: the layer color",
+                    "pattern": "STRING: the layer pattern"
+                }
+            },
+            "potion": {
+                "potion": "STRING: the potion id"
+            },
+            "nbt": "STRING: The tag(s) it adds",
+            "overwrite": "BOOLEAN: if the tags should replace existing tags with the same path (if false and not a string, the numbers will be added/substracted), default = false"
+        },
+        {
+            "function": "minecraft:color",
+            "coloring": "STRING: What exactly get's colored, so the correct calculation/tag gets used, allowed values are: minecraft:armor, minecraft:fireworks, minecraft:fireworks_fade, minecraft:potion, default = minecraft:fireworks",
+            "id": "INTEGER: The id of the item in the ingredients, if negated, runs regardless",
+            "color": "INTEGER: The color value to add (decimal)"
+        },
+        {
+            "function": "minecraft:scale_durability",
+            "id": "INTEGER: The id of the item in the ingredients to scale the tag by; can also be a list of ids, then it'll average",
+            "tag": "The tag of the result item that gets scaled by durability, values: count, xp, durability or an nbt tag, default = durability"
+        }
+    ]
+}
+
+Notes: 
+First runs copy_nbt, then the nbt of return and then the nbt of add
+When NBT is copied, and a list which already exists is being specified in return, it adds to the end of the list, unless the returned list is empty.
+If the same id is found multiple times in the same recipe, it'll apply the function to all of them

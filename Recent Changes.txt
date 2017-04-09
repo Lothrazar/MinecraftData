@@ -1,3 +1,9 @@
+9-4-2017:
++ added output_power, effect and hurt functions to block properties
+* changed block properties to allow * to affect all it's states (lowering file size quite a bit)
+* changed block properties to use the upcomming block/item ids
+* changed ordering of files: split the assets/minecraft folder into client and server
+
 4-4-2017:
 * changed enchanting files, 1 file per item
 * changed trading files, 1 file per career

@@ -1,0 +1,33 @@
+{
+    "default": {
+        "light": 1,
+        "light_needed": {
+            "max": 12
+        },
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            "down": ""
+        },
+        "resistence": 1,
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            {
+                "from": [ 5, 0, 5 ],
+                "to": [ 11, 6, 11 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    }
+}

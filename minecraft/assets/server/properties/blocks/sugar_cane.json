@@ -1,0 +1,33 @@
+{
+    "*": {
+        "solid_faces": {
+            "down": false,
+            "up": false,
+            "north": false,
+            "south": false,
+            "east": false,
+            "west": false
+        },
+        "need_support": {
+            "down": [
+                "minecraft:reeds",
+                "minecraft:sand",
+                "minecraft:dirt",
+                "minecraft:grass"
+            ]
+        },
+        "transparent": true,
+        "solid": false,
+        "piston_push": "break",
+        "sticky_push": "break",
+        "hitbox": [
+            {
+                "from": [ 2, 0, 2 ],
+                "to": [ 14, 16, 14 ]
+            }
+        ],
+        "boundingbox": [
+            
+        ]
+    }
+}
