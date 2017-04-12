@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:entity/villager",
-	"textures": {
-        "texture": "minecraft:entity/illager/vindicator"
-    }
-}

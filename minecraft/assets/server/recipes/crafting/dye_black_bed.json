@@ -1,0 +1,25 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:ink_sack"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:white_bed"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:black_bed"
+    }
+}

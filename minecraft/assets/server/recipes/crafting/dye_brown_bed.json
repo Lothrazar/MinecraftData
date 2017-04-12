@@ -1,0 +1,25 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:white_bed"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:brown_bed"
+    }
+}

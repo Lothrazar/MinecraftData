@@ -234,7 +234,7 @@ list of yet to be created JSON files:
  + add lightning_bolt
 
 List of planned changes:
-+ add other functions (like slowness on soul sand, and particle spawning) in the block properties
++ add other functions (like particle spawning) in the block properties
 * change all files to use as little nbt phrasing as possible, but don't remove the ability to base/add nbt tags
  * recipes (still a bit left)
  * loot tables (still a bit left)

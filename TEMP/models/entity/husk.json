@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:entity/zombie",
-	"textures": {
-        "texture": "minecraft:entity/zombie/husk"
-    },
-	"scale": 1.0625
-}

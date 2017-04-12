@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:entity/villager_folded",
-	"textures": {
-        "texture": "minecraft:entity/villager/villager"
-    }
-}

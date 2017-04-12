@@ -35,7 +35,7 @@
         "solid": "BOOLEAN: if this block is solid (taking damage when in your head when in the bounding box), default = true",
         "piston_push": "STRING: wheather a piston can push this block; 'no' = not pushable, 'yes' = pushable, 'break' = breaks on push, 'sticky' = pulls other blocks with it too, default = 'yes'",
         "sticky_push": "STRING: wheather another block that has this or piston_push set to sticky can push this block; 'no' = not pushable, 'yes' = pushable, 'break' = breaks on push, 'sticky' = pulls other blocks with it too, default = 'yes'",
-        "fall_damage": "FLOAT: 1 = 100%, 0.2 = 20%, -1 = bounce off, default = 1",
+        "fall_damage": "FLOAT: 1 = 100%, 0.2 = 20%, negative = bounce off, default = 1",
         "hitbox": [
             "COMPOUND: basically a server-side model to use to calculate the hitbox, default = from 0 0 0, to 16 16 16"
         ],
