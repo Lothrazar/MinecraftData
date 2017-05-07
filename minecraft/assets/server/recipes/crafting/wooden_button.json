@@ -19,5 +19,6 @@
     ],
     "return": {
         "item": "minecraft:wooden_button"
-    }
+    },
+	"group": "minecraft:button"
 }

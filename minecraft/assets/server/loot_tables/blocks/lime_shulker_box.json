@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:lime_shulker_box",
             "functions": [

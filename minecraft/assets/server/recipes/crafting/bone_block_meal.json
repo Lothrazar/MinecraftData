@@ -13,5 +13,6 @@
     "return": {
         "item": "minecraft:bone_meal",
         "count": 9
-    }
+    },
+	"group": "minecraft:gem"
 }

@@ -17,5 +17,6 @@
     ],
     "return": {
         "item": "minecraft:tnt_minecart"
-    }
+    },
+	"group": "minecraft:minecart_with_block"
 }

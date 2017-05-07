@@ -1,3 +1,21 @@
+7-5-2017:
++ added groups to the recipes
+* changed block properties:
+ + added a lot of (empty) functions lists for future functions to be added
+ * changed some properties to no longer be state dependent
+ * changed * to default
+ * changed effects to not_affects
+ * changed effect function to be able to hurt
+ * changed hardned_clay to terracotta
+ ! fixed some need_support values weren't properly upgraded
+ - removed hurt function
+ - removed shrub
+* changed block loot:
+ * changed * to default
+ * changed hardned_clay to terracotta
+ - removed shrub
+* updated to 17w18b
+
 12-4-2017:
 * updated to 17w15a
 - removed TEMP folder

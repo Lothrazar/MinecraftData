@@ -32,5 +32,6 @@
     "return": {
         "item": "minecraft:red_sandstone_stairs",
         "count": 4
-    }
+    },
+	"group": "minecraft:stairs"
 }

@@ -1,160 +1,152 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 1.05,
-            "minecraft:wooden_pickaxe": 0.55,
-            "minecraft:stone_pickaxe": 0.3,
-            "minecraft:iron_pickaxe": 0.2,
-            "minecraft:diamond_pickaxe": 0.15,
-            "minecraft:golden_pickaxe": 0.1
-        },
+    "hardness": {
+        "minecraft:default": 1.05,
+        "minecraft:wooden_pickaxe": 0.55,
+        "minecraft:stone_pickaxe": 0.3,
+        "minecraft:iron_pickaxe": 0.2,
+        "minecraft:diamond_pickaxe": 0.15,
+        "minecraft:golden_pickaxe": 0.1
+    },
         "tool_damage": {
-            "minecraft:wooden_pickaxe": 1,
-            "minecraft:stone_pickaxe": 1,
-            "minecraft:iron_pickaxe": 1,
-            "minecraft:diamond_pickaxe": 1,
-            "minecraft:golden_pickaxe": 1
+        "minecraft:wooden_pickaxe": 1,
+        "minecraft:stone_pickaxe": 1,
+        "minecraft:iron_pickaxe": 1,
+        "minecraft:diamond_pickaxe": 1,
+        "minecraft:golden_pickaxe": 1
+    },
+    "resistence": 3.5,
+    "transparent": true,
+    "solid": false,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 2, 16 ]
+                }
+            ],
+            "boundingbox": [
+                
+            ]
         },
-        "need_support": {
-            "down": ""
+        "shape=ascending_north": {
+            "need_support": {
+                "down": "",
+                "north": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ]
         },
-        "resistence": 3.5,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 2, 16 ]
-            }
-        ],
-        "boundingbox": [
+        "shape=ascending_south": {
+            "need_support": {
+                "down": "",
+                "south": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ]
+        },
+        "shape=ascending_east": {
+            "need_support": {
+                "down": "",
+                "east": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ]
+        },
+        "shape=ascending_west": {
+            "need_support": {
+                "down": "",
+                "west": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ]
+        },
+        "shape=north_south,powered=false": {
+            "functions": [
             
-        ]
-    },
-    "shape=north_south,powered=false": {
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 2, 16 ]
-            }
-        ]
-    },
-    "shape=east_west,powered=false": {
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 2, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_north,powered=false": {
-        "need_support": {
-            "down": "",
-            "south": ""
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_south,powered=false": {
-        "need_support": {
-            "down": "",
-            "north": ""
+        "shape=east_west,powered=false": {
+            "functions": [
+            
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_east,powered=false": {
-        "need_support": {
-            "down": "",
-            "west": ""
+        "shape=ascending_north,powered=false": {
+            "functions": [
+            
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_west,powered=false": {
-        "need_support": {
-            "down": "",
-            "east": ""
+        "shape=ascending_south,powered=false": {
+            "functions": [
+            
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
-    },
-    "shape=north_south,powered=true": {
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 2, 16 ]
-            }
-        ]
-    },
-    "shape=east_west,powered=true": {
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 2, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_north,powered=true": {
-        "need_support": {
-            "down": "",
-            "south": ""
+        "shape=ascending_east,powered=false": {
+            "functions": [
+            
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_south,powered=true": {
-        "need_support": {
-            "down": "",
-            "north": ""
+        "shape=ascending_west,powered=false": {
+            "functions": [
+            
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_east,powered=true": {
-        "need_support": {
-            "down": "",
-            "west": ""
+        "shape=north_south,powered=true": {
+            "functions": [
+            
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
-    },
-    "shape=ascending_west,powered=true": {
-        "need_support": {
-            "down": "",
-            "east": ""
+        "shape=east_west,powered=true": {
+            "functions": [
+            
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
+        "shape=ascending_north,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "shape=ascending_south,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "shape=ascending_east,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "shape=ascending_west,powered=true": {
+            "functions": [
+            
+            ]
+        }
     }
 }

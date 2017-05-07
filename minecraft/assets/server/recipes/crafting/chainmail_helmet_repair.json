@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:chainmail_helmet"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

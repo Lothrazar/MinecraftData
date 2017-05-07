@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:iron_chestplate"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:diamond_helmet"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

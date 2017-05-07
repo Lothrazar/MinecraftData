@@ -1,20 +1,18 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 0.35,
-            "minecraft:wooden_axe": 0.2,
-            "minecraft:stone_axe": 0.1,
-            "minecraft:iron_axe": 0.05,
-            "minecraft:diamond_axe": 0.05,
-            "minecraft:golden_axe": 0.05
-        },
-        "tool_damage": {
-            "minecraft:wooden_axe": 1,
-            "minecraft:stone_axe": 1,
-            "minecraft:iron_axe": 1,
-            "minecraft:diamond_axe": 1,
-            "minecraft:golden_axe": 1
-        },
-        "resistence": 1
-    }
+    "hardness": {
+        "minecraft:default": 0.35,
+        "minecraft:wooden_axe": 0.2,
+        "minecraft:stone_axe": 0.1,
+        "minecraft:iron_axe": 0.05,
+        "minecraft:diamond_axe": 0.05,
+        "minecraft:golden_axe": 0.05
+    },
+    "tool_damage": {
+        "minecraft:wooden_axe": 1,
+        "minecraft:stone_axe": 1,
+        "minecraft:iron_axe": 1,
+        "minecraft:diamond_axe": 1,
+        "minecraft:golden_axe": 1
+    },
+    "resistence": 1
 }

@@ -31,5 +31,6 @@
     "return": {
         "item": "minecraft:magenta_dye",
         "count": 3
-    }
+    },
+	"group": "minecraft:magenta_dye"
 }

@@ -11,6 +11,7 @@
     "return": {
         "item: "minecraft:potion"
     },
+	"group": "minecraft:mundane_potion",
     "functions": [
         {
             "function": "minecraft:add",

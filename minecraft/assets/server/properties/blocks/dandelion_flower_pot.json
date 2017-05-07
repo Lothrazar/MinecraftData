@@ -1,31 +1,36 @@
 {
-    "default": {
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "need_support": {
-            "down": ""
-        },
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 5, 0, 5 ],
-                "to": [ 11, 6, 11 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 5, 0, 5 ],
-                "to": [ 11, 6, 11 ]
-            }
-        ]
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 5, 0, 5 ],
+                    "to": [ 11, 6, 11 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 5, 0, 5 ],
+                    "to": [ 11, 6, 11 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        }
     }
 }

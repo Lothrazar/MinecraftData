@@ -1,93 +1,95 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 0.75,
-            "minecraft:wooden_axe": 0.4,
-            "minecraft:stone_axe": 0.2,
-            "minecraft:iron_axe": 0.15,
-            "minecraft:diamond_axe": 0.1,
-            "minecraft:golden_axe": 0.1
-        },
-        "burnability": 1,
-        "tool_damage": {
-            "minecraft:wooden_axe": 1,
-            "minecraft:stone_axe": 1,
-            "minecraft:iron_axe": 1,
-            "minecraft:diamond_axe": 1,
-            "minecraft:golden_axe": 1
-        },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "need_support": {
-            "down": ""
-        },
-        "resistence": 2.5,
-        "transparent": true,
-        "solid": false,
-        "hitbox": [
-            {
-                "from": [ 1, 0, 1 ],
-                "to": [ 15, 1, 15 ]
-            }
-        ],
-        "boundingbox": [
-            
-        ]
+    "hardness": {
+        "minecraft:default": 0.75,
+        "minecraft:wooden_axe": 0.4,
+        "minecraft:stone_axe": 0.2,
+        "minecraft:iron_axe": 0.15,
+        "minecraft:diamond_axe": 0.1,
+        "minecraft:golden_axe": 0.1
     },
-    "powered=true": {
-        "hitbox": [
-            {
-                "from": [ 1, 0, 1 ],
-                "to": [ 15, 0.5, 15 ]
-            }
-        ],
-        "functions": [
-            {
-                "function": "minecraft:output_power",
-                "amount": 15,
-                "type": "strong",
-                "position": {
-                    "y": -1
-                }
+    "burnability": 1,
+    "tool_damage": {
+        "minecraft:wooden_axe": 1,
+        "minecraft:stone_axe": 1,
+        "minecraft:iron_axe": 1,
+        "minecraft:diamond_axe": 1,
+        "minecraft:golden_axe": 1
+    },
+    "resistence": 2.5,
+    "transparent": true,
+    "solid": false,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "function": "minecraft:output_power",
-                "amount": 15,
-                "type": "activation",
-                "position": {
-                    "x": 1
-                }
+            "need_support": {
+                "down": ""
             },
-            {
-                "function": "minecraft:output_power",
-                "amount": 15,
-                "type": "activation",
-                "position": {
-                    "x": -1
+            "hitbox": [
+                {
+                    "from": [ 1, 0, 1 ],
+                    "to": [ 15, 1, 15 ]
                 }
-            },
-            {
-                "function": "minecraft:output_power",
-                "amount": 15,
-                "type": "activation",
-                "position": {
-                    "z": 1
+            ],
+            "boundingbox": [
+                
+            ]
+        },
+        "powered=true": {
+            "hitbox": [
+                {
+                    "from": [ 1, 0, 1 ],
+                    "to": [ 15, 0.5, 15 ]
                 }
-            },
-            {
-                "function": "minecraft:output_power",
-                "amount": 15,
-                "type": "activation",
-                "position": {
-                    "z": -1
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:output_power",
+                    "amount": 15,
+                    "type": "strong",
+                    "position": {
+                        "y": -1
+                    }
+                },
+                {
+                    "function": "minecraft:output_power",
+                    "amount": 15,
+                    "type": "activation",
+                    "position": {
+                        "x": 1
+                    }
+                },
+                {
+                    "function": "minecraft:output_power",
+                    "amount": 15,
+                    "type": "activation",
+                    "position": {
+                        "x": -1
+                    }
+                },
+                {
+                    "function": "minecraft:output_power",
+                    "amount": 15,
+                    "type": "activation",
+                    "position": {
+                        "z": 1
+                    }
+                },
+                {
+                    "function": "minecraft:output_power",
+                    "amount": 15,
+                    "type": "activation",
+                    "position": {
+                        "z": -1
+                    }
                 }
-            }
-        ]
+            ]
+        }
     }
 }

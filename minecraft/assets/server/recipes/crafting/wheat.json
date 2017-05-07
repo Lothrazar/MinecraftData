@@ -13,5 +13,6 @@
     "return": {
         "item": "minecraft:wheat",
         "count": 9
-    }
+    },
+	"group": "minecraft:gem"
 }

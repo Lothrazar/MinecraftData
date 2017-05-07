@@ -12,5 +12,6 @@
     ],
     "return": {
         "item": "minecraft:pink_dye"
-    }
+    },
+	"group": "minecraft:pink_dye"
 }

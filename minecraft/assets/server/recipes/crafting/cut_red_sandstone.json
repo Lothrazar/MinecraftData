@@ -24,5 +24,6 @@
     "return": {
         "item": "minecraft:cut_red_sandstone",
         "count": 4
-    }
+    },
+	"group": "minecraft:cut_sandstone"
 }

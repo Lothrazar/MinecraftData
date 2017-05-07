@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:wooden_sword"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

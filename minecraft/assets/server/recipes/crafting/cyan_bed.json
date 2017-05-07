@@ -50,5 +50,6 @@
     ],
     "return": {
         "item": "minecraft:cyan_bed"
-    }
+    },
+	"group": "minecraft:bed"
 }

@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:nether_brick_fence",
             "conditions": [

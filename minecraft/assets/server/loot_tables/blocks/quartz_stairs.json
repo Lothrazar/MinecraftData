@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:quartz_stairs",
             "conditions": [

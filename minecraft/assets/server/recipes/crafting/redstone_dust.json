@@ -13,5 +13,6 @@
     "return": {
         "item": "minecraft:redstone_dust",
         "count": 9
-    }
+    },
+	"group": "minecraft:gem"
 }

@@ -28,5 +28,6 @@
     ],
     "return": {
         "item": "minecraft:diamond_axe"
-    }
+    },
+	"group": "minecraft:axe"
 }

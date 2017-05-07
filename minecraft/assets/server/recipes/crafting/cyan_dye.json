@@ -22,5 +22,6 @@
     "return": {
         "item": "minecraft:cyan_dye",
         "count": 2
-    }
+    },
+	"group": "minecraft:cyan_dye"
 }

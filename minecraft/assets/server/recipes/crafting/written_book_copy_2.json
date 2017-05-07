@@ -63,5 +63,6 @@
     ],
     "return": {
         "item": "minecraft:written_book"
-    }
+    },
+	"group": "minecraft:copy_book"
 }

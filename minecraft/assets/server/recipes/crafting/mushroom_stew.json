@@ -13,7 +13,10 @@
             "items": [
                 [
                     {
-                        "item": "minecraft:brown_mushroom"
+                        "item": [
+                            "minecraft:brown_mushroom",
+                            "minecraft:red_mushroom"
+                        ]
                     }
                 ]
             ]

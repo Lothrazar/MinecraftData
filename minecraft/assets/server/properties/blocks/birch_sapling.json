@@ -1,32 +1,46 @@
 {
-    "*": {
-        "burnability": 1,
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "need_support": {
-            "down": [
-                "minecraft:dirt",
-                "minecraft:grass"
+    "burnability": 1,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:podzol"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 1.5, 0, 1.5 ],
+                    "to": [ 14.5, 13, 14.5 ]
+                }
+            ],
+            "boundingbox": [
+                
             ]
         },
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 1.5, 0, 1.5 ],
-                "to": [ 14.5, 13, 14.5 ]
-            }
-        ],
-        "boundingbox": [
+        "stage=0": {
+            "functions": [
             
-        ]
+            ]
+        },
+        "stage=1": {
+            "functions": [
+            
+            ]
+        }
     }
 }

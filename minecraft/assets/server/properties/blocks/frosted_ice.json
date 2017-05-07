@@ -1,18 +1,40 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 2.5
+    "hardness": {
+        "minecraft:default": 2.5
+    },
+    "resistence": 2.5,
+    "transparent": true,
+    "states": {
+        "default": {
+            "light": -2,
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            }
         },
-        "light": -2,
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "age=0": {
+            "functions": [
+            
+            ]
         },
-        "resistence": 2.5,
-        "transparent": true
+        "age=1": {
+            "functions": [
+            
+            ]
+        },
+        "age=2": {
+            "functions": [
+            
+            ]
+        },
+        "age=3": {
+            "functions": [
+            
+            ]
+        }
     }
 }

@@ -50,5 +50,6 @@
     ],
     "return": {
         "item": "minecraft:pink_bed"
-    }
+    },
+	"group": "minecraft:bed"
 }

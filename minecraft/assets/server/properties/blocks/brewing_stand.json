@@ -1,69 +1,71 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 2.5,
-            "minecraft:wooden_pickaxe": 0.4,
-            "minecraft:stone_pickaxe": 0.2,
-            "minecraft:iron_pickaxe": 0.15,
-            "minecraft:diamond_pickaxe": 0.1,
-            "minecraft:golden_pickaxe": 0.1
-        },
-        "light": 1,
-        "tool_damage": {
-            "minecraft:wooden_pickaxe": 1,
-            "minecraft:stone_pickaxe": 1,
-            "minecraft:iron_pickaxe": 1,
-            "minecraft:diamond_pickaxe": 1,
-            "minecraft:golden_pickxe": 1
-        },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": 2.5,
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 14, 9 ]
+    "hardness": {
+        "minecraft:default": 2.5,
+        "minecraft:wooden_pickaxe": 0.4,
+        "minecraft:stone_pickaxe": 0.2,
+        "minecraft:iron_pickaxe": 0.15,
+        "minecraft:diamond_pickaxe": 0.1,
+        "minecraft:golden_pickaxe": 0.1
+    },
+    "tool_damage": {
+        "minecraft:wooden_pickaxe": 1,
+        "minecraft:stone_pickaxe": 1,
+        "minecraft:iron_pickaxe": 1,
+        "minecraft:diamond_pickaxe": 1,
+        "minecraft:golden_pickxe": 1
+    },
+    "resistence": 2.5,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "light": 1,
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 9, 0, 5 ],
-                "to": [ 15, 2, 11 ]
-            },
-            {
-                "from": [ 2, 0, 1 ],
-                "to": [ 8, 2, 7 ]
-            },
-            {
-                "from": [ 2, 0, 9 ],
-                "to": [ 8, 2, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 14, 9 ]
-            },
-            {
-                "from": [ 9, 0, 5 ],
-                "to": [ 15, 2, 11 ]
-            },
-            {
-                "from": [ 2, 0, 1 ],
-                "to": [ 8, 2, 7 ]
-            },
-            {
-                "from": [ 2, 0, 9 ],
-                "to": [ 8, 2, 15 ]
-            }
-        ]
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 14, 9 ]
+                },
+                {
+                    "from": [ 9, 0, 5 ],
+                    "to": [ 15, 2, 11 ]
+                },
+                {
+                    "from": [ 2, 0, 1 ],
+                    "to": [ 8, 2, 7 ]
+                },
+                {
+                    "from": [ 2, 0, 9 ],
+                    "to": [ 8, 2, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 14, 9 ]
+                },
+                {
+                    "from": [ 9, 0, 5 ],
+                    "to": [ 15, 2, 11 ]
+                },
+                {
+                    "from": [ 2, 0, 1 ],
+                    "to": [ 8, 2, 7 ]
+                },
+                {
+                    "from": [ 2, 0, 9 ],
+                    "to": [ 8, 2, 15 ]
+                }
+            ]
+        }
     }
 }

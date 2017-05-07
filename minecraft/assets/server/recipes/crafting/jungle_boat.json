@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:jungle_boat"
-    }
+    },
+	"group": "minecraft:boat"
 }

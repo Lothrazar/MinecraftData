@@ -47,6 +47,7 @@
     "return": {
         "item": "minecraft:banner"
     },
+	"group": "minecraft:banner_right_of_upside_down_diagonal",
     "functions": [
         {
             "function": "minecraft:copy_nbt",

@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:leather_boots"
-    }
+    },
+	"group": "minecraft:boots"
 }

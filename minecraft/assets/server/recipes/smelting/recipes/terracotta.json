@@ -1,0 +1,9 @@
+{
+    "item": {
+        "item": "minecraft:clay"
+    },
+    "return": {
+        "item": "minecraft:terracotta",
+        "xp": 0.35
+    }
+}

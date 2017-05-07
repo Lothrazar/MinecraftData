@@ -28,5 +28,6 @@
     ],
     "return": {
         "item": "minecraft:golden_axe"
-    }
+    },
+	"group": "minecraft:axe"
 }

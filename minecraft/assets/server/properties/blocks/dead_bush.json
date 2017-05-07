@@ -1,36 +1,54 @@
 {
-    "default": {
-        "burnability": 1,
-        "tool_damage": {
-            "minecraft:shears": 1
-        },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "need_support": {
-            "down": [
-                "minecraft:sand",
-                "minecraft:hardened_clay",
-                "minecraft:stained_hardened_clay"
+    "burnability": 1,
+    "tool_damage": {
+        "minecraft:shears": 1
+    },
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": [
+                    "minecraft:sand",
+                    "minecraft:red_sand",
+                    "minecraft:terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:magenta_terracotta",
+                    "minecraft:light_blue_terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:lime_terracotta",
+                    "minecraft:pink_terracotta",
+                    "minecraft:gray_terracotta",
+                    "minecraft:light_gray_terracotta",
+                    "minecraft:cyan_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:blue_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:green_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:black_terracotta"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 1.5, 0, 1.5 ],
+                    "to": [ 14.5, 13, 14.5 ]
+                }
+            ],
+            "boundingbox": [
+                
             ]
-        },
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 1.5, 0, 1.5 ],
-                "to": [ 14.5, 13, 14.5 ]
-            }
-        ],
-        "boundingbox": [
-            
-        ]
+        }
     }
 }

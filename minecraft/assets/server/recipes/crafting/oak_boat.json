@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:oak_boat"
-    }
+    },
+	"group": "minecraft:boat"
 }

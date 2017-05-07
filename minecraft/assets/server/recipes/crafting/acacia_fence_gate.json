@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:acacia_fence_gate"
-    }
+    },
+	"group": "minecraft:fence_gate"
 }

@@ -22,5 +22,6 @@
     ],
     "return": {
         "item": "minecraft:golden_sword"
-    }
+    },
+	"group": "minecraft:sword"
 }

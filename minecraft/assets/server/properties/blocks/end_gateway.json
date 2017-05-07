@@ -1,24 +1,29 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": -1
-        },
-        "light": 15,
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": -1,
-        "transparent": true,
-        "solid": false,
-        "piston_push": "no",
-        "sticky_push": "no",
-        "boundingbox": [
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "resistence": -1,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "no",
+    "sticky_push": "no",
+    "states": {
+        "default": {
+            "light": 15,
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "boundingbox": [
+                
+            ],
+            "functions": [
             
-        ]
+            ]
+        }
     }
 }

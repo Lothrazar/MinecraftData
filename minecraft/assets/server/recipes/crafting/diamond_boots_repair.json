@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:diamond_boots"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

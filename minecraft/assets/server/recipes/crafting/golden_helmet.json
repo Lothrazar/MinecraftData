@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:golden_helmet"
-    }
+    },
+	"group": "minecraft:helmet"
 }

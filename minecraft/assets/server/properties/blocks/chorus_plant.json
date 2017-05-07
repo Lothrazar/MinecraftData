@@ -1,2489 +1,2683 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 0.65,
-            "minecraft:wooden_axe": 0.35,
-            "minecraft:stone_axe": 0.2,
-            "minecraft:iron_axe": 0.1,
-            "minecraft:diamond_axe": 0.1,
-            "minecraft:golden_axe": 0.05
-        },
-        "tool_damage": {
-            "minecraft:wooden_axe": 1,
-            "minecraft:stone_axe": 1,
-            "minecraft:iron_axe": 1,
-            "minecraft:diamond_axe": 1,
-            "minecraft:golden_axe": 1
-        },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": 2,
-        "transparent": true,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
+    "hardness": {
+        "minecraft:default": 0.65,
+        "minecraft:wooden_axe": 0.35,
+        "minecraft:stone_axe": 0.2,
+        "minecraft:iron_axe": 0.1,
+        "minecraft:diamond_axe": 0.1,
+        "minecraft:golden_axe": 0.05
     },
-    "north=false,south=false,east=false,west=false,up=false,down=false": {
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
+    "tool_damage": {
+        "minecraft:wooden_axe": 1,
+        "minecraft:stone_axe": 1,
+        "minecraft:iron_axe": 1,
+        "minecraft:diamond_axe": 1,
+        "minecraft:golden_axe": 1
     },
-    "north=true,south=false,east=false,west=false,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=false,up=false,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=false,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=false,up=false,down=false": {
-        "need_support": {
-            "east": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=false,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=false,up=false,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=false,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=true,up=false,down=false": {
-        "need_support": {
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=true,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=true,up=false,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=true,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=true,up=false,down=false": {
-        "need_support": {
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=true,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=true,up=false,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=true,up=false,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant"
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=false,up=true,down=false": {
-        "need_support": {
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=false,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=false,up=true,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=false,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=false,up=true,down=false": {
-        "need_support": {
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=false,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=false,up=true,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=false,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=true,up=true,down=false": {
-        "need_support": {
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=true,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=true,up=true,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=true,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=true,up=true,down=false": {
-        "need_support": {
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=true,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=true,up=true,down=false": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=true,up=true,down=false": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 3, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=false,up=false,down=true": {
-        "need_support": {
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=false,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=false,up=false,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=false,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=false,up=false,down=true": {
-        "need_support": {
-            "east": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=false,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=false,up=false,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=false,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=true,up=false,down=true": {
-        "need_support": {
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=true,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=true,up=false,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=true,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=true,up=false,down=true": {
-        "need_support": {
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=true,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=true,up=false,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=true,up=false,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 13, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=false,up=true,down=true": {
-        "need_support": {
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+    "resistence": 2,
+    "transparent": true,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=false,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+        "north=false,south=false,east=false,west=false,up=false,down=false": {
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=false,up=true,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=true,south=false,east=false,west=false,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=false,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=false,up=true,down=true": {
-        "need_support": {
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=false,south=true,east=false,west=false,up=false,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=false,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=false,up=true,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=true,south=true,east=false,west=false,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=false,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 3, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=true,up=true,down=true": {
-        "need_support": {
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=false,south=false,east=true,west=false,up=false,down=false": {
+            "need_support": {
+                "east": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=true,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=true,up=true,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=true,south=false,east=true,west=false,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=true,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 13, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=true,up=true,down=true": {
-        "need_support": {
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=false,south=true,east=true,west=false,up=false,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=true,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
-            ]
-        },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 13 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=true,up=true,down=true": {
-        "need_support": {
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=true,south=true,east=true,west=false,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
-            },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
-            },
-            {
-                "from": [ 4, 4, 3 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=true,up=true,down=true": {
-        "need_support": {
-            "north": "minecraft:chorus_plant",
-            "south": "minecraft:chorus_plant",
-            "east": "minecraft:chorus_plant",
-            "west": "minecraft:chorus_plant",
-            "up": [
-                "minecraft:chorus_plant",
-                "minecraft:chorus_flower"
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
             ],
-            "down": [
-                "minecraft:chorus_plant",
-                "minecraft:end_stone"
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
             ]
         },
-        "hitbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+        "north=false,south=false,east=false,west=true,up=false,down=false": {
+            "need_support": {
+                "west": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=false,west=true,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 4, 0, 4 ],
-                "to": [ 12, 16, 12 ]
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=false,west=true,up=false,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 0, 4, 4 ],
-                "to": [ 16, 12, 12 ]
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=false,west=true,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant"
             },
-            {
-                "from": [ 4, 4, 0 ],
-                "to": [ 12, 12, 16 ]
-            }
-        ]
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=true,west=true,up=false,down=false": {
+            "need_support": {
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant"
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=true,west=true,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant"
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=true,west=true,up=false,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant"
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=true,west=true,up=false,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant"
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=false,west=false,up=true,down=false": {
+            "need_support": {
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=false,west=false,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=false,west=false,up=true,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=false,west=false,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=true,west=false,up=true,down=false": {
+            "need_support": {
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=true,west=false,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=true,west=false,up=true,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=true,west=false,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=false,west=true,up=true,down=false": {
+            "need_support": {
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=false,west=true,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=false,west=true,up=true,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=false,west=true,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=true,west=true,up=true,down=false": {
+            "need_support": {
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=true,west=true,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=true,west=true,up=true,down=false": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=true,west=true,up=true,down=false": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 3, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=false,west=false,up=false,down=true": {
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=false,west=false,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=false,west=false,up=false,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=false,west=false,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=true,west=false,up=false,down=true": {
+            "need_support": {
+                "east": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=true,west=false,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=true,west=false,up=false,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=true,west=false,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=false,west=true,up=false,down=true": {
+            "need_support": {
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=false,west=true,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=false,west=true,up=false,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=false,west=true,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=true,west=true,up=false,down=true": {
+            "need_support": {
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=true,west=true,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=true,west=true,up=false,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=true,west=true,up=false,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 13, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=false,west=false,up=true,down=true": {
+            "need_support": {
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=false,west=false,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=false,west=false,up=true,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=false,west=false,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=true,west=false,up=true,down=true": {
+            "need_support": {
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=true,west=false,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=true,west=false,up=true,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=true,west=false,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 3, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=false,west=true,up=true,down=true": {
+            "need_support": {
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=false,west=true,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=false,west=true,up=true,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=false,west=true,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 13, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=false,east=true,west=true,up=true,down=true": {
+            "need_support": {
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=false,east=true,west=true,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 13 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=false,south=true,east=true,west=true,up=true,down=true": {
+            "need_support": {
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 3 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "north=true,south=true,east=true,west=true,up=true,down=true": {
+            "need_support": {
+                "north": "minecraft:chorus_plant",
+                "south": "minecraft:chorus_plant",
+                "east": "minecraft:chorus_plant",
+                "west": "minecraft:chorus_plant",
+                "up": [
+                    "minecraft:chorus_plant",
+                    "minecraft:chorus_flower"
+                ],
+                "down": [
+                    "minecraft:chorus_plant",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 4, 0, 4 ],
+                    "to": [ 12, 16, 12 ]
+                },
+                {
+                    "from": [ 0, 4, 4 ],
+                    "to": [ 16, 12, 12 ]
+                },
+                {
+                    "from": [ 4, 4, 0 ],
+                    "to": [ 12, 12, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        }
     }
 }

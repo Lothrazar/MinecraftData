@@ -19,5 +19,6 @@
     "return": {
         "item": "minecraft:quartz_slab",
         "count": 6
-    }
+    },
+	"group": "minecraft:slab"
 }

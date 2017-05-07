@@ -37,5 +37,6 @@
     ],
     "return": {
         "item": "minecraft:cyan_wool"
-    }
+    },
+	"group": "minecraft:wool_coloring"
 }

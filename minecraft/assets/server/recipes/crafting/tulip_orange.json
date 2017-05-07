@@ -12,5 +12,6 @@
     ],
     "return": {
         "item": "minecraft:orange_dye"
-    }
+    },
+	"group": "minecraft:orange_dye"
 }

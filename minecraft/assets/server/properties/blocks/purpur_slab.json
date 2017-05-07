@@ -1,62 +1,63 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 7.5,
-            "minecraft:wooden_pickaxe": 1.15,
-            "minecraft:stone_pickaxe": 0.6,
-            "minecraft:iron_pickaxe": 0.4,
-            "minecraft:diamond_pickaxe": 0.3,
-            "minecraft:golden_pickaxe": 0.2
-        },
-        "tool_damage": {
-            "minecraft:wooden_pickaxe": 1,
-            "minecraft:stone_pickaxe": 1,
-            "minecraft:iron_pickaxe": 1,
-            "minecraft:diamond_pickaxe": 1,
-            "minecraft:golden_pickaxe": 1
-        },
-        "resistence": 30
+    "hardness": {
+        "minecraft:default": 7.5,
+        "minecraft:wooden_pickaxe": 1.15,
+        "minecraft:stone_pickaxe": 0.6,
+        "minecraft:iron_pickaxe": 0.4,
+        "minecraft:diamond_pickaxe": 0.3,
+        "minecraft:golden_pickaxe": 0.2
     },
-    "half=bottom": {
-        "solid_faces": {
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
+    "tool_damage": {
+        "minecraft:wooden_pickaxe": 1,
+        "minecraft:stone_pickaxe": 1,
+        "minecraft:iron_pickaxe": 1,
+        "minecraft:diamond_pickaxe": 1,
+        "minecraft:golden_pickaxe": 1
     },
-    "half=top": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+    "resistence": 30,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            }
         },
-        "hitbox": [
-            {
-                "from": [ 0, 8, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 8, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        "type=lower": {
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "type=upper": {
+            "hitbox": [
+                {
+                    "from": [ 0, 8, 0 ],
+                    "to": [ 16, 16, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 8, 0 ],
+                    "to": [ 16, 16, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        }
     }
 }

@@ -30,5 +30,6 @@
     "return": {
         "item": "minecraft:dark_oak_fence",
         "count": 3
-    }
+    },
+	"group": "minecraft:fence"
 }

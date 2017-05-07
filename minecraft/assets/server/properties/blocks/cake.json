@@ -1,133 +1,144 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 0.75
+    "hardness": {
+        "minecraft:default": 0.75
+    },
+    "resistence": 2.5,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": ""
+            }
         },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "bites=0": {
+            "hitbox": [
+                {
+                    "from": [ 1, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 1, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "functions": [
+            
+            ]
         },
-        "need_support": {
-            "down": ""
+        "bites=1": {
+            "hitbox": [
+                {
+                    "from": [ 3, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 3, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "functions": [
+            
+            ]
         },
-        "resistence": 2.5,
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 1, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 1, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
-    },
-    "bites=0": {
-        "hitbox": [
-            {
-                "from": [ 1, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 1, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
-    },
-    "bites=1": {
-        "hitbox": [
-            {
-                "from": [ 3, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 3, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
-    },
-    "bites=2": {
-        "hitbox": [
-            {
-                "from": [ 5, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 5, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
-    },
-    "bites=3": {
-        "hitbox": [
-            {
-                "from": [ 7, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
-    },
-    "bites=4": {
-        "hitbox": [
-            {
-                "from": [ 9, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 9, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
-    },
-    "bites=5": {
-        "hitbox": [
-            {
-                "from": [ 11, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 11, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
-    },
-    "bites=6": {
-        "hitbox": [
-            {
-                "from": [ 13, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 13, 0, 1 ],
-                "to": [ 15, 8, 15 ]
-            }
-        ]
+        "bites=2": {
+            "hitbox": [
+                {
+                    "from": [ 5, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 5, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "bites=3": {
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "bites=4": {
+            "hitbox": [
+                {
+                    "from": [ 9, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 9, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "bites=5": {
+            "hitbox": [
+                {
+                    "from": [ 11, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 11, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "bites=6": {
+            "hitbox": [
+                {
+                    "from": [ 13, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 13, 0, 1 ],
+                    "to": [ 15, 8, 15 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        }
     }
 }

@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:carrot_on_a_stick"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

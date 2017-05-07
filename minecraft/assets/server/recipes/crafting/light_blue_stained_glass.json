@@ -41,5 +41,6 @@
     "return": {
         "item": "minecraft:light_blue_stained_glass",
         "count": 8
-    }
+    },
+	"group": "minecraft:stained_glass"
 }

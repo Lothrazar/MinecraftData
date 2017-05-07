@@ -50,6 +50,7 @@
     "return": {
         "item": "minecraft:banner"
     },
+	"group": "minecraft:banner_horizontal_half_bottom",
     "functions": [
         {
             "function": "minecraft:copy_nbt",

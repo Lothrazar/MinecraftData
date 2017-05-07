@@ -22,5 +22,6 @@
     "return": {
         "item": "minecraft:gray_dye",
         "count": 2
-    }
+    },
+	"group": "minecraft:gray_dye"
 }

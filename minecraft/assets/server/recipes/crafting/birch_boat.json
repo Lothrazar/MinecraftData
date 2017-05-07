@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:birch_boat"
-    }
+    },
+	"group": "minecraft:boat"
 }

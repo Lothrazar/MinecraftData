@@ -39,6 +39,7 @@
     "return": {
         "item": "minecraft:banner"
     },
+	"group": "minecraft:banner_middile_stripe",
     "functions": [
         {
             "function": "minecraft:copy_nbt",

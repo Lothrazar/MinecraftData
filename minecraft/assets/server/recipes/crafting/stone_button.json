@@ -12,5 +12,6 @@
     ],
     "return": {
         "item": "minecraft:stone_button"
-    }
+    },
+	"group": "minecraft:button"
 }

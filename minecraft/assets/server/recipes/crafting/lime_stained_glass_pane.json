@@ -30,5 +30,6 @@
     "return": {
         "item": "minecraft:lime_stained_glass_pane",
         "count": 16
-    }
+    },
+	"group": "minecraft:glass_pane"
 }

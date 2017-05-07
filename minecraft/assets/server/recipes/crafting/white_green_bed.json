@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cactus_green"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:white_bed"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:green_bed"
+    },
+	"group": "minecraft:bed_coloring"
+}

@@ -1,169 +1,202 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 9,
-            "minecraft:wooden_pickaxe": 4.5,
-            "minecraft:stone_pickaxe": 2.25,
-            "minecraft:iron_pickaxe": 1.5,
-            "minecraft:diamond_pickaxe": 1.15,
-            "minecraft:golden_pickaxe": 0.75
+    "hardness": {
+        "minecraft:default": 9,
+        "minecraft:wooden_pickaxe": 4.5,
+        "minecraft:stone_pickaxe": 2.25,
+        "minecraft:iron_pickaxe": 1.5,
+        "minecraft:diamond_pickaxe": 1.15,
+        "minecraft:golden_pickaxe": 0.75
+    },
+    "tool_damage": {
+        "minecraft:wooden_pickaxe": 1,
+        "minecraft:stone_pickaxe": 1,
+        "minecraft:iron_pickaxe": 1,
+        "minecraft:diamond_pickaxe": 1,
+        "minecraft:golden_pickaxe": 1
+    },
+    "resistence": 30,
+    "transparent": true,
+    "piston_push": "break",
+    "sticky_push": "break"
+    "states": {
+        "facing=north": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "east": false,
+                "west": false
+            },
+            "functions": [
+                {
+                    "function": "minecraft:extend_box",
+                    "hitbox": [
+                        {
+                            "from": [ 0, 0, 0 ],
+                            "to": [ 24, 16, 16 ]
+                        }
+                    ],
+                    "boundingbox": [
+                        {
+                            "from": [ 0, 0, 0 ],
+                            "to": [ 24, 16, 16 ]
+                        }
+                    ],
+                    "time": 20,
+                    "condition": {
+                        "open_gui": true
+                    }
+                }
+            ]
         },
-        "tool_damage": {
-            "minecraft:wooden_pickaxe": 1,
-            "minecraft:stone_pickaxe": 1,
-            "minecraft:iron_pickaxe": 1,
-            "minecraft:diamond_pickaxe": 1,
-            "minecraft:golden_pickaxe": 1
+        "facing=south": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "functions": [
+                {
+                    "function": "minecraft:extend_box",
+                    "hitbox": [
+                        {
+                            "from": [ -8, 0, 0 ],
+                            "to": [ 16, 16, 16 ]
+                        }
+                    ],
+                    "boundingbox": [
+                        {
+                            "from": [ -8, 0, 0 ],
+                            "to": [ 16, 16, 16 ]
+                        }
+                    ],
+                    "time": 20,
+                    "condition": {
+                        "open_gui": true
+                    }
+                }
+            ]
         },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": true,
-            "east": false,
-            "west": false
+        "facing=east": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false
+            },
+            "functions": [
+                {
+                    "function": "minecraft:extend_box",
+                    "hitbox": [
+                        {
+                            "from": [ 0, 0, 0 ],
+                            "to": [ 16, 16, 24 ]
+                        }
+                    ],
+                    "boundingbox": [
+                        {
+                            "from": [ 0, 0, 0 ],
+                            "to": [ 16, 16, 24 ]
+                        }
+                    ],
+                    "time": 20,
+                    "condition": {
+                        "open_gui": true
+                    }
+                }
+            ]
         },
-        "resistence": 30,
-        "transparent": true,
-        "piston_push": "break",
-        "sticky_push": "break"
-    },
-    "facing=north": {
-        "functions": [
-            {
-                "function": "minecraft:extend_box",
-                "hitbox": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 24, 16, 16 ]
+        "facing=west": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "west": false
+            },
+            "functions": [
+                {
+                    "function": "minecraft:extend_box",
+                    "hitbox": [
+                        {
+                            "from": [ 0, 0, -8 ],
+                            "to": [ 16, 16, 16 ]
+                        }
+                    ],
+                    "boundingbox": [
+                        {
+                            "from": [ 0, 0, -8 ],
+                            "to": [ 16, 16, 16 ]
+                        }
+                    ],
+                    "time": 20,
+                    "condition": {
+                        "open_gui": true
                     }
-                ],
-                "boundingbox": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 24, 16, 16 ]
-                    }
-                ],
-                "time": 20,
-                "condition": {
-                    "open_gui": true
                 }
-            }
-        ]
-    },
-    "facing=south": {
-        "functions": [
-            {
-                "function": "minecraft:extend_box",
-                "hitbox": [
-                    {
-                        "from": [ -8, 0, 0 ],
-                        "to": [ 16, 16, 16 ]
+            ]
+        },
+        "facing=up": {
+            "solid_faces": {
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "functions": [
+                {
+                    "function": "minecraft:extend_box",
+                    "hitbox": [
+                        {
+                            "from": [ 0, 0, 0 ],
+                            "to": [ 16, 24, 16 ]
+                        }
+                    ],
+                    "boundingbox": [
+                        {
+                            "from": [ 0, 0, 0 ],
+                            "to": [ 16, 24, 16 ]
+                        }
+                    ],
+                    "time": 20,
+                    "condition": {
+                        "open_gui": true
                     }
-                ],
-                "boundingbox": [
-                    {
-                        "from": [ -8, 0, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    }
-                ],
-                "time": 20,
-                "condition": {
-                    "open_gui": true
                 }
-            }
-        ]
-    },
-    "facing=east": {
-        "functions": [
-            {
-                "function": "minecraft:extend_box",
-                "hitbox": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 16, 24 ]
+            ]
+        },
+        "facing=down": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "functions": [
+                {
+                    "function": "minecraft:extend_box",
+                    "hitbox": [
+                        {
+                            "from": [ 0, -8, 0 ],
+                            "to": [ 16, 16, 16 ]
+                        }
+                    ],
+                    "boundingbox": [
+                        {
+                            "from": [ 0, -8, 0 ],
+                            "to": [ 16, 16, 16 ]
+                        }
+                    ],
+                    "time": 20,
+                    "condition": {
+                        "open_gui": true
                     }
-                ],
-                "boundingbox": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 16, 24 ]
-                    }
-                ],
-                "time": 20,
-                "condition": {
-                    "open_gui": true
                 }
-            }
-        ]
-    },
-    "facing=west": {
-        "functions": [
-            {
-                "function": "minecraft:extend_box",
-                "hitbox": [
-                    {
-                        "from": [ 0, 0, -8 ],
-                        "to": [ 16, 16, 16 ]
-                    }
-                ],
-                "boundingbox": [
-                    {
-                        "from": [ 0, 0, -8 ],
-                        "to": [ 16, 16, 16 ]
-                    }
-                ],
-                "time": 20,
-                "condition": {
-                    "open_gui": true
-                }
-            }
-        ]
-    },
-    "facing=up": {
-        "functions": [
-            {
-                "function": "minecraft:extend_box",
-                "hitbox": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 24, 16 ]
-                    }
-                ],
-                "boundingbox": [
-                    {
-                        "from": [ 0, 0, 0 ],
-                        "to": [ 16, 24, 16 ]
-                    }
-                ],
-                "time": 20,
-                "condition": {
-                    "open_gui": true
-                }
-            }
-        ]
-    },
-    "facing=down": {
-        "functions": [
-            {
-                "function": "minecraft:extend_box",
-                "hitbox": [
-                    {
-                        "from": [ 0, -8, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    }
-                ],
-                "boundingbox": [
-                    {
-                        "from": [ 0, -8, 0 ],
-                        "to": [ 16, 16, 16 ]
-                    }
-                ],
-                "time": 20,
-                "condition": {
-                    "open_gui": true
-                }
-            }
-        ]
+            ]
+        }
     }
-}

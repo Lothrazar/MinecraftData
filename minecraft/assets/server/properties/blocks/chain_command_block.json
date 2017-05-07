@@ -1,17 +1,70 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": -1
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "resistence": -1,
+    "piston_push": "no",
+    "sticky_push": "no",
+    "states": {
+        "facing=down,conditional=false": {
+            "functions": [
+            
+            ]
         },
-        "solid_faces": {
-            "down": true,
-            "up": true,
-            "north": true,
-            "south": true,
-            "east": true
+        "facing=up,conditional=false": {
+            "functions": [
+            
+            ]
         },
-        "resistence": -1,
-        "piston_push": "no",
-        "sticky_push": "no"
+        "facing=north,conditional=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=south,conditional=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=east,conditional=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=west,conditional=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=down,conditional=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=up,conditional=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=north,conditional=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=south,conditional=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=east,conditional=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=west,conditional=true": {
+            "functions": [
+            
+            ]
+        }
     }
 }

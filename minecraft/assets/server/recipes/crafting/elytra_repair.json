@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:elytra"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "block": "minecraft:flowing_water",
             "conditions": [

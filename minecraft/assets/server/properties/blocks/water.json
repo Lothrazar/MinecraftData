@@ -1,266 +1,261 @@
 {
-    "*": {
-        "light": -2,
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+    "resistence": 500,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "fall_damage": 0,
+    "states": {
+        "default": {
+            "light": -2,
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            }
         },
-        "resistence": 500,
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "fall_damage": 0,
-        "hitbox": [
-            
-        ],
-        "boundingbox": [
-            
-        ]
-    },
-    "level=0": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=1": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=2": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=3": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=4": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=5": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=6": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=7": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=8": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=9": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=10": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=11": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=12": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=13": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=14": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=15": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 0.2,
-                "source": "water",
-                "not_affects": [
-                    {
-                        "air": 0,
-                        "inverse": true
-                    }
-                ]
-            }
-        ]
-
+        "level=0": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=1": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=2": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=3": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=4": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=5": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=6": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=7": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=8": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=9": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=10": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=11": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=12": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=13": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=14": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=15": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 0.2,
+                    "source": "water",
+                    "not_affects": [
+                        {
+                            "air": 0,
+                            "inverse": true
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

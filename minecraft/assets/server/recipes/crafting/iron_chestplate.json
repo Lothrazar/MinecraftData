@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:iron_chestplate"
-    }
+    },
+	"group": "minecraft:chestplate"
 }

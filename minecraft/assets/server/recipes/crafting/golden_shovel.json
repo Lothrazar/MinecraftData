@@ -22,5 +22,6 @@
     ],
     "return": {
         "item": "minecraft:golden_shovel"
-    }
+    },
+	"group": "minecraft:shovel"
 }

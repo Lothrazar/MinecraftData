@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:diamond_helmet"
-    }
+    },
+	"group": "minecraft:helmet"
 }

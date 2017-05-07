@@ -21,5 +21,6 @@
     ],
     "return": {
         "item": "minecraft:mossy_cobblestone"
-    }
+    },
+	"group": "minecraft:mossy_block"
 }

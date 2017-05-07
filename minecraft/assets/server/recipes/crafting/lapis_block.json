@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:lapis_block"
-    }
+    },
+	"group": "minecraft:material_block"
 }

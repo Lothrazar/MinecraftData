@@ -1,12 +1,10 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": 4.5
-        },
-        "light": 15,
-        "resistence": 15,
-        "transparent": true,
-        "piston_push": "no",
-        "sticky_push": "no"
-    }
+    "hardness": {
+        "minecraft:default": 4.5
+    },
+    "light": 15,
+    "resistence": 15,
+    "transparent": true,
+    "piston_push": "no",
+    "sticky_push": "no"
 }

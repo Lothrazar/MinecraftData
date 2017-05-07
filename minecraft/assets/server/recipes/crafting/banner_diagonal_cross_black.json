@@ -55,6 +55,7 @@
     "return": {
         "item": "minecraft:banner"
     },
+	"group": "minecraft:banner_diagonal_cross",
     "functions": [
         {
             "function": "minecraft:copy_nbt",

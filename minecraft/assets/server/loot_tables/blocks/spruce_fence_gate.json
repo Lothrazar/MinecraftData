@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:spruce_fence_gate"
         }

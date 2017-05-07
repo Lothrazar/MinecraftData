@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:iron_leggings"
-    }
+    },
+	"group": "minecraft:leggings"
 }

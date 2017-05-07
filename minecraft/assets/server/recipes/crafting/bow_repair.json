@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:bow"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

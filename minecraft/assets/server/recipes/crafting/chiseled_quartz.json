@@ -17,5 +17,6 @@
     ],
     "return": {
         "item": "minecraft:chiseled_quartz"
-    }
+    },
+	"group": "minecraft:chiseled_block"
 }

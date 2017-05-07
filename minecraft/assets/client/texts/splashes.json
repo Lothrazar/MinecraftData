@@ -1476,6 +1476,10 @@
         "weight": 1
     },
     {
+        "splash": "{\"translate\":\"splash.370\",\"color\":\"yellow\"}",
+        "weight": 1
+    },
+    {
         "splash": "{\"translate\":\"splash.new_year\",\"color\":\"yellow\"}",
         "weight": -1,
         "condition": {
@@ -1900,6 +1904,7 @@ splash.366=Boats FTW
 splash.367=Javalicious edition
 splash.368=Should not be played while driving
 splash.369=You're going too fast!
+splash.370=Don't feed chocolate to parrots!
 splash.new_year=Happy new year!
 splash.christmas=Merry X-mas!
 splash.halloween=OOoooOOOoooo! Spooky!

@@ -1,298 +1,299 @@
 {
-    "*": {
-        "light": 15,
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+    "resistence": 500,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "fall_damage": 0,
+    "states": {
+        "default": {
+            "light": 15,
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                
+            ],
+            "boundingbox": [
+                
+            ]
         },
-        "resistence": 500,
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "fall_damage": 0,
-        "hitbox": [
-            
-        ],
-        "boundingbox": [
-            
-        ]
-    },
-    "level=0": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=1": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=2": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=3": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=4": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=5": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=6": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=7": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=8": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=9": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=10": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=11": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=12": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=13": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=14": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-    },
-    "level=15": {
-        "functions": [
-            {
-                "function": "minecraft:hurt",
-                "damage": 1.0,
-                "source": "lava",
-                "not_affects": [
-                    {
-                        "effect": "minecraft:fire_resistance"
-                    },
-                    {
-                        "fire_resistant": true
-                    }
-                ]
-            }
-        ]
-
+        "level=0": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=1": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=2": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=3": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=4": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=5": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=6": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=7": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=8": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=9": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=10": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=11": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=12": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=13": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=14": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "level=15": {
+            "functions": [
+                {
+                    "function": "minecraft:hurt",
+                    "damage": 1.0,
+                    "source": "lava",
+                    "not_affects": [
+                        {
+                            "effect": "minecraft:fire_resistance"
+                        },
+                        {
+                            "fire_resistant": true
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

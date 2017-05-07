@@ -13,5 +13,6 @@
     "return": {
         "item": "minecraft:iron_ingot",
         "count": 9
-    }
+    },
+	"group": "minecraft:gem"
 }

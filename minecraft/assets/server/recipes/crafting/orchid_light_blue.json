@@ -12,5 +12,6 @@
     ],
     "return": {
         "item": "minecraft:light_blue_dye"
-    }
+    },
+	"group": "minecraft:light_blue_dye"
 }

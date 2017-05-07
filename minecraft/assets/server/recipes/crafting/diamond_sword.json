@@ -22,5 +22,6 @@
     ],
     "return": {
         "item": "minecraft:diamond_sword"
-    }
+    },
+	"group": "minecraft:sword"
 }

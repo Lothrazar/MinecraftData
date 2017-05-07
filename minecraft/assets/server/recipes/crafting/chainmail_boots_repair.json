@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:chainmail_boots"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

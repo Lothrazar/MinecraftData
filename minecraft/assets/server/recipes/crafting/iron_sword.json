@@ -22,5 +22,6 @@
     ],
     "return": {
         "item": "minecraft:iron_sword"
-    }
+    },
+	"group": "minecraft:sword"
 }

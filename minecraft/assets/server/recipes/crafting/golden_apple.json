@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:golden_apple"
-    }
+    },
+	"group": "minecraft:golden_food"
 }

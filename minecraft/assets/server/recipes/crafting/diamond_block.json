@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:diamond_block"
-    }
+    },
+	"group": "minecraft:mterial_block"
 }

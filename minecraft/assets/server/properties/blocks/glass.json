@@ -1,17 +1,19 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": 0.45
-        },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": 1.5,
-        "transparent": true
+    "hardness": {
+        "minecraft:default": 0.45
+    },
+    "resistence": 1.5,
+    "transparent": true,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            }
+        }
     }
 }

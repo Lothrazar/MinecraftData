@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:golden_carrot"
-    }
+    },
+	"group": "minecraft:golden_food"
 }

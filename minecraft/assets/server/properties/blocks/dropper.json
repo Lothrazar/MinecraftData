@@ -1,22 +1,82 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 17.5,
-            "minecraft:wooden_pickaxe": 2.65,
-            "minecraft:stone_pickaxe": 1.35,
-            "minecraft:iron_pickaxe": 0.9,
-            "minecraft:diamond_pickaxe": 0.7,
-            "minecraft:golden_pickaxe": 0.45
+    "hardness": {
+        "minecraft:default": 17.5,
+        "minecraft:wooden_pickaxe": 2.65,
+        "minecraft:stone_pickaxe": 1.35,
+        "minecraft:iron_pickaxe": 0.9,
+        "minecraft:diamond_pickaxe": 0.7,
+        "minecraft:golden_pickaxe": 0.45
+    },
+    "tool_damage": {
+        "minecraft:wooden_pickaxe": 1,
+        "minecraft:stone_pickaxe": 1,
+        "minecraft:iron_pickaxe": 1,
+        "minecraft:diamond_pickaxe": 1,
+        "minecraft:golden_pickaxe": 1
+    },
+    "resistence": 3.5,
+    "piston_push": "no",
+    "sticky_push": "no",
+    "states": {
+        "facing=up,triggered=false": {
+            "functions": [
+            
+            ]
         },
-        "tool_damage": {
-            "minecraft:wooden_pickaxe": 1,
-            "minecraft:stone_pickaxe": 1,
-            "minecraft:iron_pickaxe": 1,
-            "minecraft:diamond_pickaxe": 1,
-            "minecraft:golden_pickaxe": 1
+        "facing=down,triggered=false": {
+            "functions": [
+            
+            ]
         },
-        "resistence": 3.5,
-        "piston_push": "no",
-        "sticky_push": "no"
+        "facing=north,triggered=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=east,triggered=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=south,triggered=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=west,triggered=false": {
+            "functions": [
+            
+            ]
+        },
+        "facing=up,triggered=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=down,triggered=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=north,triggered=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=east,triggered=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=south,triggered=true": {
+            "functions": [
+            
+            ]
+        },
+        "facing=west,triggered=true": {
+            "functions": [
+            
+            ]
+        }
     }
 }

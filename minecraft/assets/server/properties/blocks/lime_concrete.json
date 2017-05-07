@@ -1,22 +1,20 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": 9,
-            "minecraft:wooden_pickaxe": 1.35,
-            "minecraft:stone_pickaxe": 0.7,
-            "minecraft:iron_pickaxe": 0.45,
-            "minecraft:diamond_pickaxe": 0.35,
-            "minecraft:golden_pickaxe": 0.25
-        },
-        "tool_damage": {
-            "minecraft:wooden_pickaxe": 1,
-            "minecraft:stone_pickaxe": 1,
-            "minecraft:iron_pickaxe": 1,
-            "minecraft:diamond_pickaxe": 1,
-            "minecraft:golden_pickaxe": 1
-        },
-        "resistence": 9,
-        "piston_push": "no",
-        "sticky_push": "no"
-    }
+    "hardness": {
+        "minecraft:default": 9,
+        "minecraft:wooden_pickaxe": 1.35,
+        "minecraft:stone_pickaxe": 0.7,
+        "minecraft:iron_pickaxe": 0.45,
+        "minecraft:diamond_pickaxe": 0.35,
+        "minecraft:golden_pickaxe": 0.25
+    },
+    "tool_damage": {
+        "minecraft:wooden_pickaxe": 1,
+        "minecraft:stone_pickaxe": 1,
+        "minecraft:iron_pickaxe": 1,
+        "minecraft:diamond_pickaxe": 1,
+        "minecraft:golden_pickaxe": 1
+    },
+    "resistence": 9,
+    "piston_push": "no",
+    "sticky_push": "no"
 }

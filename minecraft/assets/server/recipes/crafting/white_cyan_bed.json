@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:cyan_dye"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:white_bed"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:cyan_bed"
+    },
+	"group": "minecraft:bed_coloring"
+}

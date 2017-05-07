@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:purple_glazed_terracotta",
             "conditions": [

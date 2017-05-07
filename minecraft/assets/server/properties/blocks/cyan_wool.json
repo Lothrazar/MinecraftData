@@ -1,13 +1,11 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": 1.25,
-            "minecraft:shears": 0.25
-        },
-        "burnability": 1,
-        "tool_damage": {
-            "minecraft:shears": 1
-        },
-        "resistance": 4
-    }
+    "hardness": {
+        "minecraft:default": 1.25,
+        "minecraft:shears": 0.25
+    },
+    "burnability": 1,
+    "tool_damage": {
+        "minecraft:shears": 1
+    },
+    "resistance": 4
 }

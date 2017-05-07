@@ -36,6 +36,7 @@ list of yet to be created JSON files:
  + add witch
  + add zombie
  + add zombie_villager
+ + add illusion_illager
  + add husk
  + add giant
  + add horse
@@ -183,6 +184,7 @@ list of yet to be created JSON files:
  + add witch
  + add zombie
  + add zombie_villager
+ + add illusion_illager
  + add husk
  + add giant
  + add horse
@@ -238,13 +240,8 @@ List of planned changes:
 * change all files to use as little nbt phrasing as possible, but don't remove the ability to base/add nbt tags
  * recipes (still a bit left)
  * loot tables (still a bit left)
- * achievements
-* change a number of files into sperate files:
- * achievements, 1 per achievement
 * update all files (and split them were nececairy) when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
- * achievements
-! fix format files are invalid json (change to "TAG": "TAG TYPE: DESCRIPTION")
- * achievements
+ * advancements
 
 
 Structures:
@@ -320,6 +317,8 @@ list of yet to be created model files:
   + add riding variant
  + added husk
   + add baby
+  + add riding variant
+ + added illusion_illager
   + add riding variant
  + added giant
   + add riding variant
@@ -436,6 +435,7 @@ List of planned changes:
  + added to witch
  + added to vindication_illager
  + added to evocation_illager
+ + added to illusion_illager
 + added the held item positions to:
  + added to zombie
   + add to baby
@@ -455,6 +455,7 @@ List of planned changes:
  + added to vindication_illager
  + added to evocation_illager
  + add to vex
+ + added to illusion_illager
 + add eyes layer to:
  + add to spider
  + add to cave_spider
@@ -489,4 +490,3 @@ List of planned changes:
 ! fix brewing stand extends arms and inverts its texture when bottles are placed
 ! fix the totem of undying lacks a proper outline, making it look off in the off hand
 ! fix small model mistake on the top side of cocoa pods
-! fix Bed does not render the legs from the inside

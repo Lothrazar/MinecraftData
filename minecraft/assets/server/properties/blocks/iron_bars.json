@@ -1,448 +1,438 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 25,
-            "minecraft:wooden_pickaxe": 3.75,
-            "minecraft:stone_pickaxe": 1.9,
-            "minecraft:iron_pickaxe": 1.25,
-            "minecraft:diamond_pickaxe": 0.95,
-            "minecraft:golden_pickaxe": 0.65
-        },
-        "tool_damage": {
-            "minecraft:wooden_pickaxe": 1,
-            "minecraft:stone_pickaxe": 1,
-            "minecraft:iron_pickaxe": 1,
-            "minecraft:diamond_pickaxe": 1,
-            "minecraft:golden_pickaxe": 1
-        },
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": 30,
-        "transparent": true,
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ]
+    "hardness": {
+        "minecraft:default": 25,
+        "minecraft:wooden_pickaxe": 3.75,
+        "minecraft:stone_pickaxe": 1.9,
+        "minecraft:iron_pickaxe": 1.25,
+        "minecraft:diamond_pickaxe": 0.95,
+        "minecraft:golden_pickaxe": 0.65
     },
-    "north=false,south=false,east=false,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ]
+    "tool_damage": {
+        "minecraft:wooden_pickaxe": 1,
+        "minecraft:stone_pickaxe": 1,
+        "minecraft:iron_pickaxe": 1,
+        "minecraft:diamond_pickaxe": 1,
+        "minecraft:golden_pickaxe": 1
     },
-    "north=true,south=false,east=false,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+    "resistence": 30,
+    "transparent": true,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            }
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "north=false,south=false,east=false,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "north=true,south=false,east=false,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "north=false,south=true,east=false,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "north=true,south=true,east=false,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
+        "north=false,south=false,east=true,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
-            },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
+        "north=true,south=false,east=true,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
-            },
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=false": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
+        "north=false,south=true,east=true,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 9, 16, 16 ]
-            },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=false,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=false,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "north=true,south=true,east=true,west=false": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
+        "north=false,south=false,east=false,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
-            },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=false,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
+        "north=true,south=false,east=false,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
-            },
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=false,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
+        "north=false,south=true,east=false,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 9 ]
-            },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
-    },
-    "north=false,south=false,east=true,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                },
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                },
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
-            }
-        ]
-    },
-    "north=true,south=false,east=true,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "north=true,south=true,east=false,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 9 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
+        "north=false,south=false,east=true,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
-            },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 9, 16, 9 ]
-            }
-        ]
-    },
-    "north=false,south=true,east=true,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
+        "north=true,south=false,east=true,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
-            },
-            {
-                "from": [ 7, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
-    },
-    "north=true,south=true,east=true,west=true": {
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 9, 16, 9 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
+        "north=false,south=true,east=true,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 7, 0, 0 ],
-                "to": [ 9, 16, 16 ]
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 7, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
+        },
+        "north=true,south=true,east=true,west=true": {
+            "solid_faces": {
+                "down": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 7 ],
-                "to": [ 16, 16, 9 ]
-            }
-        ]
+            "hitbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 7, 0, 0 ],
+                    "to": [ 9, 16, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 7 ],
+                    "to": [ 16, 16, 9 ]
+                }
+            ]
+        }
     }
 }

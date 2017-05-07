@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:iron_sword"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

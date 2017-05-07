@@ -85,5 +85,6 @@
     "return": {
         "item": "minecraft:yellow_concrete_powder",
         "count": 8
-    }
+    },
+	"group": "minecraft:concrete_powder"
 }

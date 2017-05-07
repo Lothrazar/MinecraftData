@@ -17,5 +17,6 @@
     ],
     "return": {
         "item": "minecraft:redstone_torch"
-    }
+    },
+	"group": "minecraft:torch"
 }

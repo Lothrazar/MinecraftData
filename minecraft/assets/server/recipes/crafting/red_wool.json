@@ -37,5 +37,6 @@
     ],
     "return": {
         "item": "minecraft:red_wool"
-    }
+    },
+	"group": "minecraft:wool_coloring"
 }

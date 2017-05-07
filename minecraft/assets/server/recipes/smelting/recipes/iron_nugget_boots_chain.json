@@ -7,6 +7,7 @@
         "count": 4,
         "xp": 0.2
     },
+	"group": "minecraft:iron_nugget",
     "functions": [
         {
             "function": "minecraft:scale_durability",

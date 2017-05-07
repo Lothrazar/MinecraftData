@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:leather_leggings"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

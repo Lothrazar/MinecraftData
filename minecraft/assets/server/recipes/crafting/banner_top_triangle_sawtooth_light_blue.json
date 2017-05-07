@@ -44,6 +44,7 @@
     "return": {
         "item": "minecraft:banner"
     },
+	"group": "minecraft:banner_top_triangle_sawtooth",
     "functions": [
         {
             "function": "minecraft:copy_nbt",

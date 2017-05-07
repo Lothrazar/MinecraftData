@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:stone_pickaxe"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

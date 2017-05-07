@@ -50,5 +50,6 @@
     ],
     "return": {
         "item": "minecraft:lime_bed"
-    }
+    },
+	"group": "minecraft:bed"
 }

@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:yellow_stained_glass_pane",
             "conditions": [

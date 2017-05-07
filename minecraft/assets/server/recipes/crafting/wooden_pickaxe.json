@@ -55,5 +55,6 @@
     ],
     "return": {
         "item": "minecraft:wooden_pickaxe"
-    }
+    },
+	"group": "minecraft:pickaxe"
 }

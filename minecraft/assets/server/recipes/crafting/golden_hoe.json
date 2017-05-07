@@ -25,5 +25,6 @@
     ],
     "return": {
         "item": "minecraft:golden_hoe"
-    }
+    },
+	"group": "minecraft:hoe"
 }

@@ -1,0 +1,26 @@
+{
+    "ingredients": [
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
+                ]
+            ]
+        },
+        {
+            "items": [
+                [
+                    {
+                        "item": "minecraft:white_bed"
+                    }
+                ]
+            ]
+        }
+    ],
+    "return": {
+        "item": "minecraft:blue_bed"
+    },
+	"group": "minecraft:bed_coloring"
+}

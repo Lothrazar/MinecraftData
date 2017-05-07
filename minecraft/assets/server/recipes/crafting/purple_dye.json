@@ -22,5 +22,6 @@
     "return": {
         "item": "minecraft:purple_dye",
         "count": 2
-    }
+    },
+	"group": "minecraft:purple_dye"
 }

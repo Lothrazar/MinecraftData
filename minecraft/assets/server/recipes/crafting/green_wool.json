@@ -37,5 +37,6 @@
     ],
     "return": {
         "item": "minecraft:green_wool"
-    }
+    },
+	"group": "minecraft:wool_coloring"
 }

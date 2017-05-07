@@ -1,10 +1,30 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": -1
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "resistence": -1,
+    "piston_push": "no",
+    "sticky_push": "no",
+    "states": {
+        "mode=data": {
+            "functions": [
+            
+            ]
         },
-        "resistence": -1,
-        "piston_push": "no",
-        "sticky_push": "no"
+        "mode=load": {
+            "functions": [
+            
+            ]
+        },
+        "mode=save": {
+            "functions": [
+            
+            ]
+        },
+        "mode=corner": {
+            "functions": [
+            
+            ]
+        }
     }
 }

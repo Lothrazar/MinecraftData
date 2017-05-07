@@ -23,5 +23,6 @@
     ],
     "return": {
         "item": "minecraft:sandstone"
-    }
+    },
+	"group": "minecraft:sandstone"
 }

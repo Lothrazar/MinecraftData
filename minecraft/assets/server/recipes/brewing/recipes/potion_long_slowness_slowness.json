@@ -11,6 +11,7 @@
     "return": {
         "item: "minecraft:potion"
     },
+	"group": "minecraft:extended_potion",
     "functions": [
         {
             "function": "minecraft:add",

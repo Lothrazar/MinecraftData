@@ -1,23 +1,273 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 1.28,
-            "minecraft:wooden_axe": 0.65,
-            "minecraft:stone_axe": 0.35,
-            "minecraft:iron_axe": 0.2,
-            "minecraft:diamond_axe": 0.2,
-            "minecraft:golden_axe": 0.1
+    "hardness": {
+        "minecraft:default": 1.28,
+        "minecraft:wooden_axe": 0.65,
+        "minecraft:stone_axe": 0.35,
+        "minecraft:iron_axe": 0.2,
+        "minecraft:diamond_axe": 0.2,
+        "minecraft:golden_axe": 0.1
+    },
+    "burnability": 1,
+    "tool_damage": {
+        "minecraft:wooden_axe": 1,
+        "minecraft:stone_axe": 1,
+        "minecraft:iron_axe": 1,
+        "minecraft:diamond_axe": 1,
+        "minecraft:golden_axe": 1
+    },
+    "resistence": 4,
+    "piston_push": "no",
+    "sticky_push": "no",
+    "states": {
+        "note=0,powered=false": {
+            "functions": [
+            
+            ]
         },
-        "burnability": 1,
-        "tool_damage": {
-            "minecraft:wooden_axe": 1,
-            "minecraft:stone_axe": 1,
-            "minecraft:iron_axe": 1,
-            "minecraft:diamond_axe": 1,
-            "minecraft:golden_axe": 1
+        "note=1,powered=false": {
+            "functions": [
+            
+            ]
         },
-        "resistence": 4,
-        "piston_push": "no",
-        "sticky_push": "no"
+        "note=2,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=3,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=4,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=5,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=6,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=7,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=8,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=9,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=10,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=11,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=12,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=13,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=14,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=15,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=16,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=17,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=18,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=19,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=20,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=21,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=22,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=23,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=24,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=0,powered=false": {
+            "functions": [
+            
+            ]
+        },
+        "note=1,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=2,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=3,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=4,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=5,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=6,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=7,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=8,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=9,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=10,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=11,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=12,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=13,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=14,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=15,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=16,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=17,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=18,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=19,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=20,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=21,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=22,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=23,powered=true": {
+            "functions": [
+            
+            ]
+        },
+        "note=24,powered=true": {
+            "functions": [
+            
+            ]
+        }
     }
 }

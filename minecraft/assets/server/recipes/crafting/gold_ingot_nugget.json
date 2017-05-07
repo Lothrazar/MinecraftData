@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:gold_ingot"
-    }
+    },
+	"group": "minecraft:to_nugget"
 }

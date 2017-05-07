@@ -23,5 +23,6 @@
     ],
     "return": {
         "item": "minecraft:iron_trapdoor"
-    }
+    },
+	"group": "minecraft:trapdoor"
 }

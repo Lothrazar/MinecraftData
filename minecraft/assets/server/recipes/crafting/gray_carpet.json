@@ -16,5 +16,6 @@
     "return": {
         "item": "minecraft:gray_carpet",
         "count": 3
-    }
+    },
+	"group": "minecraft:carpet"
 }

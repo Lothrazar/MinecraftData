@@ -214,6 +214,20 @@
         ],
         "subtitle": "subtitles.entity.generic.explode"
     },
+    "block.end_portal.spawn": {
+        "sounds": [
+            "block/end_portal/endportal"
+        ],
+        "subtitle": "subtitles.block.end_portal.spawn"
+    },
+    "block.end_portal_frame.fill": {
+        "sounds": [
+            "block/end_portal/eyeplace1",
+            "block/end_portal/eyeplace2",
+            "block/end_portal/eyeplace3"
+        ],
+        "subtitle": "subtitles.block.end_portal_frame.fill"
+    },
     "block.enderchest.close": {
         "sounds": [
             "minecraft:block/enderchest/close"
@@ -586,6 +600,30 @@
         ],
         "subtitle": "subtitles.block.note.note"
     },
+    "block.note.bell": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.block.note.note"
+    },
+    "block.note.chime": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.block.note.note"
+    },
+    "block.note.flute": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.block.note.note"
+    },
+    "block.note.guitar": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.block.note.note"
+    },
     "block.note.harp": {
         "sounds": [
             "minecraft:note/harp"
@@ -601,11 +639,18 @@
     "block.note.pling": {
         "sounds": [
             "minecraft:note/pling"
-        ]
+        ],
+        "subtitle": "subtitles.block.note.note"
     },
     "block.note.snare": {
         "sounds": [
             "minecraft:note/snare"
+        ],
+        "subtitle": "subtitles.block.note.note"
+    },
+    "block.note.xylophone": {
+        "sounds": [
+            
         ],
         "subtitle": "subtitles.block.note.note"
     },
@@ -1162,11 +1207,80 @@
         ],
         "subtitle": "subtitles.entity.bobber.splash"
     },
+    "entity.bobber.retrieve": {
+        "sounds": [
+            {
+                "name": "entity/bobber/retrieve1",
+                "pitch": 2.4
+            },
+            {
+                "name": "entity/bobber/retrieve2",
+                "pitch": 2.4
+            }
+        ],
+        "subtitle": "subtitles.entity.bobber.retrieve"
+    },
     "entity.bobber.throw": {
         "sounds": [
             "minecraft:random/bow"
         ],
         "subtitle": "subtitles.entity.bobber.throw"
+    },
+    "entity.boat.paddle_land": {
+        "sounds": [
+            "entity/boat/paddle_land1",
+            "entity/boat/paddle_land2",
+            "entity/boat/paddle_land3",
+            "entity/boat/paddle_land4",
+            "entity/boat/paddle_land5",
+            "entity/boat/paddle_land6"
+        ],
+        "subtitle": "subtitles.entity.boat.paddle"
+    },
+    "entity.boat.paddle_water": {
+        "sounds": [
+            {
+                "name": "entity/boat/paddle_water1",
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "entity/boat/paddle_water2",
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "entity/boat/paddle_water3",
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "entity/boat/paddle_water4",
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "entity/boat/paddle_water5",
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "entity/boat/paddle_water6",
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "entity/boat/paddle_water7",
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "entity/boat/paddle_water8",
+                "pitch": 1.0,
+                "volume": 0.8
+            }
+        ],
+        "subtitle": "subtitles.entity.boat.paddle"
     },
     "entity.cat.ambient": {
         "sounds": [
@@ -1475,6 +1589,21 @@
             "minecraft:random/explode4"
         ],
         "subtitle": "subtitles.entity.generic.explode"
+    },
+    "entity.endereye.death": {
+        "sounds": [
+            {
+                "name": "entity/endereye/dead1",
+                "pitch": 1.0,
+                "volume": 1.3
+            },
+            {
+                "name": "entity/endereye/dead2",
+                "pitch": 1.0,
+                "volume": 1.3
+            }
+        ],
+        "subtitle": "subtitles.entity.endereye.death"
     },
     "entity.endereye.launch": {
         "sounds": [
@@ -2057,6 +2186,62 @@
             "minecraft:mob/husk/step5"
         ]
     },
+    "entity.illusion_illager.ambient": {
+        "sounds": [
+            "mob/illusion_illager/idle1",
+            "mob/illusion_illager/idle2",
+            "mob/illusion_illager/idle3",
+            "mob/illusion_illager/idle4"
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.ambient"
+    },
+    "entity.illusion_illager.cast_spell": {
+        "sounds": [
+            "mob/evocation_illager/cast1",
+            "mob/evocation_illager/cast2"
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.cast_spell"
+    },
+    "entity.illusion_illager.death": {
+        "sounds": [
+            "mob/illusion_illager/death1",
+            "mob/illusion_illager/death2"
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.death"
+    },
+    "entity.illusion_illager.hurt": {
+        "sounds": [
+            "mob/illusion_illager/hurt1",
+            "mob/illusion_illager/hurt2",
+            "mob/illusion_illager/hurt3"
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.hurt"
+    },
+    "entity.illusion_illager.mirror_move": {
+        "sounds": [
+            "mob/illusion_illager/mirror_move1",
+            "mob/illusion_illager/mirror_move2"
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.mirror_move"
+    },
+    "entity.illusion_illager.prepare_blindness": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.prepare_blindness"
+    },
+    "entity.illusion_illager.prepare_mirror": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.prepare_mirror"
+    },
+    "entity.illusion_illager.shoot": {
+        "sounds": [
+            "minecraft:random/bow"
+        ],
+        "subtitle": "subtitles.entity.illusion_illager.shoot"
+    },
     "entity.irongolem.attack": {
         "sounds": [
             "minecraft:mob/irongolem/throw"
@@ -2349,83 +2534,83 @@
         "subtitle": "subtitles.entity.painting.place"
     },
     "entity.parrot.death": {
-		"sounds": [
-			{
-				"name": "minecraft:mob/parrot/death1",
-				"pitch": 0.9
-			},
-			{
-				"name": "minecraft:mob/parrot/death2",
-				"pitch": 0.9
-			},
-			{
-				"name": "minecraft:mob/parrot/death3",
-				"pitch": 0.9
-			},
-			{
-				"name": "minecraft:mob/parrot/death4",
-				"pitch": 0.7
-			}
-		],
+        "sounds": [
+            {
+                "name": "minecraft:mob/parrot/death1",
+                "pitch": 0.9
+            },
+            {
+                "name": "minecraft:mob/parrot/death2",
+                "pitch": 0.9
+            },
+            {
+                "name": "minecraft:mob/parrot/death3",
+                "pitch": 0.9
+            },
+            {
+                "name": "minecraft:mob/parrot/death4",
+                "pitch": 0.7
+            }
+        ],
         "subtitle": "subtitles.entity.parrot.death"
     },
     "entity.parrot.hurt": {
-		"sounds": [
-			{
-				"name": "minecraft:mob/parrot/hurt1",
-				"pitch": 0.8
-			},
-			{
-				"name": "minecraft:mob/parrot/hurt2",
-				"pitch": 0.9
-			},
-			{
-				"name": "minecraft:mob/parrot/hurt1",
-				"pitch": 0.9
-			}
-		],
+        "sounds": [
+            {
+                "name": "minecraft:mob/parrot/hurt1",
+                "pitch": 0.8
+            },
+            {
+                "name": "minecraft:mob/parrot/hurt2",
+                "pitch": 0.9
+            },
+            {
+                "name": "minecraft:mob/parrot/hurt1",
+                "pitch": 0.9
+            }
+        ],
         "subtitle": "subtitles.entity.parrot.hurt"
     },
     "entity.parrot.ambient": {
-		"sounds": [
-				"minecraft:mob/parrot/idle1",
-				"minecraft:mob/parrot/idle2",
-				"minecraft:mob/parrot/idle3",
-				"minecraft:mob/parrot/idle4",
-				"minecraft:mob/parrot/idle5",
-				"minecraft:mob/parrot/idle6",
-			    "minecraft:mob/parrot/idle7"
+        "sounds": [
+                "minecraft:mob/parrot/idle1",
+                "minecraft:mob/parrot/idle2",
+                "minecraft:mob/parrot/idle3",
+                "minecraft:mob/parrot/idle4",
+                "minecraft:mob/parrot/idle5",
+                "minecraft:mob/parrot/idle6",
+                "minecraft:mob/parrot/idle7"
         ],
         "subtitle": "subtitles.entity.parrot.ambient"
     },
     "entity.parrot.eat": {
-		"sounds": [
-			"minecraft:mob/parrot/eat1",
-			"minecraft:mob/parrot/eat2",
-			"minecraft:mob/parrot/eat3"
-		],
+        "sounds": [
+            "minecraft:mob/parrot/eat1",
+            "minecraft:mob/parrot/eat2",
+            "minecraft:mob/parrot/eat3"
+        ],
         "subtitle": "subtitles.block.parrot.eat"
     },
     "entity.parrot.fly": {
-		"sounds": [
-			"minecraft:mob/parrot/fly1",
-			"minecraft:mob/parrot/fly2",
-			"minecraft:mob/parrot/fly3",
-			"minecraft:mob/parrot/fly4",
-			"minecraft:mob/parrot/fly5",
-			"minecraft:mob/parrot/fly6",
-			"minecraft:mob/parrot/fly7",
-			"minecraft:mob/parrot/fly8"
-		]
+        "sounds": [
+            "minecraft:mob/parrot/fly1",
+            "minecraft:mob/parrot/fly2",
+            "minecraft:mob/parrot/fly3",
+            "minecraft:mob/parrot/fly4",
+            "minecraft:mob/parrot/fly5",
+            "minecraft:mob/parrot/fly6",
+            "minecraft:mob/parrot/fly7",
+            "minecraft:mob/parrot/fly8"
+        ]
     },
     "entity.parrot.step": {
-		"sounds": [
-			"minecraft:mob/parrot/step1",
-			"minecraft:mob/parrot/step2",
-			"minecraft:mob/parrot/step3",
-			"minecraft:mob/parrot/step4",
-			"minecraft:mob/parrot/step5"
-		],
+        "sounds": [
+            "minecraft:mob/parrot/step1",
+            "minecraft:mob/parrot/step2",
+            "minecraft:mob/parrot/step3",
+            "minecraft:mob/parrot/step4",
+            "minecraft:mob/parrot/step5"
+        ],
         "subtitle": "subtitles.block.generic.footsteps"
     },
     "entity.pig.ambient": {
@@ -2611,7 +2796,8 @@
     "entity.player.breath": {
         "sounds": [
             "minecraft:random/breath"
-        ]
+        ],
+        "subtitle": "subtitles.entity.player.breath"
     },
     "entity.player.burp": {
         "sounds": [
@@ -2626,6 +2812,18 @@
             "minecraft:damage/hit3"
         ],
         "subtitle": "subtitles.entity.player.death"
+    },
+    "entity.player.hurt_drown": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.entity.player.hurt.drown"
+    },
+    "entity.player.hurt_on_fire": {
+        "sounds": [
+            
+        ],
+        "subtitle": "subtitles.entity.player.hurt.fire"
     },
     "entity.player.hurt": {
         "sounds": [
@@ -3519,7 +3717,8 @@
         "sounds": [
             "minecraft:mob/wolf/howl1",
             "minecraft:mob/wolf/howl2"
-        ]
+        ],
+        "subtitle": "subtitles.entity.wolf.howl"
     },
     "entity.wolf.hurt": {
         "sounds": [

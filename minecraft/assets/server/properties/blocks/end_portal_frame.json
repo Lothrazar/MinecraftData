@@ -1,66 +1,152 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": -1
-        },
-        "light": 1,
-        "solid_faces": {
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": -1,
-        "piston_push": "no",
-        "sticky_push": "no",
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 13, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 13, 16 ]
-            }
-        ]
+    "hardness": {
+        "minecraft:default": -1
     },
-    "eye=false": {
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 13, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 13, 16 ]
-            }
-        ]
-    },
-    "eye=true": {
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 13, 16 ]
+    "resistence": -1,
+    "piston_push": "no",
+    "sticky_push": "no",
+    "states": {
+        "default": {
+            "light": 1,
+            "solid_faces": {
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 4, 13, 4 ],
-                "to": [ 12, 16, 12 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 13, 16 ]
-            },
-            {
-                "from": [ 4, 13, 4 ],
-                "to": [ 12, 16, 12 ]
-            }
-        ]
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                }
+            ]
+        },
+        "eye=false,facing=north": {
+            "functions": [
+            
+            ]
+        },
+        "eye=false,facing=south": {
+            "functions": [
+            
+            ]
+        },
+        "eye=false,facing=east": {
+            "functions": [
+            
+            ]
+        },
+        "eye=false,facing=west": {
+            "functions": [
+            
+            ]
+        },
+        "eye=true,facing=north": {
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "eye=true,facing=south": {
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "eye=true,facing=east": {
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "eye=true,facing=west": {
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 13, 16 ]
+                },
+                {
+                    "from": [ 4, 13, 4 ],
+                    "to": [ 12, 16, 12 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        }
     }
 }

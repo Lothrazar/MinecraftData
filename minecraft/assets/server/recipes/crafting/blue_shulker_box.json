@@ -44,5 +44,6 @@
     ],
     "return": {
         "item": "minecraft:blue_shulker_boxes"
-    }
+    },
+	"group": "minecraft:shulker_box_coloring"
 }

@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:leather_helmet"
-    }
+    },
+	"group": "minecraft:helmet"
 }

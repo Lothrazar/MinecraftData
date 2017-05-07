@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:iron_boots"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

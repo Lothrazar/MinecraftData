@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:gold_block"
-    }
+    },
+	"group": "minecraft:material_block"
 }

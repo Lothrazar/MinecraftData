@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:iron_boots"
-    }
+    },
+	"group": "minecraft:boots"
 }

@@ -1,11 +1,13 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": 0.45
-        },
-        "light": 15,
-        "resistence": 1.5,
-        "piston_push": "break",
-        "sticky_push": "break"
+    "hardness": {
+        "minecraft:default": 0.45
+    },
+    "resistence": 1.5,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "light": 15
+        }
     }
 }

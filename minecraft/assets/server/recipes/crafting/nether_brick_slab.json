@@ -19,5 +19,6 @@
     "return": {
         "item": "minecraft:nether_brick_slab",
         "count": 6
-    }
+    },
+	"group": "minecraft:slab"
 }

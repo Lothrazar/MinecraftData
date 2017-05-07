@@ -1,9 +1,10 @@
 {
     "item": {
-        "item": "minecraft:quartz_ore"
+        "item": "minecraft:nether_quartz_ore"
     },
     "return": {
         "item": "minecraft:quartz",
         "xp": 0.2
-    }
+    },
+	"group": "minecraft:smelt_ore"
 }

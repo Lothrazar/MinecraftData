@@ -1,5 +1,3 @@
 {
-    "*": {
-        "burnability": 1
-    }
+    "burnability": 1
 }

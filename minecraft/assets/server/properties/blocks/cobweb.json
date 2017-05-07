@@ -1,55 +1,57 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": 20,
-            "minecraft:wooden_sword": 0.4,
-            "minecraft:stone_sword": 0.4,
-            "minecraft:iron_sword": 0.4,
-            "minecraft:diamond_sword": 0.4,
-            "minecraft:golden_sword": 0.4,
-            "minecraft:shears": 0.4
-        },
-        "tool_damage": {
-            "minecraft:wooden_sword": 2,
-            "minecraft:stone_sword": 2,
-            "minecraft:iron_sword": 2,
-            "minecraft:diamond_sword": 2,
-            "minecraft:golden_sword": 2,
-            "minecraft:shears": 1
-        },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistance": 20,
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "boundingbox": [
-            
-        ],
-        "functions": [
-            {
-                "function": "minecraft:effect",
-                "effect": "movement",
-                "amount": -0.85,
-                "not_affects": [
-                    {
-                        "flying": true
-                    },
-                    {
-                        "type": "minecraft:spider"
-                    },
-                    {
-                        "type": "minecraft:cave_spider"
-                    }
-                ]
-            }
-        ]
+    "hardness": {
+        "minecraft:default": 20,
+        "minecraft:wooden_sword": 0.4,
+        "minecraft:stone_sword": 0.4,
+        "minecraft:iron_sword": 0.4,
+        "minecraft:diamond_sword": 0.4,
+        "minecraft:golden_sword": 0.4,
+        "minecraft:shears": 0.4
+    },
+    "tool_damage": {
+        "minecraft:wooden_sword": 2,
+        "minecraft:stone_sword": 2,
+        "minecraft:iron_sword": 2,
+        "minecraft:diamond_sword": 2,
+        "minecraft:golden_sword": 2,
+        "minecraft:shears": 1
+    },
+    "resistance": 20,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "boundingbox": [
+                
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:effect",
+                    "effect": "movement",
+                    "amount": -0.85,
+                    "not_affects": [
+                        {
+                            "flying": true
+                        },
+                        {
+                            "type": "minecraft:spider"
+                        },
+                        {
+                            "type": "minecraft:cave_spider"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

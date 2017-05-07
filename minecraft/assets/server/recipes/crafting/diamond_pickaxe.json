@@ -34,5 +34,6 @@
     ],
     "return": {
         "item": "minecraft:diamond_pickaxe"
-    }
+    },
+	"group": "minecraft:pickaxe"
 }

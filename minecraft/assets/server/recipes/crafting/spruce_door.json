@@ -32,5 +32,6 @@
     "return": {
         "item": "minecraft:spruce_door",
         "count": 3
-    }
+    },
+	"group": "minecraft:door"
 }

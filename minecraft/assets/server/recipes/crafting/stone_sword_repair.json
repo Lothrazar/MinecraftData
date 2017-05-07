@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:stone_sword"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

@@ -193,8 +193,9 @@
         "max": 1
     },
     "return": {
-        "item": "minecraft:fireworks_charge"
+        "item": "minecraft:firework_charge"
     },
+    "group": "minecraft:firework_charge",
     "functions": [
         {
             "function": "minecraft:color",

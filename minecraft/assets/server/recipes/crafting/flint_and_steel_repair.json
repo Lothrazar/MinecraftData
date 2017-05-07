@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:flint_and_steel"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

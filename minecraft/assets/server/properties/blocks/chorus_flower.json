@@ -1,64 +1,89 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 0.65,
-            "minecraft:wooden_axe": 0.35,
-            "minecraft:stone_axe": 0.2,
-            "minecraft:iron_axe": 0.1,
-            "minecraft:diamond_axe": 0.1,
-            "minecraft:golden_axe": 0.05
-        },
-        "tool_damage": {
-            "minecraft:wooden_axe": 1,
-            "minecraft:stone_axe": 1,
-            "minecraft:iron_axe": 1,
-            "minecraft:diamond_axe": 1,
-            "minecraft:golden_axe": 1
-        },
-        "solid_faces": {
-            "down": true,
-            "up": true,
-            "north": true,
-            "south": true,
-            "east": true
-        },
-        "need_support": {
-            "down": [
-                "minecraft:chorus_plant[up=true]",
-                "minecraft:end_stone"
+    "hardness": {
+        "minecraft:default": 0.65,
+        "minecraft:wooden_axe": 0.35,
+        "minecraft:stone_axe": 0.2,
+        "minecraft:iron_axe": 0.1,
+        "minecraft:diamond_axe": 0.1,
+        "minecraft:golden_axe": 0.05
+    },
+    "tool_damage": {
+        "minecraft:wooden_axe": 1,
+        "minecraft:stone_axe": 1,
+        "minecraft:iron_axe": 1,
+        "minecraft:diamond_axe": 1,
+        "minecraft:golden_axe": 1
+    },
+    "resistence": 2,
+    "transparent": true,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "need_support": {
+                "down": [
+                    "minecraft:chorus_plant[up=true]",
+                    "minecraft:end_stone"
+                ]
+            },
+            "hitbox": [
+                {
+                    "from": [ 2, 0, 2 ],
+                    "to": [ 14, 16, 14 ]
+                },
+                {
+                    "from": [ 0, 2, 2 ],
+                    "to": [ 16, 14, 14 ]
+                },
+                {
+                    "from": [ 2, 2, 0 ],
+                    "to": [ 14, 14, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 2, 0, 2 ],
+                    "to": [ 14, 16, 14 ]
+                },
+                {
+                    "from": [ 0, 2, 2 ],
+                    "to": [ 16, 14, 14 ]
+                },
+                {
+                    "from": [ 2, 2, 0 ],
+                    "to": [ 14, 14, 16 ]
+                }
             ]
         },
-        "resistence": 2,
-        "transparent": true,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 2, 0, 2 ],
-                "to": [ 14, 16, 14 ]
-            },
-            {
-                "from": [ 0, 2, 2 ],
-                "to": [ 16, 14, 14 ]
-            },
-            {
-                "from": [ 2, 2, 0 ],
-                "to": [ 14, 14, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 2, 0, 2 ],
-                "to": [ 14, 16, 14 ]
-            },
-            {
-                "from": [ 0, 2, 2 ],
-                "to": [ 16, 14, 14 ]
-            },
-            {
-                "from": [ 2, 2, 0 ],
-                "to": [ 14, 14, 16 ]
-            }
-        ]
+        "age=0": {
+            "functions": [
+            
+            ]
+        },
+        "age=1": {
+            "functions": [
+            
+            ]
+        },
+        "age=2": {
+            "functions": [
+            
+            ]
+        },
+        "age=3": {
+            "functions": [
+            
+            ]
+        },
+        "age=4": {
+            "functions": [
+            
+            ]
+        },
+        "age=5": {
+            "functions": [
+            
+            ]
+        }
     }
 }

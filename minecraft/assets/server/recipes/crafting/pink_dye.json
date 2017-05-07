@@ -22,5 +22,6 @@
     "return": {
         "item": "minecraft:pink_dye",
         "count": 2
-    }
+    },
+	"group": "minecraft:pink_dye"
 }

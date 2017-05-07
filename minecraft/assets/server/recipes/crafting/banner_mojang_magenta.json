@@ -37,6 +37,7 @@
     "return": {
         "item": "minecraft:banner"
     },
+	"group": "minecraft:banner_mojang",
     "functions": [
         {
             "function": "minecraft:copy_nbt",

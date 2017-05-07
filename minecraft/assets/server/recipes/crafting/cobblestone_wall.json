@@ -30,5 +30,6 @@
     "return": {
         "item": "minecraft:cobblestone_wall",
         "count": 6
-    }
+    },
+	"group": "minecraft:fence"
 }

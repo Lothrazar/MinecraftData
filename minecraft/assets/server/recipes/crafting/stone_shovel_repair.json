@@ -33,5 +33,6 @@
     ],
     "return": {
         "item": "minecraft:stone_shovel"
-    }
+    },
+	"group": "minecraft:repair_tool"
 }

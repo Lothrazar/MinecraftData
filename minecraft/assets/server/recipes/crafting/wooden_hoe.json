@@ -39,5 +39,6 @@
     ],
     "return": {
         "item": "minecraft:wooden_hoe"
-    }
+    },
+	"group": "minecraft:hoe"
 }

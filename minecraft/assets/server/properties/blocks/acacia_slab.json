@@ -1,55 +1,63 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 3,
-            "minecraft:wooden_axe": 1.5,
-            "minecraft:stone_axe": 0.75,
-            "minecraft:iron_axe": 0.5,
-            "minecraft:diamond_axe": 0.4,
-            "minecraft:golden_axe": 0.25
-        },
-        "tool_damage": {
-            "minecraft:wooden_axe": 1,
-            "minecraft:stone_axe": 1,
-            "minecraft:iron_axe": 1,
-            "minecraft:diamond_axe": 1,
-            "minecraft:golden_axe": 1
-        },
-        "solid_faces": {
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": 15
+    "hardness": {
+        "minecraft:default": 3,
+        "minecraft:wooden_axe": 1.5,
+        "minecraft:stone_axe": 0.75,
+        "minecraft:iron_axe": 0.5,
+        "minecraft:diamond_axe": 0.4,
+        "minecraft:golden_axe": 0.25
     },
-    "type=lower": {
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ]
+    "tool_damage": {
+        "minecraft:wooden_axe": 1,
+        "minecraft:stone_axe": 1,
+        "minecraft:iron_axe": 1,
+        "minecraft:diamond_axe": 1,
+        "minecraft:golden_axe": 1
     },
-    "type=upper": {
-        "hitbox": [
-            {
-                "from": [ 0, 8, 0 ],
-                "to": [ 16, 16, 16 ]
+    "resistence": 15,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 8, 0 ],
-                "to": [ 16, 16, 16 ]
-            }
-        ]
+        },
+        "type=lower": {
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        },
+        "type=upper": {
+            "hitbox": [
+                {
+                    "from": [ 0, 8, 0 ],
+                    "to": [ 16, 16, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 8, 0 ],
+                    "to": [ 16, 16, 16 ]
+                }
+            ],
+            "functions": [
+            
+            ]
+        }
     }
 }

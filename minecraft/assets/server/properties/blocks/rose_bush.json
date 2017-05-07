@@ -1,31 +1,35 @@
 {
-    "*": {
-        "burnability": 1,
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+    "burnability": 1,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            }
         },
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break"
-    },
-    "half=lower": {
-        "need_support": {
-            "up": "minecraft:rose_bush[half=upper]",
-            "down": [
-                "minecraft:grass",
-                "minecraft:dirt"
-            ]
-        }
-    },
-    "half=upper": {
-        "need_support": {
-            "down": "minecraft:rose_bush[half=lower]"
+        "half=lower": {
+            "need_support": {
+                "up": "minecraft:rose_bush[half=upper]",
+                "down": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:podzol"
+                ]
+            }
+        },
+        "half=upper": {
+            "need_support": {
+                "down": "minecraft:rose_bush[half=lower]"
+            }
         }
     }
 }

@@ -32,5 +32,6 @@
     "return": {
         "item": "minecraft:oak_door",
         "count": 3
-    }
+    },
+	"group": "minecraft:door"
 }

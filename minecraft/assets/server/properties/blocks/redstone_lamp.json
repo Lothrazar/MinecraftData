@@ -1,11 +1,11 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 0.45
-        },
-        "resistence": 1.5
+    "hardness": {
+        "minecraft:default": 0.45
     },
-    "*": {
-        "light": 15
+    "resistence": 1.5,
+    "states": {
+        "lit=true": {
+            "light": 15
+        }
     }
 }

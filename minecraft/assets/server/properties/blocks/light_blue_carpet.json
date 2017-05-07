@@ -1,34 +1,35 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": 0.2
-        },
-        "burnability": 1,
-        "solid_faces": {
-            "down": true,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "need_support": {
-            "down": ""
-        },
-        "resistence": 0.5,
-        "transparent": true,
-        "solid": false,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 1, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 1, 16 ]
-            }
-        ]
+    "hardness": {
+        "minecraft:default": 0.2
+    },
+    "burnability": 1,
+    "resistence": 0.5,
+    "transparent": true,
+    "solid": false,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "need_support": {
+                "down": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 1, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 1, 16 ]
+                }
+            ]
+        }
     }
 }

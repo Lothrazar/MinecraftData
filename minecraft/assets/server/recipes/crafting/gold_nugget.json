@@ -13,5 +13,6 @@
     "return": {
         "item": "minecraft:gold_nugget",
         "count": 9
-    }
+    },
+	"group": "minecraft:from_nugget"
 }

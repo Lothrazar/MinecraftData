@@ -13,5 +13,6 @@
     "return": {
         "item": "minecraft:slimeball",
         "count": 9
-    }
+    },
+	"group": "minecraft:gem"
 }

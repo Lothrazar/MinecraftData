@@ -44,5 +44,6 @@
     ],
     "return": {
         "item": "minecraft:cyan_shulker_box"
-    }
+    },
+	"group": "minecraft:shulker_box_coloring"
 }

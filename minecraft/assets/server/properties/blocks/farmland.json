@@ -1,40 +1,82 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 0.9,
-            "minecraft:wooden_shovel": 0.45,
-            "minecraft:stone_shovel": 0.25,
-            "minecraft:iron_shovel": 0.15,
-            "minecraft:diamond_shovel": 0.15,
-            "minecraft:golden_shovel": 0.1
+    "hardness": {
+        "minecraft:default": 0.9,
+        "minecraft:wooden_shovel": 0.45,
+        "minecraft:stone_shovel": 0.25,
+        "minecraft:iron_shovel": 0.15,
+        "minecraft:diamond_shovel": 0.15,
+        "minecraft:golden_shovel": 0.1
+    },
+    "tool_damage": {
+        "minecraft:wooden_shovel": 1,
+        "minecraft:stone_shovel": 1,
+        "minecraft:iron_shovel": 1,
+        "minecraft:diamond_shovel": 1,
+        "minecraft:golden_shovel": 1
+    },
+    "resistence": 3,
+    "transparent": true,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 15, 16 ]
+                }
+            ],
+            "boundingbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 15, 16 ]
+                }
+            ]
         },
-        "tool_damage": {
-            "minecraft:wooden_shovel": 1,
-            "minecraft:stone_shovel": 1,
-            "minecraft:iron_shovel": 1,
-            "minecraft:diamond_shovel": 1,
-            "minecraft:golden_shovel": 1
+        "moisture=0": {
+            "functions": [
+            
+            ]
         },
-        "solid_faces": {
-            "down": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
+        "moisture=1": {
+            "functions": [
+            
+            ]
         },
-        "resistence": 3,
-        "transparent": true,
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 15, 16 ]
-            }
-        ],
-        "boundingbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 15, 16 ]
-            }
-        ]
+        "moisture=2": {
+            "functions": [
+            
+            ]
+        },
+        "moisture=3": {
+            "functions": [
+            
+            ]
+        },
+        "moisture=4": {
+            "functions": [
+            
+            ]
+        },
+        "moisture=5": {
+            "functions": [
+            
+            ]
+        },
+        "moisture=6": {
+            "functions": [
+            
+            ]
+        },
+        "moisture=7": {
+            "functions": [
+            
+            ]
+        }
     }
 }

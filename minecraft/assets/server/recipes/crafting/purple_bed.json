@@ -50,5 +50,6 @@
     ],
     "return": {
         "item": "minecraft:purple_bed"
-    }
+    },
+	"group": "minecraft:bed"
 }

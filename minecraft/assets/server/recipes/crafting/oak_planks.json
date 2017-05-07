@@ -16,5 +16,6 @@
     "return": {
         "item": "minecraft:oak_planks",
         "count": 4
-    }
+    },
+	"group": "minecraft:planks"
 }

@@ -72,5 +72,6 @@
     "return": {
         "item": "minecraft:wooden_trapdoor",
         "count": 2
-    }
+    },
+	"group": "minecraft:trapdoor"
 }

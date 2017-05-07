@@ -1,85 +1,84 @@
 {
-    "*": {
-        "hardness": {
-            "minecraft:default": 1.5,
-            "minecraft:wooden_axe": 0.75,
-            "minecraft:stone_axe": 0.4,
-            "minecraft:iron_axe": 0.25,
-            "minecraft:diamond_axe": 0.2,
-            "minecraft:golden_axe": 0.15
-        },
-        "tool_damage": {
-            "minecraft:wooden_axe": 1,
-            "minecraft:stone_axe": 1,
-            "minecraft:iron_axe": 1,
-            "minecraft:diamond_axe": 1,
-            "minecraft:golden_axe": 1
-        },
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "resistence": 5,
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 0, 4, 14 ],
-                "to": [ 16, 12.5, 16 ]
-            }
-        ],
-        "boundingbox": [
+    "hardness": {
+        "minecraft:default": 1.5,
+        "minecraft:wooden_axe": 0.75,
+        "minecraft:stone_axe": 0.4,
+        "minecraft:iron_axe": 0.25,
+        "minecraft:diamond_axe": 0.2,
+        "minecraft:golden_axe": 0.15
+    },
+    "tool_damage": {
+        "minecraft:wooden_axe": 1,
+        "minecraft:stone_axe": 1,
+        "minecraft:iron_axe": 1,
+        "minecraft:diamond_axe": 1,
+        "minecraft:golden_axe": 1
+    },
+    "resistence": 5,
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
+            },
+            "boundingbox": [
+                
+            ],
+            "functions": [
             
-        ]
-    },
-    "facing=north": {
-        "need_support": {
-            "south": ""
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 4, 14 ],
-                "to": [ 16, 12.5, 16 ]
-            }
-        ]
-    },
-    "facing=south": {
-        "need_support": {
-            "north": ""
+        "facing=north": {
+            "need_support": {
+                "south": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 4, 14 ],
+                    "to": [ 16, 12.5, 16 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 4, 0 ],
-                "to": [ 16, 12.5, 2 ]
-            }
-        ]
-    },
-    "facing=east": {
-        "need_support": {
-            "west": ""
+        "facing=south": {
+            "need_support": {
+                "north": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 4, 0 ],
+                    "to": [ 16, 12.5, 2 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 0, 4, 0 ],
-                "to": [ 2, 12.5, 16 ]
-            }
-        ]
-    },
-    "facing=west": {
-        "need_support": {
-            "east": ""
+        "facing=east": {
+            "need_support": {
+                "west": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 0, 4, 0 ],
+                    "to": [ 2, 12.5, 16 ]
+                }
+            ]
         },
-        "hitbox": [
-            {
-                "from": [ 14, 4, 0 ],
-                "to": [ 16, 12.5, 16 ]
-            }
-        ]
+        "facing=west": {
+            "need_support": {
+                "east": ""
+            },
+            "hitbox": [
+                {
+                    "from": [ 14, 4, 0 ],
+                    "to": [ 16, 12.5, 16 ]
+                }
+            ]
+        }
     }
 }

@@ -1,9 +1,0 @@
-{
-    "item": {
-        "item": "minecraft:clay"
-    },
-    "return": {
-        "item": "minecraft:hardened_clay",
-        "xp": 0.35
-    }
-}

@@ -1,5 +1,5 @@
 {
-    "*": [
+    "default": [
         {
             "item": "minecraft:gray_stained_glass_pane",
             "conditions": [

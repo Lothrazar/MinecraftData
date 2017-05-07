@@ -1,38 +1,40 @@
 {
-    "*": {
-        "burnability": 1,
-        "solid_faces": {
-            "down": false,
-            "up": false,
-            "north": false,
-            "south": false,
-            "east": false,
-            "west": false
-        },
-        "transparent": true,
-        "solid": false,
-        "piston_push": "break",
-        "sticky_push": "break",
-        "hitbox": [
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
+    "transparent": true,
+    "solid": false,
+    "piston_push": "break",
+    "sticky_push": "break",
+    "burnability": 1,
+    "states": {
+        "default": {
+            "solid_faces": {
+                "down": false,
+                "up": false,
+                "north": false,
+                "south": false,
+                "east": false,
+                "west": false
             },
-            {
-                "from": [ 0, 0, 0 ],
-                "to": [ 16, 8, 16 ]
-            }
-        ],
-        "boundingbox": [
-            
-        ]
-    },
-    "attached=true": {
-        "hitbox": [
-            {
-                "from": [ 0, 1, 0 ],
-                "to": [ 16, 2.5, 16 ]
-            }
-        ]
+            "hitbox": [
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                },
+                {
+                    "from": [ 0, 0, 0 ],
+                    "to": [ 16, 8, 16 ]
+                }
+            ],
+            "boundingbox": [
+                
+            ]
+        },
+        "attached=true": {
+            "hitbox": [
+                {
+                    "from": [ 0, 1, 0 ],
+                    "to": [ 16, 2.5, 16 ]
+                }
+            ]
+        }
     }
 }

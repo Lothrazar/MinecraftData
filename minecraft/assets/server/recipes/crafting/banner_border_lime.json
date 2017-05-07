@@ -47,6 +47,7 @@
     "return": {
         "item": "minecraft:banner"
     },
+	"group": "minecraft:banner_border",
     "functions": [
         {
             "function": "minecraft:copy_nbt",

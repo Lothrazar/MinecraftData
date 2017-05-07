@@ -82,6 +82,7 @@
         "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1",
         "xp": "FLOAT: how much xp you get from this recipe, default = 0"
     },
+	"group": "STRING: with this is grouped in the recipe book",
     "functions":[
         {
             "function": "minecraft:return_items",

@@ -29,5 +29,6 @@
     ],
     "return": {
         "item": "minecraft:acacia_boat"
-    }
+    },
+	"group": "minecraft:boat"
 }

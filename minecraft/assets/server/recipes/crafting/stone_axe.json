@@ -28,5 +28,6 @@
     ],
     "return": {
         "item": "minecraft:stone_axe"
-    }
+    },
+	"group": "minecraft:axe"
 }

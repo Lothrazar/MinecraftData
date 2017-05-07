@@ -40,5 +40,6 @@
     ],
     "return": {
         "item": "minecraft:bone_block"
-    }
+    },
+	"group": "minecraft:material_block"
 }

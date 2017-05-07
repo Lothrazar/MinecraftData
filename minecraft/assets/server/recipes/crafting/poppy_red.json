@@ -12,5 +12,6 @@
     ],
     "return": {
         "item": "minecraft:rose_red"
-    }
+    },
+	"group": "minecraft:rose_red"
 }

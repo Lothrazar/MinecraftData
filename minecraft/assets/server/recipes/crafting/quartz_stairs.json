@@ -32,5 +32,6 @@
     "return": {
         "item": "minecraft:quartz_stairs",
         "count": 4
-    }
+    },
+	"group": "minecraft:stairs"
 }

@@ -57,5 +57,6 @@
     ],
     "return": {
         "item": "minecraft:painting"
-    }
+    },
+	"group": "minecraft:painting"
 }

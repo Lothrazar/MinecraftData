@@ -1,19 +1,21 @@
 {
-    "default": {
-        "hardness": {
-            "minecraft:default": -1
-        },
-        "resistence": -1,
-        "piston_push": "no",
-        "sticky_push": "no",
-        "hitbox": [
-            {
-                "from": [ 6, 6, 6 ],
-                "to": [ 10, 10, 10 ]
-            }
-        ],
-        "boundingbox": [
-            
-        ]
+    "hardness": {
+        "minecraft:default": -1
+    },
+    "resistence": -1,
+    "piston_push": "no",
+    "sticky_push": "no",
+    "states": {
+        "default": {
+            "hitbox": [
+                {
+                    "from": [ 6, 6, 6 ],
+                    "to": [ 10, 10, 10 ]
+                }
+            ],
+            "boundingbox": [
+                
+            ]
+        }
     }
 }

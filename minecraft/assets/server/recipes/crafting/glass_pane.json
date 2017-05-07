@@ -31,4 +31,5 @@
         "item": "minecraft:glass_pane",
         "count": 16
     }
+	"group": "minecraft:glass_pane",
 }
