@@ -1,23 +1,17 @@
 {
     "potion": {
-        "item: "minecraft:potion"
+        "item": "minecraft:potion"
     },
     "item": {
-        "item: "minecraft:gunpowder"
+        "item": "minecraft:gunpowder"
     },
     "return": {
-        "item: "minecraft:splash_potion"
+        "item": "minecraft:splash_potion"
     },
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{Potion}",
-        "paste": "{Potion}"
-        },
-        {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }

@@ -41,5 +41,5 @@
     "return": {
         "item": "minecraft:slime_block"
     },
-	"group": "minecraft:material_block"
+    "group": "minecraft:material_block"
 }

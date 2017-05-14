@@ -293,7 +293,7 @@
             "color": 16777215
         },
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 100
         }
     ]

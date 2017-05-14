@@ -38,10 +38,10 @@
     "return": {
         "item": "minecraft:banner"
     },
-	"group": "minecraft:banner",
+    "group": "minecraft:banner",
     "functions": [
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "banner": {
                 "base": "orange"
             }

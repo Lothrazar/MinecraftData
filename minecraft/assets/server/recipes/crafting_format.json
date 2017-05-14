@@ -100,9 +100,15 @@
         },
         {
             "function": "minecraft:copy_nbt",
-            "id": "INTEGER: The id to copy the NBT from, note, this runs before Return runs, meaning the NBT from return is adding/replacing on top of the copied NBT",
-            "copy": "Optional, what tag to copy, {} means all tags, default = {}",
-            "paste": "Optional, where to paste the tag, default = same as copy"
+            "id": "INTEGER: The id of the item in the ingredients to copy the nbt from",
+            "copy": "STRING: path to nbt tag to copy, {} means all, default = {}",
+            "paste": "STRING: path to nbt tag to paste the value to, default = same as copy"
+        },
+        {
+            "function": "minecraft:copy_component",
+            "id": "INTEGER: The id of the item in the ingredients to copy the component from",
+            "component": "STRING: what component to copy, allowed values are: potion(Potion, CustomPotionEffects, CustomPotionColor), display(display, HideFlags), durability(Damage, Unbreakable, RepairCost), enchantment(ench, StoredEnchantments), Attributes(AttributeModifiers), place_on(CanPlaceOn), destroy(CanDestroy), entity_tag(BlockEntityTag, EntityTag), book(pages, title, resolved, generation, author), skull(SkullOwner), fireworks(fireworks), explosion(Explosion), map(map_scale_direction, map_tracking_position, Decorations), all default = all",
+            "paste": "STRING: what component to place this in, normally can only be placed in itself, but putting explosion in fireworks copies it to Firework{Explosions:[]} (will not happen when set to all), default = same as component"
         },
         {
             "function": "minecraft:repair",
@@ -112,7 +118,7 @@
             "bonus": "INTEGER: adittional percentage of bonus durability the returned item gets, default = 0"
         },
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "id": "INTEGER: The id of the item in the ingredients, if negated, runs regardless",
             "count": "INTEGER: how many to add to the resulting item",
             "fireworks": {

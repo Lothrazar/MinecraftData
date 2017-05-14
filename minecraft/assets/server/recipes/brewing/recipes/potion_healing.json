@@ -1,27 +1,26 @@
 {
     "potion": {
-        "item: "minecraft:potion",
+        "item": "minecraft:potion",
         "conditions": {
             "potion": "minecraft:awkward"
         }
     },
     "item": {
-        "item: "minecraft:glistering_melon"
+        "item": "minecraft:glistering_melon"
     },
     "return": {
-        "item: "minecraft:potion"
+        "item": "minecraft:potion"
     },
     "functions": [
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "potion": {
                 "potion": "minecraft:healing"
             }
         },
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }

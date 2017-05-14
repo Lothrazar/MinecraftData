@@ -22,5 +22,5 @@
     "return": {
         "item": "minecraft:light_gray_bed"
     },
-	"group": "minecraft:bed_coloring"
+    "group": "minecraft:bed_coloring"
 }

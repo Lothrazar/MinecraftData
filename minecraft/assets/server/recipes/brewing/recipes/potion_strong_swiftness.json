@@ -1,28 +1,27 @@
 {
     "potion": {
-        "item: "minecraft:potion",
+        "item": "minecraft:potion",
         "conditions": {
             "potion": "minecraft:swiftness"
         }
     },
     "item": {
-        "item: "minecraft:glowstone_dust"
+        "item": "minecraft:glowstone_dust"
     },
     "return": {
-        "item: "minecraft:potion"
+        "item": "minecraft:potion"
     },
-	"group": "minecraft:strong_potion",
+    "group": "minecraft:strong_potion",
     "functions": [
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "potion": {
                 "potion": "minecraft:strong_swiftness"
             }
         },
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }

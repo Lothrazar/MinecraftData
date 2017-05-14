@@ -41,11 +41,16 @@
         },
         {
             "function": "minecraft:copy_nbt",
-            "copy": "Optional, what tag to copy, {} means all tags, default = {}",
-            "paste": "Optional, where to paste the tag, default = same as copy"
+            "copy": "STRING: path to nbt tag to copy, {} means all, default = {}",
+            "paste": "STRING: path to nbt tag to paste the value to, default = same as copy"
         },
         {
-            "function": "minecraft:add",
+            "function": "minecraft:copy_component",
+            "component": "STRING: what component to copy, allowed values are: potion(Potion, CustomPotionEffects, CustomPotionColor), display(display, HideFlags), durability(Damage, Unbreakable, RepairCost), enchantment(ench, StoredEnchantments), Attributes(AttributeModifiers), place_on(CanPlaceOn), destroy(CanDestroy), entity_tag(BlockEntityTag, EntityTag), book(pages, title, resolved, generation, author), skull(SkullOwner), fireworks(fireworks), explosion(Explosion), map(map_scale_direction, map_tracking_position, Decorations), all default = all",
+            "paste": "STRING: what component to place this in, normally can only be placed in itself, but putting explosion in fireworks copies it to Firework{Explosions:[]} (will not happen when set to all), default = same as component"
+        },
+        {
+            "function": "minecraft:add_component",
             "count": "INTEGER: how many to add to the resulting item",
             "fireworks": {
                 "flight": "INTEGER: the count of time it flies in seconds",

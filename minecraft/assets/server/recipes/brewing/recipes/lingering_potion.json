@@ -1,12 +1,12 @@
 {
     "potion": {
-        "item: "minecraft:splash_potion"
+        "item": "minecraft:splash_potion"
     },
     "item": {
-        "item: "minecraft:dragon_breath"
+        "item": "minecraft:dragon_breath"
     },
     "return": {
-        "item: "minecraft:lingering_potion"
+        "item": "minecraft:lingering_potion"
     },
     "functions": [
         {
@@ -14,14 +14,8 @@
             "item": "minecraft:glass_bottle"
         },
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{Potion}",
-            "paste": "{Potion}"
-        },
-        {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }

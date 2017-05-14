@@ -41,5 +41,5 @@
     "return": {
         "item": "minecraft:iron_ingot"
     },
-	"group": "minecraft:from_nugget"
+    "group": "minecraft:from_nugget"
 }

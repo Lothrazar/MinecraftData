@@ -195,7 +195,7 @@
     "return": {
         "item": "minecraft:leather_chestplate"
     },
-	"group": "minecraft:leather_armor_coloring",
+    "group": "minecraft:leather_armor_coloring",
     "functions": [
         {
             "function": "minecraft:color",
@@ -294,7 +294,7 @@
             "color": 16777215
         },
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 100
         }
     ]

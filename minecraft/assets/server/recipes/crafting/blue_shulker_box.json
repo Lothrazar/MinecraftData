@@ -38,12 +38,12 @@
     ],
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 0
         }
     ],
     "return": {
         "item": "minecraft:blue_shulker_boxes"
     },
-	"group": "minecraft:shulker_box_coloring"
+    "group": "minecraft:shulker_box_coloring"
 }

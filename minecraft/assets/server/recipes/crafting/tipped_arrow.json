@@ -45,14 +45,9 @@
     },
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 0,
-            "copy": "{Potion}"
-        },
-        {
-            "function": "minecraft:copy_nbt",
-            "id": 0,
-            "copy": "{CustomPotionEffects}"
+            "component": "minecraft:potion"
         }
     ]
 }

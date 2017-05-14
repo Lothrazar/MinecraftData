@@ -28,13 +28,13 @@
     ],
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 0
         },
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 1,
-            "copy": "{BlockEntityTag}"
+            "component": "minecraft:entity_tag"
         }
     ],
     "return": {

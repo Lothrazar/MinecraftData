@@ -37,14 +37,14 @@
     "return": {
         "item": "minecraft:banner"
     },
-	"group": "minecraft:banner_curly_border",
+    "group": "minecraft:banner_curly_border",
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 0
         },
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "banner": {
                 "layer": {
                     "color": "purple",

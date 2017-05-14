@@ -1,27 +1,26 @@
 {
     "potion": {
-        "item: "minecraft:potion",
+        "item": "minecraft:potion",
         "conditions": {
             "potion": "minecraft:awkward"
         }
     },
     "item": {
-        "item: "minecraft:golden_carrot"
+        "item": "minecraft:golden_carrot"
     },
     "return": {
-        "item: "minecraft:potion"
+        "item": "minecraft:potion"
     },
     "functions": [
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "potion": {
                 "potion": "minecraft:night_vision"
             }
         },
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }

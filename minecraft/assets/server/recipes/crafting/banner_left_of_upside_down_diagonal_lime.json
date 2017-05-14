@@ -41,14 +41,14 @@
     "return": {
         "item": "minecraft:banner"
     },
-	"group": "minecraft:banner_left_of_upside_down_diagonal",
+    "group": "minecraft:banner_left_of_upside_down_diagonal",
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 0
         },
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "banner": {
                 "layer": {
                     "color": "lime",

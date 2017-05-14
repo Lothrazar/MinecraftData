@@ -35,12 +35,12 @@
     "return": {
         "item": "minecraft:banner"
     },
-	"group": "minecraft:banner_copy",
+    "group": "minecraft:banner_copy",
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 0,
-            "copy": "{BlockEntityTag}"
+            "component": "minecraft:entity_tag"
         },
         {
             "function": "minecraft:return_items",

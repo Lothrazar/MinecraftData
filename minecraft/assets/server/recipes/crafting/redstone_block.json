@@ -41,5 +41,5 @@
     "return": {
         "item": "minecraft:redstone_block"
     },
-	"group": "minecraft:material_block"
+    "group": "minecraft:material_block"
 }

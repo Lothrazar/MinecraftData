@@ -18,5 +18,5 @@
     "return": {
         "item": "minecraft:furnace_minecart"
     }
-	"group": "minecraft:minecart_with_block",
+    "group": "minecraft:minecart_with_block",
 }

@@ -34,5 +34,5 @@
     "return": {
         "item": "minecraft:golden_hoe"
     },
-	"group": "minecraft:repair_tool"
+    "group": "minecraft:repair_tool"
 }

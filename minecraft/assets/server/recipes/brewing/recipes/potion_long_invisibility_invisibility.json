@@ -1,28 +1,27 @@
 {
     "potion": {
-        "item: "minecraft:potion",
+        "item": "minecraft:potion",
         "conditions": {
             "potion": "minecraft:invisibility"
         }
     },
     "item": {
-        "item: "minecraft:redstone_dust"
+        "item": "minecraft:redstone_dust"
     },
     "return": {
-        "item: "minecraft:potion"
+        "item": "minecraft:potion"
     },
-	"group": "minecraft:extended_potion",
+    "group": "minecraft:extended_potion",
     "functions": [
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "potion": {
                 "potion": "minecraft:long_invisibility"
             }
         },
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }

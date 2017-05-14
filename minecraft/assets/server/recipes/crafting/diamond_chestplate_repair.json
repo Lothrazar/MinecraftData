@@ -34,5 +34,5 @@
     "return": {
         "item": "minecraft:diamond_chestplate"
     },
-	"group": "minecraft:repair_tool"
+    "group": "minecraft:repair_tool"
 }

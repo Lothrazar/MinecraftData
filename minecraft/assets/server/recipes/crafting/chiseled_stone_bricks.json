@@ -18,5 +18,5 @@
     "return": {
         "item": "minecraft:chiseled_stone_bricks"
     },
-	"group": "minecraft:chiseled_block"
+    "group": "minecraft:chiseled_block"
 }

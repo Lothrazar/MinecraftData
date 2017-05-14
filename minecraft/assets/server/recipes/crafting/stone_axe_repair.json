@@ -34,5 +34,5 @@
     "return": {
         "item": "minecraft:stone_axe"
     },
-	"group": "minecraft:repair_tool"
+    "group": "minecraft:repair_tool"
 }

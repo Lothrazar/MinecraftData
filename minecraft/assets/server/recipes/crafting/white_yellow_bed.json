@@ -22,5 +22,5 @@
     "return": {
         "item": "minecraft:yellow_bed"
     },
-	"group": "minecraft:bed_coloring"
+    "group": "minecraft:bed_coloring"
 }

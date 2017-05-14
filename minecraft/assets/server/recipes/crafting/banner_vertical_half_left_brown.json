@@ -49,14 +49,14 @@
     "return": {
         "item": "minecraft:banner"
     },
-	"group": "minecraft:banner_vertical_half_left",
+    "group": "minecraft:banner_vertical_half_left",
     "functions": [
         {
-            "function": "minecraft:copy_nbt",
+            "function": "minecraft:copy_component",
             "id": 0
         },
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "banner": {
                 "layer": {
                     "color": "brown",

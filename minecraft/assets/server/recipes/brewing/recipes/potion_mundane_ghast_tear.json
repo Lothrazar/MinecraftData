@@ -1,28 +1,27 @@
 {
     "potion": {
-        "item: "minecraft:potion",
+        "item": "minecraft:potion",
         "conditions": {
             "potion": "minecraft:water"
         }
     },
     "item": {
-        "item: "minecraft:ghast_tear"
+        "item": "minecraft:ghast_tear"
     },
     "return": {
-        "item: "minecraft:potion"
+        "item": "minecraft:potion"
     },
-	"group": "minecraft:mundane_potion",
+    "group": "minecraft:mundane_potion",
     "functions": [
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "potion": {
                 "potion": "minecraft:mundane"
             }
         },
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }

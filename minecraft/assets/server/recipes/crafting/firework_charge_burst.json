@@ -287,7 +287,7 @@
             "color": 16777215
         },
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "fireworks": {
                 "type": "burst"
             },

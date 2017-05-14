@@ -1,28 +1,27 @@
 {
     "potion": {
-        "item: "minecraft:potion",
+        "item": "minecraft:potion",
         "conditions": {
             "potion": "minecraft:long_swiftness"
         }
     },
     "item": {
-        "item: "minecraft:fermented_spider_eye"
+        "item": "minecraft:fermented_spider_eye"
     },
     "return": {
-        "item: "minecraft:potion"
+        "item": "minecraft:potion"
     },
-	"group": "minecraft:inverted_potion",
+    "group": "minecraft:inverted_potion",
     "functions": [
         {
-            "function": "minecraft:add",
+            "function": "minecraft:add_component",
             "potion": {
                 "potion": "minecraft:long_slowness"
             }
         },
         {
-            "function": "minecraft:copy_nbt",
-            "copy": "{CustomPotionEffects}",
-            "paste": "{CustomPotionEffects}"
+            "function": "minecraft:copy_component",
+            "component": "minecraft:potion"
         }
     ]
 }
