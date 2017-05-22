@@ -5,10 +5,9 @@ Blockstate files moved (and will be changed)
 language keys have namespace and are now lowercased
 splashes, poem and credits are now translatable/in json
 namespace now exists in all locations it gets used (sounds.json, models, states, etc.)
+crafting files format redone so it can handle all recipes
 
 additions:
-achievements json files
 block properties files
-recipe files
 old structures converted to structure files
 block loot tables
