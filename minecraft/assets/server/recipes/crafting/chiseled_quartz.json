@@ -1,21 +1,14 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:quartz_slab"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:quartz_slab"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:quartz_slab"
+        },
+        "bottom": {
+            "item": "minecraft:quartz_slab"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:chiseled_quartz"
     },
     "group": "minecraft:chiseled_block"

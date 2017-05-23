@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:redstone_block",
@@ -28,9 +29,7 @@
   },
   "requirements": [
     [
-      "has_at_least_9_redstone"
-    ],
-    [
+      "has_at_least_9_redstone",
       "has_the_recipe"
     ]
   ]

@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:oak_planks"
@@ -25,9 +26,7 @@
   },
   "requirements": [
     [
-      "has_log"
-    ],
-    [
+      "has_log",
       "has_the_recipe"
     ]
   ]

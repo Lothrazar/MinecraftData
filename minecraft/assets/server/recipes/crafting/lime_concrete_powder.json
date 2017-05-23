@@ -1,88 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lime_dye"
-                    }
-                ]
-            ]
+    "parent": "minecraft:concrete_powder",
+    "ingredients": {
+        "sand": {
+            "item": "minecraft:sand"
         }
-    ],
-    "return": {
+        "gravel": {
+            "item": "minecraft:gravel"
+        }
+        "dye": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "result": {
         "item": "minecraft:lime_concrete_powder",
         "count": 8
     },

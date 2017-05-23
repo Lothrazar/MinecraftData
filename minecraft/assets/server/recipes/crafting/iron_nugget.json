@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:iron_ingot"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:iron_nugget",
         "count": 9
     },

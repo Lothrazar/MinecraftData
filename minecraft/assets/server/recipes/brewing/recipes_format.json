@@ -55,7 +55,7 @@
 	"group": "STRING: with this is grouped in the recipe book",
     "functions": [
         {
-            "function": "minecraft:minecraft:return_items",
+            "function": "minecraft:minecraft:result_items",
             "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
             "nbt": "STRING: Optional, what tags it gets, default = empty",
             "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
@@ -110,7 +110,7 @@
         },
         {
             "function": "minecraft:repair",
-            "bonus": "INTEGER: adittional percentage of bonus durability the returned item gets, default = 0"
+            "bonus": "INTEGER: adittional percentage of bonus durability the resulted item gets, default = 0"
         },
         {
             "function": "minecraft:scale_durability",
@@ -121,4 +121,4 @@
 }
 
 Notes: 
-When NBT is copied, and a list which already exists is being specified in return, it adds to the end of the list, unless the returned list is empty.
+When NBT is copied, and a list which already exists is being specified in result, it adds to the end of the list, unless the resulted list is empty.

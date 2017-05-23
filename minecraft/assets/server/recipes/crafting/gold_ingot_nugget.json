@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:gold_nugget"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:gold_ingot"
     },
     "group": "minecraft:to_nugget"

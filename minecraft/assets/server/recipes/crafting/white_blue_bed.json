@@ -1,26 +1,15 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lapis_lazuli"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:lapis_lazuli"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:white_bed"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:white_bed"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:blue_bed"
     },
-    "group": "minecraft:bed_coloring"
+    "group": "minecraft:2_layers_coloring"
 }

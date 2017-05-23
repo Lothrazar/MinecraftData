@@ -5,12 +5,12 @@
     "item": {
         "item": "minecraft:dragon_breath"
     },
-    "return": {
+    "result": {
         "item": "minecraft:lingering_potion"
     },
     "functions": [
         {
-            "function": "minecraft:return_items",
+            "function": "minecraft:result_items",
             "item": "minecraft:glass_bottle"
         },
         {

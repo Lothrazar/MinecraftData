@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:iron_shovel"
     },
-    "return": {
+    "result": {
         "item": "minecraft:iron_nugget",
         "xp": 0.2
     },

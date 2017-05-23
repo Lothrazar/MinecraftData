@@ -1,33 +1,14 @@
 {
+    "parent": "minecraft:fence",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:dark_oak_planks"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:dark_oak_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:dark_oak_planks"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:dark_oak_planks"
-                    }
-                ]
-            ]
+        "planks": {
+            "item": "minecraft:dark_oak_planks"
+        },
+        "stick": {
+            "item": "minecraft:stick"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:dark_oak_fence",
         "count": 3
     },

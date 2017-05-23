@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:paper"
-                    },
-                    {
-                        "item": "minecraft:paper"
-                    },
-                    {
-                        "item": "minecraft:paper"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:paper"
-                    },
-                    {
-                        "item": "minecraft:compass"
-                    },
-                    {
-                        "item": "minecraft:paper"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:paper"
-                    },
-                    {
-                        "item": "minecraft:paper"
-                    },
-                    {
-                        "item": "minecraft:paper"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:paper"
+        },
+        "center": {
+            "item": "minecraft:compass"
         }
-    ],
-    "return": {
+    }
+    "result": {
         "item": "minecraft:map"
     }
 }

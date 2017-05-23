@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:coal_ore"
     },
-    "return": {
+    "result": {
         "item": "minecraft:coal",
         "xp": 1
     },

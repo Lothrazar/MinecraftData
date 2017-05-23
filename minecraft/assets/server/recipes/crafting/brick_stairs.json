@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:stairs",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bricks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:bricks"
-                    },
-                    {
-                        "item": "minecraft:bricks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:bricks"
-                    },
-                    {
-                        "item": "minecraft:bricks"
-                    },
-                    {
-                        "item": "minecraft:bricks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:bricks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:brick_stairs",
         "count": 4
     },

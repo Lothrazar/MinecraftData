@@ -1,40 +1,23 @@
 {
+    "parent": "minecraft:3_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:vines"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:vines"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:purple_dye"
-                    }
-                ]
-            ]
+        "item3": {
+            "item": "minecraft:purple_dye"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_curly_border",

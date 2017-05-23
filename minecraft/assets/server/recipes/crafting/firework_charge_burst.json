@@ -1,207 +1,82 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gunpowder"
-                    }
-                ]
-            ]
+    "parent": "minecraft:firework_charge_3",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:gunpowder"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:feather"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:feather"
+        },
+        "black": {
+            "item": "minecraft:ink_sack",
+            "id": 0
+        },
+        "red": {
+            "item": "minecraft:rose_red",
+            "id": 1
+        },
+        "green": {
+            "item": "minecraft:cactus_green",
+            "id": 2
+        },
+        "brown": {
+            "item": "minecraft:cocoa_beans",
+            "id": 3
+        },
+        "blue": {
+            "item": "minecraft:lapis_lazuli",
+            "id": 4
+        },
+        "purple": {
+            "item": "minecraft:purple_dye",
+            "id": 5
+        },
+        "cyan": {
+            "item": "minecraft:cyan_dye",
+            "id": 6
+        },
+        "light_gray": {
+            "item": "minecraft:light_gray_dye",
+            "id": 7
+        },
+        "gray": {
+            "item": "minecraft:gray_dye",
+            "id": 8
+        },
+        "pink": {
+            "item": "minecraft:pink_dye",
+            "id": 9
+        },
+        "lime": {
+            "item": "minecraft:lime_dye",
+            "id": 10
+        },
+        "yellow": {
+            "item": "minecraft:dandelion_yellow",
+            "id": 11
+        },
+        "light_blue": {
+            "item": "minecraft:light_blue_dye",
+            "id": 12
+        },
+        "magenta": {
+            "item": "minecraft:magenta_dye",
+            "id": 13
+        },
+        "orange": {
+            "item": "minecraft:orange_dye",
+            "id": 14
+        },
+        "white": {
+            "item": "minecraft:bone_meal",
+            "id": 15
         }
-    ],
-    "optional_ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:ink_sack",
-                        "id": 0
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:rose_red",
-                        "id": 1
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cactus_green",
-                        "id": 2
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cocoa_beans",
-                        "id": 3
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lapis_lazuli",
-                        "id": 4
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:purple_dye",
-                        "id": 5
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cyan_dye",
-                        "id": 6
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:light_gray_dye",
-                        "id": 7
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gray_dye",
-                        "id": 8
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:pink_dye",
-                        "id": 9
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lime_dye",
-                        "id": 10
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:dandelion_yellow",
-                        "id": 11
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:light_blue_dye",
-                        "id": 12
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:magenta_dye",
-                        "id": 13
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:orange_dye",
-                        "id": 14
-                    }
-                ]
-            ],
-            "max_groups": 1
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal",
-                        "id": 15
-                    }
-                ]
-            ],
-            "max_groups": 1
-        }
-    ],
-    "optional_ingredients_required": {
+    },
+    "optional_shapes_required": {
         "min": 1,
         "max": 1
     },
-    "return": {
+    "result": {
         "item": "minecraft:firework_charge"
     },
     "group": "minecraft:firework_charge",

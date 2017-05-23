@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:clay_ball"
     },
-    "return": {
+    "result": {
         "item": "minecraft:brick",
         "xp": 0.3
     },

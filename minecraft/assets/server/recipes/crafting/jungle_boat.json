@@ -1,33 +1,11 @@
 {
+    "parent": "minecraft:boat",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:jungle_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:jungle_boat"
     },
     "group": "minecraft:boat"

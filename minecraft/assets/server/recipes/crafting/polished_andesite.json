@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:andesite"
-                    },
-                    {
-                        "item": "minecraft:andesite"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:andesite"
-                    },
-                    {
-                        "item": "minecraft:andesite"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:andesite"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:polished_andesite",
         "count": 4
     }

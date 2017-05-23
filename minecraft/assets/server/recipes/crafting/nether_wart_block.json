@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:nether_wart"
-                    },
-                    {
-                        "item": "minecraft:nether_wart"
-                    },
-                    {
-                        "item": "minecraft:nether_wart"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:nether_wart"
-                    },
-                    {
-                        "item": "minecraft:nether_wart"
-                    },
-                    {
-                        "item": "minecraft:nether_wart"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:nether_wart"
-                    },
-                    {
-                        "item": "minecraft:nether_wart"
-                    },
-                    {
-                        "item": "minecraft:nether_wart"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:nether_wart"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:nether_wart_block"
     }
 }

@@ -1,41 +1,22 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:iron_block"
-                    },
-                    {
-                        "item": "minecraft:iron_block"
-                    },
-                    {
-                        "item": "minecraft:iron_block"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
+                [    "top",    "top",    "top"    ],
+                [    "",    "bottom"    ],
+                [    "bottom",    "bottom",    "bottom"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "top": {
+            "item": "minecraft:iron_block"
+        },
+        "bottom": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
         "item": "minecraft:anvil"
     }
 }

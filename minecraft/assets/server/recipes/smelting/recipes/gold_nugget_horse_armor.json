@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:golden_horse_armor"
     },
-    "return": {
+    "result": {
         "item": "minecraft:gold_nugget",
         "count": 6,
         "xp": 0.2

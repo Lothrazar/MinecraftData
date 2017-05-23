@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:terracotta"
+        },
+        "center": {
+            "item": "minecraft:bone_meal"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:white_terracotta",
         "count": 8
     },

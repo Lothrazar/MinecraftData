@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:golden_pickaxe"
     },
-    "return": {
+    "result": {
         "item": "minecraft:gold_nugget",
         "count": 3,
         "xp": 0.2

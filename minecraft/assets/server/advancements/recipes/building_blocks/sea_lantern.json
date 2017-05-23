@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:sea_lantern"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_prismarine_crystals"
-    ],
-    [
+      "has_prismarine_crystals",
       "has_the_recipe"
     ]
   ]

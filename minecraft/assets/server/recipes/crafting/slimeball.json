@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:slime_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:slime_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:slimeball",
         "count": 9
     },

@@ -1,42 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+    "parent": "minecraft:banner_middle_stripe",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    
-                ],
-                [
-                    {
-                        "item": "minecraft:dandelion_yellow"
-                    },
-                    {
-                        "item": "minecraft:dandelion_yellow"
-                    },
-                    {
-                        "item": "minecraft:dandelion_yellow"
-                    }
-                ]
-            ],
-            "can_move": false,
-            "can_mirror": false
+        "dye": {
+            "item": "minecraft:dandelion_yellow"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_middile_stripe",

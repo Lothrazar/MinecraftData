@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:clay"
     },
-    "return": {
+    "result": {
         "item": "minecraft:terracotta",
         "xp": 0.35
     }

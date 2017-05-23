@@ -1,22 +1,15 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sandstone_slab"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:sandstone_slab"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:sandstone_slab"
+        },
+        "bottom": {
+            "item": "minecraft:sandstone_slab"
         }
     ],
-    "return": {
-        "item": "minecraft:chisiled_sandstone"
+    "result": {
+        "item": "minecraft:chiseled_sandstone"
     },
     "group": "minecraft:chiseled_block"
 }

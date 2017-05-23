@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:pink_dye_from_peony"
@@ -25,9 +26,7 @@
   },
   "requirements": [
     [
-      "has_double_plant"
-    ],
-    [
+      "has_double_plant",
       "has_the_recipe"
     ]
   ]

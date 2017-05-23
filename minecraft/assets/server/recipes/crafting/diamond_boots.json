@@ -1,33 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ]
-            ]
+    "parent": "minecraft:boots",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:diamond"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:diamond_boots"
     },
     "group": "minecraft:boots"

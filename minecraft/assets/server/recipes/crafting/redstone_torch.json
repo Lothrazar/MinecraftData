@@ -1,21 +1,14 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:redstone_dust"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:redstone_dust"
+        },
+        "bottom": {
+            "item": "minecraft:stick"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:redstone_torch"
     },
     "group": "minecraft:torch"

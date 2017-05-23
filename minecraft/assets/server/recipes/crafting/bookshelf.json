@@ -1,86 +1,31 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:book"
-                    },
-                    {
-                        "item": "minecraft:book"
-                    },
-                    {
-                        "item": "minecraft:book"
-                    }
-                ],
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ]
+    "parent": "minecraft:3_layers",
+    "ingredients": {
+        "top": {
+            "item": [
+                "minecraft:acacia_planks",
+                "minecraft:birch_planks",
+                "minecraft:dark_oak_planks",
+                "minecraft:jungle_planks",
+                "minecraft:oak_planks",
+                "minecraft:birch_planks"
             ]
         }
-    ],
-    "return": {
+        "middle": {
+            "item": "minecraft:book"
+        }
+        "bottom": {
+            "item": [
+                "minecraft:acacia_planks",
+                "minecraft:birch_planks",
+                "minecraft:dark_oak_planks",
+                "minecraft:jungle_planks",
+                "minecraft:oak_planks",
+                "minecraft:birch_planks"
+            ]
+        }
+    },
+    "result": {
         "item": "minecraft:bookshelf"
     }
 }

@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:cod"
     },
-    "return": {
+    "result": {
         "item": "minecraft:cooked_cod",
         "xp": 0.35
     },

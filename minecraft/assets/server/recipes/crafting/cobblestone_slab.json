@@ -1,24 +1,13 @@
 {
+    "parent": "minecraft:1_layer",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:cobblestone"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:cobblestone_slab",
         "count": 6
     },
-    "group": "minecraft:slab"
+    "group": "minecraft:1_layer"
 }

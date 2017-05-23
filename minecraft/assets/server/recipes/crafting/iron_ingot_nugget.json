@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:iron_nugget"
-                    },
-                    {
-                        "item": "minecraft:iron_nugget"
-                    },
-                    {
-                        "item": "minecraft:iron_nugget"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_nugget"
-                    },
-                    {
-                        "item": "minecraft:iron_nugget"
-                    },
-                    {
-                        "item": "minecraft:iron_nugget"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_nugget"
-                    },
-                    {
-                        "item": "minecraft:iron_nugget"
-                    },
-                    {
-                        "item": "minecraft:iron_nugget"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:iron_nugget"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:iron_ingot"
     },
     "group": "minecraft:from_nugget"

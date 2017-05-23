@@ -1,24 +1,13 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond_shovel",
-                        "id": 0
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:diamond_shovel",
+            "id": 0
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond_shovel",
-                        "id": 1
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:diamond_shovel",
+            "id": 1
         }
     ],
     "functions": [
@@ -31,7 +20,7 @@
             "bonus": 5
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:diamond_shovel"
     },
     "group": "minecraft:repair_tool"

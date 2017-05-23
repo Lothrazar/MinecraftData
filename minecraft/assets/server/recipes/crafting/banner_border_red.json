@@ -1,50 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:rose_red"
-                    },
-                    {
-                        "item": "minecraft:rose_red"
-                    },
-                    {
-                        "item": "minecraft:rose_red"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:rose_red"
-                    },
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    },
-                    {
-                        "item": "minecraft:rose_red"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:rose_red"
-                    },
-                    {
-                        "item": "minecraft:rose_red"
-                    },
-                    {
-                        "item": "minecraft:rose_red"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:rose_red"
+        },
+        "center": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_border",

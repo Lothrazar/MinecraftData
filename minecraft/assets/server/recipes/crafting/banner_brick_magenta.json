@@ -1,40 +1,23 @@
 {
+    "parent": "minecraft:3_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bricks"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:bricks"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:magenta_dye"
-                    }
-                ]
-            ]
+        "item3": {
+            "item": "minecraft:magenta_dye"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_brick",

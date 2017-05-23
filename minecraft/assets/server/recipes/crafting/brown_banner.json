@@ -1,41 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:brown_wool"
-                    },
-                    {
-                        "item": "minecraft:brown_wool"
-                    },
-                    {
-                        "item": "minecraft:brown_wool"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:brown_wool"
-                    },
-                    {
-                        "item": "minecraft:brown_wool"
-                    },
-                    {
-                        "item": "minecraft:brown_wool"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:sign",
+    "ingredients": {
+        "frame": {
+            "item": "minecraft:brown_wool"
+        },
+        "pole": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner",

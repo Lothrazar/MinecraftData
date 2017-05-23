@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:sandstone_slab"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_sandstone"
-    ],
-    [
+      "has_sandstone",
       "has_the_recipe"
     ]
   ]

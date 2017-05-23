@@ -1,83 +1,29 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
+                [    "frame",    "frame",    "frame"    ],
+                [    "frame",    "frame",    "frame"    ],
+                [    "",    "pole"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "frame": {
+            "item": [
+                "minecraft:acacia_planks",
+                "minecraft:birch_planks",
+                "minecraft:dark_oak_planks",
+                "minecraft:jungle_planks",
+                "minecraft:oak_planks",
+                "minecraft:spruce_planks"
+            ]
+        },
+        "pole": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
         "item": "minecraft:sign",
         "count": 3
     }

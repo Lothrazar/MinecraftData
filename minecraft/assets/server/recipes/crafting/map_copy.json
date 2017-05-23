@@ -1,38 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:filled_map",
-                        "id": 0
-                    }
-                ]
-            ]
+    "parent": "minecraft:copy_item",
+    "ingredients": {
+        "copy": {
+            "item": "minecraft:filled_map",
+            "id": 0
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:map"
-                    }
-                ]
-            ]
+        "to1": {
+            "item": "minecraft:map"
+        },
+        "to2": {
+            "item": "minecraft:map",
+            "id": 1
         }
-    ],
-    "optional_ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:map",
-                        "id": 1
-                    }
-                ]
-            ]
-        }
-    ],
-    "return": {
+    }
+    "result": {
+        "item": "minecraft:filled_map"
         "count": 2
     },
     "functions": [
@@ -46,7 +28,7 @@
             "count": 1
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:filled_map"
     }
 }

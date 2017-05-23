@@ -1,61 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+    "parent": "minecraft:banner_vertical_half_right",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:purple_dye"
-                    },
-                    {
-                        "item": "minecraft:purple_dye"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:purple_dye"
-                    },
-                    {
-                        "item": "minecraft:purple_dye"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:purple_dye"
-                    },
-                    {
-                        "item": "minecraft:purple_dye"
-                    }
-                ]
-            ],
-            "can_move": false,
-            "can_mirror": false
+        "dye": {
+            "item": "minecraft:purple_dye"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_vertical_half_right",

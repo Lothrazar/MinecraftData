@@ -1,33 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:iron_ingot"
+        },
+        "bottom": {
+            "item": "minecraft:iron_ingot"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:bars",
         "count": 16
     },

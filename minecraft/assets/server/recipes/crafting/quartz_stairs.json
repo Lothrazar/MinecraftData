@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:stairs",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:quartz_block"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:quartz_block"
-                    },
-                    {
-                        "item": "minecraft:quartz_block"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:quartz_block"
-                    },
-                    {
-                        "item": "minecraft:quartz_block"
-                    },
-                    {
-                        "item": "minecraft:quartz_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:quartz_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:quartz_stairs",
         "count": 4
     },

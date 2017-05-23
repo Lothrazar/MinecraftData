@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:pumpkin_seeds"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_pumpkin"
-    ],
-    [
+      "has_pumpkin",
       "has_the_recipe"
     ]
   ]

@@ -1,26 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:3_high_line",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:cobblestone"
+        },
+        "middle": {
+            "item": "minecraft:stick"
+        },
+        "bottom": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:stone_shovel"
     },
     "group": "minecraft:shovel"

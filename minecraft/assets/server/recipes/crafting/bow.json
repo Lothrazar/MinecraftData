@@ -1,38 +1,22 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:string"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:string"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:string"
-                    }
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
+                [    "string",    "stick"],
+                [    "string",    "",    "stick"],
+                [    "string",    "stick"]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "string": {
+            "item": "minecraft:string"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    }
+    "result": {
         "item": "minecraft:bow"
     }
 }

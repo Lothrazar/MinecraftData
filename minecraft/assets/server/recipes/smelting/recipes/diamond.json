@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:diamond_ore"
     },
-    "return": {
+    "result": {
         "item": "minecraft:diamond",
         "xp": 1
     },

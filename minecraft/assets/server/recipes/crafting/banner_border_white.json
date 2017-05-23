@@ -1,50 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:bone_meal"
+        },
+        "center": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_border",

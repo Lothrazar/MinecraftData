@@ -1,45 +1,15 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:arrow"
-                    },
-                    {
-                        "item": "minecraft:arrow"
-                    },
-                    {
-                        "item": "minecraft:arrow"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:arrow"
-                    },
-                    {
-                        "item": "minecraft:lingering_potion",
-                        "id": 0
-                    },
-                    {
-                        "item": "minecraft:arrow"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:arrow"
-                    },
-                    {
-                        "item": "minecraft:arrow"
-                    },
-                    {
-                        "item": "minecraft:arrow"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:arrow"
+        },
+        "center": {
+            "item": "minecraft:lingering_potion",
+            "id": 0
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:tipped_arrow",
         "count": 8
     },

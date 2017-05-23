@@ -1,88 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:rose_red"
-                    }
-                ]
-            ]
+    "parent": "minecraft:concrete_powder",
+    "ingredients": {
+        "sand": {
+            "item": "minecraft:sand"
         }
-    ],
-    "return": {
+        "gravel": {
+            "item": "minecraft:gravel"
+        }
+        "dye": {
+            "item": "minecraft:rose_red"
+        }
+    },
+    "result": {
         "item": "minecraft:red_concrete_powder",
         "count": 8
     },

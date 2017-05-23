@@ -3,7 +3,7 @@
         "item": "minecraft:cyan_terracotts",
         "data": 9
     },
-    "return": {
+    "result": {
         "item": "minecraft:cyan_glazed_terracotta",
         "xp": 0.1
     },

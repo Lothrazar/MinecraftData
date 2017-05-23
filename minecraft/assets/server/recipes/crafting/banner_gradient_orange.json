@@ -1,55 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+    "parent": "minecraft:banner_gradient",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:orange_dye"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:orange_dye"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:orange_dye"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:orange_dye"
-                    }
-                ]
-            ],
-            "can_move": false,
-            "can_mirror": false
+        "dye": {
+            "item": "minecraft:orange_dye"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_gradient",

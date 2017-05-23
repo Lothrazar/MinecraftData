@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:chainmail_boots"
     },
-    "return": {
+    "result": {
         "item": "minecraft:iron_nugget",
         "count": 4,
         "xp": 0.2

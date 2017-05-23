@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:glowstone_dust"
-                    },
-                    {
-                        "item": "minecraft:glowstone_dust"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:glowstone_dust"
-                    },
-                    {
-                        "item": "minecraft:glowstone_dust"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:glowstone_dust"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:glowstone"
     }
 }

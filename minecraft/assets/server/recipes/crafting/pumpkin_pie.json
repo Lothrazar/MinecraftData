@@ -1,34 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:pumpkin"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sugar"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:egg"
-                    }
-                ]
-            ]
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:pumpkin"
         }
-    ],
-    "return": {
+        "item2": {
+            "item": "minecraft:sugar"
+        }
+        "item3": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
         "item": "minecraft:pumpkin_pie"
     }
 }

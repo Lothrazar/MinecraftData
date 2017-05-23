@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:banner_square_cross",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
+        },
+        "dye": {
+            "item": "minecraft:cyan_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:banner"
+    },
+    "group": "minecraft:banner_square_cross",
+    "functions": [
+        {
+            "function": "minecraft:copy_component",
+            "id": 0
+        },
+        {
+            "function": "minecraft:add_component",
+            "banner": {
+                "layer": {
+                    "color": "cyan",
+                    "pattern": "square_cross"
+                }
+            }
+        }
+    ]
+}

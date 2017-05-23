@@ -1,41 +1,25 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:redstone_torch"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:redstone_torch"
-                    },
-                    {
-                        "item": "minecraft:quartz"
-                    },
-                    {
-                        "item": "minecraft:redstone_torch"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stone"
-                    },
-                    {
-                        "item": "minecraft:stone"
-                    },
-                    {
-                        "item": "minecraft:stone"
-                    }
-                ]
+                [    "",    "torch"    ],
+                [    "torch",    "center",    "torch"    ],
+                [    "plate",    "plate",    "plate"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "torch": {
+            "item": "minecraft:redstone_torch"
+        },
+        "center": {
+            "item": "minecraft:quartz"
+        },
+        "plate": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
         "item": "minecraft:comparator"
     }
 }

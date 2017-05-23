@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:stairs",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:jungle_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:jungle_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:jungle_stairs",
         "count": 4
     },

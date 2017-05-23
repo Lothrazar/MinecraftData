@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:ender_eye"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:obsidian"
+        },
+        "center": {
+            "item": "minecraft:ender_eye"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:ender_chest"
     }
 }

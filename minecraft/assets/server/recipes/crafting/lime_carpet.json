@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lime_wool"
-                    },
-                    {
-                        "item": "minecraft:lime_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:lime_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:lime_carpet",
         "count": 3
     },

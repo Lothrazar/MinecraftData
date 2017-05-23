@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:red_banner"
@@ -25,9 +26,7 @@
   },
   "requirements": [
     [
-      "has_red_wool"
-    ],
-    [
+      "has_red_wool",
       "has_the_recipe"
     ]
   ]

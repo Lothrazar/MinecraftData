@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:diamond_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:diamond",
         "count": 9
     },

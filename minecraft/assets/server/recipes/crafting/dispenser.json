@@ -1,45 +1,26 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:bow",
-                        "durability": 1
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
+                [    "outline",    "outline",    "outline"    ],
+                [    "outline",    "center",    "outline"    ],
+                [    "outline",    "bottom",    "outline"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:cobblestone"
+        },
+        "center": {
+            "item": "minecraft:bow",
+            "durability": 1
+        },
+        "bottom": {
+            "item": "minecraft:redstone_dust"
+        }
+    },
+    "result": {
         "item": "minecraft:dispenser"
     }
 }

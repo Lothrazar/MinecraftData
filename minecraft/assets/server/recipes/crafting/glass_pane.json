@@ -1,33 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:glass"
+        },
+        "bottom": {
+            "item": "minecraft:glass"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:glass_pane",
         "count": 16
     }

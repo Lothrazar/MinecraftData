@@ -1,44 +1,22 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
+                [    "outline",    "outline",    "outline"    ],
+                [    "outline",    "",    "outline"    ],
+                [    "outline",    "bottom",    "outline"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:cobblestone"
+        },
+        "bottom": {
+            "item": "minecraft:redstone_dust"
+        }
+    },
+    "result": {
         "item": "minecraft:dropper"
     }
 }

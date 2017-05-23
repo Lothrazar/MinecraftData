@@ -1,25 +1,14 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:rose_red"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:rose_red"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:dandelion_yellow"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:dandelion_yellow"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:orange_dye",
         "count": 2
     },

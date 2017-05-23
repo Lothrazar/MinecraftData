@@ -1,24 +1,17 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:charcoal",
-                            "minecraft:coal"
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
+        "top": {
+            "item": [
+                "minecraft:coal",
+                "minecraft:charcoal"
             ]
+        },
+        "bottom": {
+            "item": "minecraft:stick"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:torch",
         "count": 4
     },

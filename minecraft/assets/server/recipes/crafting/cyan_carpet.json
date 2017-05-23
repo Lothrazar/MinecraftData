@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cyan_wool"
-                    },
-                    {
-                        "item": "minecraft:cyan_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:cyan_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:cyan_carpet",
         "count": 3
     },

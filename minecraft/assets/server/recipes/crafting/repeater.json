@@ -1,33 +1,24 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:redstone_torch"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_torch"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stone"
-                    },
-                    {
-                        "item": "minecraft:stone"
-                    },
-                    {
-                        "item": "minecraft:stone"
-                    }
-                ]
+                [    "torch",    "dust",    "torch"    ],
+                [    "plate",    "plate",    "plate"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "torch": {
+            "item": "minecraft:redstone_torch"
+        },
+        "dust": {
+            "item": "minecraft:redstone_dust"
+        },
+        "plate": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
         "item": "minecraft:repeater"
     }
 }

@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:brown_wool"
-                    },
-                    {
-                        "item": "minecraft:brown_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:brown_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:brown_carpet",
         "count": 3
     },

@@ -8,7 +8,7 @@
     "item": {
         "item": "minecraft:fermented_spider_eye"
     },
-    "return": {
+    "result": {
         "item": "minecraft:potion"
     },
     "group": "minecraft:inverted_potion",

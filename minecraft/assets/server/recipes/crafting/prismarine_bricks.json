@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:prismarine_shard"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:prismarine_bricks"
     }
 }

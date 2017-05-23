@@ -1,30 +1,21 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:blaze_rod"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
+                [    "",    "rod"    ],
+                [    "base",    "base",    "base"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "rod": {
+            "item": "minecraft:blaze_rod"
+        },
+        "base": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
         "item": "minecraft:brewing_stand"
     }
 }

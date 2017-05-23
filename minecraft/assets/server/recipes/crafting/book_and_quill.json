@@ -1,34 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:book"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:feather"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:ink_sack"
-                    }
-                ]
-            ]
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:book"
         }
-    ],
-    "return": {
+        "item2": {
+            "item": "minecraft:feather"
+        }
+        "item3": {
+            "item": "minecraft:ink_sack"
+        }
+    },
+    "result": {
         "item": "minecraft:book_and_quill"
     }
 }

@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:fishing_rod"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_string"
-    ],
-    [
+      "has_string",
       "has_the_recipe"
     ]
   ]

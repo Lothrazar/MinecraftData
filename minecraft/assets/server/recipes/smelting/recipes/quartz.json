@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:nether_quartz_ore"
     },
-    "return": {
+    "result": {
         "item": "minecraft:quartz",
         "xp": 0.2
     },

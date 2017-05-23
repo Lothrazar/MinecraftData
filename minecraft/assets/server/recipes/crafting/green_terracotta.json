@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:cactus_green"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:terracotta"
+        },
+        "center": {
+            "item": "minecraft:cactus_green"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:green_terracotta",
         "count": 8
     },

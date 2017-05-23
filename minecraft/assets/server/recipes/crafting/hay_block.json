@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:wheat"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:hay_block"
     },
     "group": "minecraft:material_block"

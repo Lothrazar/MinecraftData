@@ -1135,7 +1135,7 @@ minecraft:container.enchant.lapis.many=%s Lapis Lazuli
 minecraft:container.enchant.lapis.one=1 Lapis Lazuli
 minecraft:container.enchant.level.many=%s Enchantment Levels
 minecraft:container.enchant.level.one=1 Enchantment Level
-minecraft:container.enchant.level_required=Level Requirement: %s
+minecraft:container.enchant.level.requirement=Level Requirement: %s
 minecraft:container.enchant=Enchant
 minecraft:container.ender_chest=Ender Chest
 minecraft:container.furnace=Furnace
@@ -2574,6 +2574,7 @@ minecraft:item_group.search=Search Items
 minecraft:item_group.tools=Tools
 minecraft:item_group.transportation=Transportation
 
+minecraft:key.advancements=Advancements
 minecraft:key.attack=Attack/Destroy
 minecraft:key.back=Walk Backwards
 minecraft:key.categories.gameplay=Gameplay

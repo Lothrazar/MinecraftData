@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:granite"
-                    },
-                    {
-                        "item": "minecraft:granite"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:granite"
-                    },
-                    {
-                        "item": "minecraft:granite"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:granite"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:polished_granite",
         "count": 4
     }

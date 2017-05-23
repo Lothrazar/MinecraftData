@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:stairs",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:red_sandstone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:red_sandstone"
-                    },
-                    {
-                        "item": "minecraft:red_sandstone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:red_sandstone"
-                    },
-                    {
-                        "item": "minecraft:red_sandstone"
-                    },
-                    {
-                        "item": "minecraft:red_sandstone"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:red_sandstone"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:red_sandstone_stairs",
         "count": 4
     },

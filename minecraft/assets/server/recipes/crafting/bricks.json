@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:brick"
-                    },
-                    {
-                        "item": "minecraft:brick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:brick"
-                    },
-                    {
-                        "item": "minecraft:brick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:brick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:bricks"
     }
 }

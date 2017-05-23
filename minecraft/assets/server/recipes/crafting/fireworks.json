@@ -1,45 +1,45 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:paper"
-                    }
-                ]
+                [    "paper"    ]
             ]
         }
     ],
-    "optional_ingredients": [
+    "optional_shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:gunpowder",
-                        "id": 0
-                    }
-                ]
+                [    "gunpowder"    ]
             ],
             "min_groups": 1,
             "max_groups": 3
         },
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:fireworks_charge",
-                        "id": 1
-                    }
-                ]
+                [    "charge"    ]
             ],
             "max_groups": 1
         }
     ],
-    "optional_ingredients_required": {
+    "ingredients": {
+        "paper": {
+            "item": "minecraft:paper"
+        },
+        "gunpowder": {
+            "item": "minecraft:gunpowder",
+            "id": 0
+        },
+        "charge": {
+            "item": "minecraft:firework_charge",
+            "id": 1
+        }
+    },
+    "optional_shapes_required": {
         "min": 1,
         "max": 4
     },
-    "return": {
+    "result": {
+        "item": "minecraft:fireworks",
         "count": 3
     },
     "functions": [
@@ -57,7 +57,7 @@
             }
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:fireworks"
     }
 }

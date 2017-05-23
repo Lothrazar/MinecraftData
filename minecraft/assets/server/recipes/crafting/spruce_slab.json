@@ -1,24 +1,13 @@
 {
+    "parent": "minecraft:1_layer",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:spruce_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:spruce_slab",
         "count": 6
     },
-    "group": "minecraft:slab"
+    "group": "minecraft:1_layer"
 }

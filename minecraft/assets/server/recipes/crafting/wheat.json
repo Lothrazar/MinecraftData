@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:hay_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:hay_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:wheat",
         "count": 9
     },

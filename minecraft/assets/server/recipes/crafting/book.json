@@ -1,43 +1,35 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:paper"
-                    }
-                ]
+                [    "paper"    ]
             ]
         },
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:paper"
-                    }
-                ]
+                [    "paper"    ]
             ]
         },
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:paper"
-                    }
-                ]
+                [    "paper"    ]
             ]
         },
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:leather"
-                    }
-                ]
+                [    "leather"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "paper": {
+            "item": "minecraft:paper"
+        },
+        "leather": {
+            "item": "minecraft:leather"
+        }
+    }
+    "result": {
         "item": "minecraft:book"
     }
 }

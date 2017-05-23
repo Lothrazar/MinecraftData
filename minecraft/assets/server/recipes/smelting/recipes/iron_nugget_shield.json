@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:shield"
     },
-    "return": {
+    "result": {
         "item": "minecraft:iron_nugget",
         "xp": 0.2
     },

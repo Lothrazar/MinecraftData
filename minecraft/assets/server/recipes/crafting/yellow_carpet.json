@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:yellow_wool"
-                    },
-                    {
-                        "item": "minecraft:yellow_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:yellow_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:yellow_carpet",
         "count": 3
     },

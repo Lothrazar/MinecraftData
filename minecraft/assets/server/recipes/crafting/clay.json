@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:clay_ball"
-                    },
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:clay_ball"
-                    },
-                    {
-                        "item": "minecraft:clay_ball"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:clay_ball"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:clay"
     }
 }

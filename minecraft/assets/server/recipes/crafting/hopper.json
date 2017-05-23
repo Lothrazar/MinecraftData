@@ -1,41 +1,22 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:chest"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
+                [    "shell",    "",    "shell"    ],
+                [    "shell",    "chest",    "shell"    ],
+                [    "",    "shell",    ""    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "shell": {
+            "item": "minecraft:iron_ingot"
+        },
+        "chest": {
+            "item": "minecraft:chest"
+        }
+    },
+    "result": {
         "item": "minecraft:hopper"
     }
 }

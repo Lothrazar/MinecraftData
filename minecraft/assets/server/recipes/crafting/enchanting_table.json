@@ -1,41 +1,25 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:book"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    },
-                    {
-                        "item": "minecraft:obsidian"
-                    }
-                ]
+                [    "",    "book"    ],
+                [    "corner",    "table",    "corner"    ],
+                [    "table",    "table",    "table"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "book": {
+            "item": "minecraft:book"
+        },
+        "corner": {
+            "item": "minecraft:diamond"
+        },
+        "table": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
         "item": "minecraft:enchanting_table"
     }
 }

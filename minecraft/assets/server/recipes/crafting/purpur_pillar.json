@@ -1,21 +1,14 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:purpur_slab"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:purpur_slab"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:purpur_slab"
+        },
+        "bottom": {
+            "item": "minecraft:purpur_slab"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:purpur_pillar"
     }
 }

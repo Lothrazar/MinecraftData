@@ -1,19 +1,14 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:birch_log",
-                            "minecraft:birch_bark"
-                        ]
-                    }
-                ]
+        "item": {
+            "item": [
+                "minecraft:birch_log",
+                "minecraft:birch_bark"
             ]
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:birch_planks",
         "count": 4
     },

@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:emerald_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:emerald_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:emerald",
         "count": 9
     },

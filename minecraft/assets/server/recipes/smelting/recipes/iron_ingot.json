@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:iron_ore"
     },
-    "return": {
+    "result": {
         "item": "minecraft:iron_ingot",
         "xp": 0.7
     },

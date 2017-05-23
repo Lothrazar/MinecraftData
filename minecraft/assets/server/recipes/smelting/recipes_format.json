@@ -22,7 +22,7 @@
             "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
         }
     },
-    "return": {
+    "result": {
         "item": "STRING: The item id",
         "nbt": "STRING: additional nbt data",
         "count": "INTEGER: count, default = 1",

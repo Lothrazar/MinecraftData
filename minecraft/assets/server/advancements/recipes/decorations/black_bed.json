@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:black_bed"
@@ -25,9 +26,7 @@
   },
   "requirements": [
     [
-      "has_black_wool"
-    ],
-    [
+      "has_black_wool",
       "has_the_recipe"
     ]
   ]

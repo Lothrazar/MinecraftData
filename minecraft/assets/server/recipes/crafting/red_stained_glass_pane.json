@@ -1,33 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:red_stained_glass"
-                    },
-                    {
-                        "item": "minecraft:red_stained_glass"
-                    },
-                    {
-                        "item": "minecraft:red_stained_glass"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:red_stained_glass"
-                    },
-                    {
-                        "item": "minecraft:red_stained_glass"
-                    },
-                    {
-                        "item": "minecraft:red_stained_glass"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:red_stained_glass"
+        },
+        "bottom": {
+            "item": "minecraft:red_stained_glass"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:red_stained_glass_pane",
         "count": 16
     },

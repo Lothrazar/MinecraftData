@@ -1,38 +1,22 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:string"
-                    },
-                    {
-                        "item": "minecraft:string"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:string"
-                    },
-                    {
-                        "item": "minecraft:slimeball"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:string"
-                    }
-                ]
+                [    "rope",    "rope"    ],
+                [    "rope",    "slime"    ],
+                [    "",    "",    "rope"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "rope": {
+            "item": "minecraft:string"
+        },
+        "slime": {
+            "item": "minecraft:slimeball"
+        }
+    },
+    "result": {
         "item": "minecraft:lead",
         "count": 2
     }

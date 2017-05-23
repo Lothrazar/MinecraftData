@@ -1,26 +1,15 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:ink_sack"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:ink_sack"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:white_bed"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:white_bed"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:black_bed"
     },
-    "group": "minecraft:bed_coloring"
+    "group": "minecraft:2_layers_coloring"
 }

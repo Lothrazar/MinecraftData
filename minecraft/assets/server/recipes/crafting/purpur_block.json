@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:chorus_fruit_popped"
-                    },
-                    {
-                        "item": "minecraft:chorus_fruit_popped"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:chorus_fruit_popped"
-                    },
-                    {
-                        "item": "minecraft:chorus_fruit_popped"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:chorus_fruit_popped"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:purpur_block"
     }
 }

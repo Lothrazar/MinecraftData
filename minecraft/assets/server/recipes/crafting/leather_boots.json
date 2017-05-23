@@ -1,33 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:leather"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:leather"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:leather"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:leather"
-                    }
-                ]
-            ]
+    "parent": "minecraft:boots",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:leather"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:leather_boots"
     },
     "group": "minecraft:boots"

@@ -1,33 +1,24 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
+    "parent": "minecraft:3_high_line",
+    "ingredients": {
+        "top": {
+            "item": [
+                "minecraft:acacia_planks",
+                "minecraft:birch_planks",
+                "minecraft:dark_oak_planks",
+                "minecraft:jungle_planks",
+                "minecraft:oak_planks",
+                "minecraft:spruce_planks"
             ]
+        },
+        "middle": {
+            "item": "minecraft:stick"
+        },
+        "bottom": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:wooden_shovel"
     },
     "group": "minecraft:shovel"

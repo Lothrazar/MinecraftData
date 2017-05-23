@@ -1,25 +1,14 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:stone_bricks"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:stone_bricks"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:vines"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:vines"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:mossy_stone_bricks"
     },
     "group": "minecraft:mossy_block"

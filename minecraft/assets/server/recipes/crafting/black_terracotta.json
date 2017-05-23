@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:ink_sack"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:terracotta"
+        },
+        "center": {
+            "item": "minecraft:ink_sack"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:black_terracotta",
         "count": 8
     },

@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:diamond"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:diamond_block"
     },
     "group": "minecraft:mterial_block"

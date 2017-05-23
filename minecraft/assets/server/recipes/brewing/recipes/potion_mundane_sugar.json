@@ -8,7 +8,7 @@
     "item": {
         "item": "minecraft:sugar"
     },
-    "return": {
+    "result": {
         "item": "minecraft:potion"
     },
     "group": "minecraft:mundane_potion",

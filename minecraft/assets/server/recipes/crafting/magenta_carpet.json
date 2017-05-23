@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:magenta_wool"
-                    },
-                    {
-                        "item": "minecraft:magenta_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:magenta_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:magenta_carpet",
         "count": 3
     },

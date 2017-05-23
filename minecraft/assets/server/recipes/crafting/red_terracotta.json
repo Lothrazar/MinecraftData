@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:rose_red"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:terracotta"
+        },
+        "center": {
+            "item": "minecraft:rose_red"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:red_terracotta",
         "count": 8
     },

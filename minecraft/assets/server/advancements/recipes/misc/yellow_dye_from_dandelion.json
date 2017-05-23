@@ -1,16 +1,17 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:yellow_dye_from_dandelion"
     ]
   },
   "criteria": {
-    "has_double_plant": {
+    "has_yellow_flower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:double_plant",
+            "item": "minecraft:yellow_flower",
             "data": 0
           }
         ]
@@ -25,9 +26,7 @@
   },
   "requirements": [
     [
-      "has_double_plant"
-    ],
-    [
+      "has_yellow_flower",
       "has_the_recipe"
     ]
   ]

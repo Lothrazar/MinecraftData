@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:lapis_ore"
     },
-    "return": {
+    "result": {
         "item": "minecraft:lapis_lazuli",
         "xp": 0.2
     },

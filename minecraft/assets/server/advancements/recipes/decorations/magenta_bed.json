@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:magenta_bed"
@@ -25,9 +26,7 @@
   },
   "requirements": [
     [
-      "has_magenta_wool"
-    ],
-    [
+      "has_magenta_wool",
       "has_the_recipe"
     ]
   ]

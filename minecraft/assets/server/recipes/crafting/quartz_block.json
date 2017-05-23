@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:quartz"
-                    },
-                    {
-                        "item": "minecraft:quartz"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:quartz"
-                    },
-                    {
-                        "item": "minecraft:quartz"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:quartz"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:quartz_block"
     }
 }

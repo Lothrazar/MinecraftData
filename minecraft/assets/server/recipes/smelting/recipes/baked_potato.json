@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:potato"
     },
-    "return": {
+    "result": {
         "item": "minecraft:baked_potato",
         "xp": 0.35
     },

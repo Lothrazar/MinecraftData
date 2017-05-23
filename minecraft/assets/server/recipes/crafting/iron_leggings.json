@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:leggings",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:iron_ingot"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:iron_leggings"
     },
     "group": "minecraft:leggings"

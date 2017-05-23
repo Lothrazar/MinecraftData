@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:white_wool"
-                    },
-                    {
-                        "item": "minecraft:white_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:white_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:white_carpet",
         "count": 3
     },

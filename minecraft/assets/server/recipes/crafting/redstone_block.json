@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:redstone_dust"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:redstone_block"
     },
     "group": "minecraft:material_block"

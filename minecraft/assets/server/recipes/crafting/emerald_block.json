@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:emerald"
-                    },
-                    {
-                        "item": "minecraft:emerald"
-                    },
-                    {
-                        "item": "minecraft:emerald"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:emerald"
-                    },
-                    {
-                        "item": "minecraft:emerald"
-                    },
-                    {
-                        "item": "minecraft:emerald"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:emerald"
-                    },
-                    {
-                        "item": "minecraft:emerald"
-                    },
-                    {
-                        "item": "minecraft:emerald"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:emerald"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:emerald_block"
     },
     "group": "minecraft:material_block"

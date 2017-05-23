@@ -117,8 +117,6 @@ minecraft:entity.lightning_bolt=Lightning Bolt
 minecraft:entity.fishing_line=Fishing Line
 minecraft:entity.player=Player
 
-minecraft:container.enchant.level_required=Level Requirement: %s
-
 minecraft:commands.generic.selector.more=%s and %s
 
 minecraft:connect.poll=Polling...
@@ -128,9 +126,6 @@ minecraft:connect.cant_reach=Can't reach server
 minecraft:connect.more=... and %s more ...
 minecraft:connect.no_connection=(no connection)
 minecraft:connect.outdated=Outdated server!
-
-minecraft:commands.advancement.test.advancement.success=Player %s has completed advancement '%s'
-minecraft:commands.advancement.test.usage=/advancement test <player> <advancement> [criterion]
 
 minecraft:disconnect.closed=Server closed
 minecraft:disconnect.cant_connect=Can't connect to server
@@ -160,7 +155,7 @@ item.spruceDoor.name=Spruce Door
 item.birchDoor.name=Birch Door
 item.jungleDoor.name=Jungle Door
 item.acaciaDoor.name=Acacia Door
-item.darmOakDoor.name=Dark Oak Door
+item.darkOakDoor.name=Dark Oak Door
 item.sign.name=Sign
 item.bed.name=Bed
 item.brewingStand.name=Brewing Stand

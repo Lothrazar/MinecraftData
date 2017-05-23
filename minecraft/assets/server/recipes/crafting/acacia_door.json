@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:door",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:acacia_planks"
-                    },
-                    {
-                        "item": "minecraft:acacia_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:acacia_planks"
-                    },
-                    {
-                        "item": "minecraft:acacia_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:acacia_planks"
-                    },
-                    {
-                        "item": "minecraft:acacia_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:acacia_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:acacia_door",
         "count": 3
     },

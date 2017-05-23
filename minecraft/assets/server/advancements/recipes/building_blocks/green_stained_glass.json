@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:green_stained_glass"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_glass"
-    ],
-    [
+      "has_glass",
       "has_the_recipe"
     ]
   ]

@@ -1,19 +1,14 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:dark_oak_log",
-                            "minecraft:dark_oak_bark"
-                        ]
-                    }
-                ]
+        "item": {
+            "item": [
+                "minecraft:dark_oak_log",
+                "minecraft:dark_oak_bark"
             ]
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:dark_oak_planks",
         "count": 4
     },

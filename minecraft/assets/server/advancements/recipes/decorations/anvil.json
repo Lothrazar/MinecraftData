@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:anvil"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_iron_block"
-    ],
-    [
+      "has_iron_block",
       "has_the_recipe"
     ]
   ]

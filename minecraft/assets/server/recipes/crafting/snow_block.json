@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:snowball"
-                    },
-                    {
-                        "item": "minecraft:snowball"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:snowball"
-                    },
-                    {
-                        "item": "minecraft:snowball"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:snowball"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:snow_block"
     }
 }

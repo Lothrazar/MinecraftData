@@ -12,10 +12,10 @@
         "frame": "challenge",
         "hidden": true
     },
-    "rewards": {
-        "experience": 100
-    },
     "parent": "minecraft:nether/all_potions",
+    "rewards": {
+        "experience": 1000
+    },
     "criteria": {
         "all_effects": {
             "trigger": "minecraft:effects_changed",
@@ -40,7 +40,7 @@
                     "minecraft:absorption": {},
                     "minecraft:hunger": {},
                     "minecraft:nausea": {},
-                    "minecraft:resistence": {}
+                    "minecraft:resistance": {}
                 }
             }
         }

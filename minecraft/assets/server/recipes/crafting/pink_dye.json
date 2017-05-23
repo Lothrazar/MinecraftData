@@ -1,25 +1,14 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:rose_red"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:rose_red"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:bone_meal"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:pink_dye",
         "count": 2
     },

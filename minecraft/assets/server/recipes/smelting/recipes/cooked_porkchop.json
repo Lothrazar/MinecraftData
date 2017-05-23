@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:porkchop"
     },
-    "return": {
+    "result": {
         "item": "minecraft:cooked_porkchop",
         "xp": 0.35
     },

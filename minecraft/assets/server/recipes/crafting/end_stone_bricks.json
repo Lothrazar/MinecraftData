@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:end_stone"
-                    },
-                    {
-                        "item": "minecraft:end_stone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:end_stone"
-                    },
-                    {
-                        "item": "minecraft:end_stone"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:end_stone"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:end_stone_bricks",
         "count": 4
     }

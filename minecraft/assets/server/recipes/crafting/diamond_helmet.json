@@ -1,33 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ]
-            ]
+    "parent": "minecraft:helmet",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:diamond"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:diamond_helmet"
     },
     "group": "minecraft:helmet"

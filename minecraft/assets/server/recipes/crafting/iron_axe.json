@@ -1,32 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:axe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:iron_ingot"
+        },
+        "stick": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:iron_axe"
     },
     "group": "minecraft:axe"

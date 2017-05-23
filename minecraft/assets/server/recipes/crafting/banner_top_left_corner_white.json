@@ -1,33 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+    "parent": "minecraft:banner_top_left_corner",
+    "ingredients": {
+        "banner": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ],
-            "can_move": false,
-            "can_mirror": false
+        "dye": {
+            "item": "minecraft:bone_meal"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_top_left_corner",

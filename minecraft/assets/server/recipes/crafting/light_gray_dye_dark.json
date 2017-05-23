@@ -1,34 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:ink_sack"
-                    }
-                ]
-            ]
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:ink_sack"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:bone_meal"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ]
+        "item3": {
+            "item": "minecraft:bone_meal"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:light_gray_dye",
         "count": 3
     },

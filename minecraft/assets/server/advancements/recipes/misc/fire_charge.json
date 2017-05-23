@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:fire_charge"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_blaze_powder"
-    ],
-    [
+      "has_blaze_powder",
       "has_the_recipe"
     ]
   ]

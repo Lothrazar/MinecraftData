@@ -1,24 +1,13 @@
 {
+    "parent": "minecraft:1_layer",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    },
-                    {
-                        "item": "minecraft:jungle_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:jungle_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:jungle_slab",
         "count": 6
     },
-    "group": "minecraft:slab"
+    "group": "minecraft:1_layer"
 }

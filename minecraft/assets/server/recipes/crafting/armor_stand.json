@@ -1,41 +1,22 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:stone_slab"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
+                [    "body",    "body",    "body"    ],
+                [    "",    "body"    ],
+                [    "body",    "base",    "body"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "body": {
+            "item": "minecraft:stick"
+        },
+        "base": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
         "item": "minecraft:armor_stand"
     }
 }

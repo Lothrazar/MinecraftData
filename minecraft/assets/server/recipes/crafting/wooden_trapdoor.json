@@ -1,75 +1,28 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ]
+    "parent": "minecraft:2_layers",
+    "ingredients": {
+        "top": {
+            "item": [
+                "minecraft:oak_planks",
+                "minecraft:spruce_planks",
+                "minecraft:birch_planks",
+                "minecraft:jungle_planks",
+                "minecraft:acacia_planks",
+                "minecraft:dark_oak_planks"
+            ]
+        },
+        "bottom": {
+            "item": [
+                "minecraft:oak_planks",
+                "minecraft:spruce_planks",
+                "minecraft:birch_planks",
+                "minecraft:jungle_planks",
+                "minecraft:acacia_planks",
+                "minecraft:dark_oak_planks"
             ]
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:wooden_trapdoor",
         "count": 2
     },

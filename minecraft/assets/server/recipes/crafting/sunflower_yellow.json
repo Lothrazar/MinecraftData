@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sunflower"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:sunflower"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:dandelion_yellow",
         "count": 2
     },

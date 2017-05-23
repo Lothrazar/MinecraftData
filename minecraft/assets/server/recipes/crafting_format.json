@@ -1,33 +1,8 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [ 
-                    {
-                        "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
-                        "id": "INTEGER: Optional, the ingredient id used for functions",
-                        "count": "INTEGER: how many items must be in this slot, default = 1",
-                        "conditions": {
-                            "nbt": "STRING: additional nbt data",
-                            "durability": "FLOAT: durability of the item, 1=full, 0=broken",
-                            "layers": {
-                                "min": "INTEGER: minimum count of layers this banner or shield has",
-                                "max": "INTEGER: maximum count of layers this banner or shield has",
-                                "base": "STRING: the base color this banner or shield (none for uncolored) has"
-                            },
-                            "treasure": "BOOLEAN: if this has to be a treasure or normal map",
-                            "zoom_level": {
-                                "min": "INTEGER: minimum count of zoom this map has",
-                                "max": "INTEGER: maximum count of zoom this map has"
-                            },
-                            "generation": {
-                                "min": "INTEGER: maximum generation this written book has",
-                                "max": "INTEGER: maximum generation this written book has"
-                            },
-                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
-                        }
-                    }
-                ]
+                "list if lists, containing strings, each string is an ingredient naming"
             ],
             "can_move": "BOOLEAN: if this item group can be moved, in the recipe, default = true",
             "can_mirror": "BOOLEAN: if this item group can be mirrored left to right, in the recipe, default = true",
@@ -37,33 +12,8 @@
     "optional_ingredients": [
         {
             "items": [
-                [ 
-                    {
-                        "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
-                        "count": "INTEGER: how many items must be in this slot, default = 1",
-                        "conditions": {
-                            "nbt": "STRING: additional nbt data",
-                            "durability": "FLOAT: durability of the item, 1=full, 0=broken",
-                            "layers": {
-                                "min": "INTEGER: minimum count of layers this banner or shield has",
-                                "max": "INTEGER: maximum count of layers this banner or shield has",
-                                "base": "STRING: the base color this banner or shield (none for uncolored) has"
-                            },
-                            "treasure": "BOOLEAN: if this has to be a treasure or normal map",
-                            "zoom_level": {
-                                "min": "INTEGER: minimum count of zoom this map has",
-                                "max": "INTEGER: maximum count of zoom this map has"
-                            },
-                            "generation": {
-                                "min": "INTEGER: maximum generation this written book has",
-                                "max": "INTEGER: maximum generation this written book has"
-                            },
-                            "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
-                        }
-                    }
-                ]
+                "list if lists, containing strings, each string is an ingredient naming"
             ],
-            "id": "INTEGER: Optional, the ingredient id used for functions",
             "can_move": "BOOLEAN: if this item group can be moved, in the recipe, default = true",
             "can_mirror": "BOOLEAN: if this item group can be mirrored left to right, in the recipe, default = true",
             "can_flip": "BOOLEAN: if this item group can be flipped upside down, in the recipe, default = false",
@@ -71,21 +21,47 @@
             "max_groups": "INTEGER: the maximum count of slots that can be used by this ingredient, default = -1 (unlimited"
         }
     ],
+    "ingredients": {
+        "ingredient name": {
+            "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
+            "id": "INTEGER: Optional, the ingredient id used for functions",
+            "count": "INTEGER: how many items must be in this slot, default = 1",
+            "conditions": {
+                "nbt": "STRING: additional nbt data",
+                "durability": "FLOAT: durability of the item, 1=full, 0=broken",
+                "layers": {
+                    "min": "INTEGER: minimum count of layers this banner or shield has",
+                    "max": "INTEGER: maximum count of layers this banner or shield has",
+                    "base": "STRING: the base color this banner or shield (none for uncolored) has"
+                },
+                "treasure": "BOOLEAN: if this has to be a treasure or normal map",
+                "zoom_level": {
+                    "min": "INTEGER: minimum count of zoom this map has",
+                    "max": "INTEGER: maximum count of zoom this map has"
+                },
+                "generation": {
+                    "min": "INTEGER: maximum generation this written book has",
+                    "max": "INTEGER: maximum generation this written book has"
+                },
+                "potion": "STRING: the potion id that this potion/splash potion/lingering potion/tipped arrow has"
+            }
+        }
+    },
     "optional_ingredients_required": {
         "min": "INTEGER: the minimum count of optional ingredient groups required, default = 0",
         "max": "INTEGER: the maximum count of optional ingredient groups required, default = -1 (unlimited)"
     },
-    "return": {
+    "result": {
         "item": "STRING: The item id",
         "nbt": "STRING: additional nbt data",
         "count": "INTEGER: count, default = 1",
         "durability": "FLOAT: durability of the item, 1=full, 0=broken, default = 1",
         "xp": "FLOAT: how much xp you get from this recipe, default = 0"
     },
-	"group": "STRING: with this is grouped in the recipe book",
+    "group": "STRING: the group this is grouped in the recipe book",
     "functions":[
         {
-            "function": "minecraft:return_items",
+            "function": "minecraft:result_items",
             "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
             "id": "STRING: The id of the item in the ingredients",
             "nbt": "STRING: Optional, what tags it gets, default = empty",
@@ -115,7 +91,7 @@
             "ids": [
                 "INTEGER: list of id's that get the durability combined into the final item"
             ],
-            "bonus": "INTEGER: adittional percentage of bonus durability the returned item gets, default = 0"
+            "bonus": "INTEGER: adittional percentage of bonus durability the resulted item gets, default = 0"
         },
         {
             "function": "minecraft:add_component",
@@ -159,6 +135,6 @@
 }
 
 Notes: 
-First runs copy_nbt, then the nbt of return and then the nbt of add
-When NBT is copied, and a list which already exists is being specified in return, it adds to the end of the list, unless the returned list is empty.
+First runs copy_nbt, then the nbt of result and then the nbt of add
+When NBT is copied, and a list which already exists is being specified in result, it adds to the end of the list, unless the resulted list is empty.
 If the same id is found multiple times in the same recipe, it'll apply the function to all of them

@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:stairs",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:cobblestone"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:cobblestone_stairs",
         "count": 4
     },

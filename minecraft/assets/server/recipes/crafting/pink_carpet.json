@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:pink_wool"
-                    },
-                    {
-                        "item": "minecraft:pink_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:pink_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:pink_carpet",
         "count": 3
     },

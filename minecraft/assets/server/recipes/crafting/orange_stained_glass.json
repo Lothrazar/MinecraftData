@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:orange_dye"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ]
-            ]
+    "parent": "outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:glass"
+        },
+        "center": {
+            "item": "minecraft:orange_dye"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:orange_stained_glass",
         "count": 8
     },

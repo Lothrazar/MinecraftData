@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:iron_leggings"
     },
-    "return": {
+    "result": {
         "item": "minecraft:iron_nugget",
         "count": 7,
         "xp": 0.2

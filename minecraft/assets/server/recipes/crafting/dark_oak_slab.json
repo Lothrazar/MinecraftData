@@ -1,24 +1,13 @@
 {
+    "parent": "minecraft:1_layer",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:dark_oak_planks"
-                    },
-                    {
-                        "item": "minecraft:dark_oak_planks"
-                    },
-                    {
-                        "item": "minecraft:dark_oak_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:dark_oak_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:dark_oak_slab",
         "count": 6
     },
-    "group": "minecraft:slab"
+    "group": "minecraft:1_layer"
 }

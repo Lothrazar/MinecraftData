@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gray_wool"
-                    },
-                    {
-                        "item": "minecraft:gray_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:gray_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:gray_carpet",
         "count": 3
     },

@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:gold_ingot"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:light_weighted_pressure_plate"
     },
     "group": "minecraft:pressure_plate"

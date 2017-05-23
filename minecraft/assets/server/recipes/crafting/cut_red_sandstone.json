@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:red_sandstone"
-                    },
-                    {
-                        "item": "minecraft:red_sandstone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:red_sandstone"
-                    },
-                    {
-                        "item": "minecraft:red_sandstone"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:red_sandstone"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:cut_red_sandstone",
         "count": 4
     },

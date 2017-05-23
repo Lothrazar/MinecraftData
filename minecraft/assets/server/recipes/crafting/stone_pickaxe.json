@@ -1,38 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:pickaxe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:cobblestone"
+        },
+        "stick": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:stone_pickaxe"
     },
     "group": "minecraft:pickaxe"

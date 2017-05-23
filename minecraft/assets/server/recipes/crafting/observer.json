@@ -1,44 +1,25 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:quartz"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
+                [    "shell",    "shell",    "shell"    ],
+                [    "front",    "inside",    "inside"    ],
+                [    "shell",    "shell",    "shell"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "shell": {
+            "item": "minecraft:cobblestone"
+        },
+        "front": {
+            "item": "minecraft:quartz"
+        },
+        "inside": {
+            "item": "minecraft:redstone_dust"
+        }
+    },
+    "result": {
         "item": "minecraft:observer"
     }
 }

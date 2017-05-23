@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:chestplate",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:gold_ingot"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:golden_chestplate"
     },
     "group": "minecraft:chestplate"

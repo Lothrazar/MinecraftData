@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:golden_chestplate"
     },
-    "return": {
+    "result": {
         "item": "minecraft:gold_nugget",
         "count": 8,
         "xp": 0.2

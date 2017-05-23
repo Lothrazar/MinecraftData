@@ -1,29 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:hoe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:cobblestone"
+        },
+        "stick": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:stone_hoe"
     },
     "group": "minecraft:hoe"

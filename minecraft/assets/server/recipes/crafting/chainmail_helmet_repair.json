@@ -1,24 +1,13 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:chainmail_helmet",
-                        "id": 0
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:chainmail_helmet",
+            "id": 0
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:chainmail_helmet",
-                        "id": 1
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:chainmail_helmet",
+            "id": 1
         }
     ],
     "functions": [
@@ -31,7 +20,7 @@
             "bonus": 5
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:chainmail_helmet"
     },
     "group": "minecraft:repair_tool"

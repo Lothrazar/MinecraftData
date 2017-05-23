@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:light_blue_terracotta"
     },
-    "return": {
+    "result": {
         "item": "minecraft:light_blue_glazed_terracotta",
         "xp": 0.1
     },

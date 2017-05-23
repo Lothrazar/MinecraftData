@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:rabbit_hide"
-                    },
-                    {
-                        "item": "minecraft:rabbit_hide"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:rabbit_hide"
-                    },
-                    {
-                        "item": "minecraft:rabbit_hide"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:rabbit_hide"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:leather"
     }
 }

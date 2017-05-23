@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:iron_axe"
     },
-    "return": {
+    "result": {
         "item": "minecraft:iron_nugget",
         "count": 3,
         "xp": 0.2

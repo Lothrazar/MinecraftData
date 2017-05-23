@@ -1,29 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:hoe",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:diamond"
+        },
+        "stick": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:diamond_hoe"
     },
     "group": "minecraft:hoe"

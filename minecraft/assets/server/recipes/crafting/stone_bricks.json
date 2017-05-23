@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:stone"
-                    },
-                    {
-                        "item": "minecraft:stone"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stone"
-                    },
-                    {
-                        "item": "minecraft:stone"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:stone"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:stone_bricks",
         "count": 4
     }

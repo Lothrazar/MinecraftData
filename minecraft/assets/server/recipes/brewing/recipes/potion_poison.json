@@ -8,7 +8,7 @@
     "item": {
         "item": "minecraft:spider_eye"
     },
-    "return": {
+    "result": {
         "item": "minecraft:potion"
     },
     "functions": [

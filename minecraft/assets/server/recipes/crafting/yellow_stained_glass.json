@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:dandelion_yellow"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:glass"
+        },
+        "center": {
+            "item": "minecraft:dandelion_yellow"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:yellow_stained_glass",
         "count": 8
     },

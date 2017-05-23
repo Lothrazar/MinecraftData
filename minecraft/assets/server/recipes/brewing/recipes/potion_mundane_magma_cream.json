@@ -8,7 +8,7 @@
     "item": {
         "item": "minecraft:magma_cream"
     },
-    "return": {
+    "result": {
         "item": "minecraft:potion"
     },
     "group": "minecraft:mundane_potion",

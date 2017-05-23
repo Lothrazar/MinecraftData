@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:purple_dye"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    },
-                    {
-                        "item": "minecraft:terracotta"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:terracotta"
+        },
+        "center": {
+            "item": "minecraft:purple_dye"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:purple_terracotta",
         "count": 8
     },

@@ -1,44 +1,25 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:redstone_torch"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
+                [    "rail",    "stick",    "rail"    ],
+                [    "rail",    "torch",    "rail"    ],
+                [    "rail",    "stick",    "rail"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "rail": {
+            "item": "minecraft:iron_ingot"
+        },
+        "torch": {
+            "item": "minecraft:redstone_torch"
+        },
+        "stick": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
         "item": "minecraft:activator_rail",
         "count": 6
     }

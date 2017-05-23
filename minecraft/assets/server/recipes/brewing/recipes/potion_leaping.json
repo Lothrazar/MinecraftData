@@ -8,7 +8,7 @@
     "item": {
         "item": "minecraft:rabbit_foot"
     },
-    "return": {
+    "result": {
         "item": "minecraft:potion"
     },
     "functions": [

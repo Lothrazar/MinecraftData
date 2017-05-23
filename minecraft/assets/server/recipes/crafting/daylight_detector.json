@@ -1,65 +1,24 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    },
-                    {
-                        "item": "minecraft:glass"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:quartz"
-                    },
-                    {
-                        "item": "minecraft:quartz"
-                    },
-                    {
-                        "item": "minecraft:quartz"
-                    }
-                ],
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_slab",
-                            "minecraft:spruce_slab",
-                            "minecraft:birch_slab",
-                            "minecraft:jungle_slab",
-                            "minecraft:acacia_slab",
-                            "minecraft:dark_oak_slab"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_slab",
-                            "minecraft:spruce_slab",
-                            "minecraft:birch_slab",
-                            "minecraft:jungle_slab",
-                            "minecraft:acacia_slab",
-                            "minecraft:dark_oak_slab"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_slab",
-                            "minecraft:spruce_slab",
-                            "minecraft:birch_slab",
-                            "minecraft:jungle_slab",
-                            "minecraft:acacia_slab",
-                            "minecraft:dark_oak_slab"
-                        ]
-                    }
-                ]
+    "parent": "minecraft:3_layers",
+    "ingredients": {
+        "top": {
+            "item": "minecraft:glass"
+        }
+        "middle": {
+            "item": "minecraft:quartz"
+        }
+        "bottom": {
+            "item": [
+                "minecraft:acacia_planks",
+                "minecraft:birch_planks",
+                "minecraft:dark_oak_planks",
+                "minecraft:jungle_planks",
+                "minecraft:oak_planks",
+                "minecraft:birch_planks"
             ]
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:daylight_detector"
     }
 }

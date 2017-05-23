@@ -1,33 +1,18 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    },
-                    {
-                        "item": [
-                            "minecraft:oak_planks",
-                            "minecraft:spruce_planks",
-                            "minecraft:birch_planks",
-                            "minecraft:jungle_planks",
-                            "minecraft:acacia_planks",
-                            "minecraft:dark_oak_planks"
-                        ]
-                    }
-                ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:oak_planks",
+                "minecraft:spruce_planks",
+                "minecraft:birch_planks",
+                "minecraft:jungle_planks",
+                "minecraft:acacia_planks",
+                "minecraft:dark_oak_planks"
             ]
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:wooden_pressure_plate"
     },
     "group": "minecraft:pressure_plate"

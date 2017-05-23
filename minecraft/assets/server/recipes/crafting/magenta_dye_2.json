@@ -1,25 +1,14 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:purple_dye"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:purple_dye"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:pink_dye"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:pink_dye"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:magenta_dye",
         "count": 2
     },

@@ -1,50 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:pink_dye"
-                    },
-                    {
-                        "item": "minecraft:pink_dye"
-                    },
-                    {
-                        "item": "minecraft:pink_dye"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:pink_dye"
-                    },
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    },
-                    {
-                        "item": "minecraft:pink_dye"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:pink_dye"
-                    },
-                    {
-                        "item": "minecraft:pink_dye"
-                    },
-                    {
-                        "item": "minecraft:pink_dye"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:pink_dye"
+        },
+        "center": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_border",

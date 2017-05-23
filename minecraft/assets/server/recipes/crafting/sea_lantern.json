@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_crystals"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:prismarine_crystals"
-                    },
-                    {
-                        "item": "minecraft:prismarine_crystals"
-                    },
-                    {
-                        "item": "minecraft:prismarine_crystals"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    },
-                    {
-                        "item": "minecraft:prismarine_crystals"
-                    },
-                    {
-                        "item": "minecraft:prismarine_shard"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block_cross",
+    "ingredients": {
+        "corner": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "center": {
+            "item": "minecraft:prismarine_crystals"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:sea_lantern",
     }
 }

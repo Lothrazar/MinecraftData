@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:golden_axe"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_gold_ingot"
-    ],
-    [
+      "has_gold_ingot",
       "has_the_recipe"
     ]
   ]

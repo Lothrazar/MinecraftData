@@ -1,27 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:dirt"
-                    },
-                    {
-                        "item": "minecraft:gravel"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gravel"
-                    },
-                    {
-                        "item": "minecraft:dirt"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube_2",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:dirt"
         }
-    ],
-    "return": {
+        "item2": {
+            "item": "minecraft:gravel"
+        }
+    },
+    "result": {
         "item": "minecraft:coarse_dirt"
     }
 }

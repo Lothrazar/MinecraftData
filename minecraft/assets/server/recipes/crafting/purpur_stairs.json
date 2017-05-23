@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:stairs",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:purpur_block"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:purpur_block"
-                    },
-                    {
-                        "item": "minecraft:purpur_block"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:purpur_block"
-                    },
-                    {
-                        "item": "minecraft:purpur_block"
-                    },
-                    {
-                        "item": "minecraft:purpur_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:purpur_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:purpur_stairs",
         "count": 4
     },

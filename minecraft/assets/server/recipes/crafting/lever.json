@@ -1,21 +1,14 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:stick"
+        },
+        "bottom": {
+            "item": "minecraft:cobblestone"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:lever"
     }
 }

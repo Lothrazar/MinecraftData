@@ -1,27 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:nether_wart"
-                    },
-                    {
-                        "item": "minecraft:netherbrick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:netherbrick"
-                    },
-                    {
-                        "item": "minecraft:nether_wart"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube_2",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:nether_wart"
         }
-    ],
-    "return": {
+        "item2": {
+            "item": "minecraft:nether_brick"
+        }
+    },
+    "result": {
         "item": "minecraft:red_nether_bricks"
     }
 }

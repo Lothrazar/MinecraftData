@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:emerald_ore"
     },
-    "return": {
+    "result": {
         "item": "minecraft:emerald",
         "xp": 1
     },

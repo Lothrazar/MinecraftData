@@ -1,44 +1,19 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
+                [    "item",    "",    "item"    ],
+                [    "item",    "",    "item"    ],
+                [    "item",    "item",    "item"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "item": {
+            "item": "minecraft:iron_ingot"
+        }
+    }
+    "result": {
         "item": "minecraft:cauldron"
     }
 }

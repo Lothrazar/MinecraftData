@@ -1,44 +1,25 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:stone_pressure_plate"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
+                [    "rail",    "",    "rail"    ],
+                [    "rail",    "plate",    "rail"    ],
+                [    "rail",    "torch",    "rail"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "rail": {
+            "item": "minecraft:iron_ingot"
+        },
+        "plate": {
+            "item": "minecraft:stone_pressure_plate"
+        },
+        "torch": {
+            "item": "minecraft:redstone_dust"
+        }
+    },
+    "result": {
         "item": "minecraft:detector_rail",
         "count": 6
     }

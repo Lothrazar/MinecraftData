@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:iron_ingot"
-                    },
-                    {
-                        "item": "minecraft:iron_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:iron_ingot"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "group": "minecraft:pressure_plate"

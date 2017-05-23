@@ -1,33 +1,11 @@
 {
+    "parent": "minecraft:boat",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:spruce_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:spruce_boat"
     },
     "group": "minecraft:boat"

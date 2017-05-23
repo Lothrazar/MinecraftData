@@ -1,38 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:redstone_dust"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:circle",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:gold_ingot"
         }
-    ],
-    "return": {
+        "center": {
+            "item": "minecraft:redstone_dust"
+        }
+    },
+    "result": {
         "item": "minecraft:clock"
     }
 }

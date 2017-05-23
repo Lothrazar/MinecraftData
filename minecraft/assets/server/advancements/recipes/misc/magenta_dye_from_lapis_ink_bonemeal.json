@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:magenta_dye_from_lapis_ink_bonemeal"
@@ -47,15 +48,9 @@
   },
   "requirements": [
     [
-      "has_lapis"
-    ],
-    [
-      "has_bonemeal"
-    ],
-    [
-      "has_the_recipe"
-    ],
-    [
+      "has_lapis",
+      "has_bonemeal",
+      "has_the_recipe",
       "has_black_dye"
     ]
   ]

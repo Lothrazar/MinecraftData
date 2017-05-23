@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:light_blue_wool"
-                    },
-                    {
-                        "item": "minecraft:light_blue_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:light_blue_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:light_blue_carpet",
         "count": 3
     },

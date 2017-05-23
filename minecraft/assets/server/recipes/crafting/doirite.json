@@ -1,27 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cobblestone"
-                    },
-                    {
-                        "item": "minecraft:quartz"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:quartz"
-                    },
-                    {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube_2",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:cobblestone"
         }
-    ],
-    "return": {
+        "item2": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
         "item": "minecraft:diorite",
         "count": 2
     }

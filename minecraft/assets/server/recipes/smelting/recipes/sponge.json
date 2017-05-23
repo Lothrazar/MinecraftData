@@ -2,13 +2,13 @@
     "item": {
         "item": "minecraft:wet_sponge"
     },
-    "return": {
+    "result": {
         "item": "minecraft:sponge",
         "xp": 0.2
     },
     "functions": [
         {
-            "function": "return_items",
+            "function": "result_items",
             "replace": "minecraft:bucket",
             "item": "minecraft:water_bucket"
         }

@@ -1,34 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:brown_mushroom"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sugar"
-                    }
-                ]
-            ]
-        },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:spider_eye"
-                    }
-                ]
-            ]
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:brown_mushroom"
         }
-    ],
-    "return": {
+        "item2": {
+            "item": "minecraft:sugar"
+        }
+        "item3": {
+            "item": "minecraft:spider_eye"
+        }
+    },
+    "result": {
         "item": "minecraft:fermented_spder_eye"
     }
 }

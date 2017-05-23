@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:melon"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:melon"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:melon_seeds"
     }
 }

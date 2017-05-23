@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:string"
-                    },
-                    {
-                        "item": "minecraft:string"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:string"
-                    },
-                    {
-                        "item": "minecraft:string"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:string"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:white_wool"
     }
 }

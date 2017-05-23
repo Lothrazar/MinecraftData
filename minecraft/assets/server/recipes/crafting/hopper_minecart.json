@@ -1,21 +1,14 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:hopper"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:minecart"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:hopper"
+        },
+        "bottom": {
+            "item": "minecraft:minecart"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:hopper_minecart"
     },
     "group": "minecraft:minecart_with_block"

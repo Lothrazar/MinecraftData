@@ -1,33 +1,14 @@
 {
+    "parent": "minecraft:fence",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:oak_planks"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:stick"
-                    },
-                    {
-                        "item": "minecraft:oak_planks"
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+        "planks": {
+            "item": "minecraft:stick"
+        },
+        "stick": {
+            "item": "minecraft:oak_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:oak_fence_gate"
     },
     "group": "minecraft:fence_gate"

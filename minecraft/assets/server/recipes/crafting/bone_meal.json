@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:bone"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:bone_meal",
         "count": 3
     },

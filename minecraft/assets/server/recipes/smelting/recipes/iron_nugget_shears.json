@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:shears"
     },
-    "return": {
+    "result": {
         "item": "minecraft:iron_nugget",
         "count": 2,
         "xp": 0.2

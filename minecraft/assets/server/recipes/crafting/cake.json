@@ -1,64 +1,46 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        "item": "minecraft:milk_bucket",
-                        "id": 0
-                    },
-                    {
-                        "item": "minecraft:milk_bucket",
-                        "id": 1
-                    },
-                    {
-                        "item": "minecraft:milk_bucket",
-                        "id": 2
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:sugar"
-                    },
-                    {
-                        "item": "minecraft:egg"
-                    },
-                    {
-                        "item": "minecraft:sugar"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    },
-                    {
-                        "item": "minecraft:wheat"
-                    }
-                ]
+                [    "top",    "top",    "top"    ],
+                [    "side",    "center",    "side"    ],
+                [    "bottom",    "bottom",    "bottom"    ]
             ]
         }
     ],
+    "ingredients": {
+        "top": {
+            "item": "minecraft:milk_bucket",
+            "id": 0
+        },
+        "side": {
+            "item": "minecraft:sugar"
+        },
+        "middle": {
+            "item": "minecraft:egg"
+        },
+        "bottom": {
+            "item": "minecraft:wheat"
+        }
+    },
     "functions": [
         {
-            "function": "minecraft:return_items",
+            "function": "minecraft:result_items",
             "item": "minecraft:bucket",
             "id": 0
         },
         {
-            "function": "minecraft:return_items",
+            "function": "minecraft:result_items",
             "item": "minecraft:bucket",
             "id": 1
         },
         {
-            "function": "minecraft:return_items",
+            "function": "minecraft:result_items",
             "item": "minecraft:bucket",
             "id": 2
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:cake"
     }
 }

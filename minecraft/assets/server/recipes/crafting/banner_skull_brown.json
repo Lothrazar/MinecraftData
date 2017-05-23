@@ -1,40 +1,23 @@
 {
+    "parent": "minecraft:3_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:skeleton_skull"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:skeleton_skull"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    }
-                ]
-            ]
+        "item3": {
+            "item": "minecraft:cocoa_beans"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_skull",

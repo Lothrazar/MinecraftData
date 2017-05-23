@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:stone_bricks"
     },
-    "return": {
+    "result": {
         "item": "minecraft:cracked_stone_bricks",
         "xp": 0.1
     }

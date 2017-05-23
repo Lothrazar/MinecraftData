@@ -1,25 +1,14 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lapis_lazuli"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:lapis_lazuli"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:bone_meal"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:light_blue_dye",
         "count": 2
     },

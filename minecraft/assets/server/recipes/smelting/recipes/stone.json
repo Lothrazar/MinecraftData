@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:cobblestone"
     },
-    "return": {
+    "result": {
         "item": "minecraft:stone",
         "xp": 0.1
     }

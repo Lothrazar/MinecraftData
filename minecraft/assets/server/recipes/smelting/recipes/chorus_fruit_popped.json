@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:chorus_fruit"
     },
-    "return": {
+    "result": {
         "item": "minecraft:chorus_fruit_popped",
         "xp": 0.1
     },

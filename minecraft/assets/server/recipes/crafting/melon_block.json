@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:melon"
-                    },
-                    {
-                        "item": "minecraft:melon"
-                    },
-                    {
-                        "item": "minecraft:melon"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:melon"
-                    },
-                    {
-                        "item": "minecraft:melon"
-                    },
-                    {
-                        "item": "minecraft:melon"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:melon"
-                    },
-                    {
-                        "item": "minecraft:melon"
-                    },
-                    {
-                        "item": "minecraft:melon"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:melon"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:melon_block"
     }
 }

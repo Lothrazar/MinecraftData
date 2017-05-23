@@ -1,17 +1,12 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:dandelion"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:dandelion"
         }
     ],
-    "return": {
-        "item": "minecraft:dandelion_yellow"
+    "result": {
+        "item": "minecraft:dandelion"
     },
-    "group": "minecraft:dandelion_yellow"
+    "group": "minecraft:dandelion"
 }

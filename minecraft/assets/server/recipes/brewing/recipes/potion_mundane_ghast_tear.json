@@ -8,7 +8,7 @@
     "item": {
         "item": "minecraft:ghast_tear"
     },
-    "return": {
+    "result": {
         "item": "minecraft:potion"
     },
     "group": "minecraft:mundane_potion",

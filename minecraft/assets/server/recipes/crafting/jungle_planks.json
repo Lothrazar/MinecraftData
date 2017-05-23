@@ -1,19 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": [
-                            "minecraft:jungle_log",
-                            "minecraft:jungle_bark"
-                        ]
-                    }
-                ]
+    "parent": "minecraft:1_item",
+    "ingredients": {
+        "item": {
+            "item": [
+                "minecraft:jungle_log",
+                "minecraft:jungle_bark"
             ]
         }
-    ],
-    "return": {
+    }
+    "result": {
         "item": "minecraft:jungle_planks",
         "count": 4
     },

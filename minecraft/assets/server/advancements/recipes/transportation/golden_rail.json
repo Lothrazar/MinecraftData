@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:golden_rail"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_rail"
-    ],
-    [
+      "has_rail",
       "has_the_recipe"
     ]
   ]

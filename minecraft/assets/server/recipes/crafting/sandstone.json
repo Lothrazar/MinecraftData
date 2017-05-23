@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:sand"
-                    },
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:sand"
-                    },
-                    {
-                        "item": "minecraft:sand"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:sand"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:sandstone"
     },
     "group": "minecraft:sandstone"

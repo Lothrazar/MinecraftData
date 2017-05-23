@@ -1,22 +1,11 @@
 {
+    "parent": "minecraft:1_layer",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:snow_block"
-                    },
-                    {
-                        "item": "minecraft:snow_block"
-                    },
-                    {
-                        "item": "minecraft:snow_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:snow_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:snow",
         "count": 6
     }

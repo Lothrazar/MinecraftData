@@ -5,7 +5,7 @@
             "minecraft:red_sand"
         ]
     },
-    "return": {
+    "result": {
         "item": "minecraft:glass",
         "xp": 0.1
     }

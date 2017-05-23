@@ -1,40 +1,23 @@
 {
+    "parent": "minecraft:3_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:oxeye_daisy"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:oxeye_daisy"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cactus_green"
-                    }
-                ]
-            ]
+        "item3": {
+            "item": "minecraft:cactus_green"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_flower",

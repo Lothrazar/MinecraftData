@@ -1,27 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:nether_brick"
-                    },
-                    {
-                        "item": "minecraft:nether_brick"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:nether_brick"
-                    },
-                    {
-                        "item": "minecraft:nether_brick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:cube",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:nether_brick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:nether_bricks"
     }
 }

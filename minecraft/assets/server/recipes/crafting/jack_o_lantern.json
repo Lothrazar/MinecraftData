@@ -1,21 +1,14 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:pumpkin"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:torch"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:pumpkin"
+        },
+        "bottom": {
+            "item": "minecraft:torch"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:jack_o_lantern"
     }
 }

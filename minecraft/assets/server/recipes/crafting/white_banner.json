@@ -1,41 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:white_wool"
-                    },
-                    {
-                        "item": "minecraft:white_wool"
-                    },
-                    {
-                        "item": "minecraft:white_wool"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:white_wool"
-                    },
-                    {
-                        "item": "minecraft:white_wool"
-                    },
-                    {
-                        "item": "minecraft:white_wool"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:stick"
-                    }
-                ]
-            ]
+    "parent": "minecraft:sign",
+    "ingredients": {
+        "frame": {
+            "item": "minecraft:white_wool"
+        },
+        "pole": {
+            "item": "minecraft:stick"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner",

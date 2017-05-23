@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:leather"
-                    },
-                    {
-                        "item": "minecraft:leather"
-                    },
-                    {
-                        "item": "minecraft:leather"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:leather"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:leather"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:leather"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:leather"
-                    }
-                ]
-            ]
+    "parent": "minecraft:leggings",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:leather"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:leather_leggings"
     },
     "group": "minecraft:leggings"

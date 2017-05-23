@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:gold_ingot_from_block",
@@ -28,9 +29,7 @@
   },
   "requirements": [
     [
-      "has_at_least_9_gold_ingot"
-    ],
-    [
+      "has_at_least_9_gold_ingot",
       "has_the_recipe"
     ]
   ]

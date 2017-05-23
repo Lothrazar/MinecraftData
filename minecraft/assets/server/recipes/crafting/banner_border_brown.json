@@ -1,50 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    },
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    },
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    },
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    },
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    },
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    },
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "center": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_border",

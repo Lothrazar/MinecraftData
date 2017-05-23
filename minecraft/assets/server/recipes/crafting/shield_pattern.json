@@ -1,31 +1,23 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:shield",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "base": "none"
-                            }
-                        }
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:shield",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "base": "none"
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 1
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:banner",
+            "id": 1
         }
     ],
+    "result": {
+        "item": "minecraft:shield_pattern"
+    },
     "functions": [
         {
             "function": "minecraft:copy_component",
@@ -36,8 +28,5 @@
             "id": 1,
             "component": "minecraft:entity_tag"
         }
-    ],
-    "return": {
-        "item": "minecraft:shield_pattern"
-    }
+    ]
 }

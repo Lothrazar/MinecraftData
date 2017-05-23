@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:pumpkin"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:pumpkin"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:pumpkin_seeds",
         "count": 4
     }

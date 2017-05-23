@@ -1,38 +1,52 @@
 {
-    "ingredients": [
+    "shapes": [
         {
             "items": [
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:cooked_rabbit"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:carrot"
-                    },
-                    {
-                        "item": "minecraft:potato"
-                    },
-                    {
-                        "item": "minecraft:red_mushroom"
-                    }
-                ],
-                [
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:bowl"
-                    }
-                ]
+                [    "rabbit"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "carrot"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "potato"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "mushroom"    ]
+            ]
+        },
+        {
+            "items": [
+                [    "bowl"    ]
             ]
         }
     ],
-    "return": {
+    "ingredients": {
+        "rabbit": {
+            "item": "minecraft:cooked_rabbit"
+        },
+        "carrot": {
+            "item": "minecraft:carrot"
+        },
+        "potato": {
+            "item": "minecraft:potato"
+        },
+        "mushroom": {
+            "item": [
+                "minecraft:red_mushroom",
+                "minecraft:brown_mushroom"
+            ]
+        },
+        "bowl": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result": {
         "item": "minecraft:rabbit_stew"
     }
 }

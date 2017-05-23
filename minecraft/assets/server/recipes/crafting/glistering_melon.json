@@ -1,44 +1,14 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:melon"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    },
-                    {
-                        "item": "minecraft:gold_nugget"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:gold_nugget"
+        },
+        "center": {
+            "item": "minecraft:melon"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:glistering_melon"
     },
     "group": "minecraft:golden_food"

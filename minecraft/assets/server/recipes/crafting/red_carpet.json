@@ -1,19 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:red_wool"
-                    },
-                    {
-                        "item": "minecraft:red_wool"
-                    }
-                ]
-            ]
+    "parent": "minecraft:2_wide_line",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:red_wool"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:red_carpet",
         "count": 3
     },

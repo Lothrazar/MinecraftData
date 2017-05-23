@@ -1,33 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:boots",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:gold_ingot"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:golden_boots"
     },
     "group": "minecraft:boots"

@@ -1,25 +1,14 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lapis_lazuli"
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:lapis_lazuli"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cactus_green"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:cactus_green"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:cyan_dye",
         "count": 2
     },

@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:gold_ingot"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ]
-            ]
+    "parent": "minecraft:leggings",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:gold_ingot"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:golden_leggings"
     },
     "group": "minecraft:leggings"

@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:redstone_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:redstone_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:redstone_dust",
         "count": 9
     },

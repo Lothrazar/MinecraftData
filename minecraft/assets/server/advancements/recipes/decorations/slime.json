@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:slime_ball",
@@ -28,9 +29,7 @@
   },
   "requirements": [
     [
-      "has_at_least_9_slime_ball"
-    ],
-    [
+      "has_at_least_9_slime_ball",
       "has_the_recipe"
     ]
   ]

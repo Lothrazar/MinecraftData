@@ -1,21 +1,14 @@
 {
+    "parent": "minecraft:2_high_line",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:blaze_rod"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:chorus_fruit_popped"
-                    }
-                ]
-            ]
+        "top": {
+            "item": "minecraft:blaze_rod"
+        },
+        "bottom": {
+            "item": "minecraft:chorus_fruit_popped"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:end_rod"
     }
 }

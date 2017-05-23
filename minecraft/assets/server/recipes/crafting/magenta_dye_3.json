@@ -1,34 +1,17 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:lapis_lazuli"
-                    }
-                ]
-            ]
+    "parent": "minecraft:3_items",
+    "ingredients": {
+        "item1": {
+            "item": "minecraft:lapis_lazuli"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:bone_meal"
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:rose_red"
-                    }
-                ]
-            ]
+        "item3": {
+            "item": "minecraft:pink_dye"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:magenta_dye",
         "count": 3
     },

@@ -15,7 +15,7 @@
             "minecraft:dark_oak_bark"
         ]
     },
-    "return": {
+    "result": {
         "item": "minecraft:charcoal",
         "xp": 0.15
     }

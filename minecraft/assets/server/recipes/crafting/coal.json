@@ -1,17 +1,13 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:coal_block"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:coal_block"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:coal",
         "count": 9
-    }
+    },
+    "group": "minecraft:gem"
 }

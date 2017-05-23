@@ -2,7 +2,7 @@
     "item": {
         "item": "minecraft:chicken"
     },
-    "return": {
+    "result": {
         "item": "minecraft:cooked_chicken",
         "xp": 0.35
     },

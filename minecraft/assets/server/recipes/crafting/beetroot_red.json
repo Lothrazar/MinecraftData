@@ -1,16 +1,11 @@
 {
+    "parent": "minecraft:1_item",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:beetroot"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:beetroot"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:rose_red"
     },
     "group": "minecraft:rose_red"

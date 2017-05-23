@@ -1,50 +1,20 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:cactus_green"
-                    },
-                    {
-                        "item": "minecraft:cactus_green"
-                    },
-                    {
-                        "item": "minecraft:cactus_green"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cactus_green"
-                    },
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "max": 15
-                            }
-                        }
-                    },
-                    {
-                        "item": "minecraft:cactus_green"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:cactus_green"
-                    },
-                    {
-                        "item": "minecraft:cactus_green"
-                    },
-                    {
-                        "item": "minecraft:cactus_green"
-                    }
-                ]
-            ]
+    "parent": "minecraft:outline",
+    "ingredients": {
+        "outline": {
+            "item": "minecraft:cactus_green"
+        },
+        "center": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "max": 15
+                }
+            }
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_border",

@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    },
-                    {
-                        "item": "minecraft:bone_meal"
-                    }
-                ]
-            ]
+    "parent": "minecraft:block",
+    "ingredients": {
+        "item": {
+            "item": "minecraft:bone_meal"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:bone_block"
     },
     "group": "minecraft:material_block"

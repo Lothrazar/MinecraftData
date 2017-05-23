@@ -1,35 +1,11 @@
 {
+    "parent": "minecraft:stairs",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:spruce_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    },
-                    {
-                        "item": "minecraft:spruce_planks"
-                    }
-                ]
-            ]
+        "item": {
+            "item": "minecraft:spruce_planks"
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:spruce_stairs",
         "count": 4
     },

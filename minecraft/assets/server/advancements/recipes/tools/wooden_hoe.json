@@ -1,4 +1,5 @@
 {
+  "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
       "minecraft:wooden_hoe"
@@ -24,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_stick"
-    ],
-    [
+      "has_stick",
       "has_the_recipe"
     ]
   ]

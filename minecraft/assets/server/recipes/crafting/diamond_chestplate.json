@@ -1,44 +1,11 @@
 {
-    "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ],
-                [
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    },
-                    {
-                        "item": "minecraft:diamond"
-                    }
-                ]
-            ]
+    "parent": "minecraft:chestplate",
+    "ingredients": {
+        "material": {
+            "item": "minecraft:diamond"
         }
-    ],
-    "return": {
+    },
+    "result": {
         "item": "minecraft:diamond_chestplate"
     },
     "group": "minecraft:chestplate"

@@ -1,38 +1,27 @@
 {
+    "parent": "minecraft:2_items",
     "ingredients": [
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "id": 0,
-                        "conditions": {
-                            "layers": {
-                                "min": 1,
-                                "base": "green"
-                            }
-                        }
-                    }
-                ]
-            ]
+        "item1": {
+            "item": "minecraft:banner",
+            "id": 0,
+            "conditions": {
+                "layers": {
+                    "min": 1,
+                    "base": "green"
+                }
+            }
         },
-        {
-            "items": [
-                [
-                    {
-                        "item": "minecraft:banner",
-                        "conditions": {
-                            "layers": {
-                                "max": 0,
-                                "base": "green"
-                            }
-                        }
-                    }
-                ]
-            ]
+        "item2": {
+            "item": "minecraft:banner",
+            "conditions": {
+                "layers": {
+                    "max": 0,
+                    "base": "green"
+                }
+            }
         }
     ],
-    "return": {
+    "result": {
         "item": "minecraft:banner"
     },
     "group": "minecraft:banner_copy",
@@ -43,7 +32,7 @@
             "component": "minecraft:entity_tag"
         },
         {
-            "function": "minecraft:return_items",
+            "function": "minecraft:result_items",
             "id": 0
         }
     ]
