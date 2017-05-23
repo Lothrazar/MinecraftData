@@ -11,7 +11,7 @@
         "color": "dark_green",
         "with": [
             {
-                "selector": "@p"
+                "selector": "@s"
             }
         ]
     },
@@ -272,7 +272,7 @@
         "color": "dark_green",
         "with":  [
             {
-                "selector": "@p"
+                "selector": "@s"
             }
         ]
     },
@@ -319,7 +319,7 @@
         "color": "dark_green",
         "with":  [
             {
-                "selector": "@p"
+                "selector": "@s"
             }
         ]
     },
