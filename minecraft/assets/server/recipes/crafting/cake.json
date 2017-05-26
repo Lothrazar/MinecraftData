@@ -10,8 +10,7 @@
     ],
     "ingredients": {
         "top": {
-            "item": "minecraft:milk_bucket",
-            "id": 0
+            "item": "minecraft:milk_bucket"
         },
         "side": {
             "item": "minecraft:sugar"
@@ -25,19 +24,9 @@
     },
     "functions": [
         {
-            "function": "minecraft:result_items",
+            "function": "minecraft:return_items",
             "item": "minecraft:bucket",
-            "id": 0
-        },
-        {
-            "function": "minecraft:result_items",
-            "item": "minecraft:bucket",
-            "id": 1
-        },
-        {
-            "function": "minecraft:result_items",
-            "item": "minecraft:bucket",
-            "id": 2
+            "ingredient": "top"
         }
     ],
     "result": {

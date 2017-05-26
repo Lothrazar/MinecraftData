@@ -11,68 +11,52 @@
             "item": "minecraft:diamond"
         },
         "black": {
-            "item": "minecraft:ink_sack",
-            "id": 0
+            "item": "minecraft:ink_sack"
         },
         "red": {
-            "item": "minecraft:rose_red",
-            "id": 1
+            "item": "minecraft:rose_red"
         },
         "green": {
-            "item": "minecraft:cactus_green",
-            "id": 2
+            "item": "minecraft:cactus_green"
         },
         "brown": {
-            "item": "minecraft:cocoa_beans",
-            "id": 3
+            "item": "minecraft:cocoa_beans"
         },
         "blue": {
-            "item": "minecraft:lapis_lazuli",
-            "id": 4
+            "item": "minecraft:lapis_lazuli"
         },
         "purple": {
-            "item": "minecraft:purple_dye",
-            "id": 5
+            "item": "minecraft:purple_dye"
         },
         "cyan": {
-            "item": "minecraft:cyan_dye",
-            "id": 6
+            "item": "minecraft:cyan_dye"
         },
         "light_gray": {
-            "item": "minecraft:light_gray_dye",
-            "id": 7
+            "item": "minecraft:light_gray_dye"
         },
         "gray": {
-            "item": "minecraft:gray_dye",
-            "id": 8
+            "item": "minecraft:gray_dye"
         },
         "pink": {
-            "item": "minecraft:pink_dye",
-            "id": 9
+            "item": "minecraft:pink_dye"
         },
         "lime": {
-            "item": "minecraft:lime_dye",
-            "id": 10
+            "item": "minecraft:lime_dye"
         },
         "yellow": {
-            "item": "minecraft:dandelion_yellow",
-            "id": 11
+            "item": "minecraft:dandelion_yellow"
         },
         "light_blue": {
-            "item": "minecraft:light_blue_dye",
-            "id": 12
+            "item": "minecraft:light_blue_dye"
         },
         "magenta": {
-            "item": "minecraft:magenta_dye",
-            "id": 13
+            "item": "minecraft:magenta_dye"
         },
         "orange": {
-            "item": "minecraft:orange_dye",
-            "id": 14
+            "item": "minecraft:orange_dye"
         },
         "white": {
-            "item": "minecraft:bone_meal",
-            "id": 15
+            "item": "minecraft:bone_meal"
         }
     },
     "optional_shapes_required": {
@@ -86,82 +70,82 @@
     "functions": [
         {
             "function": "minecraft:color",
-            "id": 0,
+            "ingredient": "black",
             "color": 1644825
         },
         {
             "function": "minecraft:color",
-            "id": 1,
+            "ingredient": "red",
             "color": 10040115
         },
         {
             "function": "minecraft:color",
-            "id": 2,
+            "ingredient": "green",
             "color": 6717235
         },
         {
             "function": "minecraft:color",
-            "id": 3,
+            "ingredient": "brown",
             "color": 6704179
         },
         {
             "function": "minecraft:color",
-            "id": 4,
+            "ingredient": "blue",
             "color": 3361970
         },
         {
             "function": "minecraft:color",
-            "id": 5,
+            "ingredient": "purple",
             "color": 8339378
         },
         {
             "function": "minecraft:color",
-            "id": 6,
+            "ingredient": "cyan",
             "color": 5013401
         },
         {
             "function": "minecraft:color",
-            "id": 7,
+            "ingredient": "light_gray",
             "color": 10066329
         },
         {
             "function": "minecraft:color",
-            "id": 8,
+            "ingredient": "gray",
             "color": 5000268
         },
         {
             "function": "minecraft:color",
-            "id": 9,
+            "ingredient": "pink",
             "color": 15892389
         },
         {
             "function": "minecraft:color",
-            "id": 10,
+            "ingredient": "lime",
             "color": 8375321
         },
         {
             "function": "minecraft:color",
-            "id": 11,
+            "ingredient": "yellow",
             "color": 15066419
         },
         {
             "function": "minecraft:color",
-            "id": 12,
+            "ingredient": "light_blue",
             "color": 6724056
         },
         {
             "function": "minecraft:color",
-            "id": 13,
+            "ingredient": "magenta",
             "color": 11685080
         },
         {
             "function": "minecraft:color",
-            "id": 14,
+            "ingredient": "orange",
             "color": 14188339
         },
         {
             "function": "minecraft:color",
-            "id": 15,
+            "ingredient": "white",
             "color": 16777215
         },
         {

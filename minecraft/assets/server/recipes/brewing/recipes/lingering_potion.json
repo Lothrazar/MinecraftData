@@ -10,7 +10,7 @@
     },
     "functions": [
         {
-            "function": "minecraft:result_items",
+            "function": "minecraft:return_items",
             "item": "minecraft:glass_bottle"
         },
         {

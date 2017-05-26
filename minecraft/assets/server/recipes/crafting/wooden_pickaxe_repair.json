@@ -2,20 +2,18 @@
     "parent": "minecraft:2_items",
     "ingredients": [
         "item1": {
-            "item": "minecraft:wooden_pickaxe",
-            "id": 0
+            "item": "minecraft:wooden_pickaxe"
         },
         "item2": {
-            "item": "minecraft:wooden_pickaxe",
-            "id": 1
+            "item": "minecraft:wooden_pickaxe"
         }
     ],
     "functions": [
         {
             "function": "minecraft:repair",
-            "ids": [
-                0,
-                1
+            "ingredients": [
+                "item1",
+                "item2"
             ],
             "bonus": 5
         }

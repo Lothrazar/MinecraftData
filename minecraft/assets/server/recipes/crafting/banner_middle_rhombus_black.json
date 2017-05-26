@@ -1,9 +1,8 @@
 {
-    "parent": "minecraft:banner_middle_rhombus",
+    "parent": "minecraft:banner_mingredientdle_rhombus",
     "ingredients": {
         "banner": {
             "item": "minecraft:banner",
-            "id": 0,
             "conditions": {
                 "layers": {
                     "max": 15
@@ -17,18 +16,18 @@
     "result": {
         "item": "minecraft:banner"
     },
-    "group": "minecraft:banner_middile_rhombus",
+    "group": "minecraft:banner_mingredientdile_rhombus",
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "banner"
         },
         {
             "function": "minecraft:add_component",
             "banner": {
                 "layer": {
                     "color": "white",
-                    "pattern": "middle_circle"
+                    "pattern": "mingredientdle_circle"
                 }
             }
         }

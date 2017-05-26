@@ -8,34 +8,32 @@
                     "min": 0,
                     "max": 0
                 }
-            },
-            "id": 0
+            }
         },
         "to1": {
             "item": "minecraft:book_and_quill"
         },
         "to2": {
-            "item": "minecraft:book_and_quill",
-            "id": 1
+            "item": "minecraft:book_and_quill"
         }
     }
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "copy"
         },
         {
-            "function": "minecraft:result_items",
-            "id": 0
+            "function": "minecraft:return_items",
+            "ingredient": "copy"
         },
         {
             "function": "minecraft:add_component",
-            "id": 1,
+            "ingredient": "to2",
             "count": 1
         },
         {
             "function": "minecraft:add_component",
-            "id": 0,
+            "ingredient": "copy",
             "written_book": {
                 "generation": 1
             },

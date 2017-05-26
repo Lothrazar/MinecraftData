@@ -22,7 +22,7 @@
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "banner"
         },
         {
             "function": "minecraft:add_component",

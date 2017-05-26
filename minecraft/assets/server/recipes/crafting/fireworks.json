@@ -26,12 +26,10 @@
             "item": "minecraft:paper"
         },
         "gunpowder": {
-            "item": "minecraft:gunpowder",
-            "id": 0
+            "item": "minecraft:gunpowder"
         },
         "charge": {
-            "item": "minecraft:firework_charge",
-            "id": 1
+            "item": "minecraft:firework_charge"
         }
     },
     "optional_shapes_required": {
@@ -45,13 +43,13 @@
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 1,
+            "ingredient": "gunpowder",
             "component": "minecraft:explosion",
             "paste": "minecraft:fireworks"
         },
         {
             "function": "minecraft:add_component",
-            "id": 0,
+            "ingredient": "charge",
             "fireworks": {
                 "flight": 1
             }

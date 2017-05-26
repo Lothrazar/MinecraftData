@@ -6,7 +6,6 @@
         },
         "center": {
             "item": "minecraft:banner",
-            "id": 0,
             "conditions": {
                 "layers": {
                     "max": 15
@@ -21,7 +20,7 @@
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "center"
         },
         {
             "function": "minecraft:add_component",

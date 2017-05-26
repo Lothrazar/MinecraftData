@@ -2,20 +2,18 @@
     "parent": "minecraft:2_items",
     "ingredients": [
         "item1": {
-            "item": "minecraft:carrot_on_a_stick",
-            "id": 0
+            "item": "minecraft:carrot_on_a_stick"
         },
         "item2": {
-            "item": "minecraft:carrot_on_a_stick",
-            "id": 1
+            "item": "minecraft:carrot_on_a_stick"
         }
     ],
     "functions": [
         {
             "function": "minecraft:repair",
-            "ids": [
-                0,
-                1
+            "ingredients": [
+                "item1",
+                "item2"
             ],
             "bonus": 5
         }

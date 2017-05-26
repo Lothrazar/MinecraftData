@@ -24,7 +24,6 @@
     "ingredients": {
         "ingredient name": {
             "item": "STRING: The item id (can also be a list of strings, then any of the listed has to be in this slot)",
-            "id": "INTEGER: Optional, the ingredient id used for functions",
             "count": "INTEGER: how many items must be in this slot, default = 1",
             "conditions": {
                 "nbt": "STRING: additional nbt data",
@@ -61,9 +60,9 @@
     "group": "STRING: the group this is grouped in the recipe book",
     "functions":[
         {
-            "function": "minecraft:result_items",
+            "function": "minecraft:return_items",
             "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
-            "id": "STRING: The id of the item in the ingredients",
+            "ingredient": "STRING: The ingredient name of the item in the ingredients",
             "nbt": "STRING: Optional, what tags it gets, default = empty",
             "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",
             "count": "INTEGER: count, default = 1",
@@ -76,26 +75,26 @@
         },
         {
             "function": "minecraft:copy_nbt",
-            "id": "INTEGER: The id of the item in the ingredients to copy the nbt from",
+            "ingredient": "STRING: The ingredient name of the item in the ingredients to copy the nbt from",
             "copy": "STRING: path to nbt tag to copy, {} means all, default = {}",
             "paste": "STRING: path to nbt tag to paste the value to, default = same as copy"
         },
         {
             "function": "minecraft:copy_component",
-            "id": "INTEGER: The id of the item in the ingredients to copy the component from",
+            "ingredient": "STRING: The ingredient name of the item in the ingredients to copy the component from",
             "component": "STRING: what component to copy, allowed values are: potion(Potion, CustomPotionEffects, CustomPotionColor), display(display, HideFlags), durability(Damage, Unbreakable, RepairCost), enchantment(ench, StoredEnchantments), Attributes(AttributeModifiers), place_on(CanPlaceOn), destroy(CanDestroy), entity_tag(BlockEntityTag, EntityTag), book(pages, title, resolved, generation, author), skull(SkullOwner), fireworks(fireworks), explosion(Explosion), map(map_scale_direction, map_tracking_position, Decorations), all default = all",
             "paste": "STRING: what component to place this in, normally can only be placed in itself, but putting explosion in fireworks copies it to Firework{Explosions:[]} (will not happen when set to all), default = same as component"
         },
         {
             "function": "minecraft:repair",
-            "ids": [
-                "INTEGER: list of id's that get the durability combined into the final item"
+            "ingredients": [
+                "STRING: list of ingredient name's that get the durability combined into the final item"
             ],
             "bonus": "INTEGER: adittional percentage of bonus durability the resulted item gets, default = 0"
         },
         {
             "function": "minecraft:add_component",
-            "id": "INTEGER: The id of the item in the ingredients, if negated, runs regardless",
+            "ingredient": "STRING: The ingredient name of the item in the ingredients, if negated, runs regardless",
             "count": "INTEGER: how many to add to the resulting item",
             "fireworks": {
                 "flight": "INTEGER: the count of time it flies in seconds",
@@ -123,12 +122,12 @@
         {
             "function": "minecraft:color",
             "coloring": "STRING: What exactly get's colored, so the correct calculation/tag gets used, allowed values are: minecraft:armor, minecraft:fireworks, minecraft:fireworks_fade, minecraft:potion, default = minecraft:fireworks",
-            "id": "INTEGER: The id of the item in the ingredients, if negated, runs regardless",
+            "ingredient": "STRING: The ingredient name of the item in the ingredients, if negated, runs regardless",
             "color": "INTEGER: The color value to add (decimal)"
         },
         {
             "function": "minecraft:scale_durability",
-            "id": "INTEGER: The id of the item in the ingredients to scale the tag by; can also be a list of ids, then it'll average",
+            "ingredient": "STRING: The ingredient name of the item in the ingredients to scale the tag by; can also be a list of ingredients, then it'll average",
             "tag": "The tag of the result item that gets scaled by durability, values: count, xp, durability or an nbt tag, default = durability"
         }
     ]
@@ -137,4 +136,4 @@
 Notes: 
 First runs copy_nbt, then the nbt of result and then the nbt of add
 When NBT is copied, and a list which already exists is being specified in result, it adds to the end of the list, unless the resulted list is empty.
-If the same id is found multiple times in the same recipe, it'll apply the function to all of them
+If the same ingredient is found multiple times in the same recipe, it'll apply the function to all of them

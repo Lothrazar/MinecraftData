@@ -3,7 +3,6 @@
     "ingredients": [
         "item1": {
             "item": "minecraft:shield",
-            "id": 0,
             "conditions": {
                 "layers": {
                     "base": "none"
@@ -11,8 +10,7 @@
             }
         },
         "item2": {
-            "item": "minecraft:banner",
-            "id": 1
+            "item": "minecraft:banner"
         }
     ],
     "result": {
@@ -21,11 +19,11 @@
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "item1"
         },
         {
             "function": "minecraft:copy_component",
-            "id": 1,
+            "ingredient": "item2",
             "component": "minecraft:entity_tag"
         }
     ]

@@ -3,7 +3,6 @@
     "ingredients": [
         "item1": {
             "item": "minecraft:banner",
-            "id": 0,
             "conditions": {
                 "layers": {
                     "max": 15
@@ -24,7 +23,7 @@
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "item1"
         },
         {
             "function": "minecraft:add_component",

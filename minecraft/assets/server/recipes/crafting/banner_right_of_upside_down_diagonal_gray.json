@@ -1,9 +1,8 @@
 {
-    "parent": "minecraft:banner_right_of_upside_down_diagonal",
+    "parent": "minecraft:banner_right_of_upsingrediente_down_diagonal",
     "ingredients": {
         "banner": {
             "item": "minecraft:banner",
-            "id": 0,
             "conditions": {
                 "layers": {
                     "max": 15
@@ -17,18 +16,18 @@
     "result": {
         "item": "minecraft:banner"
     },
-    "group": "minecraft:banner_right_of_upside_down_diagonal",
+    "group": "minecraft:banner_right_of_upsingrediente_down_diagonal",
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "banner"
         },
         {
             "function": "minecraft:add_component",
             "banner": {
                 "layer": {
                     "color": "gray",
-                    "pattern": "right_of_upside_down_diagonal"
+                    "pattern": "right_of_upsingrediente_down_diagonal"
                 }
             }
         }

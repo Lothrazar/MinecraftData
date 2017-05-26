@@ -55,7 +55,7 @@
 	"group": "STRING: with this is grouped in the recipe book",
     "functions": [
         {
-            "function": "minecraft:minecraft:result_items",
+            "function": "minecraft:return_items",
             "item": "STRING: the item to replace the original item with, default = the player the item it had put in",
             "nbt": "STRING: Optional, what tags it gets, default = empty",
             "keep_nbt": "STRING: Optional, what tags to keep, empty means all tags, {} means none, default = {}",

@@ -2,15 +2,13 @@
     "parent": "minecraft:copy_item",
     "ingredients": {
         "copy": {
-            "item": "minecraft:filled_map",
-            "id": 0
+            "item": "minecraft:filled_map"
         },
         "to1": {
             "item": "minecraft:map"
         },
         "to2": {
-            "item": "minecraft:map",
-            "id": 1
+            "item": "minecraft:map"
         }
     }
     "result": {
@@ -20,11 +18,11 @@
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "copy"
         },
         {
             "function": "minecraft:add_component",
-            "id": 1,
+            "ingredient": "to2",
             "count": 1
         }
     ],

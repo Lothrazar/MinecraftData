@@ -1,9 +1,8 @@
 {
-    "parent": "minecraft:banner_middle_circle",
+    "parent": "minecraft:banner_mingredientdle_circle",
     "ingredients": {
         "banner": {
             "item": "minecraft:banner",
-            "id": 0,
             "conditions": {
                 "layers": {
                     "max": 15
@@ -17,18 +16,18 @@
     "result": {
         "item": "minecraft:banner"
     },
-    "group": "minecraft:banner_middile_circle",
+    "group": "minecraft:banner_mingredientdile_circle",
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "banner"
         },
         {
             "function": "minecraft:add_component",
             "banner": {
                 "layer": {
                     "color": "orange",
-                    "pattern": "middle_circle"
+                    "pattern": "mingredientdle_circle"
                 }
             }
         }

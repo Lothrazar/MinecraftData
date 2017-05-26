@@ -1,9 +1,8 @@
 {
-    "parent": "minecraft:banner_gradient_upside_down",
+    "parent": "minecraft:banner_gradient_upsingrediente_down",
     "ingredients": {
         "banner": {
             "item": "minecraft:banner",
-            "id": 0,
             "conditions": {
                 "layers": {
                     "max": 15
@@ -17,18 +16,18 @@
     "result": {
         "item": "minecraft:banner"
     },
-    "group": "minecraft:banner_gradient_upside_down",
+    "group": "minecraft:banner_gradient_upsingrediente_down",
     "functions": [
         {
             "function": "minecraft:copy_component",
-            "id": 0
+            "ingredient": "banner"
         },
         {
             "function": "minecraft:add_component",
             "banner": {
                 "layer": {
                     "color": "gray",
-                    "pattern": "gradient_upside_down"
+                    "pattern": "gradient_upsingrediente_down"
                 }
             }
         }
