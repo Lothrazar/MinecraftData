@@ -54,7 +54,7 @@
                     ],
                     "time": "INTEGER: the time in ticks it takes for this box to extend",
                     "condition": {
-                        "entity_tag": "STRING: an nbt tag and it's value",
+                        "entity_tag": "STRING: an nbt tag and its value",
                         "open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
                     }
                 },
@@ -69,7 +69,7 @@
                         "z": "INTEGER: relative coordinates to the block"
                     },
                     "condition": {
-                        "entity_tag": "STRING: an nbt tag and it's value",
+                        "entity_tag": "STRING: an nbt tag and its value",
                         "open_gui": "BOOLEAN: if the gui needs to be opened for this to happen"
                     }
                 },

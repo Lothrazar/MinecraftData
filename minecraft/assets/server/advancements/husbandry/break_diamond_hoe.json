@@ -12,8 +12,11 @@
         "frame": "challenge"
     },
     "parent": "minecraft:husbandry/plant_seed",
+    "rewards": {
+        "experience": 100
+    },
     "criteria": {
-        "levitated": {
+        "broke_hoe": {
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
                 "item": {

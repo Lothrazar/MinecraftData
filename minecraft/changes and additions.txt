@@ -11,3 +11,4 @@ additions:
 block properties files
 old structures converted to structure files
 block loot tables
+recipe files for brewing, smelting, trading and enchanting

@@ -79,21 +79,21 @@ minecraft:block.jungle_bark=Jungle Bark
 minecraft:block.oak_bark=Oak Bark
 minecraft:block.spruce_bark=Spruce Bark
 minecraft:block.black_bed=Black Bed
-minecraft:block.black_bed=Red Bed
-minecraft:block.black_bed=Green Bed
-minecraft:block.black_bed=Brown Bed
-minecraft:block.black_bed=Blue Bed
-minecraft:block.black_bed=Purple Bed
-minecraft:block.black_bed=Cyan Bed
-minecraft:block.black_bed=Light Gray Bed
-minecraft:block.black_bed=Gray Bed
-minecraft:block.black_bed=Pink Bed
-minecraft:block.black_bed=Lime Bed
-minecraft:block.black_bed=Yellow Bed
-minecraft:block.black_bed=Light Blue Bed
-minecraft:block.black_bed=Magenta Bed
-minecraft:block.black_bed=Orange Bed
-minecraft:block.black_bed=White Bed
+minecraft:block.red_bed=Red Bed
+minecraft:block.green_bed=Green Bed
+minecraft:block.brown_bed=Brown Bed
+minecraft:block.blue_bed=Blue Bed
+minecraft:block.purple_bed=Purple Bed
+minecraft:block.cyan_bed=Cyan Bed
+minecraft:block.light_gray_bed=Light Gray Bed
+minecraft:block.gray_bed=Gray Bed
+minecraft:block.pink_bed=Pink Bed
+minecraft:block.lime_bed=Lime Bed
+minecraft:block.yellow_bed=Yellow Bed
+minecraft:block.light_blue_bed=Light Blue Bed
+minecraft:block.magenta_bed=Magenta Bed
+minecraft:block.orange_bed=Orange Bed
+minecraft:block.white_bed=White Bed
 
 minecraft:entity.item_frame=Item Frame
 minecraft:entity.leash_knot=Lead
@@ -120,16 +120,7 @@ minecraft:entity.player=Player
 minecraft:commands.generic.selector.more=%s and %s
 
 minecraft:connect.poll=Polling...
-minecraft:connect.ping=Pinging...
 minecraft:connect.communication=Communication error
-minecraft:connect.cant_reach=Can't reach server
-minecraft:connect.more=... and %s more ...
-minecraft:connect.no_connection=(no connection)
-minecraft:connect.outdated=Outdated server!
-
-minecraft:disconnect.closed=Server closed
-minecraft:disconnect.cant_connect=Can't connect to server
-minecraft:disconnect.cant_resolve_name=Can't resolve hostname
 minecraft:disconnect.illegal_position=Illegal position
 minecraft:disconnect.incompatible=Incompatible client
 
@@ -167,4 +158,4 @@ item.skull.char.name=Head
 item.skull.creeper.name=Creeper Head
 item.skull.dragon.name=Ender Dragon Head
 
-//Others are mentioned in splashes.json, credits.json, poem.json and achievements_pe_ce.json
+//Others are mentioned in splashes.json, credits.json, and poem.json

@@ -1,7 +1,11 @@
+9-6-2017:
+* updated to 1.12 release
+! fixed splashes had nested json in json, still the same format, but no longer nested
+
 14-5-2017:
 + added copy_component function, basically copy_nbt, but less flexability and no nbt phrasing
 * changed the add function in recipes to be called add_component
-* updated to 1.12-pre2
+* updated to 1.12-pre3
  ! fixed minecraft:nether/all_effects misses resistence
  ! fixed minecraft:nether/all_effects misplaced rewards
 ! fixed the groups in recipes have tabs in front of them

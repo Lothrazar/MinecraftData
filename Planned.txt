@@ -237,6 +237,7 @@ list of yet to be created JSON files:
 
 List of planned changes:
 + add other functions (like particle spawning) in the block properties
+* change solid_faces to have multiple seperate (boolean) properties: cull_faces, connect_fence, connect_nether_fence, connect_glass, support
 * change all files to use as little nbt phrasing as possible, but don't remove the ability to base/add nbt tags
  * loot tables (still a bit left)
 * update all files (and split them were nececairy) when the stupid blockstates are removed and "Damage" tag is no longer in use for non-durability items/blocks (MC-105922)
